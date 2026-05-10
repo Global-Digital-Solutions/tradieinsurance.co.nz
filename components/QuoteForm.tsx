@@ -204,7 +204,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
         <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
         <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey={TURNSTILE_SITEKEY} data-theme="dark" />
+          <div className="cf-turnstile" data-sitekey={TURNSTILE_SITEKEY} data-size="invisible" />
         </div>
 
         {error && (
