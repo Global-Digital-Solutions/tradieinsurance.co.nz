@@ -184,7 +184,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
           disabled={loading}
           className="w-full bg-orange-500 hover:bg-orange-600 disabled:bg-orange-800 text-white font-bold py-3 rounded-lg transition-colors text-sm"
         >
-          {loading ? 'Submitting...' : 'Get My Free Quote →'}
+          {loading ? 'Submitting...' : 'Get a Quote →'}
         </button>
       </form>
 

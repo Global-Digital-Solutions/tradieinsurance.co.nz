@@ -70,7 +70,7 @@ export default async function CoverageTypePage({ params }: Props) {
           <div className="flex flex-wrap items-center gap-4">
             <span className="bg-orange-500 text-white font-extrabold text-sm px-4 py-2 rounded-lg">From {coverage.fromPrice}</span>
             <Link href="/contact/" className="bg-white text-gray-900 hover:bg-orange-50 font-bold text-sm px-6 py-2 rounded-lg transition-colors">
-              Get Free Quote →
+              Get a Quote →
             </Link>
           </div>
         </div>
@@ -150,7 +150,7 @@ export default async function CoverageTypePage({ params }: Props) {
                   ))}
                 </div>
                 <Link href="/contact/" className="mt-5 block w-full bg-orange-500 hover:bg-orange-600 text-white font-extrabold text-sm py-2.5 rounded-xl text-center transition-colors">
-                  Get My Free Quote →
+                  Get a Quote →
                 </Link>
               </div>
             </div>

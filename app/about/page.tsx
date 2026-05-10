@@ -110,7 +110,7 @@ export default function AboutPage() {
             <p className="text-gray-400 mb-6">Connect with a specialist tradie insurance broker — it takes 2 minutes and costs nothing.</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
-                Get Free Quote →
+                Get a Quote →
               </Link>
               <Link href="/compare/" className="inline-block bg-gray-700 hover:bg-gray-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
                 Compare Providers →

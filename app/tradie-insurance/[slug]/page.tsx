@@ -91,7 +91,7 @@ export default async function LandingPage({ params }: Props) {
                 <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Ready to Get Covered?</h2>
                 <p className="text-gray-600 mb-6">Use our free service to connect with a specialist tradie insurance broker — no cost, no obligation.</p>
                 <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
-                  Get Free Quote →
+                  Get a Quote →
                 </Link>
               </div>
             </div>

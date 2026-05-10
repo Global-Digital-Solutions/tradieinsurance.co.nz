@@ -343,7 +343,7 @@ export default function ContactPage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#quote-form" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors shadow-md">
-              Get My Free Quote →
+              Get a Quote →
             </a>
             <Link href="/compare/" className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-orange-400">
               Compare Providers →

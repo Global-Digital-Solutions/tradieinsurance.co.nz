@@ -288,7 +288,7 @@ export default function ComparePage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-lg shadow-orange-500/30">
-                Get Free Quotes →
+                Get a Quote →
               </Link>
               <Link href="/contact/" className="bg-gray-700 hover:bg-gray-600 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-gray-600">
                 How It Works →

@@ -68,7 +68,7 @@ export default function HomePage() {
               </div>
               <div className="flex flex-wrap gap-4">
                 <Link href="/contact/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
-                  Get Free Quote →
+                  Get a Quote →
                 </Link>
                 <Link href="/coverage/" className="bg-gray-700 hover:bg-gray-600 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
                   Explore Coverage
@@ -277,7 +277,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <Link href="/contact/" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors">
-              Get Free Quote →
+              Get a Quote →
             </Link>
             <Link href="/compare/" className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-orange-400">
               Compare Providers

@@ -97,7 +97,7 @@ export default function Header() {
               href="/contact/"
               className="bg-orange-500 hover:bg-orange-600 text-white text-sm font-bold px-4 py-2 rounded-lg transition-colors"
             >
-              Get Free Quote
+              Get a Quote
             </Link>
             <button
               className="lg:hidden text-gray-300 hover:text-white p-2"
@@ -164,7 +164,7 @@ export default function Header() {
           </div>
           <div className="border-t border-gray-700 pt-3">
             <Link href="/contact/" className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm py-2.5 rounded-lg text-center transition-colors" onClick={() => setMenuOpen(false)}>
-              Get Free Quote →
+              Get a Quote →
             </Link>
           </div>
         </div>

@@ -23,7 +23,7 @@ export default function Footer() {
               href="/contact/"
               className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-4 py-2 rounded-lg transition-colors mb-4"
             >
-              Get Free Quote
+              Get a Quote
             </Link>
             <div className="text-sm text-gray-400 space-y-2">
               <p>

@@ -56,7 +56,7 @@ export default function TradesPage() {
             <h2 className="text-2xl font-extrabold text-white mb-4">Can&apos;t Find Your Trade?</h2>
             <p className="text-orange-100 mb-6">We cover all NZ trades. Contact us and we will match you with a specialist broker who understands your specific requirements.</p>
             <Link href="/contact/" className="inline-block bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors">
-              Get Free Quote →
+              Get a Quote →
             </Link>
           </div>
         </div>

@@ -84,7 +84,7 @@ export default async function TradeTypePage({ params }: Props) {
           href="#get-quote"
           className="flex-1 bg-orange-500 hover:bg-orange-600 text-white font-extrabold py-3 rounded-xl text-center text-sm transition-colors shadow-lg"
         >
-          Get Free Quote →
+          Get a Quote →
         </a>
         <Link
           href="/contact/"
@@ -124,7 +124,7 @@ export default async function TradeTypePage({ params }: Props) {
               </div>
               <div className="flex flex-wrap gap-4">
                 <a href="#get-quote" className="bg-orange-500 hover:bg-orange-600 text-white font-extrabold text-sm px-7 py-3.5 rounded-xl transition-colors shadow-lg shadow-orange-500/30">
-                  Get Free Quote →
+                  Get a Quote →
                 </a>
                 <Link href="/coverage/" className="bg-white/10 hover:bg-white/20 text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors border border-white/30">
                   View All Coverage
@@ -204,7 +204,7 @@ export default async function TradeTypePage({ params }: Props) {
               <p className="text-gray-400 text-sm">Compare quotes from top insurers — free, no obligation.</p>
             </div>
             <a href="#get-quote" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-lg shadow-orange-500/30 flex-shrink-0">
-              Get Free Quote →
+              Get a Quote →
             </a>
           </div>
 
@@ -337,7 +337,7 @@ export default async function TradeTypePage({ params }: Props) {
             <p className="text-orange-100 mb-6 max-w-xl mx-auto">Get specialist {trade.name.toLowerCase()} insurance in place today — free broker matching, no obligation.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <a href="#get-quote" className="bg-white text-orange-600 hover:bg-orange-50 font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-md">
-                Get My Free Quote →
+                Get a Quote →
               </a>
               <Link href="/contact/" className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm border border-orange-400">
                 How It Works →
