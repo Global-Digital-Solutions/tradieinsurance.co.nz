@@ -69,7 +69,7 @@ export default function ComparePage() {
               <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Side-by-Side Coverage Table</h2>
               <p className="text-gray-500 text-lg">Which cover types each provider offers — scroll right on mobile.</p>
             </div>
-            <div className="overflow-x-auto rounded-2xl border-2 border-gray-300 shadow-md">
+            <div className="overflow-x-auto rounded-2xl border-2 border-orange-400 shadow-lg">
               <table className="w-full border-collapse text-sm min-w-[900px]">
                 <thead>
                   <tr className="bg-gray-900">
@@ -84,29 +84,29 @@ export default function ComparePage() {
                 </thead>
                 <tbody>
                   {providers.map((p, i) => (
-                    <tr key={p.slug} className={`${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-orange-50/40 transition-colors border-b border-gray-200`}>
-                      <td className={`px-5 py-4 border-r border-gray-200 sticky left-0 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}>
+                    <tr key={p.slug} className={`transition-colors border-b ${p.topRated ? 'bg-orange-50 border-orange-200 hover:bg-orange-100/60' : `${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-orange-50/30 border-gray-200`}`}>
+                      <td className={`px-5 py-4 border-r ${p.topRated ? 'bg-orange-50 border-orange-200 border-l-4 border-l-orange-500' : `border-gray-200 ${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`} sticky left-0`}>
                         <div className="font-extrabold text-gray-900 text-sm leading-tight">{p.name}</div>
                         {p.topRated && (
-                          <span className="text-xs text-orange-500 font-bold">⭐ Highly Recommended</span>
+                          <span className="text-xs text-orange-600 font-bold">⭐ Highly Recommended</span>
                         )}
                       </td>
-                      <td className="px-4 py-4 border-r border-gray-200 text-center">
+                      <td className={`px-4 py-4 text-center border-r ${p.topRated ? 'border-orange-200' : 'border-gray-200'}`}>
                         <span className="text-orange-600 font-bold text-xs">{p.startingPrice}</span>
                       </td>
-                      <td className="px-4 py-4 border-r border-gray-200 text-center">
+                      <td className={`px-4 py-4 text-center border-r ${p.topRated ? 'border-orange-200' : 'border-gray-200'}`}>
                         <span className="text-gray-600 text-xs">{p.coverLevels}</span>
                       </td>
-                      <td className="px-4 py-4 border-r border-gray-200 text-center">
+                      <td className={`px-4 py-4 text-center border-r ${p.topRated ? 'border-orange-200' : 'border-gray-200'}`}>
                         {p.onlineQuote
                           ? <span className="text-green-500 font-bold text-base">✓</span>
                           : <span className="text-gray-300 text-base">—</span>}
                       </td>
                       {coverColumns.map((c, idx) => (
-                        <td key={c.key} className={`px-4 py-4 text-center ${idx < coverColumns.length - 1 ? 'border-r border-gray-200' : ''}`}>
+                        <td key={c.key} className={`px-4 py-4 text-center ${idx < coverColumns.length - 1 ? `border-r ${p.topRated ? 'border-orange-200' : 'border-gray-200'}` : ''}`}>
                           {p[c.key]
                             ? <span className="text-green-500 font-bold text-base">✓</span>
-                            : <span className="text-gray-200 text-base">—</span>}
+                            : <span className={`text-base ${p.topRated ? 'text-orange-200' : 'text-gray-200'}`}>—</span>}
                         </td>
                       ))}
                     </tr>
