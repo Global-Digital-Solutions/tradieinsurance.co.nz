@@ -39,15 +39,18 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-gray-900/75" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-12 items-start justify-between">
-            <div className="flex-1">
+            <div className="flex-1 pt-4 lg:pt-10">
               <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
                 Specialist Tradie Insurance
               </span>
               <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
                 Tradie Insurance <span className="text-orange-500">Made Simple</span>
               </h1>
-              <p className="text-gray-300 text-xl leading-relaxed mb-8">
+              <p className="text-white text-xl leading-relaxed mb-5">
                 Public liability from <strong className="text-orange-400">$30/month</strong>. Tools, vehicle, income protection & more. Get free quotes from licensed brokers — no obligation.
+              </p>
+              <p className="text-gray-200 text-base leading-relaxed mb-8">
+                You&apos;re an expert in your trade — leave the insurance to ours. Our licensed brokers take the time to understand your specific work, contracts, and risks. That means cover built around your business, not a generic policy with gaps or charges for things you&apos;ll never need. Most tradies who use our free matching service pay <strong className="text-orange-400">15–30% less</strong> than going direct.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
