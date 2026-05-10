@@ -17,6 +17,7 @@ export interface TradeType {
   risks: TradeRisk[]
   faqs: TradeFaq[]
   recommendedCover: string[]
+  heroImage: string
 }
 
 export const tradeTypes: TradeType[] = [
@@ -24,6 +25,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'builders',
     name: 'Builders',
     icon: '🏗️',
+    heroImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80',
     description:
       'Builders face some of the highest risk exposures of any trade in New Zealand. From structural defects to on-site injuries, a single claim can threaten your entire business. The right insurance package protects your livelihood, your team, and your clients.',
     keyFacts: [
@@ -66,6 +68,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'plumbers',
     name: 'Plumbers',
     icon: '🔧',
+    heroImage: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1920&q=80',
     description:
       'Plumbers work with water, gas, and drainage systems where a mistake can cause significant property damage or health risks. Water damage in particular can be catastrophic and expensive. Specialist plumber insurance ensures you are protected against the unique risks of the trade.',
     keyFacts: [
@@ -108,6 +111,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'painters',
     name: 'Painters',
     icon: '🎨',
+    heroImage: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?auto=format&fit=crop&w=1920&q=80',
     description:
       'Painters work across residential and commercial properties, often involving heights, chemicals, and access to clients\' homes. Paint spills, falls, and damage to clients\' property are all real risks. The right insurance means a single accident does not put your painting business out of action.',
     keyFacts: [
@@ -150,6 +154,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'carpenters-woodworkers',
     name: 'Carpenters & Woodworkers',
     icon: '🪵',
+    heroImage: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&w=1920&q=80',
     description:
       'Carpenters and woodworkers craft everything from structural framing to bespoke joinery. Your work can be exposed to defect claims, site injuries, and damage to valuable client materials. The right cover keeps your workshop and your reputation protected.',
     keyFacts: [
@@ -192,6 +197,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'electricians',
     name: 'Electricians',
     icon: '⚡',
+    heroImage: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1920&q=80',
     description:
       'Electricians work with live power systems where errors can cause fires, electrocution, or serious property damage. The regulatory environment for electrical work in NZ is strict, and the consequences of a mistake can be severe. Specialist electrician insurance gives you the protection you need.',
     keyFacts: [
@@ -234,6 +240,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'bricklayers',
     name: 'Bricklayers',
     icon: '🧱',
+    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
     description:
       'Bricklayers perform structural and cosmetic work that must meet strict NZ building codes. Structural failures, damage to adjacent property, and on-site injuries are key risks. The right insurance package protects your bricklaying business from day one.',
     keyFacts: [
@@ -276,6 +283,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'roofers',
     name: 'Roofers',
     icon: '🏠',
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
     description:
       'Roofing is consistently one of the highest-risk trades in New Zealand. Working at heights, handling heavy materials, and the consequences of a leaky roof make comprehensive insurance essential. Do not work on a roof without the right cover in place.',
     keyFacts: [
@@ -318,6 +326,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'concreters',
     name: 'Concreters',
     icon: '🏗️',
+    heroImage: 'https://images.unsplash.com/photo-1509395062183-a6c1a3e62284?auto=format&fit=crop&w=1920&q=80',
     description:
       'Concreters pour and finish foundations, driveways, and structural slabs that must last for decades. Defects can be extremely expensive to remediate and concrete work often underpins other construction. Specialist concreter insurance covers the unique risks of your trade.',
     keyFacts: [
@@ -360,6 +369,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'handymen',
     name: 'Handymen',
     icon: '🛠️',
+    heroImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80',
     description:
       'Handymen tackle a wide variety of repair and maintenance tasks across residential and commercial properties. While individual jobs may seem small, the cumulative liability exposure from working in clients\' homes is significant. Handyman insurance gives you and your clients peace of mind.',
     keyFacts: [

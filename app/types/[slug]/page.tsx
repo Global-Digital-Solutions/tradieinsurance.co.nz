@@ -43,23 +43,36 @@ export default async function CoverageTypePage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <div className="bg-gray-900 border-b border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-          <nav className="text-sm text-gray-400 mb-4">
+      <div
+        className="relative border-b border-gray-700"
+        style={{
+          backgroundImage: `url(${coverage.heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gray-900/80" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <nav className="text-sm text-gray-400 mb-6">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/coverage/" className="hover:text-white">Coverage Types</Link>
             <span className="mx-2">›</span>
             <span className="text-white">{coverage.name}</span>
           </nav>
-          <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">
+          <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-5">
             {coverage.icon} {coverage.name}
           </span>
-          <h1 className="text-4xl font-extrabold text-white mb-4">
-            {coverage.name} Insurance for NZ Tradies
+          <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-5 leading-tight">
+            {coverage.name} Insurance for Tradies
           </h1>
-          <p className="text-gray-300 text-xl max-w-2xl leading-relaxed mb-4">{coverage.description}</p>
-          <p className="text-orange-400 font-bold text-lg">From {coverage.fromPrice}</p>
+          <p className="text-gray-300 text-xl max-w-2xl leading-relaxed mb-5">{coverage.description.split('.')[0]}.</p>
+          <div className="flex flex-wrap items-center gap-4">
+            <span className="bg-orange-500 text-white font-extrabold text-sm px-4 py-2 rounded-lg">From {coverage.fromPrice}</span>
+            <Link href="/contact/" className="bg-white text-gray-900 hover:bg-orange-50 font-bold text-sm px-6 py-2 rounded-lg transition-colors">
+              Get Free Quote →
+            </Link>
+          </div>
         </div>
       </div>
 

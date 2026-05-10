@@ -48,18 +48,34 @@ export default async function TradeTypePage({ params }: Props) {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
-      <div className="bg-gray-900 border-b border-gray-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-          <nav className="text-sm text-gray-400 mb-4">
+      <div
+        className="relative border-b border-gray-700"
+        style={{
+          backgroundImage: `url(${trade.heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gray-900/80" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+          <nav className="text-sm text-gray-400 mb-6">
             <Link href="/" className="hover:text-white">Home</Link>
             <span className="mx-2">›</span>
             <Link href="/trades/" className="hover:text-white">Trades</Link>
             <span className="mx-2">›</span>
             <span className="text-white">{trade.name}</span>
           </nav>
-          <div className="text-4xl mb-4">{trade.icon}</div>
-          <h1 className="text-4xl font-extrabold text-white mb-4">{trade.name} Insurance NZ</h1>
-          <p className="text-gray-300 text-xl max-w-2xl leading-relaxed">{trade.description}</p>
+          <div className="text-5xl mb-5">{trade.icon}</div>
+          <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-5 leading-tight">{trade.name} Insurance</h1>
+          <p className="text-gray-300 text-xl max-w-2xl leading-relaxed mb-6">{trade.description.split('.')[0]}.</p>
+          <div className="flex flex-wrap gap-4">
+            <Link href="/contact/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm px-6 py-3 rounded-lg transition-colors">
+              Get Free Quote →
+            </Link>
+            <Link href="/coverage/" className="bg-white/10 hover:bg-white/20 text-white font-bold text-sm px-6 py-3 rounded-lg transition-colors border border-white/20">
+              View Coverage Types
+            </Link>
+          </div>
         </div>
       </div>
 

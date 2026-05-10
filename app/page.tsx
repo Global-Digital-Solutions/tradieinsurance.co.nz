@@ -83,29 +83,36 @@ export default function HomePage() {
       <USPBar />
 
       {/* Coverage Types */}
-      <section className="py-16 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-14">
             <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Coverage Types</span>
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Every Type of Tradie Cover</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">From public liability to income protection — find the right insurance for your trade and business.</p>
+            <h2 className="text-4xl font-extrabold text-gray-900 mb-4">Every Type of Tradie Cover</h2>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">From public liability to income protection — find the right insurance for your trade and business.</p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {coverageTypes.map((c) => (
               <Link
                 key={c.slug}
                 href={`/types/${c.slug}/`}
-                className="group bg-white border-2 border-gray-100 hover:border-orange-200 rounded-2xl p-6 transition-all hover:shadow-lg"
+                className="group relative bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col"
               >
-                <div className="text-3xl mb-3">{c.icon}</div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors">{c.name}</h3>
-                <p className="text-gray-500 text-sm mb-3 leading-relaxed line-clamp-2">{c.description.split('.')[0]}.</p>
-                <p className="text-orange-500 font-bold text-sm">From {c.fromPrice}</p>
+                {/* Orange top accent bar */}
+                <div className="h-1.5 bg-orange-500 w-full" />
+                <div className="p-6 flex flex-col flex-1">
+                  <div className="text-4xl mb-4">{c.icon}</div>
+                  <h3 className="text-lg font-extrabold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors leading-snug">{c.name}</h3>
+                  <p className="text-gray-500 text-sm leading-relaxed line-clamp-3 flex-1">{c.description.split('.')[0]}.</p>
+                  <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
+                    <span className="text-orange-500 font-extrabold text-sm">From {c.fromPrice}</span>
+                    <span className="text-orange-400 text-lg group-hover:translate-x-1 transition-transform">→</span>
+                  </div>
+                </div>
               </Link>
             ))}
           </div>
-          <div className="text-center mt-8">
-            <Link href="/coverage/" className="inline-block bg-gray-900 hover:bg-gray-700 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
+          <div className="text-center mt-10">
+            <Link href="/coverage/" className="inline-block bg-gray-900 hover:bg-orange-500 text-white font-bold px-8 py-3 rounded-xl transition-colors text-sm shadow-md">
               View All Coverage Types →
             </Link>
           </div>
@@ -113,30 +120,31 @@ export default function HomePage() {
       </section>
 
       {/* Trade Types */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-20 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Trade Types</span>
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Insurance for Every Trade</h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">Different trades carry different risks. Find cover tailored to your specific trade type.</p>
+          <div className="text-center mb-14">
+            <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Trade Types</span>
+            <h2 className="text-4xl font-extrabold text-white mb-4">Insurance for Every Trade</h2>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">Different trades carry different risks. Find cover tailored to your specific trade type.</p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {tradeTypes.map((t) => (
               <Link
                 key={t.slug}
                 href={`/trades/${t.slug}/`}
-                className="group bg-white border border-gray-200 hover:border-orange-300 rounded-2xl p-6 flex items-start gap-4 transition-all hover:shadow-md"
+                className="group bg-gray-800 hover:bg-gray-700 border border-gray-700 hover:border-orange-500 rounded-2xl p-6 flex items-center gap-5 transition-all duration-200 hover:shadow-lg hover:shadow-orange-500/10"
               >
-                <span className="text-3xl flex-shrink-0">{t.icon}</span>
-                <div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-1 group-hover:text-orange-600 transition-colors">{t.name}</h3>
-                  <p className="text-gray-500 text-sm line-clamp-2">{t.description.split('.')[0]}.</p>
+                <span className="text-4xl flex-shrink-0 group-hover:scale-110 transition-transform duration-200">{t.icon}</span>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-base font-extrabold text-white mb-1 group-hover:text-orange-400 transition-colors">{t.name}</h3>
+                  <p className="text-gray-400 text-sm line-clamp-1">{t.description.split('.')[0]}.</p>
                 </div>
+                <span className="text-gray-600 group-hover:text-orange-400 group-hover:translate-x-1 transition-all text-lg flex-shrink-0">→</span>
               </Link>
             ))}
           </div>
-          <div className="text-center mt-8">
-            <Link href="/trades/" className="inline-block bg-gray-900 hover:bg-gray-700 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
+          <div className="text-center mt-10">
+            <Link href="/trades/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors text-sm shadow-lg shadow-orange-500/30">
               All Trade Types →
             </Link>
           </div>
@@ -171,19 +179,16 @@ export default function HomePage() {
       </section>
 
       {/* Provider Strip */}
-      <section className="py-12 bg-white border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-center text-gray-500 text-sm font-medium uppercase tracking-widest mb-8">Providers Our Brokers Access</p>
-          <div className="flex flex-wrap justify-center items-center gap-8">
+      <section className="py-12 bg-white border-y border-gray-100">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-center text-gray-400 text-xs font-bold uppercase tracking-widest mb-8">Providers Our Brokers Access</p>
+          <div className="flex flex-wrap justify-center items-center gap-4">
             {providers.map((p) => (
-              <div key={p.slug} className="flex items-center gap-2 text-gray-600 font-bold text-sm">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={p.logo}
-                  alt={p.name}
-                  className="h-8 w-auto object-contain grayscale opacity-60 hover:opacity-100 hover:grayscale-0 transition-all"
-                />
-                <span className="hidden sm:inline">{p.name}</span>
+              <div
+                key={p.slug}
+                className="px-5 py-2.5 bg-gray-50 border border-gray-200 rounded-xl hover:border-orange-300 hover:bg-orange-50 transition-all"
+              >
+                <span className="font-extrabold text-gray-600 text-sm tracking-tight">{p.name}</span>
               </div>
             ))}
           </div>

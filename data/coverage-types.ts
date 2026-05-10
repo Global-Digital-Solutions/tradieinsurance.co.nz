@@ -6,6 +6,7 @@ export interface CoverageType {
   description: string
   keyFacts: string[]
   whoNeeds: string[]
+  heroImage: string
 }
 
 export const coverageTypes: CoverageType[] = [
@@ -14,6 +15,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Public Liability',
     icon: '🛡️',
     fromPrice: 'NZ$30/month',
+    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
     description:
       'Public liability insurance protects NZ tradies if a client or third party suffers injury or property damage because of your work. It covers legal costs and compensation payments if you are sued. Virtually every tradie working on client sites or public spaces needs this cover.',
     keyFacts: [
@@ -34,6 +36,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Tools & Equipment',
     icon: '🔧',
     fromPrice: 'NZ$25/month',
+    heroImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80',
     description:
       'Tools and equipment insurance covers your trade tools against theft, accidental damage, and loss anywhere in New Zealand. Without it, replacing a stolen toolbox or broken power tools comes straight out of your pocket. Cover can extend to hired-in equipment and gear kept on-site or in your vehicle.',
     keyFacts: [
@@ -54,6 +57,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Commercial Vehicle',
     icon: '🚐',
     fromPrice: 'NZ$45/month',
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
     description:
       'Commercial vehicle insurance covers your ute, van, or truck used for work purposes. Standard personal vehicle policies typically exclude business use, leaving you uninsured when driving to jobs. Commercial cover protects the vehicle, your tools inside, and third-party liability on the road.',
     keyFacts: [
@@ -74,6 +78,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Income Protection',
     icon: '💰',
     fromPrice: 'NZ$35/month',
+    heroImage: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80',
     description:
       'Income protection insurance replaces a portion of your income if you cannot work due to illness or injury. ACC covers workplace accidents, but not illness or non-work injuries — leaving self-employed tradies exposed. Income protection fills that gap, typically replacing 75% of your pre-tax income.',
     keyFacts: [
@@ -94,6 +99,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Statutory Liability',
     icon: '⚖️',
     fromPrice: 'NZ$20/month',
+    heroImage: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1920&q=80',
     description:
       'Statutory liability insurance covers fines and legal costs if you unintentionally breach New Zealand legislation such as the Health and Safety at Work Act 2015, the Resource Management Act, or the Building Act. It does not cover deliberate breaches. For tradies, WorkSafe NZ prosecution is the most common trigger.',
     keyFacts: [
@@ -114,6 +120,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Professional Indemnity',
     icon: '📋',
     fromPrice: 'NZ$30/month',
+    heroImage: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1920&q=80',
     description:
       'Professional indemnity insurance protects you if a client claims your advice, design, or professional services caused them a financial loss. While less common for hands-on tradies, it is essential for those who provide design-build services, certify work, or give technical advice. It covers legal costs and damages.',
     keyFacts: [
@@ -134,6 +141,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Contents & Property',
     icon: '🏗️',
     fromPrice: 'NZ$25/month',
+    heroImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1920&q=80',
     description:
       'Contents and property insurance covers your business premises, office contents, stock, and materials stored on-site or in a depot. If you operate from a workshop, yard, or office, this cover protects against fire, flood, theft, and accidental damage to your business assets. It can also cover materials in transit.',
     keyFacts: [
@@ -154,6 +162,7 @@ export const coverageTypes: CoverageType[] = [
     name: 'Building Insurance',
     icon: '🏢',
     fromPrice: 'NZ$40/month',
+    heroImage: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1920&q=80',
     description:
       'Commercial building insurance covers the physical structure of any premises your business owns or is responsible for. This is separate from contents cover and protects the building fabric against fire, storm, flood, earthquake, and accidental damage. It is essential for tradie business owners who own their workshop or depot.',
     keyFacts: [
