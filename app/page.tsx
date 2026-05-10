@@ -38,7 +38,7 @@ export default function HomePage() {
       >
         <div className="absolute inset-0 bg-gray-900/75" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
               <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
                 Specialist Tradie Insurance
@@ -72,7 +72,7 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <div>
+            <div className="lg:max-w-sm xl:max-w-md w-full mx-auto lg:mx-0">
               <QuoteForm />
             </div>
           </div>
