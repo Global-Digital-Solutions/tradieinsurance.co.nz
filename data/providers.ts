@@ -3,6 +3,7 @@ export interface Provider {
   slug: string
   rating: number
   badge?: string
+  topRated?: boolean
   bestFor: string
   startingPrice: string
   coverLevels: string
@@ -27,7 +28,8 @@ export const providers: Provider[] = [
     name: 'BizCover',
     slug: 'bizcover',
     rating: 4.3,
-    badge: 'Best for Online Quotes',
+    badge: '⭐ Highly Recommended',
+    topRated: true,
     bestFor: 'Sole traders wanting instant online quotes',
     startingPrice: 'From ~$30/mo',
     coverLevels: '$1M – $20M public liability',
@@ -87,7 +89,8 @@ export const providers: Provider[] = [
     name: 'Builtin Insurance',
     slug: 'builtin',
     rating: 4.6,
-    badge: '⭐ Top Rated — Construction Specialist',
+    badge: '⭐ Construction Specialist',
+    topRated: true,
     bestFor: 'Builders, LBPs, and construction tradies',
     startingPrice: 'Quote required',
     coverLevels: '$1M – $20M+ custom',

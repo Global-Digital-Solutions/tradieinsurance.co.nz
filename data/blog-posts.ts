@@ -6,6 +6,7 @@ export interface BlogPost {
   readTime: string
   date: string
   author: string
+  image?: string
   content: string
 }
 
@@ -18,6 +19,7 @@ export const blogPosts: BlogPost[] = [
     readTime: '8 min read',
     date: '2026-05-01',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
     content: `## Why Insurance Matters for NZ Tradies
 
 New Zealand's construction and trades sector employs over 250,000 people and contributes billions to the economy annually. Yet many tradies — especially sole traders and small operators — work without adequate insurance cover, leaving themselves exposed to potentially business-ending claims.
@@ -80,6 +82,7 @@ Use our free quote service to connect with a specialist NZ tradie insurance brok
     readTime: '6 min read',
     date: '2026-04-28',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
     content: `## The Builder Insurance Checklist
 
 Building is one of the most exposed trades in New Zealand from an insurance perspective. Long-tail liability for structural defects, on-site injury risks, employee obligations, and the complexity of building contracts all create insurance requirements that go well beyond a basic public liability policy.
@@ -160,6 +163,7 @@ Use our free quote service to connect with a licensed NZ builder insurance speci
     readTime: '5 min read',
     date: '2026-04-22',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?auto=format&fit=crop&w=800&q=80',
     content: `## What Is Public Liability Insurance?
 
 Public liability insurance covers you if a third party — a client, a passer-by, or someone else — suffers injury or property damage because of your work. It pays for legal defence costs and any compensation you are ordered to pay.
@@ -238,6 +242,7 @@ Use our free quote service to connect with a licensed NZ tradie insurance broker
     readTime: '5 min read',
     date: '2026-04-18',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
     content: `## Why Tool Insurance Matters for NZ Tradies
 
 Your tools are not just equipment — they are the foundation of your income. A stolen or damaged toolbox can mean days or weeks of lost work while you replace what you need. Without insurance, that loss comes straight out of your pocket.
@@ -321,6 +326,7 @@ Talk to a specialist tradie insurance broker about your tool and equipment needs
     readTime: '5 min read',
     date: '2026-04-15',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
     content: `## The Business Use Gap in Standard Vehicle Insurance
 
 Many NZ tradies make the mistake of assuming their standard personal vehicle insurance covers their work ute or van. In most cases, it does not. Standard personal vehicle policies typically exclude "business use" — meaning if you have an accident driving to, from, or between job sites, your claim could be declined.
@@ -394,6 +400,7 @@ Talk to a specialist tradie insurance broker about your vehicle needs. A broker 
     readTime: '6 min read',
     date: '2026-04-10',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1555963966-b7ae5404b6e8?auto=format&fit=crop&w=800&q=80',
     content: `## Why Electricians Need Specialist Insurance
 
 Electrical work carries unique risks that standard tradie insurance may not adequately address. Faulty wiring can cause fires years after installation. Electrocution can injure or kill. A single claim against an electrician can be catastrophic.
@@ -474,6 +481,7 @@ Use our free quote service to connect with a licensed NZ electrician insurance s
     readTime: '6 min read',
     date: '2026-04-05',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80',
     content: `## The ACC Misconception
 
 Many NZ tradies believe that ACC (Accident Compensation Corporation) provides comprehensive income protection if they cannot work. It does not. ACC covers injuries that occur as a result of an accident — whether at work, at home, or elsewhere. But it does not cover:
@@ -544,6 +552,7 @@ Use our free quote service to connect with a specialist broker who can assess yo
     readTime: '7 min read',
     date: '2026-03-28',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80',
     content: `## The Health and Safety at Work Act 2015
 
 The Health and Safety at Work Act 2015 (HSWA) is the primary legislation governing workplace health and safety in New Zealand. It replaced the Health and Safety in Employment Act 1992 and significantly increased the obligations on businesses and individuals to manage health and safety risks proactively.
@@ -653,6 +662,7 @@ Use our free quote service to connect with a specialist broker who can ensure yo
     readTime: '7 min read',
     date: '2026-03-20',
     author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
     content: `## Who Provides Tradie Insurance in New Zealand?
 
 The NZ tradie insurance market includes a mix of large general insurers, specialist trade insurers, and online comparison platforms. Each has different strengths, pricing approaches, and coverage terms. Understanding the landscape helps you make a better-informed decision.
