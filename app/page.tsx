@@ -75,7 +75,7 @@ export default function HomePage() {
                 Public liability from <strong className="text-orange-400">$30/month</strong>. Tools, vehicle, income protection & more. Get free quotes from licensed brokers — no obligation.
               </p>
               <p className="text-gray-200 text-base leading-relaxed mb-8">
-                You&apos;re an expert in your trade — leave the insurance to ours. Our licensed brokers take the time to understand your specific work, contracts, and risks. That means cover built around your business, not a generic policy with gaps or charges for things you&apos;ll never need. Most tradies who use our free matching service pay <strong className="text-orange-400">15–30% less</strong> than going direct.
+                You&apos;re an expert in your trade — leave the insurance to us. Our licensed brokers take the time to understand your specific work, contracts, and risks. That means cover built around your business, not a generic policy with gaps or charges for things you&apos;ll never need. Most tradies who use our free matching service pay <strong className="text-orange-400">15–30% less</strong> than going direct.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
