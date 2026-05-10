@@ -77,12 +77,12 @@ export default function ContactPage() {
           backgroundPosition: 'center top',
         }}
       >
-        <div className="absolute inset-0 bg-gray-900/78" />
+        <div className="absolute inset-0 bg-gray-900/88" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-gray-300 mb-8">
+          <nav className="text-sm text-white/80 mb-8 drop-shadow">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2">›</span>
-            <span className="text-white">Get a Free Quote</span>
+            <span className="mx-2 text-white/50">›</span>
+            <span className="text-white font-medium">Get a Free Quote</span>
           </nav>
           <div className="flex flex-col lg:flex-row gap-12 items-start">
             {/* Left — value proposition */}
@@ -93,7 +93,7 @@ export default function ContactPage() {
               <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
                 Stop Overpaying for <span className="text-orange-500">Tradie Insurance</span>
               </h1>
-              <p className="text-gray-200 text-xl leading-relaxed mb-8">
+              <p className="text-white text-xl leading-relaxed mb-8 drop-shadow">
                 Our free service matches you with a specialist NZ broker who finds the right cover for your trade — without the hours of research, comparison, and guesswork.
               </p>
 
@@ -106,8 +106,8 @@ export default function ContactPage() {
                   'Licensed advisers — zero obligation',
                   'Most tradies covered within 24–48 hours',
                 ].map((b) => (
-                  <div key={b} className="flex items-center gap-3 text-white text-sm">
-                    <span className="w-5 h-5 rounded-full bg-orange-500 text-white text-xs flex items-center justify-center flex-shrink-0 font-bold">✓</span>
+                  <div key={b} className="flex items-center gap-3 text-white font-medium text-sm">
+                    <span className="w-5 h-5 rounded-full bg-orange-500 text-white text-xs flex items-center justify-center flex-shrink-0 font-bold shadow-md">✓</span>
                     {b}
                   </div>
                 ))}
@@ -116,9 +116,9 @@ export default function ContactPage() {
               {/* Stats bar */}
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
                 {stats.map((s) => (
-                  <div key={s.label} className="bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-center">
+                  <div key={s.label} className="bg-gray-800/90 border border-gray-600 rounded-xl px-4 py-3 text-center shadow-lg">
                     <div className="text-orange-400 font-extrabold text-xl leading-tight">{s.value}</div>
-                    <div className="text-gray-300 text-xs mt-0.5">{s.label}</div>
+                    <div className="text-gray-200 text-xs mt-0.5 font-medium">{s.label}</div>
                   </div>
                 ))}
               </div>
@@ -284,11 +284,11 @@ export default function ContactPage() {
                   { icon: '⚡', title: 'Fast response guaranteed', desc: 'Most enquiries are matched within the hour during business hours. Same-day response on urgent requests.' },
                   { icon: '🏆', title: 'Licensed advisers only', desc: 'Every broker in our network holds a Financial Advice Provider licence under the FMA. You\'re in qualified hands.' },
                 ].map((item) => (
-                  <div key={item.title} className="flex items-start gap-4">
+                  <div key={item.title} className="flex items-start gap-4 bg-gray-700/40 rounded-xl p-4 border border-gray-600/50">
                     <span className="text-2xl flex-shrink-0">{item.icon}</span>
                     <div>
-                      <p className="font-bold text-white text-sm mb-0.5">{item.title}</p>
-                      <p className="text-gray-400 text-sm leading-relaxed">{item.desc}</p>
+                      <p className="font-extrabold text-white text-sm mb-1">{item.title}</p>
+                      <p className="text-gray-300 text-sm leading-relaxed">{item.desc}</p>
                     </div>
                   </div>
                 ))}
