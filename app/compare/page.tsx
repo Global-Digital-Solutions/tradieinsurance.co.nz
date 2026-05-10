@@ -228,11 +228,6 @@ export default function ComparePage() {
                         </h4>
                         <p className="text-sm text-gray-600 leading-relaxed bg-amber-50 border border-amber-100 rounded-xl p-4">{p.watchOut}</p>
                         <div className="mt-4 flex flex-wrap gap-2">
-                          {p.phone && (
-                            <a href={`tel:${p.phone.replace(/\s/g, '')}`} className="text-xs bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold px-3 py-1.5 rounded-lg transition-colors">
-                              📞 {p.phone}
-                            </a>
-                          )}
                           <span className="text-xs bg-gray-100 text-gray-500 px-3 py-1.5 rounded-lg">
                             {p.website}
                           </span>
@@ -295,9 +290,9 @@ export default function ComparePage() {
               <Link href="/contact/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-lg shadow-orange-500/30">
                 Get Free Quotes →
               </Link>
-              <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-gray-700 hover:bg-gray-600 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-gray-600">
-                Call {siteConfig.phone}
-              </a>
+              <Link href="/contact/" className="bg-gray-700 hover:bg-gray-600 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-gray-600">
+                How It Works →
+              </Link>
             </div>
           </div>
 

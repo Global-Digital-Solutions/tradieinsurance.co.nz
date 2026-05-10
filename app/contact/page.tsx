@@ -255,12 +255,21 @@ export default function ContactPage() {
                   </div>
                 </div>
               </div>
-              <div className="bg-gray-900 rounded-2xl p-6 text-center">
-                <p className="text-gray-400 text-sm mb-3">Prefer to talk? Call us directly:</p>
-                <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="text-orange-400 font-extrabold text-2xl hover:text-orange-300 transition-colors">
-                  {siteConfig.phone}
-                </a>
-                <p className="text-gray-500 text-xs mt-2">Mon–Fri, 8am–6pm NZST</p>
+              <div className="bg-gray-900 rounded-2xl p-6">
+                <p className="text-white font-extrabold text-sm mb-4">Why trust our service?</p>
+                <div className="space-y-3">
+                  {[
+                    { icon: '🏆', text: 'All brokers licensed under the FMA' },
+                    { icon: '💸', text: 'Completely free — no hidden fees' },
+                    { icon: '🔒', text: 'Your data is never sold or shared' },
+                    { icon: '🎯', text: 'Matched to specialists in your trade' },
+                  ].map((item) => (
+                    <div key={item.text} className="flex items-center gap-3 text-sm">
+                      <span className="text-lg flex-shrink-0">{item.icon}</span>
+                      <p className="text-gray-300">{item.text}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -336,9 +345,9 @@ export default function ContactPage() {
             <a href="#quote-form" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors shadow-md">
               Get My Free Quote →
             </a>
-            <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-orange-400">
-              📞 Call {siteConfig.phone}
-            </a>
+            <Link href="/compare/" className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-orange-400">
+              Compare Providers →
+            </Link>
           </div>
         </div>
       </section>

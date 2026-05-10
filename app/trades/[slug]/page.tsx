@@ -86,12 +86,12 @@ export default async function TradeTypePage({ params }: Props) {
         >
           Get Free Quote →
         </a>
-        <a
-          href={`tel:${siteConfig.phone.replace(/\s/g, '')}`}
+        <Link
+          href="/contact/"
           className="bg-gray-700 hover:bg-gray-600 text-white font-bold px-4 py-3 rounded-xl text-sm border border-gray-600 transition-colors"
         >
-          📞 Call
-        </a>
+          Learn More
+        </Link>
       </div>
 
       {/* ── HERO ── */}
@@ -126,9 +126,9 @@ export default async function TradeTypePage({ params }: Props) {
                 <a href="#get-quote" className="bg-orange-500 hover:bg-orange-600 text-white font-extrabold text-sm px-7 py-3.5 rounded-xl transition-colors shadow-lg shadow-orange-500/30">
                   Get Free Quote →
                 </a>
-                <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-white/10 hover:bg-white/20 text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors border border-white/30">
-                  📞 {siteConfig.phone}
-                </a>
+                <Link href="/coverage/" className="bg-white/10 hover:bg-white/20 text-white font-bold text-sm px-6 py-3.5 rounded-xl transition-colors border border-white/30">
+                  View All Coverage
+                </Link>
               </div>
             </div>
             {/* Hero pricing callout */}
@@ -237,9 +237,9 @@ export default async function TradeTypePage({ params }: Props) {
             <a href="#get-quote" className="flex-1 sm:flex-none bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3.5 rounded-xl transition-colors text-sm text-center shadow-lg shadow-orange-500/20">
               Get My Free {trade.name} Insurance Quote →
             </a>
-            <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="flex-1 sm:flex-none bg-gray-100 hover:bg-gray-200 text-gray-900 font-bold px-6 py-3.5 rounded-xl transition-colors text-sm text-center">
-              📞 Prefer to talk? {siteConfig.phone}
-            </a>
+            <span className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-gray-100 text-gray-600 px-6 py-3.5 rounded-xl text-sm">
+              <span className="text-green-600 font-bold">✓</span> Licensed advisers · Free service · No obligation
+            </span>
           </div>
 
         </div>
@@ -339,9 +339,9 @@ export default async function TradeTypePage({ params }: Props) {
               <a href="#get-quote" className="bg-white text-orange-600 hover:bg-orange-50 font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-md">
                 Get My Free Quote →
               </a>
-              <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm border border-orange-400">
-                📞 {siteConfig.phone}
-              </a>
+              <Link href="/contact/" className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm border border-orange-400">
+                How It Works →
+              </Link>
             </div>
           </div>
 
@@ -468,9 +468,9 @@ export default async function TradeTypePage({ params }: Props) {
               <a href="#get-quote" className="bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-6 py-3 rounded-xl transition-colors text-sm">
                 Get Quote →
               </a>
-              <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-white hover:bg-gray-100 text-gray-900 font-bold px-5 py-3 rounded-xl transition-colors text-sm border-2 border-gray-200">
-                📞 Call
-              </a>
+              <Link href="/contact/" className="bg-white hover:bg-gray-100 text-gray-900 font-bold px-5 py-3 rounded-xl transition-colors text-sm border-2 border-gray-200">
+                Contact Us
+              </Link>
             </div>
           </div>
 
@@ -523,11 +523,16 @@ export default async function TradeTypePage({ params }: Props) {
 
               {/* Contact */}
               <div className="bg-gray-900/50 border border-gray-600 rounded-2xl p-5">
-                <p className="text-gray-400 text-xs uppercase tracking-widest font-bold mb-3">Prefer to talk?</p>
-                <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="text-orange-400 hover:text-orange-300 font-extrabold text-2xl transition-colors block mb-1">
-                  {siteConfig.phone}
+                <p className="text-gray-300 text-xs font-bold uppercase tracking-widest mb-3">Got Questions?</p>
+                <p className="text-white font-bold text-sm mb-3">Email our team and we&apos;ll get back to you within 24 hours.</p>
+                <a href={`mailto:${siteConfig.email}`} className="text-orange-400 hover:text-orange-300 font-bold text-sm transition-colors block mb-3">
+                  {siteConfig.email}
                 </a>
-                <p className="text-gray-500 text-xs">Mon–Fri 8am–6pm NZST · <a href={`mailto:${siteConfig.email}`} className="text-gray-400 hover:text-white transition-colors">{siteConfig.email}</a></p>
+                <div className="flex flex-wrap gap-1.5">
+                  {['Licensed FMA', 'Free Service', 'No Obligation'].map((b) => (
+                    <span key={b} className="text-xs text-gray-400 bg-gray-800 border border-gray-600 px-2 py-1 rounded-full">✓ {b}</span>
+                  ))}
+                </div>
               </div>
             </div>
 

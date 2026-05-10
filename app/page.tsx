@@ -275,13 +275,18 @@ export default function HomePage() {
           <p className="text-orange-100 text-lg mb-8">
             Join thousands of tradies who have found the right insurance through our free broker matching service.
           </p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
             <Link href="/contact/" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors">
               Get Free Quote →
             </Link>
-            <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-orange-400">
-              Call {siteConfig.phone}
-            </a>
+            <Link href="/compare/" className="bg-orange-600 hover:bg-orange-700 text-white font-bold px-8 py-3 rounded-xl transition-colors border border-orange-400">
+              Compare Providers
+            </Link>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4">
+            {['✓ Licensed under FMA', '✓ Free Service', '✓ No Obligation', '✓ 24hr Response', '✓ NZ Based'].map((b) => (
+              <span key={b} className="text-orange-200 text-xs font-semibold">{b}</span>
+            ))}
           </div>
         </div>
       </section>

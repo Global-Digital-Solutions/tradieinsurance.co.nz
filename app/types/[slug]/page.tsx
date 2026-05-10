@@ -134,12 +134,24 @@ export default async function CoverageTypePage({ params }: Props) {
             {/* Sidebar */}
             <div className="space-y-6">
               <QuoteForm compact />
-              <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
-                <h3 className="font-bold text-gray-900 mb-3">Need Help Deciding?</h3>
-                <p className="text-gray-600 text-sm mb-4">Our specialist brokers can assess your specific situation and recommend the right level of cover for your trade.</p>
-                <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="flex items-center gap-2 text-orange-500 font-bold text-sm">
-                  📞 {siteConfig.phone}
-                </a>
+              <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-6">
+                <h3 className="font-extrabold text-gray-900 mb-4">Why Get a Free Quote?</h3>
+                <div className="space-y-3">
+                  {[
+                    { icon: '🏆', text: 'Licensed under the Financial Markets Conduct Act' },
+                    { icon: '💸', text: 'Free service — brokers are paid by insurers, not you' },
+                    { icon: '⚡', text: 'Response within 24 hours on business days' },
+                    { icon: '🎯', text: 'Cover matched to your exact trade and contracts' },
+                  ].map((item) => (
+                    <div key={item.text} className="flex items-start gap-3">
+                      <span className="text-lg flex-shrink-0">{item.icon}</span>
+                      <p className="text-gray-700 text-xs leading-snug">{item.text}</p>
+                    </div>
+                  ))}
+                </div>
+                <Link href="/contact/" className="mt-5 block w-full bg-orange-500 hover:bg-orange-600 text-white font-extrabold text-sm py-2.5 rounded-xl text-center transition-colors">
+                  Get My Free Quote →
+                </Link>
               </div>
             </div>
           </div>

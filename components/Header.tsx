@@ -91,15 +91,9 @@ export default function Header() {
 
           {/* CTA + Hamburger */}
           <div className="flex items-center gap-3">
-            <a
-              href={`tel:${siteConfig.phone.replace(/\s/g, '')}`}
-              className="hidden sm:flex items-center gap-2 text-gray-300 hover:text-white text-sm font-medium"
-            >
-              <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-              {siteConfig.phone}
-            </a>
+            <span className="hidden sm:flex items-center gap-1.5 text-gray-400 text-xs font-medium border border-gray-700 rounded-lg px-3 py-1.5">
+              <span className="text-green-400">✓</span> Licensed Advisers
+            </span>
             <Link
               href="/contact/"
               className="bg-orange-500 hover:bg-orange-600 text-white text-sm font-bold px-4 py-2 rounded-lg transition-colors"
@@ -170,10 +164,10 @@ export default function Header() {
               </Link>
             ))}
           </div>
-          <div className="border-t border-gray-700 pt-2">
-            <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="text-gray-300 text-sm">
-              📞 {siteConfig.phone}
-            </a>
+          <div className="border-t border-gray-700 pt-3">
+            <Link href="/contact/" className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm py-2.5 rounded-lg text-center transition-colors" onClick={() => setMenuOpen(false)}>
+              Get Free Quote →
+            </Link>
           </div>
         </div>
       )}

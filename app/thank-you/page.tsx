@@ -22,15 +22,11 @@ export default function ThankYouPage() {
           Thank you for your enquiry. A specialist NZ tradie insurance broker will contact you within 24 hours to discuss your requirements and provide comparative quotes.
         </p>
         <p className="text-gray-400 mb-8">
-          In the meantime, if you have urgent questions, call us on{' '}
-          <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="text-orange-400 font-bold hover:text-orange-300">
-            {siteConfig.phone}
-          </a>{' '}
-          or email{' '}
+          If you have any questions in the meantime, email us at{' '}
           <a href={`mailto:${siteConfig.email}`} className="text-orange-400 hover:text-orange-300">
             {siteConfig.email}
           </a>
-          .
+          {' '}and we&apos;ll get back to you promptly.
         </p>
         <div className="bg-gray-800 rounded-2xl p-6 mb-8 text-left">
           <h2 className="text-white font-bold mb-3">What Happens Next?</h2>

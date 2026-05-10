@@ -71,9 +71,9 @@ export default function FaqsPage() {
               <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
                 Get Free Advice →
               </Link>
-              <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="inline-block bg-gray-700 hover:bg-gray-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
-                Call {siteConfig.phone}
-              </a>
+              <Link href="/compare/" className="inline-block bg-gray-700 hover:bg-gray-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
+                Compare Providers →
+              </Link>
             </div>
           </div>
         </div>

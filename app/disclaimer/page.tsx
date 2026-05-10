@@ -53,7 +53,7 @@ export default function DisclaimerPage() {
           <p>To the maximum extent permitted by law, TradieInsurance.co.nz makes no warranties, express or implied, regarding the accuracy, completeness, or suitability of information on this website for any particular purpose.</p>
 
           <h2>8. Contact</h2>
-          <p>For any questions about this disclaimer or our service, contact us at <a href={`mailto:${siteConfig.email}`} className="text-orange-500">{siteConfig.email}</a> or call {siteConfig.phone}.</p>
+          <p>For any questions about this disclaimer or our service, contact us at <a href={`mailto:${siteConfig.email}`} className="text-orange-500">{siteConfig.email}</a>.</p>
         </div>
       </div>
     </>

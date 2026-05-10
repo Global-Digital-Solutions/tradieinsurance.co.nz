@@ -25,17 +25,17 @@ export default function Footer() {
             >
               Get Free Quote
             </Link>
-            <div className="text-sm text-gray-400 space-y-1">
-              <p>
-                <a href={`tel:${siteConfig.phone.replace(/\s/g, '')}`} className="hover:text-white transition-colors">
-                  📞 {siteConfig.phone}
-                </a>
-              </p>
+            <div className="text-sm text-gray-400 space-y-2">
               <p>
                 <a href={`mailto:${siteConfig.email}`} className="hover:text-white transition-colors">
                   ✉️ {siteConfig.email}
                 </a>
               </p>
+              <div className="flex flex-wrap gap-2 pt-1">
+                {['Licensed Advisers', 'Free Service', 'NZ Based'].map((b) => (
+                  <span key={b} className="text-xs text-gray-500 border border-gray-700 rounded-full px-2 py-0.5">✓ {b}</span>
+                ))}
+              </div>
             </div>
           </div>
 

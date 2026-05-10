@@ -71,7 +71,7 @@ export default function PrivacyPage() {
           <p>Our website uses cookies to improve your experience and enable analytics. By continuing to use our site, you consent to our use of cookies. You can disable cookies in your browser settings, though this may affect website functionality.</p>
 
           <h2>10. Contact Us</h2>
-          <p>For privacy-related enquiries, contact us at: <a href={`mailto:${siteConfig.email}`} className="text-orange-500">{siteConfig.email}</a> or call {siteConfig.phone}.</p>
+          <p>For privacy-related enquiries, contact us at: <a href={`mailto:${siteConfig.email}`} className="text-orange-500">{siteConfig.email}</a>.</p>
         </div>
       </div>
     </>
