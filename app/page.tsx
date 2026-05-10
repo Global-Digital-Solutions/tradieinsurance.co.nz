@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 const steps = [
   { num: '1', title: 'Tell Us About Your Trade', desc: 'Share your trade type, what cover you need, and your business size using our simple form.' },
-  { num: '2', title: 'We Match You with a Broker', desc: 'We connect you with a specialist NZ insurance broker who understands your trade\'s specific risks.' },
+  { num: '2', title: 'We Match You with a Broker', desc: 'We connect you with a specialist insurance broker who understands your trade\'s specific risks.' },
   { num: '3', title: 'Compare & Choose', desc: 'Your broker presents options from multiple insurers. You choose the best fit for your needs and budget.' },
 ]
 
@@ -28,25 +28,33 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gray-900 py-16 lg:py-24">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section
+        className="relative py-16 lg:py-24"
+        style={{
+          backgroundImage: 'url(https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gray-900/75" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
-                NZ Specialist Tradie Insurance
+                Specialist Tradie Insurance
               </span>
               <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
-                Tradie Insurance <span className="text-orange-500">Made Simple</span> for NZ Tradies
+                Tradie Insurance <span className="text-orange-500">Made Simple</span>
               </h1>
               <p className="text-gray-300 text-xl leading-relaxed mb-8">
-                Public liability from <strong className="text-orange-400">NZ$30/month</strong>. Tools, vehicle, income protection & more. Get free quotes from licensed NZ brokers — no obligation.
+                Public liability from <strong className="text-orange-400">$30/month</strong>. Tools, vehicle, income protection & more. Get free quotes from licensed brokers — no obligation.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
                   <span className="text-orange-500">✓</span> Free broker matching
                 </div>
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
-                  <span className="text-orange-500">✓</span> All NZ trades covered
+                  <span className="text-orange-500">✓</span> All trades covered
                 </div>
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
                   <span className="text-orange-500">✓</span> Licensed advisers only
@@ -70,6 +78,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
 
       <USPBar />
 
@@ -108,7 +117,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Trade Types</span>
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Insurance for Every NZ Trade</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Insurance for Every Trade</h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">Different trades carry different risks. Find cover tailored to your specific trade type.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -245,7 +254,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Get Covered?</h2>
           <p className="text-orange-100 text-lg mb-8">
-            Join thousands of NZ tradies who have found the right insurance through our free broker matching service.
+            Join thousands of tradies who have found the right insurance through our free broker matching service.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link href="/contact/" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors">
