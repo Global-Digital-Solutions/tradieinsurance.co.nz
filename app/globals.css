@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer components {
+  .prose-tradie {
+    @apply text-gray-700 leading-relaxed;
+  }
+  .prose-tradie h2 {
+    @apply text-2xl font-extrabold text-gray-900 mt-8 mb-4;
+  }
+  .prose-tradie h3 {
+    @apply text-xl font-bold text-gray-900 mt-6 mb-3;
+  }
+  .prose-tradie p {
+    @apply mb-4;
+  }
+  .prose-tradie ul {
+    @apply list-disc list-inside mb-4 space-y-1;
+  }
+  .prose-tradie ol {
+    @apply list-decimal list-inside mb-4 space-y-1;
+  }
+  .prose-tradie li {
+    @apply text-gray-700;
+  }
+  .prose-tradie table {
+    @apply w-full border-collapse mb-6 text-sm;
+  }
+  .prose-tradie th {
+    @apply bg-gray-100 text-left px-4 py-2 font-bold border border-gray-200;
+  }
+  .prose-tradie td {
+    @apply px-4 py-2 border border-gray-200;
+  }
+  .prose-tradie strong {
+    @apply font-bold text-gray-900;
+  }
+}
