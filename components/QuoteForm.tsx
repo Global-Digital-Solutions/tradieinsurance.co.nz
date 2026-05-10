@@ -72,7 +72,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
     setLoading(true)
     try {
-      const res = await fetch('/api/submit-form', {
+      const res = await fetch('/api/submit-form/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
