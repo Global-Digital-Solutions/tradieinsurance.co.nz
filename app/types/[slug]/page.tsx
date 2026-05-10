@@ -17,10 +17,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const coverage = getCoverageBySlug(slug)
   if (!coverage) return {}
+  const title = `${coverage.name} Insurance NZ | Tradie Cover from ${coverage.fromPrice}`
+  const description = `${coverage.name} insurance for tradies from ${coverage.fromPrice}. ${coverage.description.split('.')[0]}. Quotes from licensed brokers.`
   return {
-    title: `${coverage.name} Insurance NZ | Tradie Cover from ${coverage.fromPrice}`,
-    description: `${coverage.name} insurance for NZ tradies. ${coverage.description.split('.')[0]}. Get free quotes from licensed NZ brokers.`,
+    title,
+    description,
     alternates: { canonical: `${siteConfig.url}/types/${slug}/` },
+    openGraph: {
+      type: 'website',
+      title,
+      description,
+      url: `${siteConfig.url}/types/${slug}/`,
+      siteName: 'TradieInsurance.co.nz',
+      locale: 'en_NZ',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   }
 }
 
@@ -35,13 +50,36 @@ export default async function CoverageTypePage({ params }: Props) {
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: siteConfig.url + '/' },
       { '@type': 'ListItem', position: 2, name: 'Coverage Types', item: siteConfig.url + '/coverage/' },
-      { '@type': 'ListItem', position: 3, name: coverage.name, item: `${siteConfig.url}/types/${slug}/` },
+      { '@type': 'ListItem', position: 3, name: `${coverage.name} Insurance`, item: `${siteConfig.url}/types/${slug}/` },
     ],
+  }
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${siteConfig.url}/types/${slug}/#service`,
+    name: `${coverage.name} Insurance for Tradies`,
+    description: coverage.description,
+    provider: { '@id': `${siteConfig.url}/#organization` },
+    areaServed: { '@type': 'Country', name: 'New Zealand' },
+    url: `${siteConfig.url}/types/${slug}/`,
+    serviceType: 'Insurance Broker Referral',
+    offers: {
+      '@type': 'Offer',
+      description: `${coverage.name} insurance from ${coverage.fromPrice}`,
+      priceSpecification: {
+        '@type': 'UnitPriceSpecification',
+        price: coverage.fromPrice.replace(/[^0-9]/g, ''),
+        priceCurrency: 'NZD',
+        unitText: 'month',
+      },
+    },
   }
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
 
       <div
         className="relative border-b border-gray-700"

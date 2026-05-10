@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Core Pages -->
   <url><loc>https://tradieinsurance.co.nz/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/compare/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/contact/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/faqs/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Coverage Types -->
   <url><loc>https://tradieinsurance.co.nz/coverage/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://tradieinsurance.co.nz/types/public-liability/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/types/tools-equipment/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -10,6 +17,8 @@
   <url><loc>https://tradieinsurance.co.nz/types/professional-indemnity/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/types/contents-property/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/types/building-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Trade Types -->
   <url><loc>https://tradieinsurance.co.nz/trades/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://tradieinsurance.co.nz/trades/builders/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/trades/plumbers/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -20,6 +29,8 @@
   <url><loc>https://tradieinsurance.co.nz/trades/roofers/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/trades/concreters/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/trades/handymen/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- High-Intent Landing Pages -->
   <url><loc>https://tradieinsurance.co.nz/tradie-insurance/cheap-tradie-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/tradie-insurance/best-tradie-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/tradie-insurance/compare-tradie-insurance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
@@ -32,21 +43,23 @@
   <url><loc>https://tradieinsurance.co.nz/tradie-insurance/tradie-insurance-cost-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/tradie-insurance/tradie-insurance-sole-trader/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tradieinsurance.co.nz/tradie-insurance/tradie-insurance-small-business/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Blog -->
   <url><loc>https://tradieinsurance.co.nz/blog/</loc><lastmod>2026-05-10</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/tradie-insurance-guide-nz/</loc><lastmod>2026-05-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/builder-insurance-checklist-nz/</loc><lastmod>2026-04-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/public-liability-tradies-explained/</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/tool-insurance-nz-guide/</loc><lastmod>2026-04-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/tradie-vehicle-insurance-nz/</loc><lastmod>2026-04-15</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/electrician-insurance-nz/</loc><lastmod>2026-04-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/income-protection-self-employed-nz/</loc><lastmod>2026-04-05</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/worksafe-nz-tradies-compliance/</loc><lastmod>2026-03-28</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/blog/compare-tradie-insurance-providers-nz/</loc><lastmod>2026-03-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/compare/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/tradie-insurance-guide-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/builder-insurance-checklist-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/public-liability-tradies-explained/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/tool-insurance-nz-guide/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/tradie-vehicle-insurance-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/electrician-insurance-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/income-protection-self-employed-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/worksafe-nz-tradies-compliance/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tradieinsurance.co.nz/blog/compare-tradie-insurance-providers-nz/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Supporting Pages -->
   <url><loc>https://tradieinsurance.co.nz/about/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/contact/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://tradieinsurance.co.nz/faqs/</loc><lastmod>2026-05-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tradieinsurance.co.nz/privacy/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://tradieinsurance.co.nz/terms/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://tradieinsurance.co.nz/disclaimer/</loc><lastmod>2026-05-10</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+
 </urlset>

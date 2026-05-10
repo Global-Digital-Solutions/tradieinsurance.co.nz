@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import QuoteForm from '@/components/QuoteForm'
 import { blogPosts, getBlogBySlug } from '@/data/blog-posts'
+import { tradeTypes } from '@/data/trade-types'
+import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
 
 interface Props {
@@ -20,14 +22,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: post.title,
     description: post.excerpt,
+    authors: [{ name: post.author, url: siteConfig.url }],
     alternates: { canonical: `${siteConfig.url}/blog/${slug}/` },
     openGraph: {
       type: 'article',
       title: post.title,
       description: post.excerpt,
       url: `${siteConfig.url}/blog/${slug}/`,
+      siteName: 'TradieInsurance.co.nz',
+      locale: 'en_NZ',
       publishedTime: post.date,
-      authors: [post.author],
+      modifiedTime: post.date,
+      authors: [siteConfig.url],
+      section: post.category,
+      ...(post.image && { images: [{ url: post.image, alt: post.title }] }),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      ...(post.image && { images: [post.image] }),
     },
   }
 }
@@ -109,15 +123,30 @@ export default async function BlogPostPage({ params }: Props) {
     description: post.excerpt,
     datePublished: post.date,
     dateModified: post.date,
+    inLanguage: 'en-NZ',
+    articleSection: post.category,
+    ...(post.image && {
+      image: {
+        '@type': 'ImageObject',
+        url: post.image,
+        description: post.title,
+      },
+    }),
     author: {
       '@type': 'Organization',
-      name: post.author,
+      '@id': `${siteConfig.url}/#organization`,
+      name: 'TradieInsurance.co.nz',
       url: siteConfig.url,
     },
     publisher: {
       '@type': 'Organization',
+      '@id': `${siteConfig.url}/#organization`,
       name: 'TradieInsurance.co.nz',
       url: siteConfig.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteConfig.url}/android-chrome-192x192.png`,
+      },
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
@@ -198,10 +227,22 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-3">Browse by Trade</h3>
                 <ul className="space-y-1.5">
-                  {['builders', 'plumbers', 'electricians', 'painters', 'roofers', 'carpenters-woodworkers'].map((t) => (
-                    <li key={t}>
-                      <Link href={`/trades/${t}/`} className="text-orange-500 hover:text-orange-600 text-sm capitalize transition-colors">
-                        {t.replace(/-/g, ' ')} →
+                  {tradeTypes.map((t) => (
+                    <li key={t.slug}>
+                      <Link href={`/trades/${t.slug}/`} className="text-orange-500 hover:text-orange-600 text-sm transition-colors">
+                        {t.icon} {t.name} →
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+                <h3 className="font-bold text-gray-900 mb-3">Coverage Types</h3>
+                <ul className="space-y-1.5">
+                  {coverageTypes.map((c) => (
+                    <li key={c.slug}>
+                      <Link href={`/types/${c.slug}/`} className="text-orange-500 hover:text-orange-600 text-sm transition-colors">
+                        {c.icon} {c.name} →
                       </Link>
                     </li>
                   ))}

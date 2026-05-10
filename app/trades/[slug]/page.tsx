@@ -18,10 +18,25 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const trade = getTradeBySlug(slug)
   if (!trade) return {}
+  const title = `${trade.name} Insurance NZ | Specialist Tradie Cover`
+  const description = `${trade.name} insurance — specialist cover from licensed brokers. Public liability from ${trade.costFrom}, tools, vehicle & more. 24hr broker response.`
   return {
-    title: `${trade.name} Insurance NZ | Specialist Tradie Cover`,
-    description: `${trade.name} insurance in New Zealand. Get specialist cover from licensed brokers — public liability from ${trade.costFrom}. Free quotes, 24hr response.`,
+    title,
+    description,
     alternates: { canonical: `${siteConfig.url}/trades/${slug}/` },
+    openGraph: {
+      type: 'website',
+      title,
+      description,
+      url: `${siteConfig.url}/trades/${slug}/`,
+      siteName: 'TradieInsurance.co.nz',
+      locale: 'en_NZ',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   }
 }
 
@@ -70,13 +85,33 @@ export default async function TradeTypePage({ params }: Props) {
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: siteConfig.url + '/' },
       { '@type': 'ListItem', position: 2, name: 'Trade Types', item: siteConfig.url + '/trades/' },
-      { '@type': 'ListItem', position: 3, name: trade.name, item: `${siteConfig.url}/trades/${slug}/` },
+      { '@type': 'ListItem', position: 3, name: `${trade.name} Insurance`, item: `${siteConfig.url}/trades/${slug}/` },
     ],
+  }
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${siteConfig.url}/trades/${slug}/#service`,
+    name: `${trade.name} Insurance`,
+    description: `Specialist ${trade.name.toLowerCase()} insurance from licensed brokers — public liability, tools, commercial vehicle, income protection and more.`,
+    provider: { '@id': `${siteConfig.url}/#organization` },
+    areaServed: { '@type': 'Country', name: 'New Zealand' },
+    url: `${siteConfig.url}/trades/${slug}/`,
+    serviceType: 'Insurance Broker Referral',
+    offers: {
+      '@type': 'Offer',
+      description: `${trade.name} insurance quotes from multiple licensed insurers`,
+      price: '0',
+      priceCurrency: 'NZD',
+      priceSpecification: { '@type': 'UnitPriceSpecification', description: 'Free broker matching service' },
+    },
   }
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
 
       {/* ── STICKY MOBILE CTA BAR ── */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur border-t border-gray-700 px-4 py-3 flex items-center gap-3 shadow-2xl">

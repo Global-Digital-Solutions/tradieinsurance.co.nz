@@ -25,8 +25,33 @@ export default function HomePage() {
   const topFaqs = faqs.slice(0, 5)
   const latestPosts = blogPosts.slice(0, 3)
 
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: topFaqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  }
+
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': 'https://tradieinsurance.co.nz/#service',
+    name: 'Tradie Insurance Broker Referral',
+    description: 'Free broker matching service connecting tradies with licensed insurance advisers for public liability, tools, vehicle, income protection and more.',
+    provider: { '@id': 'https://tradieinsurance.co.nz/#organization' },
+    areaServed: { '@type': 'Country', name: 'New Zealand' },
+    url: 'https://tradieinsurance.co.nz/',
+    serviceType: 'Insurance Broker Referral',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'NZD', description: 'Free broker matching — no fee to you' },
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       {/* Hero */}
       <section
         className="relative py-16 lg:py-24"

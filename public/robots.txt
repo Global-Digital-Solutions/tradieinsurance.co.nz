@@ -1,11 +1,49 @@
+# robots.txt — TradieInsurance.co.nz
+# Updated: 2026-05-10
+
+# Allow all standard search engine crawlers
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 2
+
+# Allow all other standard crawlers
 User-agent: *
 Allow: /
 
-# AI crawler blocks
+# Block access to admin/internal paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /thank-you/
+
+# ── AI Training Crawlers — Disallowed ─────────────────────────────────────────
+
 User-agent: GPTBot
 Disallow: /
 
 User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: OAI-SearchBot
 Disallow: /
 
 User-agent: ClaudeBot
@@ -23,6 +61,9 @@ Disallow: /
 User-agent: Google-Extended
 Disallow: /
 
+User-agent: Googlebot-Extended
+Disallow: /
+
 User-agent: PerplexityBot
 Disallow: /
 
@@ -33,15 +74,6 @@ User-agent: Diffbot
 Disallow: /
 
 User-agent: FacebookBot
-Disallow: /
-
-User-agent: OmgiliBot
-Disallow: /
-
-User-agent: Omgili
-Disallow: /
-
-User-agent: img2dataset
 Disallow: /
 
 User-agent: cohere-ai
@@ -55,5 +87,34 @@ Disallow: /
 
 User-agent: PetalBot
 Disallow: /
+
+User-agent: OmgiliBot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: img2dataset
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# ──────────────────────────────────────────────────────────────────────────────
 
 Sitemap: https://tradieinsurance.co.nz/sitemap.xml
