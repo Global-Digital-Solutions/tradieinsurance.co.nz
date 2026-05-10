@@ -41,7 +41,7 @@ export const tradeTypes: TradeType[] = [
     icon: '🏗️',
     heroImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80',
     description:
-      'Builders face some of the highest risk exposures of any trade in New Zealand. From structural defects to on-site injuries, a single claim can threaten your entire business. The right insurance package protects your livelihood, your team, and your clients.',
+      'Builders face some of the highest risk exposures of any trade. From structural defects to on-site injuries, a single claim can threaten your entire business. The right insurance package protects your livelihood, your team, and your clients.',
     keyFacts: [
       'Public liability is mandatory on most NZ building sites',
       'LBP certification may require professional indemnity',
@@ -50,7 +50,7 @@ export const tradeTypes: TradeType[] = [
     ],
     introText: [
       'Builders insurance is a suite of specialist policies designed to protect New Zealand builders from the financial consequences of property damage, personal injury, and legal claims arising from construction work. Whether you are building new homes, completing renovations, or managing a commercial construction project, the exposures are significant — a single incident on site can generate a claim worth tens of thousands of dollars. Public liability insurance for builders averages around $26.83 per month, making it one of the most cost-effective risk management tools available.',
-      'Construction is New Zealand\'s most claim-intensive trade sector. The Building Act 2004 imposes ten-year liability on builders for defective work, meaning claims can arrive years or even decades after a project is complete. Add in the risks of on-site injury, tool theft, statutory compliance, and the ever-present threat of a WorkSafe prosecution, and it becomes clear that a comprehensive insurance package is not a luxury — it is a business necessity for any builder working in New Zealand today.',
+      'Construction is New Zealand\'s most claim-intensive trade sector. The Building Act 2004 imposes ten-year liability on builders for defective work, meaning claims can arrive years or even decades after a project is complete. Add in the risks of on-site injury, tool theft, statutory compliance, and the ever-present threat of a WorkSafe prosecution, and it becomes clear that a comprehensive insurance package is not a luxury — it is a business necessity for any builder working today.',
     ],
     whyNeedIt: [
       'The Building Act 2004 requires Licensed Building Practitioners to disclose their insurance details to clients before signing a contract — without current cover you cannot legally take on LBP work.',
@@ -110,7 +110,7 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'Do builders legally need insurance in NZ?',
+        q: 'Do builders legally need insurance?',
         a: 'Public liability is not legally required for all builders, but most principal contractors and building contracts require it. LBPs must meet professional standards that often necessitate PI cover.',
       },
       {
@@ -133,7 +133,7 @@ export const tradeTypes: TradeType[] = [
       'Plumbers work with water, gas, and drainage systems where a mistake can cause significant property damage or health risks. Water damage in particular can be catastrophic and expensive. Specialist plumber insurance ensures you are protected against the unique risks of the trade.',
     introText: [
       'Plumbers insurance is a tailored package of policies protecting New Zealand plumbers from the financial consequences of water damage claims, gas-related incidents, and the professional liability that comes with licensed trade work. Water escapes are among the most costly property damage claims in the residential insurance market — a single faulty connection can cause tens of thousands of dollars of damage to floors, walls, and contents before it is discovered. With average public liability premiums starting around $30–$50 per month for sole traders, cover is affordable relative to the exposure.',
-      'Licensed plumbers in New Zealand operate under the Plumbers, Gasfitters, and Drainlayers Act 2006, which imposes professional obligations that heighten both the standards and the liability associated with the work. Gasfitting work carries additional risk — errors in gas systems can cause explosions, fires, or carbon monoxide poisoning, with consequences that are both catastrophic and potentially criminal in their severity. A comprehensive insurance package gives you, your team, and your clients the assurance that you are operating professionally and that any claim will be met.',
+      'Licensed plumbers operate under the Plumbers, Gasfitters, and Drainlayers Act 2006, which imposes professional obligations that heighten both the standards and the liability associated with the work. Gasfitting work carries additional risk — errors in gas systems can cause explosions, fires, or carbon monoxide poisoning, with consequences that are both catastrophic and potentially criminal in their severity. A comprehensive insurance package gives you, your team, and your clients the assurance that you are operating professionally and that any claim will be met.',
     ],
     whyNeedIt: [
       'A single burst pipe or failed connection can cause NZ$50,000+ in water damage to a client\'s home — public liability is the only protection between that claim and your personal finances.',
@@ -192,11 +192,11 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'What insurance does a plumber need in NZ?',
+        q: 'What insurance does a plumber need?',
         a: 'At minimum, NZ plumbers should carry public liability insurance. Those doing gasfitting work should also consider professional indemnity. Tools cover and commercial vehicle insurance round out a comprehensive package.',
       },
       {
-        q: 'How much does plumber insurance cost in NZ?',
+        q: 'How much does plumber insurance cost?',
         a: 'A basic public liability policy for a sole-trader plumber typically starts from around NZ$30–$50 per month. A full package with tools and vehicle cover might cost NZ$100–$200 per month depending on turnover and risk profile.',
       },
       {
@@ -245,7 +245,7 @@ export const tradeTypes: TradeType[] = [
       },
       {
         title: 'Working at Heights',
-        desc: 'Falls from scaffolding or ladders can injure workers or damage property below. Height work is one of the leading causes of workplace injuries in NZ.',
+        desc: 'Falls from scaffolding or ladders can injure workers or damage property below. Height work is one of the leading causes of workplace injuries.',
       },
       {
         title: 'Overspray Incidents',
@@ -274,11 +274,11 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'What insurance do painters need in NZ?',
+        q: 'What insurance do painters need?',
         a: 'NZ painters typically need public liability insurance as a minimum. If you employ staff, employer\'s liability and WorkSafe compliance are important. Tools cover for spray equipment and ladders is also recommended.',
       },
       {
-        q: 'Is painter insurance expensive in NZ?',
+        q: 'Is painter insurance expensive?',
         a: 'Painting is generally considered a moderate-risk trade, so insurance is reasonably priced. Public liability for a sole trader painter typically starts from around NZ$30/month.',
       },
       {
@@ -356,7 +356,7 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'What insurance do carpenters need in NZ?',
+        q: 'What insurance do carpenters need?',
         a: 'NZ carpenters should carry public liability as a minimum. Structural carpenters should consider professional indemnity, especially if they are LBPs. Tools cover is important for those with significant tool investment.',
       },
       {
@@ -376,13 +376,13 @@ export const tradeTypes: TradeType[] = [
     icon: '⚡',
     heroImage: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=1920&q=80',
     description:
-      'Electricians work with live power systems where errors can cause fires, electrocution, or serious property damage. The regulatory environment for electrical work in NZ is strict, and the consequences of a mistake can be severe. Specialist electrician insurance gives you the protection you need.',
+      'Electricians work with live power systems where errors can cause fires, electrocution, or serious property damage. The regulatory environment for electrical work is strict, and the consequences of a mistake can be severe. Specialist electrician insurance gives you the protection you need.',
     introText: [
       'Electricians insurance is a specialist package of policies that protects New Zealand electrical contractors from the elevated risks associated with live electrical systems — including fire, electrocution, and the professional liability that comes with certifying electrical installations. Faulty electrical work can cause fires that emerge years after the installation was completed, and the consequences of a large commercial electrical fire can run into millions of dollars. Public liability for electricians typically starts from around NZ$40–$60 per month, reflecting the higher-risk nature of the trade.',
       'New Zealand electricians must be registered under the Electricity Act and are subject to strict certification requirements for all electrical work. This regulatory framework means that professional indemnity insurance is increasingly important — a failed certification, an incorrectly specified circuit, or a faulty design can result in a professional liability claim as well as a public liability claim. Many commercial contracts also require electricians to carry higher limits of up to $5M or $10M public liability. A comprehensive package ensures you are protected at every level.',
     ],
     whyNeedIt: [
-      'Electrical fires are one of the leading causes of commercial property damage in New Zealand — faulty wiring can cause a catastrophic loss years after installation, and the resulting claim can be enormous.',
+      'Electrical fires are one of the leading causes of commercial property damage — faulty wiring can cause a catastrophic loss years after installation, and the resulting claim can be enormous.',
       'Registration under the Electricity Act and certification obligations mean that professional errors carry both public liability and professional indemnity exposure simultaneously.',
       'Commercial building contracts routinely require electricians to hold $2M–$5M public liability before starting work, and some large projects require up to $10M.',
       'Specialist test equipment, cable drums, crimping tools, and thermal imaging cameras represent a major investment — tools cover protects you if they are stolen or damaged on site.',
@@ -438,11 +438,11 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'What insurance do electricians need in NZ?',
+        q: 'What insurance do electricians need?',
         a: 'NZ electricians should carry public liability insurance as a minimum. Those doing design or certification work need professional indemnity. Tools cover and commercial vehicle insurance complete a solid package.',
       },
       {
-        q: 'How much does electrician insurance cost in NZ?',
+        q: 'How much does electrician insurance cost?',
         a: 'Electricians are considered a higher-risk trade due to fire and electrocution hazards. Public liability typically starts from around NZ$40–$60/month. A full package can cost NZ$150–$300/month depending on turnover.',
       },
       {
@@ -461,7 +461,7 @@ export const tradeTypes: TradeType[] = [
       'Bricklayers perform structural and cosmetic work that must meet strict NZ building codes. Structural failures, damage to adjacent property, and on-site injuries are key risks. The right insurance package protects your bricklaying business from day one.',
     introText: [
       'Bricklayers insurance is a specialist package of policies protecting New Zealand bricklayers and blocklayers from the risks of structural and cosmetic masonry work — including structural failure claims, damage to neighbouring properties from vibration or dust, and the physical injury risks that come with heavy materials and manual lifting. Public liability for bricklayers typically starts from around NZ$35–$55 per month, covering the most common risk scenario of damage to third-party property during or after the completion of works.',
-      'Bricklaying on commercial and residential sites in New Zealand is subject to the Building Act 2004 and associated New Zealand Building Code requirements for structural masonry. Commercial bricklaying contracts routinely require contractors to hold $5M or more in public liability cover — higher than many other trades — because structural failures or property boundary damage can have significant consequences for adjacent buildings and their occupants. A comprehensive insurance package ensures you can meet these requirements and keep working on the projects that matter most.',
+      'Bricklaying on commercial and residential sites is subject to the Building Act 2004 and associated New Zealand Building Code requirements for structural masonry. Commercial bricklaying contracts routinely require contractors to hold $5M or more in public liability cover — higher than many other trades — because structural failures or property boundary damage can have significant consequences for adjacent buildings and their occupants. A comprehensive insurance package ensures you can meet these requirements and keep working on the projects that matter most.',
     ],
     whyNeedIt: [
       'Structural brickwork carries long-tail liability under New Zealand building law — a wall or retaining structure that fails years after completion can generate a claim for damages, demolition, and full reconstruction.',
@@ -520,11 +520,11 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'What insurance do bricklayers need in NZ?',
+        q: 'What insurance do bricklayers need?',
         a: 'NZ bricklayers need public liability as a minimum. Structural work may also require professional indemnity. Tools cover for trowels, levels, and specialist equipment is also recommended.',
       },
       {
-        q: 'How much does bricklayer insurance cost in NZ?',
+        q: 'How much does bricklayer insurance cost?',
         a: 'Bricklayer insurance typically starts from around NZ$35–$55/month for basic public liability. A comprehensive package including tools and vehicle cover might cost NZ$120–$220/month.',
       },
       {
@@ -540,13 +540,13 @@ export const tradeTypes: TradeType[] = [
     icon: '🏠',
     heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
     description:
-      'Roofing is consistently one of the highest-risk trades in New Zealand. Working at heights, handling heavy materials, and the consequences of a leaky roof make comprehensive insurance essential. Do not work on a roof without the right cover in place.',
+      'Roofing is consistently one of the highest-risk trades. Working at heights, handling heavy materials, and the consequences of a leaky roof make comprehensive insurance essential. Do not work on a roof without the right cover in place.',
     introText: [
       'Roofers insurance is a specialist package of policies covering New Zealand roofing contractors against the elevated risks of height work, weather-related liability, and the consequential property damage that can flow from a faulty or incomplete roof installation. Roofing has one of the highest rates of workplace injury in the New Zealand construction sector, and the Health and Safety at Work Act 2015 imposes strict obligations on height work management. Public liability for roofers typically starts from NZ$50–$80 per month, reflecting the elevated risk profile of the trade.',
       'A leaky roof can cause catastrophic consequential damage — water ingress that penetrates ceiling linings, insulation, wall framing, electrical fittings, and floor coverings can result in claims that dwarf the original contract value. New Zealand\'s climate, with its extreme weather events from Northland to Southland, means that partially completed roofing work carries particular exposure when storms arrive unexpectedly. Roofers who hold a current insurance package, including public liability and statutory liability, are also better positioned when it comes to WorkSafe NZ compliance and principal contractor requirements.',
     ],
     whyNeedIt: [
-      'Roofing consistently records the highest rates of serious fall injuries in New Zealand construction — statutory liability cover is critical if WorkSafe NZ investigates and prosecutes following an incident.',
+      'Roofing consistently records the highest rates of serious fall injuries construction — statutory liability cover is critical if WorkSafe NZ investigates and prosecutes following an incident.',
       'A faulty roof installation that allows water ingress can cause hundreds of thousands of dollars of consequential damage to ceiling linings, framing, insulation, electrical systems, and contents.',
       'Weather events can strike during partially completed roof work — a property left open to the elements overnight can result in significant claims from homeowners or principal contractors.',
       'Commercial roofing contracts typically require $2M+ public liability as a condition of starting work, and some commercial projects specify higher limits of $5M or more.',
@@ -602,11 +602,11 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'What insurance do roofers need in NZ?',
+        q: 'What insurance do roofers need?',
         a: 'Roofers should carry public liability and statutory liability as a minimum. Given the height work risks, income protection is also strongly recommended. Tools and commercial vehicle cover round out a comprehensive package.',
       },
       {
-        q: 'Is roofing insurance expensive in NZ?',
+        q: 'Is roofing insurance expensive?',
         a: 'Roofing is a high-risk trade, so premiums are higher than some other trades. Public liability for a sole trader roofer typically starts from around NZ$50–$80/month.',
       },
       {
@@ -624,7 +624,7 @@ export const tradeTypes: TradeType[] = [
     description:
       'Concreters pour and finish foundations, driveways, and structural slabs that must last for decades. Defects can be extremely expensive to remediate and concrete work often underpins other construction. Specialist concreter insurance covers the unique risks of your trade.',
     introText: [
-      'Concreters insurance is a specialist package of policies protecting New Zealand concreters and concrete contractors from the financial consequences of structural defect claims, third-party property damage during pours, and the equipment liability associated with heavy concrete pumping and formwork. Concrete is the most common building material in New Zealand construction, and defective concrete work — whether in foundations, structural slabs, or retaining walls — can be extraordinarily expensive to remediate. Public liability for concreters typically starts from NZ$40–$60 per month.',
+      'Concreters insurance is a specialist package of policies protecting New Zealand concreters and concrete contractors from the financial consequences of structural defect claims, third-party property damage during pours, and the equipment liability associated with heavy concrete pumping and formwork. Concrete is the most common building material construction, and defective concrete work — whether in foundations, structural slabs, or retaining walls — can be extraordinarily expensive to remediate. Public liability for concreters typically starts from NZ$40–$60 per month.',
       'Foundation and structural slab defects are particularly costly because they underpin everything built above them. A cracked or subsiding foundation can require full excavation, demolition, and reconstruction of the structure it supports. Concrete pumping and formwork operations carry additional risks — a formwork collapse during a pour can injure workers and cause significant structural damage. Commercial concreting contracts frequently require substantial liability cover, and some principal contractors require concreters to carry $5M or more in public liability before starting work.',
     ],
     whyNeedIt: [
@@ -655,7 +655,7 @@ export const tradeTypes: TradeType[] = [
       },
       {
         title: 'Formwork Collapse',
-        desc: 'Formwork failure during a pour can cause serious injury and major property damage. This is a well-documented risk in NZ construction.',
+        desc: 'Formwork failure during a pour can cause serious injury and major property damage. This is a well-documented risk construction.',
       },
       {
         title: 'Surface Damage',
@@ -684,11 +684,11 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'What insurance do concreters need in NZ?',
+        q: 'What insurance do concreters need?',
         a: 'NZ concreters need public liability as a minimum, with higher limits for commercial and structural work. Tools and equipment cover for pumps and vibrators is important. Statutory liability is recommended given WorkSafe exposure.',
       },
       {
-        q: 'How much does concreter insurance cost in NZ?',
+        q: 'How much does concreter insurance cost?',
         a: 'Concreter insurance typically starts from around NZ$40–$60/month for public liability. A full package with equipment and vehicle cover might cost NZ$150–$250/month.',
       },
       {
@@ -707,11 +707,11 @@ export const tradeTypes: TradeType[] = [
       'Handymen tackle a wide variety of repair and maintenance tasks across residential and commercial properties. While individual jobs may seem small, the cumulative liability exposure from working in clients\' homes is significant. Handyman insurance gives you and your clients peace of mind.',
     introText: [
       'Handyman insurance is a straightforward package of policies that protects New Zealand handymen and general maintenance contractors from the liability risks that come with working in clients\' homes and commercial premises. Although individual handyman jobs are often low-value, the cumulative exposure from working in hundreds of occupied properties each year is significant — damage to flooring, fixtures, appliances, and contents can quickly add up to costly claims. Public liability for handymen is among the most affordable in the trades sector, typically starting from NZ$25–$40 per month for sole traders.',
-      'Property managers and landlords across New Zealand increasingly require their maintenance contractors to hold current public liability cover before being added to their approved contractor panels. This means that handymen without insurance are effectively excluded from a large and stable source of residential work. Beyond compliance, the practical risks of working in occupied homes — where a drill can hit a pipe, a ladder can scratch a wall, or a tool left on a step can cause injury — mean that cover is simply good business sense for anyone running a professional handyman operation.',
+      'Property managers and landlords across the country increasingly require their maintenance contractors to hold current public liability cover before being added to their approved contractor panels. This means that handymen without insurance are effectively excluded from a large and stable source of residential work. Beyond compliance, the practical risks of working in occupied homes — where a drill can hit a pipe, a ladder can scratch a wall, or a tool left on a step can cause injury — mean that cover is simply good business sense for anyone running a professional handyman operation.',
     ],
     whyNeedIt: [
       'Working across a diverse range of jobs in clients\' homes means your liability exposure is broad — from a drill bit hitting a concealed water pipe to a ladder scratching expensive joinery, claims happen regularly.',
-      'Property managers and landlords in New Zealand increasingly require proof of current public liability cover before adding handymen to their approved contractor panels.',
+      'Property managers and landlords increasingly require proof of current public liability cover before adding handymen to their approved contractor panels.',
       'Tool theft from vehicles is one of the most common insurance claims in the trades sector — a stolen drill, impact wrench set, or multi-tool kit can cost NZ$2,000–$5,000 to replace.',
       'ACC covers workplace accidents, but not illness — income protection ensures you can still meet your financial obligations if illness keeps you off the tools for weeks or months.',
     ],
@@ -766,11 +766,11 @@ export const tradeTypes: TradeType[] = [
     ],
     faqs: [
       {
-        q: 'Does a handyman need insurance in NZ?',
+        q: 'Does a handyman need insurance?',
         a: 'While not always legally required, public liability is strongly recommended for any handyman working in client homes. Many property managers and landlords require it. It is also simply good business practice.',
       },
       {
-        q: 'How much does handyman insurance cost in NZ?',
+        q: 'How much does handyman insurance cost?',
         a: 'Handyman insurance is generally affordable given the moderate risk profile. Public liability typically starts from around NZ$25–$40/month for sole traders with modest turnover.',
       },
       {

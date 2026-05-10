@@ -19,7 +19,7 @@ export default function ThankYouPage() {
         </div>
         <h1 className="text-3xl font-extrabold text-white mb-4">Quote Request Received!</h1>
         <p className="text-gray-300 text-lg mb-4">
-          Thank you for your enquiry. A specialist NZ tradie insurance broker will contact you within 24 hours to discuss your requirements and provide comparative quotes.
+          Thank you for your enquiry. A specialist tradie insurance broker will contact you within 24 hours to discuss your requirements and provide comparative quotes.
         </p>
         <p className="text-gray-400 mb-8">
           If you have any questions in the meantime, email us at{' '}

@@ -46,7 +46,7 @@ const coverNotCovered: Record<string, string[]> = {
 
 const coverWhatsCovered: Record<string, string[]> = {
   'public-liability': ['Third-party bodily injury claims', 'Third-party property damage', 'Underground services damage'],
-  'tools-equipment': ['Theft from locked vehicle or site', 'Accidental damage anywhere in New Zealand', 'Hired-in equipment (optional extension)'],
+  'tools-equipment': ['Theft from locked vehicle or site', 'Accidental damage anywhere', 'Hired-in equipment (optional extension)'],
   'statutory-liability': ['Legal defence costs for unintentional regulatory breaches', 'Fines where legally insurable', 'WorkSafe NZ investigation costs'],
   'professional-indemnity': ['Claims arising from professional advice or design errors', 'Legal defence costs', 'Rectification costs for professional errors'],
   'commercial-vehicle': ['Collision damage (comprehensive options available)', 'Third-party vehicle and property damage', 'Tools in vehicle (combined policy)'],
@@ -201,7 +201,7 @@ export default async function TradeTypePage({ params }: Props) {
           <div className="bg-gray-900 rounded-2xl p-6 mb-16 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-white font-extrabold text-lg mb-1">Ready to get covered?</p>
-              <p className="text-gray-400 text-sm">Compare quotes from top NZ insurers — free, no obligation.</p>
+              <p className="text-gray-400 text-sm">Compare quotes from top insurers — free, no obligation.</p>
             </div>
             <a href="#get-quote" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-lg shadow-orange-500/30 flex-shrink-0">
               Get Free Quote →
@@ -394,7 +394,7 @@ export default async function TradeTypePage({ params }: Props) {
           <div className="mb-16 bg-gray-900 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-white font-extrabold mb-1">Get an accurate quote for your business</p>
-              <p className="text-gray-400 text-sm">Our brokers compare multiple NZ insurers to find the best rate for your trade and turnover.</p>
+              <p className="text-gray-400 text-sm">Our brokers compare multiple insurers to find the best rate for your trade and turnover.</p>
             </div>
             <a href="#get-quote" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3 rounded-xl transition-colors text-sm flex-shrink-0 shadow-lg shadow-orange-500/20">
               Compare Quotes Free →
@@ -491,7 +491,7 @@ export default async function TradeTypePage({ params }: Props) {
                 Get the Right {trade.name} Insurance — Without Overpaying
               </h2>
               <p className="text-gray-300 leading-relaxed mb-8">
-                Our free broker matching service connects you with a specialist who knows {trade.name.toLowerCase()} risks inside out. They compare multiple NZ insurers and find cover that fits your contracts, your business size, and your budget.
+                Our free broker matching service connects you with a specialist who knows {trade.name.toLowerCase()} risks inside out. They compare multiple insurers and find cover that fits your contracts, your business size, and your budget.
               </p>
 
               {/* Why us list */}

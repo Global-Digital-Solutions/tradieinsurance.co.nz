@@ -13,8 +13,8 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: 'tradie-insurance-guide-nz',
-    title: 'The Complete Guide to Tradie Insurance in New Zealand (2026)',
-    excerpt: 'Everything NZ tradies need to know about insurance — from public liability to income protection — in plain English.',
+    title: 'The Complete Guide to Tradie Insurance (2026)',
+    excerpt: 'Everything tradies need to know about insurance — from public liability to income protection — in plain English.',
     category: 'Guide',
     readTime: '8 min read',
     date: '2026-05-01',
@@ -52,7 +52,7 @@ ACC covers workplace injuries but not illness or non-work injuries. For a self-e
 
 The Health and Safety at Work Act 2015 imposes significant obligations on NZ businesses. If you or one of your workers breaches health and safety legislation — even unintentionally — WorkSafe NZ can prosecute. Statutory liability insurance covers legal defence costs and fines where they are insurable.
 
-## How Much Does Tradie Insurance Cost in NZ?
+## How Much Does Tradie Insurance Cost?
 
 Costs vary based on trade type, turnover, number of staff, and the level of cover you choose. As a rough guide:
 
@@ -72,7 +72,7 @@ Buying tradie insurance through a specialist broker gives you access to policies
 
 ## Next Steps
 
-Use our free quote service to connect with a specialist NZ tradie insurance broker. Tell us your trade, your business size, and what cover you need — and we will match you with a licensed broker who can find you the best deal.`,
+Use our free quote service to connect with a specialist tradie insurance broker. Tell us your trade, your business size, and what cover you need — and we will match you with a licensed broker who can find you the best deal.`,
   },
   {
     slug: 'builder-insurance-checklist-nz',
@@ -85,7 +85,7 @@ Use our free quote service to connect with a specialist NZ tradie insurance brok
     image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
     content: `## The Builder Insurance Checklist
 
-Building is one of the most exposed trades in New Zealand from an insurance perspective. Long-tail liability for structural defects, on-site injury risks, employee obligations, and the complexity of building contracts all create insurance requirements that go well beyond a basic public liability policy.
+Building is one of the most exposed trades from an insurance perspective. Long-tail liability for structural defects, on-site injury risks, employee obligations, and the complexity of building contracts all create insurance requirements that go well beyond a basic public liability policy.
 
 Use this checklist to audit your current cover and identify any gaps before your next renewal.
 
@@ -153,12 +153,12 @@ If you employ staff, you need to consider employer liability insurance. This cov
 
 If you have identified any gaps in this checklist, the next step is a review with a specialist broker. A broker can assess your contracts, your risk profile, and your current policies to identify gaps and recommend cost-effective solutions.
 
-Use our free quote service to connect with a licensed NZ builder insurance specialist today.`,
+Use our free quote service to connect with a licensed builder insurance specialist today.`,
   },
   {
     slug: 'public-liability-tradies-explained',
     title: 'Public Liability Insurance for Tradies: What You Need to Know',
-    excerpt: 'A plain-English explainer on public liability insurance for NZ tradies — what it covers, what it costs, and why you need it.',
+    excerpt: 'A plain-English explainer on public liability insurance for tradies — what it covers, what it costs, and why you need it.',
     category: 'Explainer',
     readTime: '5 min read',
     date: '2026-04-22',
@@ -168,11 +168,11 @@ Use our free quote service to connect with a licensed NZ builder insurance speci
 
 Public liability insurance covers you if a third party — a client, a passer-by, or someone else — suffers injury or property damage because of your work. It pays for legal defence costs and any compensation you are ordered to pay.
 
-For NZ tradies, public liability (often called "PL") is the single most important insurance policy you can hold. Without it, a single accident or claim could cost you everything.
+For tradies, public liability (often called "PL") is the single most important insurance policy you can hold. Without it, a single accident or claim could cost you everything.
 
 ## What Does Public Liability Cover?
 
-A standard public liability policy for NZ tradies covers:
+A standard public liability policy for tradies covers:
 
 - **Third-party bodily injury:** A client slips on your wet floor, or a passer-by is struck by falling materials from your site
 - **Third-party property damage:** You accidentally break a client's window, damage their flooring, or spill paint on their car
@@ -232,12 +232,12 @@ The fastest and most effective way to get the right PL cover at a competitive pr
 - Tailor the policy to your trade type and contracts
 - Ensure there are no coverage gaps that could leave you exposed
 
-Use our free quote service to connect with a licensed NZ tradie insurance broker and get public liability cover in place quickly.`,
+Use our free quote service to connect with a licensed tradie insurance broker and get public liability cover in place quickly.`,
   },
   {
     slug: 'tool-insurance-nz-guide',
     title: 'Tradie Tool Insurance NZ: How to Protect Your Equipment in 2026',
-    excerpt: 'Your tools are your livelihood. Here is everything you need to know about insuring your tools and equipment as an NZ tradie.',
+    excerpt: 'Your tools are your livelihood. Here is everything you need to know about insuring your tools and equipment as an tradie.',
     category: 'Guide',
     readTime: '5 min read',
     date: '2026-04-18',
@@ -247,7 +247,7 @@ Use our free quote service to connect with a licensed NZ tradie insurance broker
 
 Your tools are not just equipment — they are the foundation of your income. A stolen or damaged toolbox can mean days or weeks of lost work while you replace what you need. Without insurance, that loss comes straight out of your pocket.
 
-Tool theft from utes and vans is a persistent problem across New Zealand. A single theft can involve thousands — sometimes tens of thousands — of dollars of tools. Insurance means you can replace them quickly and get back to work.
+Tool theft from utes and vans is a persistent problem across the country. A single theft can involve thousands — sometimes tens of thousands — of dollars of tools. Insurance means you can replace them quickly and get back to work.
 
 ## What Does Tool Insurance Cover?
 
@@ -304,7 +304,7 @@ If you store tools in your vehicle, check the security requirements in your poli
 
 Failing to meet security conditions at the time of theft can result in a claim being declined.
 
-## How Much Does Tool Insurance Cost in NZ?
+## How Much Does Tool Insurance Cost?
 
 Tool insurance premiums depend on the total value of your tools and your trade type. Rough benchmarks:
 
@@ -329,7 +329,7 @@ Talk to a specialist tradie insurance broker about your tool and equipment needs
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
     content: `## The Business Use Gap in Standard Vehicle Insurance
 
-Many NZ tradies make the mistake of assuming their standard personal vehicle insurance covers their work ute or van. In most cases, it does not. Standard personal vehicle policies typically exclude "business use" — meaning if you have an accident driving to, from, or between job sites, your claim could be declined.
+Many tradies make the mistake of assuming their standard personal vehicle insurance covers their work ute or van. In most cases, it does not. Standard personal vehicle policies typically exclude "business use" — meaning if you have an accident driving to, from, or between job sites, your claim could be declined.
 
 Commercial vehicle insurance is designed specifically for vehicles used for business purposes, and it is an essential part of any tradie's insurance package.
 
@@ -370,7 +370,7 @@ If you operate more than two or three vehicles, a fleet policy can be more cost-
 
 ## Commercial Ute Insurance: Key Considerations
 
-For the standard NZ tradie ute, watch for:
+For the standard tradie ute, watch for:
 
 **Agreed value vs market value:** Agreed value means you receive a set, agreed amount if the vehicle is written off — regardless of depreciation. Market value means you receive what it was worth at the time of loss.
 
@@ -378,7 +378,7 @@ For the standard NZ tradie ute, watch for:
 
 **Named or any driver:** Named driver policies are cheaper but restrict who can drive the vehicle. Consider any driver cover if you have employees or family members who may need to use the vehicle.
 
-## How Much Does Commercial Vehicle Insurance Cost in NZ?
+## How Much Does Commercial Vehicle Insurance Cost?
 
 Commercial vehicle insurance costs depend on the vehicle value, its use, and your claims history. Rough benchmarks:
 
@@ -459,7 +459,7 @@ Electrical work is physically demanding and the risk of hand, arm, or back injur
 
 WorkSafe NZ takes health and safety in electrical work seriously. Statutory liability covers legal defence costs if you are prosecuted for an unintentional breach of health and safety legislation.
 
-## How Much Does Electrician Insurance Cost in NZ?
+## How Much Does Electrician Insurance Cost?
 
 Electricians are rated as a higher-risk trade due to fire and electrocution hazards. Rough benchmarks:
 
@@ -471,12 +471,12 @@ Electricians are rated as a higher-risk trade due to fire and electrocution haza
 
 Electrician insurance is complex enough that using a specialist broker is strongly recommended. A broker familiar with the trade can ensure your cover addresses the specific risks of electrical work, complies with your licensing requirements, and meets any contractual obligations.
 
-Use our free quote service to connect with a licensed NZ electrician insurance specialist today.`,
+Use our free quote service to connect with a licensed electrician insurance specialist today.`,
   },
   {
     slug: 'income-protection-self-employed-nz',
     title: 'Why Self-Employed Tradies Need Income Protection (ACC Isn\'t Enough)',
-    excerpt: 'ACC covers work injuries but not illness. For self-employed NZ tradies, income protection insurance fills the critical gap that could leave you financially exposed.',
+    excerpt: 'ACC covers work injuries but not illness. For self-employed tradies, income protection insurance fills the critical gap that could leave you financially exposed.',
     category: 'Guide',
     readTime: '6 min read',
     date: '2026-04-05',
@@ -484,7 +484,7 @@ Use our free quote service to connect with a licensed NZ electrician insurance s
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80',
     content: `## The ACC Misconception
 
-Many NZ tradies believe that ACC (Accident Compensation Corporation) provides comprehensive income protection if they cannot work. It does not. ACC covers injuries that occur as a result of an accident — whether at work, at home, or elsewhere. But it does not cover:
+Many tradies believe that ACC (Accident Compensation Corporation) provides comprehensive income protection if they cannot work. It does not. ACC covers injuries that occur as a result of an accident — whether at work, at home, or elsewhere. But it does not cover:
 
 - **Illness:** Cancer, heart disease, back problems caused by wear-and-tear, mental health conditions, and any other non-accident health issue
 - **Elective conditions:** Including some musculoskeletal conditions not directly caused by a specific accident
@@ -547,7 +547,7 @@ Use our free quote service to connect with a specialist broker who can assess yo
   {
     slug: 'worksafe-nz-tradies-compliance',
     title: 'WorkSafe NZ: What Tradies Need to Know About Health & Safety',
-    excerpt: 'The Health and Safety at Work Act 2015 places real obligations on NZ tradies. Here is what you need to know to stay compliant and how insurance protects you.',
+    excerpt: 'The Health and Safety at Work Act 2015 places real obligations on tradies. Here is what you need to know to stay compliant and how insurance protects you.',
     category: 'Compliance',
     readTime: '7 min read',
     date: '2026-03-28',
@@ -555,9 +555,9 @@ Use our free quote service to connect with a specialist broker who can assess yo
     image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80',
     content: `## The Health and Safety at Work Act 2015
 
-The Health and Safety at Work Act 2015 (HSWA) is the primary legislation governing workplace health and safety in New Zealand. It replaced the Health and Safety in Employment Act 1992 and significantly increased the obligations on businesses and individuals to manage health and safety risks proactively.
+The Health and Safety at Work Act 2015 (HSWA) is the primary legislation governing workplace health and safety. It replaced the Health and Safety in Employment Act 1992 and significantly increased the obligations on businesses and individuals to manage health and safety risks proactively.
 
-For NZ tradies — particularly those who employ staff or work on shared construction sites — understanding HSWA is not optional. The penalties for non-compliance are substantial, and WorkSafe NZ (the regulator) actively prosecutes businesses that fall short.
+For tradies — particularly those who employ staff or work on shared construction sites — understanding HSWA is not optional. The penalties for non-compliance are substantial, and WorkSafe NZ (the regulator) actively prosecutes businesses that fall short.
 
 ## Who Has Obligations Under HSWA?
 
@@ -622,7 +622,7 @@ WorkSafe has significant powers to investigate and prosecute. Following a workpl
 
 ### Penalties Under HSWA
 
-HSWA carries some of the most serious workplace penalties in NZ:
+HSWA carries some of the most serious workplace penalties:
 
 | Category | Maximum Fine (Individual) | Maximum Fine (Organisation) |
 |----------|--------------------------|----------------------------|
@@ -638,7 +638,7 @@ Statutory liability insurance covers you for the legal defence costs and fines (
 - Criminal liability
 - ACC levies
 
-Even if the ultimate penalty is a fine that is not insurable (criminal fines cannot be insured in NZ), the legal defence costs alone can be substantial. Statutory liability insurance pays for your defence — which is critically important in a complex WorkSafe prosecution.
+Even if the ultimate penalty is a fine that is not insurable (criminal fines cannot be insured), the legal defence costs alone can be substantial. Statutory liability insurance pays for your defence — which is critically important in a complex WorkSafe prosecution.
 
 ## Practical Steps for Tradie Compliance
 
@@ -650,22 +650,22 @@ Even if the ultimate penalty is a fine that is not insurable (criminal fines can
 
 ## Getting the Right Insurance
 
-Statutory liability insurance is a prudent addition to any NZ tradie's insurance package, especially for those with employees or in high-risk trades. It should sit alongside public liability, not instead of it.
+Statutory liability insurance is a prudent addition to any tradie's insurance package, especially for those with employees or in high-risk trades. It should sit alongside public liability, not instead of it.
 
 Use our free quote service to connect with a specialist broker who can ensure your insurance package addresses all your liability exposures.`,
   },
   {
     slug: 'compare-tradie-insurance-providers-nz',
     title: 'Comparing NZ Tradie Insurance Providers: AMI vs State vs BizCover',
-    excerpt: 'A practical comparison of the main NZ tradie insurance providers — what they offer, their strengths, and how to choose the right one for your trade.',
+    excerpt: 'A practical comparison of the main tradie insurance providers — what they offer, their strengths, and how to choose the right one for your trade.',
     category: 'Comparison',
     readTime: '7 min read',
     date: '2026-03-20',
     author: 'TradieInsurance Editorial',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-    content: `## Who Provides Tradie Insurance in New Zealand?
+    content: `## Who Provides Tradie Insurance?
 
-The NZ tradie insurance market includes a mix of large general insurers, specialist trade insurers, and online comparison platforms. Each has different strengths, pricing approaches, and coverage terms. Understanding the landscape helps you make a better-informed decision.
+The tradie insurance market includes a mix of large general insurers, specialist trade insurers, and online comparison platforms. Each has different strengths, pricing approaches, and coverage terms. Understanding the landscape helps you make a better-informed decision.
 
 ## The Main Players
 
@@ -777,7 +777,7 @@ Rather than picking a provider first, consider these steps:
 
 The best tradie insurance provider is the one that offers the right cover for your specific trade, at a competitive price, with strong claims service. A specialist broker is your best ally in finding that combination — they know the market, understand your trade's risks, and can negotiate terms on your behalf.
 
-Use our free quote service to connect with a licensed NZ tradie insurance broker and get comparative quotes from multiple providers.`,
+Use our free quote service to connect with a licensed tradie insurance broker and get comparative quotes from multiple providers.`,
   },
 ]
 

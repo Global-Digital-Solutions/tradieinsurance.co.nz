@@ -17,7 +17,7 @@ export const coverageTypes: CoverageType[] = [
     fromPrice: 'NZ$30/month',
     heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
     description:
-      'Public liability insurance protects NZ tradies if a client or third party suffers injury or property damage because of your work. It covers legal costs and compensation payments if you are sued. Virtually every tradie working on client sites or public spaces needs this cover.',
+      'Public liability insurance protects tradies if a client or third party suffers injury or property damage because of your work. It covers legal costs and compensation payments if you are sued. Virtually every tradie working on client sites or public spaces needs this cover.',
     keyFacts: [
       'Covers third-party injury and property damage claims',
       'Available from NZ$30/month for sole traders',
@@ -38,7 +38,7 @@ export const coverageTypes: CoverageType[] = [
     fromPrice: 'NZ$25/month',
     heroImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80',
     description:
-      'Tools and equipment insurance covers your trade tools against theft, accidental damage, and loss anywhere in New Zealand. Without it, replacing a stolen toolbox or broken power tools comes straight out of your pocket. Cover can extend to hired-in equipment and gear kept on-site or in your vehicle.',
+      'Tools and equipment insurance covers your trade tools against theft, accidental damage, and loss anywhere. Without it, replacing a stolen toolbox or broken power tools comes straight out of your pocket. Cover can extend to hired-in equipment and gear kept on-site or in your vehicle.',
     keyFacts: [
       'Covers theft, accidental damage, and mysterious disappearance',
       'Includes tools kept in vehicles or on job sites',
@@ -168,7 +168,7 @@ export const coverageTypes: CoverageType[] = [
     keyFacts: [
       'Covers the structure of commercial premises you own',
       'Includes fire, storm, flood, and natural disaster events',
-      'Earthquake cover is critical in NZ given seismic activity',
+      'Earthquake cover is critical given seismic activity',
       'Can cover landlord liability if you lease out part of the building',
     ],
     whoNeeds: [

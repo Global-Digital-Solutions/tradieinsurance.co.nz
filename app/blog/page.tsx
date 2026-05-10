@@ -24,7 +24,7 @@ export default function BlogPage() {
           </span>
           <h1 className="text-4xl font-extrabold text-white mb-4">Tradie Insurance Blog</h1>
           <p className="text-gray-300 text-xl max-w-2xl leading-relaxed">
-            Expert guides, checklists, and industry news to help NZ tradies make informed insurance decisions.
+            Expert guides, checklists, and industry news to help tradies make informed insurance decisions.
           </p>
         </div>
       </div>

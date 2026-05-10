@@ -80,7 +80,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
             Free Quote
           </span>
           <h2 className="text-2xl font-extrabold text-white mb-2">Get Your Tradie Insurance Quote</h2>
-          <p className="text-gray-400 text-sm">Connect with a licensed NZ broker in minutes — no obligation.</p>
+          <p className="text-gray-400 text-sm">Connect with a licensed broker in minutes — no obligation.</p>
         </div>
       )}
       {compact && (

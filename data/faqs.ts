@@ -6,13 +6,13 @@ export interface Faq {
 
 export const faqs: Faq[] = [
   {
-    q: 'How much does tradie insurance cost in New Zealand?',
-    a: 'The cost of tradie insurance in NZ varies by trade, cover type, turnover, and number of employees. Public liability for a sole trader typically starts from NZ$30/month. A comprehensive package including public liability, tools, commercial vehicle, and income protection might cost NZ$150–$350/month. Use our free quote service to get an accurate figure for your specific situation.',
+    q: 'How much does tradie insurance cost?',
+    a: 'The cost of tradie insurance varies by trade, cover type, turnover, and number of employees. Public liability for a sole trader typically starts from NZ$30/month. A comprehensive package including public liability, tools, commercial vehicle, and income protection might cost NZ$150–$350/month. Use our free quote service to get an accurate figure for your specific situation.',
     category: 'Cost',
   },
   {
-    q: 'Is tradie insurance legally required in NZ?',
-    a: 'Public liability insurance is not universally mandated by law for all NZ tradies. However, most principal contractors and building contracts require subcontractors to hold public liability before starting work. Some licensed trades have additional requirements. Even where not mandatory, working without cover exposes you to potentially unlimited personal liability.',
+    q: 'Is tradie insurance legally required?',
+    a: 'Public liability insurance is not universally mandated by law for all tradies. However, most principal contractors and building contracts require subcontractors to hold public liability before starting work. Some licensed trades have additional requirements. Even where not mandatory, working without cover exposes you to potentially unlimited personal liability.',
     category: 'Requirements',
   },
   {
@@ -36,7 +36,7 @@ export const faqs: Faq[] = [
     category: 'Vehicles',
   },
   {
-    q: 'What level of public liability do I need as a NZ tradie?',
+    q: 'What level of public liability do I need as a tradie?',
     a: 'The right level of cover depends on your trade and client requirements. Residential trades typically need NZ$1M–$2M. Commercial building work typically requires NZ$5M–$10M. Infrastructure and large commercial projects may require NZ$20M or more. Always check your building contracts and any principal contractor requirements — and when in doubt, choose a higher limit.',
     category: 'Cover Levels',
   },
@@ -76,8 +76,8 @@ export const faqs: Faq[] = [
     category: 'Getting Cover',
   },
   {
-    q: 'What is the best way to compare tradie insurance in NZ?',
-    a: 'The most effective way to compare tradie insurance is through a specialist broker who can access multiple insurers on your behalf. A broker understands the nuances of trade-specific cover, can identify gaps in standard policies, and can negotiate terms. Online comparison platforms like BizCover offer a fast alternative for simpler risk profiles. Our free quote service connects you with licensed NZ brokers who specialise in trade insurance.',
+    q: 'What is the best way to compare tradie insurance?',
+    a: 'The most effective way to compare tradie insurance is through a specialist broker who can access multiple insurers on your behalf. A broker understands the nuances of trade-specific cover, can identify gaps in standard policies, and can negotiate terms. Online comparison platforms like BizCover offer a fast alternative for simpler risk profiles. Our free quote service connects you with licensed brokers who specialise in trade insurance.',
     category: 'Comparison',
   },
 ]

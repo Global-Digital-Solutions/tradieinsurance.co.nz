@@ -84,9 +84,8 @@ export default function Header() {
             </div>
 
             <Link href="/compare/" className="text-gray-300 hover:text-white text-sm font-medium">Compare</Link>
-            <Link href="/blog/" className="text-gray-300 hover:text-white text-sm font-medium">Blog</Link>
+            <Link href="/blog/" className="text-gray-300 hover:text-white text-sm font-medium">Resources</Link>
             <Link href="/faqs/" className="text-gray-300 hover:text-white text-sm font-medium">FAQs</Link>
-            <Link href="/about/" className="text-gray-300 hover:text-white text-sm font-medium">About</Link>
           </nav>
 
           {/* CTA + Hamburger */}
@@ -149,9 +148,8 @@ export default function Header() {
           <div className="border-t border-gray-700 pt-2 space-y-1">
             {[
               { href: '/compare/', label: 'Compare Providers' },
-              { href: '/blog/', label: 'Blog' },
+              { href: '/blog/', label: 'Resources' },
               { href: '/faqs/', label: 'FAQs' },
-              { href: '/about/', label: 'About' },
               { href: '/contact/', label: 'Contact' },
             ].map((l) => (
               <Link

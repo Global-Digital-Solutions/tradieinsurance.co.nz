@@ -84,9 +84,9 @@ export default function ContactPage() {
             <span className="mx-2 text-white/50">›</span>
             <span className="text-white font-medium">Get a Free Quote</span>
           </nav>
-          <div className="flex flex-col lg:flex-row gap-12 items-start">
+          <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
             {/* Left — value proposition */}
-            <div className="flex-1 max-w-xl">
+            <div className="flex-1 lg:max-w-lg">
               <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
                 Free Broker Matching
               </span>
@@ -94,7 +94,7 @@ export default function ContactPage() {
                 Stop Overpaying for <span className="text-orange-500">Tradie Insurance</span>
               </h1>
               <p className="text-white text-xl leading-relaxed mb-8 drop-shadow">
-                Our free service matches you with a specialist NZ broker who finds the right cover for your trade — without the hours of research, comparison, and guesswork.
+                Our free service matches you with a specialist broker who finds the right cover for your trade — without the hours of research, comparison, and guesswork.
               </p>
 
               {/* Key benefits list */}
@@ -125,7 +125,7 @@ export default function ContactPage() {
             </div>
 
             {/* Right — form */}
-            <div className="w-full lg:w-auto lg:min-w-[380px] lg:max-w-sm">
+            <div className="w-full lg:w-[420px] lg:flex-shrink-0">
               <QuoteForm />
             </div>
           </div>
@@ -203,14 +203,14 @@ export default function ContactPage() {
               <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Expert Matching</span>
               <h2 className="text-3xl font-extrabold text-gray-900 mb-5">Your Broker Works For <em>You</em> — Not the Insurer</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Unlike going direct to an insurer, a broker's job is to find the best outcome for you. They compare policies from multiple NZ insurers, explain the differences in plain English, and recommend the cover that actually matches your trade's risk profile.
+                Unlike going direct to an insurer, a broker's job is to find the best outcome for you. They compare policies from multiple insurers, explain the differences in plain English, and recommend the cover that actually matches your trade's risk profile.
               </p>
               <p className="text-gray-600 leading-relaxed mb-8">
                 Many tradies overpay by buying cover they don't need — or worse, they underpay and find out too late that their policy had a gap. A specialist broker makes sure neither happens.
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: 'Providers compared', value: '6+ major NZ insurers' },
+                  { label: 'Providers compared', value: '6+ major insurers' },
                   { label: 'Trade types covered', value: 'All NZ trades' },
                   { label: 'Average response', value: 'Within 24 hours' },
                   { label: 'Cost to you', value: '$0 — completely free' },
@@ -309,7 +309,7 @@ export default function ContactPage() {
               </div>
             </div>
             {/* Right — form */}
-            <div className="w-full lg:w-auto lg:min-w-[380px] lg:max-w-sm">
+            <div className="w-full lg:w-[420px] lg:flex-shrink-0">
               <QuoteForm />
             </div>
           </div>
@@ -339,7 +339,7 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold text-white mb-3">Ready to Get the Right Cover?</h2>
           <p className="text-orange-100 text-lg mb-8">
-            Join thousands of NZ tradies who found better cover at a better price — in minutes.
+            Join thousands of tradies who found better cover at a better price — in minutes.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="#quote-form" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors shadow-md">

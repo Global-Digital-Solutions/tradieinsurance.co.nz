@@ -15,10 +15,10 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Cheap Tradie Insurance NZ | Affordable Cover from NZ$30/month',
     metaDesc: 'Find affordable tradie insurance in NZ. Public liability from NZ$30/month. Compare quotes from licensed brokers and get the best price for your trade.',
     hero: 'Affordable Tradie Insurance from NZ$30/Month',
-    intro: 'Finding cheap tradie insurance in New Zealand does not mean cutting corners on cover. It means working with a specialist broker who can find the most competitive policy for your trade, turnover, and risk profile — so you pay only for what you actually need.',
+    intro: 'Finding cheap tradie insurance does not mean cutting corners on cover. It means working with a specialist broker who can find the most competitive policy for your trade, turnover, and risk profile — so you pay only for what you actually need.',
     sections: [
       {
-        heading: 'What Does Cheap Tradie Insurance Cost in NZ?',
+        heading: 'What Does Cheap Tradie Insurance Cost?',
         body: 'The cost of tradie insurance depends on your trade type, annual turnover, number of employees, and the cover types you need. As a sole trader doing residential work, public liability can start from as little as NZ$30–$40/month. A full package including tools, commercial vehicle, and income protection might cost NZ$100–$200/month for a small operation.\n\nThe key to getting affordable cover is not to under-insure — it is to find the right policy from the right insurer for your specific situation. A specialist broker can compare quotes from multiple insurers and find the most competitive pricing without sacrificing the cover you need.',
       },
       {
@@ -36,8 +36,8 @@ export const landingPages: LandingPage[] = [
     title: 'Best Tradie Insurance NZ',
     metaTitle: 'Best Tradie Insurance NZ 2026 | Top Providers Compared',
     metaDesc: 'Find the best tradie insurance in NZ for 2026. Compare top providers, get expert broker advice, and find cover tailored to your specific trade.',
-    hero: 'Find the Best Tradie Insurance in NZ for 2026',
-    intro: 'The best tradie insurance in New Zealand is not the cheapest policy or the most expensive — it is the one that provides the right cover for your specific trade, at a competitive price, from an insurer with a strong claims track record.',
+    hero: 'Find the Best Tradie Insurance for 2026',
+    intro: 'The best tradie insurance is not the cheapest policy or the most expensive — it is the one that provides the right cover for your specific trade, at a competitive price, from an insurer with a strong claims track record.',
     sections: [
       {
         heading: 'What Makes a Great Tradie Insurance Policy?',
@@ -45,11 +45,11 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Top-Rated Providers for NZ Tradie Insurance',
-        body: 'Based on coverage quality, claims service, and pricing, the leading providers for NZ tradie insurance include Builtin (specialist construction focus, rated 4.5/5), AMI and State (strong general insurers with comprehensive business packages), FMG (excellent for rural and provincial tradies), Gallagher (best for larger operations and complex risks), and BizCover (fast online quotes for simple risk profiles).\n\nThe best provider for you depends on your trade type, size, and specific requirements. A broker can assess all options and recommend the most suitable fit.',
+        body: 'Based on coverage quality, claims service, and pricing, the leading providers for tradie insurance include Builtin (specialist construction focus, rated 4.5/5), AMI and State (strong general insurers with comprehensive business packages), FMG (excellent for rural and provincial tradies), Gallagher (best for larger operations and complex risks), and BizCover (fast online quotes for simple risk profiles).\n\nThe best provider for you depends on your trade type, size, and specific requirements. A broker can assess all options and recommend the most suitable fit.',
       },
       {
         heading: 'The Role of a Specialist Broker',
-        body: 'A specialist tradie insurance broker is your most valuable resource in finding the best cover. Brokers:\n\n- Access products from multiple insurers including exclusive policy wordings not available directly\n- Understand the specific risks of your trade and how different policies address them\n- Can negotiate premiums and terms on your behalf\n- Advise on the right mix of cover types for your business\n- Advocate for you in the event of a claim\n\nUsing a broker typically costs you nothing — they are remunerated by commission from the insurer. Use our free service to connect with a specialist NZ tradie insurance broker today.',
+        body: 'A specialist tradie insurance broker is your most valuable resource in finding the best cover. Brokers:\n\n- Access products from multiple insurers including exclusive policy wordings not available directly\n- Understand the specific risks of your trade and how different policies address them\n- Can negotiate premiums and terms on your behalf\n- Advise on the right mix of cover types for your business\n- Advocate for you in the event of a claim\n\nUsing a broker typically costs you nothing — they are remunerated by commission from the insurer. Use our free service to connect with a specialist tradie insurance broker today.',
       },
     ],
   },
@@ -59,7 +59,7 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Compare Tradie Insurance NZ | Get Quotes from Multiple Providers',
     metaDesc: 'Compare NZ tradie insurance quotes from multiple providers. Find the best cover for your trade and budget. Free broker matching service.',
     hero: 'Compare NZ Tradie Insurance Quotes',
-    intro: 'Comparing tradie insurance in New Zealand is the best way to ensure you get the right cover at the best price. Rather than accepting the first quote you receive, use our free broker matching service to get competitive quotes from multiple licensed NZ insurers.',
+    intro: 'Comparing tradie insurance is the best way to ensure you get the right cover at the best price. Rather than accepting the first quote you receive, use our free broker matching service to get competitive quotes from multiple licensed insurers.',
     sections: [
       {
         heading: 'What to Compare When Shopping for Tradie Insurance',
@@ -67,11 +67,11 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Using a Broker vs Direct Comparison',
-        body: 'There are two main ways to compare tradie insurance in NZ:\n\n**Online comparison platforms** (like BizCover) allow you to get multiple quotes quickly by entering your details once. This works well for simple risk profiles with standard requirements.\n\n**Specialist brokers** provide access to a wider range of products, including policies not available on comparison platforms. They also provide personalised advice, policy reviews, and claims advocacy. For tradies with complex requirements or non-standard risk profiles, a broker is strongly recommended.\n\nOur free service connects you with specialist NZ tradie insurance brokers — at no cost to you.',
+        body: 'There are two main ways to compare tradie insurance:\n\n**Online comparison platforms** (like BizCover) allow you to get multiple quotes quickly by entering your details once. This works well for simple risk profiles with standard requirements.\n\n**Specialist brokers** provide access to a wider range of products, including policies not available on comparison platforms. They also provide personalised advice, policy reviews, and claims advocacy. For tradies with complex requirements or non-standard risk profiles, a broker is strongly recommended.\n\nOur free service connects you with specialist tradie insurance brokers — at no cost to you.',
       },
       {
         heading: 'How Our Comparison Service Works',
-        body: 'Getting comparative quotes through our service is straightforward:\n\n1. Fill in our simple quote form with your trade type, cover needs, and contact details\n2. We match you with a specialist NZ tradie insurance broker suited to your trade\n3. Your broker gathers quotes from multiple insurers and presents you with the best options\n4. You compare and choose the policy that best fits your needs and budget\n5. Your broker arranges the cover — often within 24–48 hours\n\nThere is no cost to you and no obligation to proceed. Start now using the quote form on this page.',
+        body: 'Getting comparative quotes through our service is straightforward:\n\n1. Fill in our simple quote form with your trade type, cover needs, and contact details\n2. We match you with a specialist tradie insurance broker suited to your trade\n3. Your broker gathers quotes from multiple insurers and presents you with the best options\n4. You compare and choose the policy that best fits your needs and budget\n5. Your broker arranges the cover — often within 24–48 hours\n\nThere is no cost to you and no obligation to proceed. Start now using the quote form on this page.',
       },
     ],
   },
@@ -147,18 +147,18 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Builder Insurance NZ 2026 | Public Liability, Tools & More for Builders',
     metaDesc: 'Comprehensive builder insurance in NZ — public liability, contract works, tools, income protection & more. Get free quotes from specialist NZ builder insurance brokers.',
     hero: 'Builder Insurance NZ: Complete Cover for NZ Builders',
-    intro: 'Builder insurance in New Zealand is more complex than most other trades, because builders carry more risk — both in terms of the types of work they do and the long-tail liability that can arise from structural defects. Getting the right cover is essential for any NZ builder, from sole traders to large building companies.',
+    intro: 'Builder insurance is more complex than most other trades, because builders carry more risk — both in terms of the types of work they do and the long-tail liability that can arise from structural defects. Getting the right cover is essential for any NZ builder, from sole traders to large building companies.',
     sections: [
       {
-        heading: 'What Insurance Does a Builder Need in NZ?',
-        body: 'A comprehensive builder insurance package in NZ typically includes:\n\n**Public Liability:** The foundation of any builder\'s insurance — covers third-party injury and property damage. Limits should reflect your largest contract value.\n\n**Contract Works Insurance:** Covers the partially completed structure and materials on site against fire, theft, storm, and accidental damage.\n\n**Professional Indemnity:** Essential for LBPs and builders who provide design input or professional advice.\n\n**Statutory Liability:** Covers legal defence costs if prosecuted for health and safety breaches under HSWA.\n\n**Tools and Equipment:** Covers theft and damage to your tools on site and in your vehicle.\n\n**Commercial Vehicle:** Covers your ute, van, or truck for business use.',
+        heading: 'What Insurance Does a Builder Need?',
+        body: 'A comprehensive builder insurance package typically includes:\n\n**Public Liability:** The foundation of any builder\'s insurance — covers third-party injury and property damage. Limits should reflect your largest contract value.\n\n**Contract Works Insurance:** Covers the partially completed structure and materials on site against fire, theft, storm, and accidental damage.\n\n**Professional Indemnity:** Essential for LBPs and builders who provide design input or professional advice.\n\n**Statutory Liability:** Covers legal defence costs if prosecuted for health and safety breaches under HSWA.\n\n**Tools and Equipment:** Covers theft and damage to your tools on site and in your vehicle.\n\n**Commercial Vehicle:** Covers your ute, van, or truck for business use.',
       },
       {
         heading: 'LBP Insurance Requirements',
         body: 'Licensed Building Practitioners (LBPs) have specific insurance considerations. As an LBP, you personally certify that your work meets the Building Code. If that certification proves incorrect, you can face both regulatory sanctions and civil liability.\n\nProfessional indemnity insurance is strongly recommended for LBPs — and increasingly, principal contractors and homeowners on larger projects require LBPs to hold PI cover. Check the requirements in your building contracts and licensing conditions.',
       },
       {
-        heading: 'How Much Does Builder Insurance Cost in NZ?',
+        heading: 'How Much Does Builder Insurance Cost?',
         body: 'Builder insurance costs depend on your annual turnover, the type of work you do, and the cover you need. Rough indicative figures:\n\n- Sole trader builder, public liability only: NZ$50–$100/month\n- Small building company (1–5 staff), public liability + tools: NZ$150–$300/month\n- Larger building company with full package: NZ$300–$800+/month\n\nThese are indicative ranges only. Use our free quote service to get a precise figure for your specific situation.',
       },
     ],
@@ -169,7 +169,7 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Public Liability Insurance for Tradies NZ | From NZ$30/Month',
     metaDesc: 'Public liability insurance for NZ tradies from NZ$30/month. Covers injury and property damage claims. Get free quotes from licensed NZ brokers.',
     hero: 'Public Liability Insurance for NZ Tradies',
-    intro: 'Public liability insurance is the single most important insurance product for any NZ tradie. It protects you against claims for injury or property damage caused by your work — which for tradies working on client properties every day is a very real and frequent risk.',
+    intro: 'Public liability insurance is the single most important insurance product for any tradie. It protects you against claims for injury or property damage caused by your work — which for tradies working on client properties every day is a very real and frequent risk.',
     sections: [
       {
         heading: 'Why Every NZ Tradie Needs Public Liability',
@@ -181,7 +181,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Public Liability Cover Quickly',
-        body: 'Public liability cover for standard tradie risk profiles can often be arranged within 24 hours. Use our free quote service to connect with a specialist NZ broker who can get you covered quickly — whether you need cover for a specific contract starting Monday or want a longer-term policy review.',
+        body: 'Public liability cover for standard tradie risk profiles can often be arranged within 24 hours. Use our free quote service to connect with a specialist broker who can get you covered quickly — whether you need cover for a specific contract starting Monday or want a longer-term policy review.',
       },
     ],
   },
@@ -191,11 +191,11 @@ export const landingPages: LandingPage[] = [
     metaTitle: 'Tool Insurance NZ | Protect Your Tradie Tools from NZ$25/Month',
     metaDesc: 'Tool insurance for NZ tradies from NZ$25/month. Covers theft, accidental damage, and loss of tools in vehicles, on sites & at home. Free quotes.',
     hero: 'Tool Insurance NZ: Protect Your Most Valuable Assets',
-    intro: 'Your tools are how you earn your living. Tool theft from utes and vans is one of the most common insurance claims for NZ tradies. A single overnight break-in can cost thousands and leave you unable to work. Tool insurance covers you for theft, accidental damage, and loss — wherever your tools are.',
+    intro: 'Your tools are how you earn your living. Tool theft from utes and vans is one of the most common insurance claims for tradies. A single overnight break-in can cost thousands and leave you unable to work. Tool insurance covers you for theft, accidental damage, and loss — wherever your tools are.',
     sections: [
       {
         heading: 'What Tool Insurance Covers',
-        body: 'A comprehensive tools insurance policy for NZ tradies typically covers:\n\n- **Theft:** From vehicles, job sites, your home, or storage areas\n- **Accidental damage:** Dropping tools, equipment failure, damage during transport\n- **Mysterious disappearance:** Where tools cannot be located and there is no clear explanation\n\nCover applies whether your tools are in your ute, on the job site, at your workshop, or in transit between locations.',
+        body: 'A comprehensive tools insurance policy for tradies typically covers:\n\n- **Theft:** From vehicles, job sites, your home, or storage areas\n- **Accidental damage:** Dropping tools, equipment failure, damage during transport\n- **Mysterious disappearance:** Where tools cannot be located and there is no clear explanation\n\nCover applies whether your tools are in your ute, on the job site, at your workshop, or in transit between locations.',
       },
       {
         heading: 'New-for-Old vs Market Value Settlement',
@@ -212,12 +212,12 @@ export const landingPages: LandingPage[] = [
     title: 'Tradie Insurance Cost NZ',
     metaTitle: 'Tradie Insurance Cost NZ 2026 | How Much Does It Cost?',
     metaDesc: 'How much does tradie insurance cost in NZ? Public liability from $30/month. Full breakdown of tradie insurance costs by trade type and cover level.',
-    hero: 'Tradie Insurance Costs in NZ: What to Expect in 2026',
-    intro: 'Understanding tradie insurance costs in New Zealand helps you budget appropriately and assess whether the quotes you receive represent fair value. Costs vary significantly by trade type, cover level, business size, and claims history — but this guide gives you a solid benchmark to work from.',
+    hero: 'Tradie Insurance Costs: What to Expect in 2026',
+    intro: 'Understanding tradie insurance costs helps you budget appropriately and assess whether the quotes you receive represent fair value. Costs vary significantly by trade type, cover level, business size, and claims history — but this guide gives you a solid benchmark to work from.',
     sections: [
       {
         heading: 'Public Liability Insurance Costs by Trade',
-        body: 'Public liability is typically the most important policy for NZ tradies. Approximate monthly costs for a sole trader:\n\n- **Handyman / Painter:** NZ$25–$40/month\n- **Carpenter / Woodworker:** NZ$35–$55/month\n- **Plumber / Gasfitter:** NZ$40–$65/month\n- **Builder:** NZ$50–$90/month\n- **Electrician:** NZ$50–$90/month\n- **Roofer:** NZ$60–$120/month\n- **Concreter:** NZ$45–$75/month\n\nThese figures are for NZ$2M public liability. Higher limits cost more; adding employees increases premiums significantly.',
+        body: 'Public liability is typically the most important policy for tradies. Approximate monthly costs for a sole trader:\n\n- **Handyman / Painter:** NZ$25–$40/month\n- **Carpenter / Woodworker:** NZ$35–$55/month\n- **Plumber / Gasfitter:** NZ$40–$65/month\n- **Builder:** NZ$50–$90/month\n- **Electrician:** NZ$50–$90/month\n- **Roofer:** NZ$60–$120/month\n- **Concreter:** NZ$45–$75/month\n\nThese figures are for NZ$2M public liability. Higher limits cost more; adding employees increases premiums significantly.',
       },
       {
         heading: 'Other Cover Types: Indicative Monthly Costs',
@@ -243,11 +243,11 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'ACC for Sole Traders: What It Covers and What It Does Not',
-        body: 'As a self-employed sole trader in NZ, you pay ACC levies and receive cover for accidental injuries. But ACC:\n\n- Does NOT cover illness — which statistically is more likely to end your working career than an accident\n- Replaces only 80% of income up to an annual cap (around NZ$115,000 in 2026)\n- Does not cover your business overhead if you cannot work\n- Does not cover injury sustained outside of New Zealand\n\nIncome protection fills these gaps and ensures you have genuine financial security if you cannot work.',
+        body: 'As a self-employed sole trader, you pay ACC levies and receive cover for accidental injuries. But ACC:\n\n- Does NOT cover illness — which statistically is more likely to end your working career than an accident\n- Replaces only 80% of income up to an annual cap (around NZ$115,000 in 2026)\n- Does not cover your business overhead if you cannot work\n- Does not cover injury sustained outside of New Zealand\n\nIncome protection fills these gaps and ensures you have genuine financial security if you cannot work.',
       },
       {
         heading: 'Affordable Insurance Options for Sole Traders',
-        body: 'Insurance does not have to break the bank for sole traders. A basic public liability policy can start from as little as NZ$30–$40/month. A lean but meaningful package — PL + tools + income protection — can be put together for NZ$80–$150/month for many trade types.\n\nA specialist broker will identify the most cost-effective combination for your specific trade and situation. Use our free quote service to connect with a licensed NZ broker today.',
+        body: 'Insurance does not have to break the bank for sole traders. A basic public liability policy can start from as little as NZ$30–$40/month. A lean but meaningful package — PL + tools + income protection — can be put together for NZ$80–$150/month for many trade types.\n\nA specialist broker will identify the most cost-effective combination for your specific trade and situation. Use our free quote service to connect with a licensed broker today.',
       },
     ],
   },
@@ -269,7 +269,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Building Your Small Business Insurance Package',
-        body: 'A comprehensive small tradie business insurance package typically includes:\n\n1. Public liability (NZ$2M–$10M depending on work type)\n2. Statutory liability\n3. Tools and equipment cover\n4. Fleet or commercial vehicle insurance\n5. Contents and property (if you have a workshop or yard)\n6. Professional indemnity (if applicable to your trade)\n\nWork with a specialist broker to build a package that addresses your specific business risk profile. Our free service connects you with licensed NZ brokers who specialise in tradie business insurance.',
+        body: 'A comprehensive small tradie business insurance package typically includes:\n\n1. Public liability (NZ$2M–$10M depending on work type)\n2. Statutory liability\n3. Tools and equipment cover\n4. Fleet or commercial vehicle insurance\n5. Contents and property (if you have a workshop or yard)\n6. Professional indemnity (if applicable to your trade)\n\nWork with a specialist broker to build a package that addresses your specific business risk profile. Our free service connects you with licensed brokers who specialise in tradie business insurance.',
       },
     ],
   },

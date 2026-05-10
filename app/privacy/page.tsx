@@ -25,7 +25,7 @@ export default function PrivacyPage() {
       <div className="bg-white py-14">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 prose-tradie">
           <h2>1. Who We Are</h2>
-          <p>TradieInsurance.co.nz is operated as an insurance referral and comparison service for New Zealand tradies. Our website is located at {siteConfig.url} and our contact email is {siteConfig.email}.</p>
+          <p>TradieInsurance.co.nz is operated as an insurance referral and comparison service for tradies. Our website is located at {siteConfig.url} and our contact email is {siteConfig.email}.</p>
 
           <h2>2. Our Commitment to Your Privacy</h2>
           <p>We are committed to protecting your personal information in accordance with the Privacy Act 2020 (NZ). This policy explains what information we collect, why we collect it, how we use it, and your rights in relation to it.</p>

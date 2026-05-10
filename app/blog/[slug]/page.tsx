@@ -173,7 +173,7 @@ export default async function BlogPostPage({ params }: Props) {
 
               <div className="mt-10 bg-orange-50 rounded-2xl p-8 border border-orange-100">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">Need Tradie Insurance?</h3>
-                <p className="text-gray-600 mb-4">Connect with a licensed NZ broker for free — no obligation, no cost.</p>
+                <p className="text-gray-600 mb-4">Connect with a licensed broker for free — no obligation, no cost.</p>
                 <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
                   Get Free Quote →
                 </Link>

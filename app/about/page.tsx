@@ -65,7 +65,7 @@ export default function AboutPage() {
           <section className="mb-14">
             <h2 className="text-2xl font-extrabold text-gray-900 mb-4">Our Mission</h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
-              New Zealand tradies are the backbone of the construction and maintenance industry, but too many work without adequate insurance — either because they do not know what they need, or have not had time to compare the market properly.
+              tradies are the backbone of the construction and maintenance industry, but too many work without adequate insurance — either because they do not know what they need, or have not had time to compare the market properly.
             </p>
             <p className="text-gray-600 text-lg leading-relaxed mb-4">
               TradieInsurance.co.nz was built to fix that. We provide clear, unbiased information about insurance options for every trade type, and connect you with specialist brokers who can arrange the right cover quickly and efficiently.
@@ -95,7 +95,7 @@ export default function AboutPage() {
           <section className="mb-14">
             <h2 className="text-2xl font-extrabold text-gray-900 mb-4">How Our Service Works</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              TradieInsurance.co.nz is a referral service. We do not sell insurance directly or act as a financial adviser. Instead, we connect you with licensed NZ insurance brokers who are regulated under the Financial Markets Conduct Act 2013.
+              TradieInsurance.co.nz is a referral service. We do not sell insurance directly or act as a financial adviser. Instead, we connect you with licensed insurance brokers who are regulated under the Financial Markets Conduct Act 2013.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               When you submit a quote request, we assess your trade type and cover needs, then match you with the most appropriate specialist broker in our network. That broker contacts you to discuss your requirements in detail and provides comparative quotes from multiple insurers.
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
           <section className="bg-gray-900 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-extrabold text-white mb-4">Ready to Get Started?</h2>
-            <p className="text-gray-400 mb-6">Connect with a specialist NZ tradie insurance broker — it takes 2 minutes and costs nothing.</p>
+            <p className="text-gray-400 mb-6">Connect with a specialist tradie insurance broker — it takes 2 minutes and costs nothing.</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
                 Get Free Quote →

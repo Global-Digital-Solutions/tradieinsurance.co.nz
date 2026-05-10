@@ -39,7 +39,7 @@ export default function FaqsPage() {
           <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">FAQs</span>
           <h1 className="text-4xl font-extrabold text-white mb-4">Tradie Insurance FAQs</h1>
           <p className="text-gray-300 text-xl max-w-2xl leading-relaxed">
-            Answers to New Zealand tradies&apos; most common insurance questions — in plain English.
+            Answers to tradies&apos; most common insurance questions — in plain English.
           </p>
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function FaqsPage() {
 
           <div className="bg-gray-900 rounded-2xl p-8 text-center mt-8">
             <h2 className="text-xl font-bold text-white mb-3">Still Have Questions?</h2>
-            <p className="text-gray-400 mb-6">Connect with a specialist NZ tradie insurance broker who can answer your specific questions — for free.</p>
+            <p className="text-gray-400 mb-6">Connect with a specialist tradie insurance broker who can answer your specific questions — for free.</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
                 Get Free Advice →
