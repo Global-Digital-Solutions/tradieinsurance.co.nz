@@ -17,7 +17,6 @@ export default function Header() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
-            <span className="text-orange-500 font-extrabold text-xl">🔧</span>
             <span className="text-white font-extrabold text-lg">
               Tradie<span className="text-orange-500">Insurance</span>
             </span>
