@@ -2,7 +2,10 @@
 
 import { useState, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
+import Script from 'next/script'
 import { siteConfig } from '@/data/site-config'
+
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? '0x4AAAAAADMnsakZUoyx534R'
 
 const tradeOptions = [
   'Builder',
@@ -54,15 +57,27 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
     setForm({ ...form, [e.target.name]: e.target.value })
   }
 
-  async function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    setLoading(true)
     setError('')
+
+    const fd = new FormData(e.currentTarget)
+    const cfToken = fd.get('cf-turnstile-response')
+    if (!cfToken) {
+      setError('Please wait a moment for the security check to finish, then try again.')
+      return
+    }
+
+    setLoading(true)
     try {
-      const res = await fetch(siteConfig.workerUrl, {
+      const res = await fetch('/api/submit-form', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...form, source: 'tradieinsurance.co.nz' }),
+        body: JSON.stringify({
+          ...form,
+          _subject: 'Tradie Insurance Quote Request — TradieInsurance.co.nz',
+          cfTurnstileToken: cfToken,
+        }),
       })
       if (!res.ok) throw new Error('Submission failed')
       router.push('/thank-you/')
@@ -88,6 +103,8 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
       )}
 
       <form onSubmit={handleSubmit} className="space-y-4">
+        <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
+
         <div>
           <label className="block text-sm font-medium text-gray-300 mb-1">Trade Type</label>
           <select
@@ -178,6 +195,11 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         {error && (
           <p className="text-red-400 text-sm bg-red-900/20 border border-red-500/30 rounded-lg px-3 py-2">{error}</p>
         )}
+
+        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
+        <div className="flex justify-center">
+          <div className="cf-turnstile" data-sitekey={TURNSTILE_SITE_KEY} data-size="invisible" />
+        </div>
 
         <button
           type="submit"
