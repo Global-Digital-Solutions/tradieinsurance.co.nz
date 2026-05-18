@@ -5,8 +5,6 @@ import { useRouter } from 'next/navigation'
 import { siteConfig } from '@/data/site-config'
 import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
-const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? '0x4AAAAAADMnsakZUoyx534R'
-
 const tradeOptions = [
   'Builder',
   'Plumber',
