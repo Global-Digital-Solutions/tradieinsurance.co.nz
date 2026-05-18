@@ -40,6 +40,7 @@ interface QuoteFormProps {
 
 export default function QuoteForm({ compact = false }: QuoteFormProps) {
   const router = useRouter()
+  const turnstileRef = useRef<TurnstileHandle>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [form, setForm] = useState({
