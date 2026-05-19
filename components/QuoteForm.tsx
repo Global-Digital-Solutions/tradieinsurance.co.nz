@@ -1,9 +1,9 @@
 'use client'
 
-import { useRef, useState, FormEvent } from 'react'
+import { useState, FormEvent } from 'react'
 import { useRouter } from 'next/navigation'
 import { siteConfig } from '@/data/site-config'
-import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
+// import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 const tradeOptions = [
   'Builder',
@@ -40,7 +40,7 @@ interface QuoteFormProps {
 
 export default function QuoteForm({ compact = false }: QuoteFormProps) {
   const router = useRouter()
-  const turnstileRef = useRef<TurnstileHandle>(null)
+  // const turnstileRef = useRef<TurnstileHandle>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [form, setForm] = useState({
@@ -63,12 +63,12 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
     const fd = new FormData(e.currentTarget)
     setLoading(true)
     try {
-      const cfToken = await turnstileRef.current?.execute();
-      if (!cfToken) {
-        setLoading(false);
-        setError('Security check could not complete. Please try again.');
-        return;
-      }
+      // const cfToken = await turnstileRef.current?.execute();
+      // if (!cfToken) {
+      //   setLoading(false);
+      //   setError('Security check could not complete. Please try again.');
+      //   return;
+      // }
 
       const res = await fetch('/api/submit-form', {
         method: 'POST',
@@ -76,7 +76,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         body: JSON.stringify({
           ...form,
           _subject: 'Tradie Insurance Quote Request — TradieInsurance.co.nz',
-          cfTurnstileToken: cfToken,
+          // cfTurnstileToken: cfToken,
         }),
       })
       if (!res.ok) throw new Error('Submission failed')
@@ -196,7 +196,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
           <p className="text-red-400 text-sm bg-red-900/20 border border-red-500/30 rounded-lg px-3 py-2">{error}</p>
         )}
 
-        <TurnstileWidget ref={turnstileRef} />
+        {/* <TurnstileWidget ref={turnstileRef} /> */}
 
         <button
           type="submit"
