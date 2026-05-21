@@ -117,4 +117,4 @@ Disallow: /
 
 # ──────────────────────────────────────────────────────────────────────────────
 
-Sitemap: https://tradieinsurance.co.nz/sitemap.xml
+Sitemap: https://www.tradieinsurance.co.nz/sitemap.xml
