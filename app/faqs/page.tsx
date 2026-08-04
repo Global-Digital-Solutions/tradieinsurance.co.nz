@@ -4,7 +4,7 @@ import { faqs } from '@/data/faqs'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Tradie Insurance FAQs NZ | Common Questions Answered',
+  title: { absolute: 'Tradie Insurance FAQs | TradieInsurance.co.nz' },
   description: 'Answers to the most common questions about NZ tradie insurance — cost, cover types, ACC, requirements, and how to get the right cover for your trade.',
   alternates: { canonical: `${siteConfig.url}/faqs/` },
 }

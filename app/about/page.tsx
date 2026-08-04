@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'About TradieInsurance.co.nz | NZ Tradie Insurance Referral Service',
+  title: { absolute: 'About TradieInsurance.co.nz | NZ Broker Referral Service' },
   description: 'About TradieInsurance.co.nz — NZ\'s specialist tradie insurance comparison and referral service. We connect tradies with licensed NZ insurance brokers.',
   alternates: { canonical: `${siteConfig.url}/about/` },
 }

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Thank You | Your Quote Request Has Been Received',
+  title: { absolute: 'Thank You | TradieInsurance.co.nz' },
   description: 'Thank you for your tradie insurance quote request. A specialist NZ broker will be in touch within 24 hours.',
   robots: { index: false, follow: false },
 }

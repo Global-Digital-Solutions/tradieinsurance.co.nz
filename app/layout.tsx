@@ -7,7 +7,7 @@ import { siteConfig } from '@/data/site-config'
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Tradie Insurance NZ | Compare Public Liability, Tools & More | TradieInsurance.co.nz',
+    default: 'Tradie Insurance NZ | TradieInsurance.co.nz',
     template: '%s | TradieInsurance.co.nz',
   },
   description: 'Compare tradie insurance. Public liability from NZ$30/month, tools cover, commercial vehicle, income protection & more. Quotes from licensed brokers.',

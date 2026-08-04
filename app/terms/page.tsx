@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Terms of Use | TradieInsurance.co.nz',
+  title: { absolute: 'Terms of Use | TradieInsurance.co.nz' },
   description: 'Terms of Use for TradieInsurance.co.nz — the terms governing your use of our NZ tradie insurance referral website.',
   alternates: { canonical: `${siteConfig.url}/terms/` },
 }

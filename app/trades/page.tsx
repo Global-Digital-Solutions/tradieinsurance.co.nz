@@ -4,7 +4,7 @@ import { tradeTypes } from '@/data/trade-types'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Tradie Insurance by Trade Type NZ | All Trades Covered',
+  title: { absolute: 'Tradie Insurance by Trade Type | TradieInsurance.co.nz' },
   description: 'Find insurance for every NZ trade — builders, plumbers, electricians, painters, roofers & more. Specialist cover matched to your trade\'s specific risks.',
   alternates: { canonical: `${siteConfig.url}/trades/` },
 }

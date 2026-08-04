@@ -4,7 +4,7 @@ import { blogPosts } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Tradie Insurance Blog NZ | Guides, Tips & News',
+  title: { absolute: 'Tradie Insurance Blog | TradieInsurance.co.nz' },
   description: 'NZ tradie insurance guides, tips, and industry news. Everything you need to know about tradie insurance — from public liability to WorkSafe compliance.',
   alternates: { canonical: `${siteConfig.url}/blog/` },
 }

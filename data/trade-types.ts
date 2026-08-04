@@ -780,6 +780,533 @@ export const tradeTypes: TradeType[] = [
     ],
     recommendedCover: ['public-liability', 'tools-equipment', 'commercial-vehicle', 'income-protection'],
   },
+  {
+    slug: 'gasfitters',
+    name: 'Gasfitters',
+    icon: '🔥',
+    heroImage: 'https://images.unsplash.com/photo-1558618047-3c8c2b8ad6e2?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Gasfitting is one of the most tightly regulated trades in New Zealand — and one of the highest-risk. Errors in gas systems can cause explosions, fires, or carbon monoxide poisoning. Specialist gasfitter insurance protects your licence, your livelihood, and your clients.',
+    keyFacts: [
+      'Gasfitting requires a separate licence under the Plumbers, Gasfitters, and Drainlayers Act 2006',
+      'Gas-related incidents carry catastrophic claim potential — explosion, fire, and CO poisoning',
+      'Professional indemnity is essential for certified gasfitters who sign off work',
+      'Gasfitting licence holders carry personal liability for certified installations',
+    ],
+    introText: [
+      'Gasfitter insurance is a specialist package of policies designed to protect New Zealand gasfitters from the serious financial consequences of gas-related incidents, professional liability, and the regulatory exposure that comes with holding a gasfitting licence. Unlike general plumbing work, gasfitting carries the risk of explosion, fire, and carbon monoxide poisoning — events that can cause devastating property damage and loss of life. This elevated risk profile means that public liability limits and professional indemnity cover are more critical for gasfitters than for many other trades.',
+      'Licensed gasfitters operate under the Plumbers, Gasfitters, and Drainlayers Act 2006, and their certifications carry personal legal weight. A certification error or a failed connection that results in a gas-related incident can expose a gasfitter to both civil liability claims and regulatory action. Professional indemnity insurance covers the legal costs and damages arising from such professional errors, while public liability addresses third-party injury and property damage claims. Together, these form the essential foundation of any gasfitter\'s insurance programme.',
+    ],
+    whyNeedIt: [
+      'Gas-related incidents — including explosions, fires, and carbon monoxide exposure — carry potentially catastrophic claim values that can far exceed other trade liability events.',
+      'Gasfitting licence holders personally certify gas installations; a certification error can generate a professional indemnity claim in addition to a public liability claim.',
+      'The Plumbers, Gasfitters, and Drainlayers Act 2006 imposes licensing obligations that most clients and principal contractors require you to evidence alongside current insurance.',
+      'Specialist gas testing and diagnostic equipment represents a significant investment — tools cover ensures theft or damage does not stop your business.',
+    ],
+    coverPackage: 'A comprehensive gasfitter insurance package includes public liability ($2M+), professional indemnity, tools and equipment cover, statutory liability, and commercial vehicle insurance.',
+    costFrom: '~$45/month',
+    costFactors: [
+      'Domestic vs commercial gas work',
+      'Annual turnover',
+      'Professional indemnity limit required',
+      'Number of employees or apprentices',
+    ],
+    legalRequirements: [
+      'Plumbers, Gasfitters, and Drainlayers Act 2006 — separate gasfitting licence required for all gas work',
+      'Gas (Safety and Measurement) Regulations 2010 — certification and testing obligations for every gas installation',
+      'Health and Safety at Work Act 2015 — duty of care for confined space and gas hazard work',
+      'Consumer Guarantees Act — guarantees of acceptable quality apply to all gas installations',
+      'Building Act 2004 — gasfitting work must comply with New Zealand Building Code G10 (piped gas)',
+    ],
+    risks: [
+      {
+        title: 'Gas Explosion or Fire',
+        desc: 'A faulty gas connection or incorrectly installed appliance causes an explosion or fire. The resulting property and personal injury claims can be catastrophic in scale.',
+      },
+      {
+        title: 'Carbon Monoxide Poisoning',
+        desc: 'An incomplete gas combustion issue leads to CO exposure in a home or commercial premises. These claims carry serious personal injury consequences and can be fatal.',
+      },
+      {
+        title: 'Professional Certification Liability',
+        desc: 'An error in your gas certification is later identified following a fault. Professional indemnity covers legal costs and damages arising from the certification failure.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Gas Leak Following Hob Installation Causes Fire',
+        scenario: 'A gasfitter installed a new gas hob in a residential kitchen. A compression fitting was incorrectly tightened, allowing a slow gas leak to develop behind the bench. When the homeowner lit the hob two days later, residual gas ignited and caused a flash fire that damaged cabinetry and the splashback.',
+        outcome: 'Public liability claim of NZ$22,000 paid, covering cabinetry replacement, splashback reinstatement, and repainting of the affected kitchen area.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'CO Alarm Triggers Investigation of Gasfitter Work',
+        scenario: 'A CO alarm activated in a residential property eighteen months after a gas heater installation. Inspection found an incomplete flue connection that allowed partial combustion gases to enter the living area. The homeowner sought compensation for medical checks and temporary relocation.',
+        outcome: 'Public liability covered NZ$8,400 in temporary accommodation, medical costs, and full reinspection and remediation of the gas installation.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Certification Error on Commercial Gas System',
+        scenario: 'A gasfitter certified a commercial kitchen gas system. A post-installation audit by the building owner\'s engineer found the regulator specification was incorrect for the load, creating an overpressure risk requiring full replacement.',
+        outcome: 'Professional indemnity covered NZ$14,600 in rectification costs and legal fees arising from the certification dispute.',
+        coverType: 'Professional Indemnity',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance does a gasfitter need?',
+        a: 'NZ gasfitters should carry public liability as a minimum, with professional indemnity strongly recommended given their certification obligations. Tools cover and commercial vehicle insurance complete the package.',
+      },
+      {
+        q: 'How much does gasfitter insurance cost?',
+        a: 'Gasfitting carries higher risk than general plumbing, so premiums reflect this. Public liability for a sole trader gasfitter typically starts from around NZ$45–$70/month. A full package can cost NZ$150–$300/month.',
+      },
+      {
+        q: 'Does gasfitter insurance cover carbon monoxide incidents?',
+        a: 'Public liability covers third-party personal injury and property damage claims arising from your work, which includes CO incidents. Confirm with your broker that your policy has no exclusions for gas-related events.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'professional-indemnity', 'tools-equipment', 'statutory-liability', 'commercial-vehicle'],
+  },
+  {
+    slug: 'tilers',
+    name: 'Tilers',
+    icon: '🪨',
+    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Tilers work with expensive materials on surfaces that must be both functional and visually perfect. Waterproofing failures, tile damage, and grouting errors can generate costly claims. The right tiler insurance protects your reputation and your business.',
+    keyFacts: [
+      'Waterproofing failures in wet areas can cause extensive consequential water damage',
+      'Expensive imported tiles can be difficult to match — damage during installation can mean full room replacement',
+      'Commercial tiling contracts often require proof of public liability cover',
+      'Body corporates and building managers routinely require certificates of currency',
+    ],
+    introText: [
+      'Tiler insurance is a specialist package of policies protecting New Zealand tilers and tiling contractors from the financial consequences of tile damage, waterproofing failures, and property damage claims that arise from residential and commercial tiling work. While tiling may appear lower risk than some trades, the combination of expensive imported materials, critical waterproofing compliance in wet areas, and the difficulty of matching tiles in a partial claim scenario means that a single incident can generate a claim that exceeds the value of the original contract. Public liability for tilers typically starts from around NZ$30–$50 per month.',
+      'Waterproofing is one of the most critical obligations a tiler carries. Under the New Zealand Building Code, all wet areas — including showers, bathrooms, and laundries — must be correctly waterproofed before tiling. A waterproofing failure that allows moisture to penetrate into walls, floors, and framing can cause extensive consequential damage that is expensive to remediate. Commercial tiling projects add further complexity, with body corporates, building managers, and principal contractors routinely requiring tilers to hold current insurance before accessing the site.',
+    ],
+    whyNeedIt: [
+      'Waterproofing failures in wet areas can cause concealed water damage to wall framing, flooring, and downstairs ceilings — remediation costs can reach NZ$20,000–$50,000 in severe cases.',
+      'Imported and bespoke tiles are often difficult to source again — damaging part of a tile run during installation may require full room replacement to achieve a matching finish.',
+      'Commercial clients and body corporates routinely require tilers to produce a certificate of currency for public liability before starting work on their premises.',
+      'Adhesive and grouting errors can cause tiles to fail, crack, or delaminate over time — resulting in workmanship defect claims well after project completion.',
+    ],
+    coverPackage: 'A comprehensive tiler insurance package includes public liability ($1M–$2M), tools and equipment cover, income protection, and commercial vehicle insurance for your work van.',
+    costFrom: '~$30/month',
+    costFactors: [
+      'Commercial vs residential work ratio',
+      'Annual turnover',
+      'Number of employees',
+      'Wet area vs dry area work split',
+    ],
+    legalRequirements: [
+      'Health and Safety at Work Act 2015 — duty of care for all work activities and site conditions',
+      'Building Act 2004 — waterproofing in wet areas must comply with NZ Building Code E3',
+      'Consumer Guarantees Act — guarantees of acceptable quality apply to all tiling work',
+      'Building Act 2004 — some bathroom and wet area work may require building consent',
+    ],
+    risks: [
+      {
+        title: 'Waterproofing Failure',
+        desc: 'Incorrect waterproofing in a shower or wet area allows moisture ingress, causing concealed structural damage. Remediation often involves full tile removal and reconstruction.',
+      },
+      {
+        title: 'Tile Damage During Installation',
+        desc: 'Expensive or imported tiles are damaged during cutting or laying. Matching replacement tiles may be unavailable, requiring full room replacement.',
+      },
+      {
+        title: 'Grouting and Adhesion Failure',
+        desc: 'Tiles delaminate or grout fails after completion. Workmanship defect claims require remediation at the tiler\'s cost.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Shower Waterproofing Failure Causes Structural Damage',
+        scenario: 'A tiler completed a new ensuite installation including waterproofing and floor-to-ceiling tiling. A year later, the homeowner noticed damp patches in the bedroom wall. Investigation revealed inadequate waterproofing at the shower wall-floor junction had allowed water to penetrate into the wall framing and subfloor over many months.',
+        outcome: 'Public liability claim of NZ$31,000 paid, covering full tile removal, framing remediation, replastering, re-waterproofing, and retiling of the entire ensuite.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Imported Tiles Damaged During Cutting',
+        scenario: 'A tiler was cutting a batch of hand-made Spanish porcelain floor tiles for a high-end residential kitchen. A blade adjustment fault on the tile saw caused several large-format tiles to shatter. The tiles could not be reordered within the project timeframe, requiring the full floor specification to be changed.',
+        outcome: 'Public liability claim of NZ$7,200 paid for the damaged tiles, the cost of a modified tile specification, and additional labour to rectify the floor design.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Commercial Bathroom Tile Delamination',
+        scenario: 'Tiles in a commercial bathroom began lifting and cracking eighteen months after installation, attributed to incorrect adhesive selection for a heated floor system beneath. The building owner required full replacement of the affected tiles across multiple cubicles.',
+        outcome: 'Public liability covered NZ$9,800 in tile removal, adhesive remediation, and full retiling of the commercial bathroom area.',
+        coverType: 'Public Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do tilers need?',
+        a: 'NZ tilers should carry public liability as a minimum. Tools cover for cutting and mixing equipment is also recommended. If you do significant commercial work, income protection rounds out a solid package.',
+      },
+      {
+        q: 'Does tiler insurance cover waterproofing failures?',
+        a: 'Public liability covers third-party property damage arising from your work, which includes consequential damage from waterproofing failures. Confirm with your broker that completed works and waterproofing scenarios are not excluded.',
+      },
+      {
+        q: 'How much does tiler insurance cost?',
+        a: 'Tiling is a moderate-risk trade. Public liability for a sole trader tiler typically starts from around NZ$30–$50/month. A full package including tools and vehicle cover might cost NZ$90–$180/month.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'tools-equipment', 'commercial-vehicle', 'income-protection'],
+  },
+  {
+    slug: 'glaziers',
+    name: 'Glaziers',
+    icon: '🪟',
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Glaziers handle one of the most fragile and hazardous materials in construction. Glass breakage during handling, installation injuries, and thermal or structural failures all create real liability exposure. Specialist glazier insurance covers the risks that come with working with glass.',
+    keyFacts: [
+      'Glass breakage during handling or transport is one of the most common glazier claims',
+      'Large-format glass panes carry significant value and handling risk',
+      'Double-glazing and frameless glass installations carry long-tail thermal failure claims',
+      'Building Code compliance for glass safety is a legal obligation for all glaziers',
+    ],
+    introText: [
+      'Glazier insurance is a specialist package of policies protecting New Zealand glaziers and glass installation contractors from the financial consequences of glass breakage, personal injury claims, and the professional liability that can arise from window failures in commercial and residential buildings. Glass is an expensive and unforgiving material — a single large-format pane of double-glazed or toughened glass can cost several thousand dollars, and breakage during handling, transport, or installation is a frequent occurrence. Public liability for glaziers typically starts from around NZ$40–$60 per month.',
+      'Commercial glazing work carries additional complexity: frameless glass facades, structural glazing, and large curtain-wall installations require precision engineering and create long-tail liability if thermal or structural failures develop. The New Zealand Building Code (B1 and E2) sets specific requirements for glazing performance in buildings, and non-compliant installations can result in both regulatory action and civil liability claims. A comprehensive insurance package ensures glaziers are protected at every stage, from the moment glass leaves the supplier to years after installation.',
+    ],
+    whyNeedIt: [
+      'Glass breakage during handling is frequent and expensive — a large double-glazed unit can cost NZ$1,500–$5,000 to replace, and an uninsured series of breakages can seriously impact cashflow.',
+      'Glass cuts and injuries are a constant risk during installation; statutory liability cover is important if WorkSafe NZ investigates a workplace injury involving glass handling.',
+      'Thermal or structural failures in double-glazed or laminated glass can appear months or years after installation, generating long-tail workmanship claims that require professional indemnity or completed works cover.',
+      'Commercial clients and property managers routinely require glaziers to hold current public liability cover before accessing their premises for window replacements or installations.',
+    ],
+    coverPackage: 'A comprehensive glazier insurance package includes public liability ($1M–$2M), tools and equipment cover, statutory liability, and commercial vehicle insurance for your delivery and installation vehicle.',
+    costFrom: '~$40/month',
+    costFactors: [
+      'Commercial vs residential glazing work',
+      'Structural glazing and curtain-wall work',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Health and Safety at Work Act 2015 — specific obligations for manual handling of heavy glass panels',
+      'Building Act 2004 — NZ Building Code B1 (Structure) and E2 (External Moisture) apply to glazing work',
+      'NZ Building Code F2 — safety glazing requirements for all hazardous locations',
+      'Consumer Guarantees Act — guarantees of acceptable quality apply to all glazing installations',
+      'WorkSafe NZ glass handling guidelines — manual handling risk controls required for large panes',
+    ],
+    risks: [
+      {
+        title: 'Glass Breakage During Handling',
+        desc: 'Large glass panes are fragile and heavy. Breakage during transport, unloading, or installation is a common and costly event. Tools and materials cover addresses these losses.',
+      },
+      {
+        title: 'Personal Injury from Glass',
+        desc: 'Glass cuts can cause serious injuries to glaziers, clients, or bystanders during installation. Statutory and public liability cover protects against injury-related claims.',
+      },
+      {
+        title: 'Double-Glazing Unit Failure',
+        desc: 'A sealed double-glazing unit fails and fogs or loses its thermal performance. Workmanship defect or completed works cover responds to remediation claims.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Large Glass Pane Breaks During Unloading',
+        scenario: 'A glazier was unloading a large double-glazed unit from a delivery vehicle at a residential site. The panel slipped from its cradle and struck the concrete driveway, shattering completely. The unit was custom-sized for the opening and had a lead time of three weeks.',
+        outcome: 'Tools and equipment cover paid NZ$3,800 for the replacement glass unit, with the project delay coordinated with the client at no further cost.',
+        coverType: 'Tools & Equipment',
+      },
+      {
+        title: 'Window Frame Installation Damages Surrounding Cladding',
+        scenario: 'During a window replacement in a heritage villa, a glazier used an angle grinder to remove the old frame. The tool slipped and cut a section of the adjoining weatherboard cladding and sill, requiring a carpenter to complete repairs before the new window could be fitted.',
+        outcome: 'Public liability claim of NZ$2,600 paid for carpentry repairs, sill replacement, and repainting of the affected facade section.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Commercial Glazing Unit Fails Thermal Inspection',
+        scenario: 'Double-glazed units installed in a commercial office building were found to have seal failures causing internal condensation across multiple windows eight months after installation. The building manager required full replacement of all affected units.',
+        outcome: 'Public liability and completed works cover responded to the NZ$18,500 claim for replacement units, installation, and associated scaffolding costs.',
+        coverType: 'Public Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do glaziers need?',
+        a: 'NZ glaziers should carry public liability as a minimum. Tools and materials cover for glass in transit is also important. Statutory liability is recommended given the manual handling injury risk.',
+      },
+      {
+        q: 'Does glazier insurance cover glass breakage?',
+        a: 'Tools and equipment or materials-in-transit cover typically covers glass breakage during transport and handling. Public liability covers damage caused to third-party property during installation. Check your specific policy with your broker.',
+      },
+      {
+        q: 'How much does glazier insurance cost?',
+        a: 'Glazier insurance typically starts from around NZ$40–$60/month for public liability. A full package including tools and vehicle cover might cost NZ$120–$220/month depending on business size.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'tools-equipment', 'statutory-liability', 'commercial-vehicle'],
+  },
+  {
+    slug: 'landscapers',
+    name: 'Landscapers',
+    icon: '🌿',
+    heroImage: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Landscapers work with heavy machinery, underground services, and living materials that can generate complex liability claims. From retaining wall failures to underground service strikes, the risks of landscaping are greater than many clients appreciate. The right insurance protects you and your business.',
+    keyFacts: [
+      'Underground service strikes during earthworks are a frequent and costly landscaping claim',
+      'Retaining walls over 1.5m require building consent under the Building Act',
+      'Plant death or replacement claims can arise from poor installation advice',
+      'Heavy machinery on residential properties carries significant property damage risk',
+    ],
+    introText: [
+      'Landscaper insurance is a tailored package of policies protecting New Zealand landscapers, garden designers, and earthworks contractors from the financial consequences of underground service strikes, retaining wall failures, machinery damage to property, and plant warranty claims. Landscaping sits at the intersection of garden artistry and light civil construction, meaning the risk exposures are broader than many clients or tradies appreciate. A single earthworks operation that strikes a power or gas line can generate a claim for tens of thousands of dollars. Public liability for landscapers typically starts from around NZ$32–$50 per month.',
+      'Landscapers who design and construct retaining walls, irrigation systems, or complex drainage are increasingly required to carry professional indemnity insurance, particularly for commercial projects. The Resource Management Act adds a further layer of obligation for earthworks near waterways, boundaries, or sensitive environments. Machinery damage to paths, driveways, and garden structures is a constant risk when operating bobcats, skid steers, and excavators in confined residential spaces. A comprehensive insurance package ensures every aspect of landscaping risk is addressed.',
+    ],
+    whyNeedIt: [
+      'Striking an unmarked underground power, gas, or water service during earthworks can generate claims for service reinstatement, consequential damage, and utility company costs — often NZ$10,000 or more.',
+      'Retaining walls that fail can damage neighbouring properties, driveways, and structures — and walls over 1.5m require building consent, with the builder liable for structural performance.',
+      'Heavy machinery operating in residential gardens can damage driveways, paths, irrigation systems, and existing landscaping — public liability covers these third-party property claims.',
+      'Plant death and replacement claims can arise when plants fail to establish, particularly on high-value landscaping projects where the client has specified premium species.',
+    ],
+    coverPackage: 'A comprehensive landscaper insurance package includes public liability ($1M–$2M), tools and equipment cover for machinery and hand tools, statutory liability, and commercial vehicle insurance.',
+    costFrom: '~$32/month',
+    costFactors: [
+      'Earthworks and machinery use',
+      'Retaining wall and structural work',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Health and Safety at Work Act 2015 — duties for machinery operation, trenching, and manual handling',
+      'Resource Management Act — earthworks near waterways, boundaries, or indigenous vegetation require resource consent',
+      'Building Act 2004 — retaining walls over 1.5m require building consent and must comply with Building Code',
+      'Consumer Guarantees Act — guarantees of acceptable quality apply to landscaping services and plant supply',
+      'Local authority bylaws — many councils have specific rules around earthworks volumes and sediment control',
+    ],
+    risks: [
+      {
+        title: 'Underground Service Strike',
+        desc: 'Excavation work hits a concealed power, gas, or water line. The resulting claim includes service reinstatement, consequential damage, and potential utility company costs.',
+      },
+      {
+        title: 'Retaining Wall Failure',
+        desc: 'A retaining structure fails due to design or construction error. Damage to neighbouring properties, vehicles, and gardens can be extensive.',
+      },
+      {
+        title: 'Machinery Damage to Client Property',
+        desc: 'A bobcat or excavator damages a driveway, path, or garden feature during a job. Public liability covers the repair or reinstatement cost.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Excavator Strikes Unmarked Gas Main',
+        scenario: 'A landscaper was excavating to install a new garden bed and retaining wall system in a residential property. The excavator bucket struck an unmarked private gas line running to an outbuilding. The gas company was called to isolate and reinstate the line, and the outbuilding was taken out of service for two days.',
+        outcome: 'Public liability claim of NZ$11,400 paid for gas line reinstatement, loss of use costs, and garden reinstatement in the affected area.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Bobcat Damages New Concrete Driveway',
+        scenario: 'During a garden makeover project, a landscaper tracked a bobcat across a section of newly laid concrete driveway to access the rear garden. The steel tracks left deep impressions in the curing surface, requiring the driveway section to be broken out and repoured.',
+        outcome: 'Public liability claim of NZ$5,200 paid for driveway remediation and repouring of the affected section.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Retaining Wall Failure Damages Neighbours Garden',
+        scenario: 'A landscaper constructed a timber retaining wall on a sloped section using treated posts. Eighteen months later, inadequate post depth and drainage allowed the wall to lean and partially collapse into the neighbouring garden, damaging fencing and a garden shed.',
+        outcome: 'Public liability claim of NZ$8,900 paid for wall demolition and reconstruction, neighbour\'s fence replacement, and shed remediation.',
+        coverType: 'Public Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do landscapers need?',
+        a: 'NZ landscapers should carry public liability as a minimum. Those doing earthworks or machinery work should also carry statutory liability. Tools cover for machinery and equipment is important for larger operations.',
+      },
+      {
+        q: 'Does landscaper insurance cover underground service strikes?',
+        a: 'Public liability covers third-party property damage from underground service strikes, including reinstatement costs and consequential losses. Always call Before-U-Dig before starting any excavation work.',
+      },
+      {
+        q: 'How much does landscaper insurance cost?',
+        a: 'Landscaper insurance typically starts from around NZ$32–$55/month for public liability. A full package including machinery and vehicle cover can cost NZ$100–$220/month depending on business scale.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'tools-equipment', 'statutory-liability', 'commercial-vehicle'],
+  },
+  {
+    slug: 'drain-layers',
+    name: 'Drain Layers',
+    icon: '🚿',
+    heroImage: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Drain layers are licensed under the Plumbers, Gasfitters, and Drainlayers Act 2006 and carry serious liability for stormwater, sewage, and drainage systems. A drainage failure can cause contamination and structural damage. Specialist drain layer insurance protects your licence and your business.',
+    keyFacts: [
+      'Drain laying requires a licence under the Plumbers, Gasfitters, and Drainlayers Act 2006',
+      'Drainage failures can cause sewage contamination and significant structural damage',
+      'Strikes on existing drainage and services are a constant excavation risk',
+      'Resource Management Act obligations apply to all discharge near waterways',
+    ],
+    introText: [
+      'Drain layer insurance is a specialist package of policies protecting New Zealand licensed drain layers from the financial consequences of drainage failures, underground service strikes, contamination events, and the professional liability that comes with certifying drainage installations. Drainage work underpins the function of every building and property it serves — a failed drain can cause sewage contamination, stormwater flooding, and significant structural damage to buildings and their foundations. Public liability for drain layers typically starts from around NZ$40–$60 per month, reflecting the serious nature of potential claims.',
+      'Licensed drain layers operate under the Plumbers, Gasfitters, and Drainlayers Act 2006, and their work is inspected and approved by local authorities as part of the building consent process. This regulatory framework means that errors carry both civil liability and potential regulatory consequences. Excavation work for new drainage constantly risks striking existing water, gas, power, and communication services — and discharge from drain laying operations to stormwater systems or waterways can trigger Resource Management Act obligations. A comprehensive insurance programme addresses all of these exposures.',
+    ],
+    whyNeedIt: [
+      'A failed sewage drain can cause contamination of soils, waterways, and neighbouring properties — remediation costs for a significant contamination event can reach tens of thousands of dollars.',
+      'Excavation for new drainage constantly risks striking existing underground services — power, gas, water, and telecoms — and service reinstatement claims can be substantial.',
+      'The Plumbers, Gasfitters, and Drainlayers Act 2006 requires licensing for all drain laying work, and most principal contractors require proof of current insurance before allowing drain layers on site.',
+      'Structural drain failures that develop after completion can cause subsidence, building movement, and expensive remediation — public liability with completed works cover is essential.',
+    ],
+    coverPackage: 'A comprehensive drain layer insurance package includes public liability ($2M+), statutory liability, tools and equipment cover, and commercial vehicle insurance.',
+    costFrom: '~$40/month',
+    costFactors: [
+      'Residential vs commercial drainage work',
+      'Depth and complexity of excavation',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Plumbers, Gasfitters, and Drainlayers Act 2006 — licensing mandatory for all drain laying work',
+      'Resource Management Act — discharge to water, stormwater, or ground may require resource consent',
+      'Health and Safety at Work Act 2015 — specific obligations for trench and excavation work',
+      'Local authority trade waste and drainage bylaws — control discharges and connections to public systems',
+      'Building Act 2004 — drainage work must comply with NZ Building Code G13 (foul water) and E1 (surface water)',
+    ],
+    risks: [
+      {
+        title: 'Sewage Contamination',
+        desc: 'A failed or incorrectly connected drain causes sewage to escape into soils, landscaping, or a neighbouring property. Remediation claims can be large and complex.',
+      },
+      {
+        title: 'Underground Service Strike',
+        desc: 'Excavation for drainage hits a concealed power, gas, or water service. Reinstatement and consequential damage costs can be significant.',
+      },
+      {
+        title: 'Structural Drain Failure',
+        desc: 'A drain collapses or fails after completion, causing subsidence or building movement. Completed works cover responds to these long-tail claims.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'New Drain Incorrectly Connected to Stormwater System',
+        scenario: 'A drain layer connected a new household sewer line to the stormwater system by mistake during a subdivision drainage project. The error was identified at the next council inspection, requiring full excavation and reconnection to the correct system.',
+        outcome: 'Public liability claim of NZ$14,200 paid for excavation, pipe replacement, correct connection, and reinstatement of the affected section of landscaping.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Excavator Strikes Unmarked Water Main',
+        scenario: 'During excavation to install stormwater drainage, a drain layer\'s excavator struck a council water main that had not been marked on the as-built drawings. Water flooded the trench and disrupted supply to twelve neighbouring properties.',
+        outcome: 'Public liability claim of NZ$9,600 paid for emergency water main repairs, trench remediation, and council costs for emergency service to affected properties.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Drain Collapse Causes Garden Subsidence',
+        scenario: 'A residential drain installed without adequate bedding material collapsed under vehicle loads eighteen months after completion. The resulting void caused subsidence in the driveway and damage to a section of garden path adjacent to the affected pipe run.',
+        outcome: 'Public liability claim of NZ$7,800 paid for pipe replacement, trench reinstatement, driveway repair, and reinstatement of the subsided garden path.',
+        coverType: 'Public Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance does a drain layer need?',
+        a: 'NZ drain layers need public liability as a minimum, with statutory liability also recommended given the excavation and RMA risks. Tools cover for machinery and commercial vehicle insurance complete a solid package.',
+      },
+      {
+        q: 'Does drain layer insurance cover contamination events?',
+        a: 'Public liability covers third-party property damage and remediation costs from contamination arising from your work. Some policies have specific conditions around pollution — confirm the scope with your broker.',
+      },
+      {
+        q: 'How much does drain layer insurance cost?',
+        a: 'Drain layer insurance typically starts from around NZ$40–$60/month for public liability. A comprehensive package with tools and vehicle cover can cost NZ$130–$250/month depending on business size and work type.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'statutory-liability', 'tools-equipment', 'commercial-vehicle'],
+  },
+  {
+    slug: 'scaffolders',
+    name: 'Scaffolders',
+    icon: '🏗️',
+    heroImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Scaffolders erect and dismantle the temporary structures that keep construction sites safe — but scaffolding itself carries some of the most serious liability exposures in the trade sector. Collapse, falls, and tool drops can all cause catastrophic harm. Specialist scaffolding insurance is non-negotiable.',
+    keyFacts: [
+      'Scaffolding is regulated under HSWA and the WorkSafe NZ Approved Code of Practice',
+      'Scaffold collapse or failure can cause catastrophic injury and property damage claims',
+      'Statutory liability is critical given WorkSafe\'s active enforcement of scaffolding standards',
+      'Commercial scaffold hire arrangements require specific insurance terms',
+    ],
+    introText: [
+      'Scaffolding insurance is a specialist package of policies protecting New Zealand scaffolding contractors from the serious financial consequences of scaffold failure, height-related injuries, falling object incidents, and the regulatory liability that comes with one of construction\'s most closely scrutinised trades. WorkSafe NZ enforces scaffolding standards under the Health and Safety at Work Act 2015 and the Approved Code of Practice for Scaffolding, and prosecutions following scaffold-related incidents are well-documented. Public liability for scaffolders typically starts from around NZ$55–$90 per month, reflecting the elevated risk profile.',
+      'The liability exposure for scaffolding contractors is unique because the scaffold they erect is relied upon by other trades for the duration of a project. If a scaffold erected by a scaffolding contractor fails while being used by a carpenter or roofer, the scaffolding contractor is exposed to significant liability claims — not just from the injured party, but potentially from the principal contractor as well. Statutory liability insurance is particularly critical for scaffolders, as WorkSafe investigations following height-related incidents almost always examine the scaffold installation and its compliance with current standards.',
+    ],
+    whyNeedIt: [
+      'Scaffold collapse can cause catastrophic personal injury and property damage — claims arising from a structural scaffold failure can reach millions of dollars in serious cases.',
+      'Tools and materials dropped from height by workers on your scaffold can injure people or damage property below — your public liability responds to those third-party claims.',
+      'WorkSafe NZ actively prosecutes scaffolding non-compliance; statutory liability covers your legal defence costs if an incident triggers a WorkSafe investigation and prosecution.',
+      'Principal contractors routinely require scaffolding subcontractors to carry NZ$2M–$10M public liability and statutory liability before scaffold can be erected on their projects.',
+    ],
+    coverPackage: 'A comprehensive scaffolders insurance package includes public liability ($2M–$5M), statutory liability, tools and equipment cover for scaffold components, and commercial vehicle insurance.',
+    costFrom: '~$55/month',
+    costFactors: [
+      'Scale and height of scaffold systems erected',
+      'Commercial vs residential projects',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Health and Safety at Work Act 2015 — primary duty of care for all scaffolding erection and dismantling',
+      'WorkSafe NZ Approved Code of Practice for Scaffolding — sets specific technical standards for all scaffold types',
+      'Building Act 2004 — scaffold affecting public spaces may require building consent',
+      'Health and Safety at Work (General Risk and Workplace Management) Regulations 2016 — specific provisions for working at heights',
+      'Local authority bylaws — Auckland, Wellington, and Christchurch have specific rules for scaffold over public footpaths and roads',
+    ],
+    risks: [
+      {
+        title: 'Scaffold Collapse',
+        desc: 'A scaffold failure causes injury to workers or damage to property. These events can generate catastrophic claims and trigger immediate WorkSafe investigation.',
+      },
+      {
+        title: 'Falling Objects',
+        desc: 'Tools, materials, or scaffold components fall from height and injure a person or damage property below. Public liability covers these third-party claims.',
+      },
+      {
+        title: 'WorkSafe Prosecution',
+        desc: 'Following a height-related incident on your scaffold, WorkSafe investigates and prosecutes for health and safety breaches. Statutory liability covers legal defence costs.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Tool Drop From Scaffold Damages Vehicle Below',
+        scenario: 'A worker using a scaffolding contractor\'s erected scaffold dropped a hammer from the third lift. The hammer landed on a parked car below, causing significant bonnet and windscreen damage. The scaffolding contractor was named in the subsequent claim as the party responsible for the scaffolding structure.',
+        outcome: 'Public liability claim of NZ$6,400 paid for vehicle repair, with the scaffolding contractor\'s insurer managing the claim and recovery from the worker\'s employer.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Scaffold Inspection Finds Non-Compliant Installation',
+        scenario: 'During a WorkSafe site visit following a separate incident, inspectors identified that scaffold erected by a subcontractor had incorrectly spaced transoms and missing base plates on a commercial building project. An improvement notice was issued and work was halted while the scaffold was rectified.',
+        outcome: 'Statutory liability covered NZ$18,000 in legal costs during the WorkSafe investigation and compliance proceedings. The scaffolding contractor bore the cost of scaffold rectification.',
+        coverType: 'Statutory Liability',
+      },
+      {
+        title: 'Scaffold Damage to Heritage Building Facade',
+        scenario: 'During erection of a scaffold system against a heritage-listed commercial building, a scaffold tube slipped and struck the brick facade, dislodging ornamental stonework from the parapet and damaging a section of window surrounds.',
+        outcome: 'Public liability claim of NZ$12,300 paid for stonework restoration by a specialist heritage contractor and window surround reinstatement.',
+        coverType: 'Public Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do scaffolders need?',
+        a: 'NZ scaffolders should carry public liability and statutory liability as a minimum — both are critical given the WorkSafe enforcement environment. Tools cover for scaffold components and commercial vehicle insurance complete the package.',
+      },
+      {
+        q: 'Is scaffolding insurance expensive?',
+        a: 'Scaffolding is a high-risk trade, so premiums are higher than most other trades. Public liability for a sole trader scaffolder typically starts from around NZ$55–$90/month. A full package can cost NZ$200–$400/month.',
+      },
+      {
+        q: 'Who is liable if someone is injured on my scaffold?',
+        a: 'Liability depends on the specific circumstances — the scaffolding contractor has responsibilities for the structure itself, while the worker\'s employer has responsibilities for safe use. Your public liability and statutory liability policies address both the civil claims and regulatory consequences.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'statutory-liability', 'tools-equipment', 'commercial-vehicle', 'income-protection'],
+  },
 ]
 
 export function getTradeBySlug(slug: string): TradeType | undefined {

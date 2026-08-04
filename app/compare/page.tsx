@@ -4,7 +4,7 @@ import { providers } from '@/data/providers'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Compare NZ Tradie Insurance Providers 2026 | BizCover vs AMI vs Builtin vs Gallagher',
+  title: { absolute: 'Compare Tradie Insurance Providers | TradieInsurance.co.nz' },
   description: 'Compare NZ tradie insurance providers side by side. Detailed coverage tables, pricing, ratings and expert profiles for BizCover, AMI, Builtin, Gallagher, FMG and Vero.',
   alternates: { canonical: `${siteConfig.url}/compare/` },
 }
@@ -50,7 +50,7 @@ export default function ComparePage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/contact/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
-              Get Free Broker Quotes →
+              Get Broker Quotes →
             </Link>
             <a href="#provider-cards" className="bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm border border-white/30">
               View All Providers ↓

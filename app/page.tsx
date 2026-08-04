@@ -10,8 +10,8 @@ import { blogPosts } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Tradie Insurance NZ | Compare Public Liability, Tools & More | TradieInsurance.co.nz',
-  description: 'Compare NZ tradie insurance. Public liability from NZ$30/month, tools cover, commercial vehicle, income protection & more. Free quotes from licensed NZ brokers.',
+  title: { absolute: 'Tradie Insurance | Compare Quotes from Licensed Brokers' },
+  description: 'Compare NZ tradie insurance. Public liability from $30/month, tools cover, commercial vehicle & income protection. Quotes from licensed NZ brokers.',
   alternates: { canonical: siteConfig.url + '/' },
 }
 
@@ -72,7 +72,7 @@ export default function HomePage() {
                 Tradie Insurance <span className="text-orange-500">Made Simple</span>
               </h1>
               <p className="text-white text-xl leading-relaxed mb-5">
-                Public liability from <strong className="text-orange-400">$30/month</strong>. Tools, vehicle, income protection & more. Get free quotes from licensed brokers — no obligation.
+                Public liability from <strong className="text-orange-400">$30/month</strong>. Tools, vehicle, income protection & more. Get quotes from licensed brokers — no obligation.
               </p>
               <p className="text-gray-200 text-base leading-relaxed mb-8">
                 You&apos;re an expert in your trade — leave the insurance to us. Our licensed brokers take the time to understand your specific work, contracts, and risks. That means cover built around your business, not a generic policy with gaps or charges for things you&apos;ll never need. Most tradies who use our free matching service pay <strong className="text-orange-400">15–30% less</strong> than going direct.
@@ -293,6 +293,42 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Popular Resources */}
+      <section className="py-16 bg-white border-t border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Resources</span>
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Popular Tradie Insurance Guides</h2>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">Specific cover advice for your trade, city, or insurance need.</p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/tradie-insurance/cheap-tradie-insurance/', label: 'Cheap Tradie Insurance' },
+              { href: '/tradie-insurance/best-tradie-insurance/', label: 'Best Tradie Insurance' },
+              { href: '/tradie-insurance/compare-tradie-insurance/', label: 'Compare Tradie Insurance' },
+              { href: '/tradie-insurance/tradie-insurance-auckland/', label: 'Tradie Insurance Auckland' },
+              { href: '/tradie-insurance/tradie-insurance-wellington/', label: 'Tradie Insurance Wellington' },
+              { href: '/tradie-insurance/tradie-insurance-christchurch/', label: 'Tradie Insurance Christchurch' },
+              { href: '/tradie-insurance/builder-insurance-nz/', label: 'Builder Insurance' },
+              { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
+              { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance' },
+              { href: '/tradie-insurance/tradie-insurance-cost-nz/', label: 'Tradie Insurance Cost' },
+              { href: '/tradie-insurance/tradie-insurance-sole-trader/', label: 'Sole Trader Insurance' },
+              { href: '/tradie-insurance/tradie-insurance-small-business/', label: 'Small Business Insurance' },
+            ].map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="flex items-center gap-3 bg-gray-50 hover:bg-orange-50 border border-gray-200 hover:border-orange-300 rounded-xl px-5 py-3.5 transition-all group"
+              >
+                <span className="text-orange-500 text-sm font-bold group-hover:translate-x-0.5 transition-transform">→</span>
+                <span className="text-gray-700 font-medium text-sm group-hover:text-orange-700">{link.label}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* CTA Strip */}
       <section className="py-16 bg-orange-500">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -309,7 +345,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            {['✓ Licensed under FMA', '✓ Free Service', '✓ No Obligation', '✓ 24hr Response', '✓ NZ Based'].map((b) => (
+            {['✓ FMA-Licensed Advisers', '✓ Free Service', '✓ No Obligation', '✓ 24hr Response', '✓ NZ Based'].map((b) => (
               <span key={b} className="text-orange-200 text-xs font-semibold">{b}</span>
             ))}
           </div>

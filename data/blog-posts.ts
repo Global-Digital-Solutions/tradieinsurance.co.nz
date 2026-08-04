@@ -76,7 +76,7 @@ Use our free quote service to connect with a specialist tradie insurance broker.
   },
   {
     slug: 'builder-insurance-checklist-nz',
-    title: 'Builder Insurance Checklist: Are You Fully Covered for 2026?',
+    title: 'Builder Insurance Checklist: Fully Covered for 2026?',
     excerpt: 'A practical checklist for NZ builders to ensure their insurance package covers every risk — from public liability to professional indemnity.',
     category: 'Checklist',
     readTime: '6 min read',
@@ -157,7 +157,7 @@ Use our free quote service to connect with a licensed builder insurance speciali
   },
   {
     slug: 'public-liability-tradies-explained',
-    title: 'Public Liability Insurance for Tradies: What You Need to Know',
+    title: 'Public Liability for Tradies: What You Need to Know',
     excerpt: 'A plain-English explainer on public liability insurance for tradies — what it covers, what it costs, and why you need it.',
     category: 'Explainer',
     readTime: '5 min read',
@@ -236,7 +236,7 @@ Use our free quote service to connect with a licensed tradie insurance broker an
   },
   {
     slug: 'tool-insurance-nz-guide',
-    title: 'Tradie Tool Insurance NZ: How to Protect Your Equipment in 2026',
+    title: 'Tradie Tool Insurance: How to Protect Your Equipment',
     excerpt: 'Your tools are your livelihood. Here is everything you need to know about insuring your tools and equipment as an tradie.',
     category: 'Guide',
     readTime: '5 min read',
@@ -320,7 +320,7 @@ Talk to a specialist tradie insurance broker about your tool and equipment needs
   },
   {
     slug: 'tradie-vehicle-insurance-nz',
-    title: 'Commercial Vehicle Insurance for NZ Tradies: Utes, Vans & Trucks',
+    title: 'Commercial Vehicle Insurance for Tradies: Utes & Vans',
     excerpt: 'Your work vehicle is a business asset. Here is why your standard car insurance is not enough and what commercial vehicle cover you need.',
     category: 'Guide',
     readTime: '5 min read',
@@ -475,7 +475,7 @@ Use our free quote service to connect with a licensed electrician insurance spec
   },
   {
     slug: 'income-protection-self-employed-nz',
-    title: 'Why Self-Employed Tradies Need Income Protection (ACC Isn\'t Enough)',
+    title: 'Why Tradies Need Income Protection (ACC Isn\'t Enough)',
     excerpt: 'ACC covers work injuries but not illness. For self-employed tradies, income protection insurance fills the critical gap that could leave you financially exposed.',
     category: 'Guide',
     readTime: '6 min read',
@@ -656,7 +656,7 @@ Use our free quote service to connect with a specialist broker who can ensure yo
   },
   {
     slug: 'compare-tradie-insurance-providers-nz',
-    title: 'Comparing NZ Tradie Insurance Providers: AMI vs State vs BizCover',
+    title: 'Comparing Tradie Insurance: AMI vs State vs BizCover',
     excerpt: 'A practical comparison of the main tradie insurance providers — what they offer, their strengths, and how to choose the right one for your trade.',
     category: 'Comparison',
     readTime: '7 min read',
@@ -778,6 +778,562 @@ Rather than picking a provider first, consider these steps:
 The best tradie insurance provider is the one that offers the right cover for your specific trade, at a competitive price, with strong claims service. A specialist broker is your best ally in finding that combination — they know the market, understand your trade's risks, and can negotiate terms on your behalf.
 
 Use our free quote service to connect with a licensed tradie insurance broker and get comparative quotes from multiple providers.`,
+  },
+  {
+    slug: 'gasfitter-insurance-nz-guide',
+    title: 'Gasfitter Insurance NZ: What You Need to Know',
+    excerpt: 'Gasfitting carries some of the highest liability risks in the trade sector — here is what NZ gasfitters need to know about their insurance obligations.',
+    category: 'Guide',
+    readTime: '6 min read',
+    date: '2026-08-04',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1558618047-3c8c2b8ad6e2?auto=format&fit=crop&w=800&q=80',
+    content: `## Why Gasfitting Carries Unique Risk
+
+Of all the licensed trades in New Zealand, gasfitting sits in a category of its own when it comes to the severity of potential harm. A faulty gas connection or incorrectly specified appliance can cause an explosion, a house fire, or carbon monoxide poisoning — consequences that are not just costly in financial terms, but potentially fatal.
+
+This elevated risk profile means that gasfitter insurance deserves more careful thought than insurance for most other trades. Understanding your obligations, your exposures, and the cover available to you is part of operating responsibly in this trade.
+
+## Licensing Under the Plumbers, Gasfitters, and Drainlayers Act 2006
+
+Gasfitting is separately licensed under the Plumbers, Gasfitters, and Drainlayers Act 2006. This is a distinct licence from plumbing — a registered plumber is not authorised to carry out gasfitting work without holding the gasfitting endorsement. The Act sets out who can perform gasfitting work and creates a framework of personal professional responsibility for licensed gasfitters.
+
+This personal professional responsibility has direct insurance implications. When you certify a gas installation, your name and licence number are on that certification. If something goes wrong with that installation, you are the first point of professional accountability.
+
+### The Gas (Safety and Measurement) Regulations 2010
+
+These regulations sit alongside the Act and impose specific testing and certification requirements for every gas installation. They are not bureaucratic box-ticking — they exist because the consequences of an unchecked gas installation failure are severe. Your insurer will want to know that your work complies with these regulations; failure to comply can affect both your licence and your insurance cover.
+
+## The Three Main Risks Gasfitters Face
+
+### Gas Leaks and Fire
+
+The most common gasfitting claim involves a gas leak following an appliance installation or pipe connection that was not fully secured. These leaks can develop hours, days, or even weeks after the work is complete, by which time the gasfitter may be working on a completely different job. Gas accumulation in an enclosed space followed by ignition — from a spark, a pilot light, or an electrical appliance — can cause damage that runs from thousands to hundreds of thousands of dollars.
+
+Public liability insurance with a completed works extension covers these claims. The completed works extension is essential: it ensures your policy responds to claims that arise after the job is finished and you have left the site.
+
+### Carbon Monoxide Incidents
+
+Carbon monoxide is an odourless, colourless gas produced by incomplete combustion. Incorrect flue installation, inadequate ventilation, or a faulty gas appliance can cause CO to enter a living space without any warning signs visible to the occupants. CO incidents resulting in personal injury or death generate claims of a different order of magnitude than property damage alone.
+
+Personal injury claims from CO incidents can include medical costs, rehabilitation, loss of earnings for the affected individual, and in serious cases, significant compensation. Your public liability policy responds to these claims, but ensure the limit you hold is adequate for the scale of potential harm. For gasfitters, a minimum of NZ$2M public liability is recommended, with many commercial contracts requiring NZ$5M or more.
+
+### Professional Indemnity for Certification Errors
+
+Every gas installation you certify carries an ongoing professional liability. If an error in your certification is later identified — a wrong specification, an incorrect pressure rating, or a missed compliance step — the claim that follows will be a professional indemnity claim, not a public liability claim.
+
+Professional indemnity insurance is claims-made rather than occurrence-based. This means the policy that responds is the one in force when the claim is made, not when the original work was done. This is why continuous PI cover is important, even in periods when you are doing less work. Allowing your PI policy to lapse creates a gap that could leave you personally exposed for past certifications.
+
+## What to Tell Your Broker
+
+Getting the right gasfitter insurance means giving your broker a clear picture of your work. Key information to prepare:
+
+### Work Type and Volume
+
+The split between residential and commercial gas work affects your risk profile significantly. Domestic gas hob installations carry different exposure than gasfitting for commercial kitchens, industrial gas systems, or LPG infrastructure. Commercial work typically requires higher liability limits and may carry specific contractual insurance requirements.
+
+### Appliances and Systems You Work On
+
+Some gas appliances and systems carry higher risk than others. Instantaneous gas water heaters, commercial cooking appliances, and high-pressure LPG systems all have specific risk profiles. Your broker needs to know the full range of gas work you do to ensure your policy covers it.
+
+### Certification Practice
+
+Do you provide written certifications for your installations? How many certifications do you issue annually? Do you retain records of your certifications and the work they cover? These questions go to your professional indemnity exposure and the record-keeping practices that underpin both good professional practice and good insurance outcomes.
+
+## Typical Premium Ranges
+
+Gasfitter insurance sits at the higher end of the trade spectrum given the risk profile. Indicative figures for a sole trader gasfitter as of 2026:
+
+Public liability alone (NZ$2M limit) typically starts from around NZ$45–$70 per month. Adding professional indemnity brings the monthly cost to approximately NZ$80–$130 depending on the limit chosen. A full package including tools, commercial vehicle, and income protection typically runs NZ$150–$300 per month.
+
+These figures are indicative — your actual premium depends on your turnover, the split of work types, your claims history, and the specific terms of the policies your broker recommends.
+
+## Keeping Your Cover Current
+
+Gasfitting licences require renewal, and your insurance should be treated the same way. Review your cover at each annual renewal to ensure:
+
+- Your public liability limit still reflects your largest potential claim scenario
+- Your professional indemnity limit is appropriate for the certifications you issue
+- Your declared turnover is accurate — under-declaration can affect claim outcomes
+- Any new types of gas work you have taken on are disclosed to your insurer
+
+The cost of getting this review right is minor compared to the consequences of finding out your cover is inadequate when you need it most.`,
+  },
+  {
+    slug: 'contract-works-insurance-nz-tradies',
+    title: 'Contract Works Insurance for Tradies Explained',
+    excerpt: 'Contract works insurance covers partially completed structures and materials on site — here is what NZ tradies need to know before their next project starts.',
+    category: 'Guide',
+    readTime: '6 min read',
+    date: '2026-08-04',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
+    content: `## What Contract Works Insurance Actually Is
+
+Contract works insurance — also called construction all-risks or CAR insurance — covers the physical works themselves while they are under construction. It is fundamentally different from public liability insurance, which covers claims made by third parties.
+
+Where public liability responds when a third party suffers injury or property damage because of your work, contract works insurance responds when the works themselves are damaged by an insured event — fire, storm, flood, theft, vandalism, or accidental damage — before the project is complete.
+
+Understanding this distinction is essential for any tradie or contractor, because the gap between these two policies is where uninsured losses hide.
+
+## What Contract Works Insurance Covers
+
+A standard contract works policy covers:
+
+### The Partially Completed Structure
+
+The building or works in their incomplete state. If a fire breaks out during construction and destroys three weeks of completed framing, contract works insurance covers the cost of rebuilding that framing — even though the building is not yet finished and does not yet belong to the homeowner or building owner in any formal sense.
+
+### Materials and Components on Site
+
+Timber, plumbing fittings, electrical components, windows, roofing iron, and other materials stored on site waiting to be incorporated into the works. These materials can represent tens of thousands of dollars of value on a typical residential build. If they are stolen overnight or destroyed in a storm, contract works cover pays for their replacement.
+
+### Temporary Structures
+
+Site sheds, scaffolding, formwork, and other temporary structures erected to enable the construction work. These are covered while they are in use on the project.
+
+## Who Is Responsible for Contract Works Cover?
+
+This is the most important and most frequently misunderstood aspect of contract works insurance in New Zealand.
+
+### The Standard Position
+
+Under the standard NZS 3910 construction contract (widely used in commercial construction), responsibility for contract works insurance typically rests with the principal — the building owner or developer. The principal takes out a project policy that covers all contractors and subcontractors working on the project.
+
+However, this is not universal. Many contracts transfer the insurance obligation to the principal contractor, who then holds a policy that nominally covers the project including subcontractors.
+
+### The Residential Position
+
+Residential building contracts vary widely. Some homeowners arrange their own contract works cover through their home insurer. Others expect the builder to hold it. Many contracts are silent on the question. This ambiguity creates genuine risk gaps.
+
+If you are a builder or main contractor, read every building contract carefully to understand who is responsible for contract works cover on that specific project. Do not assume someone else has it covered.
+
+### Subcontractors
+
+If you are working as a subcontractor, you may not be named on the principal contractor's contract works policy — or their policy may have conditions that effectively exclude your portion of the works. Do not rely on the principal's cover without obtaining and reading it. Ask for a copy of the relevant policy before you start.
+
+## Key Claim Scenarios
+
+### Storm Damage to an Incomplete Roof
+
+One of the most common contract works claims involves a roof that is partially complete when a weather event arrives. The building has no weather protection, rain enters through the open structure, and ceiling linings, framing, insulation, and wall cavities are all damaged before work can resume.
+
+Depending on the contract terms, this can be either a contract works claim (the works themselves are damaged) or a public liability claim (the homeowner claims for damage to their property from your incomplete work). Having both covers in place is the only way to ensure you are protected regardless of how the claim is characterised.
+
+### Theft of Materials from Site
+
+A full pallet of framing timber worth NZ$8,000 disappears from a site over a long weekend. A subfloor's worth of engineered flooring, stored in an unfinished building, is taken. These are contract works claims — the insured materials are gone, and they need to be replaced to keep the project moving.
+
+The value of materials on modern construction sites can be enormous. A single residential build might have NZ$30,000–$80,000 of materials on site at peak stages. Contract works cover is the only product that directly addresses this risk.
+
+### Vandalism to Incomplete Works
+
+Incomplete buildings are targets for vandalism. Spray paint on new plasterwork, smashed windows, or deliberate damage to fixtures all generate contract works claims. On larger projects, the cost of remediation can be significant.
+
+## How Contract Works Relates to Your Other Policies
+
+Contract works insurance is not a substitute for public liability — it is a complement to it. The two policies address fundamentally different risks:
+
+Contract works pays when your own project is damaged. Public liability pays when someone else's property or person is damaged because of your work.
+
+Many tradies carry public liability but not contract works. This leaves them exposed if the project itself is damaged by fire, storm, or theft. If your building contracts require you to hold contract works cover, holding only public liability means you are in breach of the contract — which can have consequences beyond just the uninsured loss.
+
+## Reviewing Your Obligations Before Each Project
+
+Before every significant project, check three things:
+
+First, who does the contract say is responsible for contract works insurance? If it is you, arrange it. If it is the principal or building owner, get evidence that they have it in place.
+
+Second, if you are a subcontractor, does the principal contractor's policy extend to your work and your materials on site? Ask for confirmation in writing.
+
+Third, does the project value fall within the limit of your existing contract works policy, or do you need a specific project policy? Most annual contract works policies have a per-project limit — make sure your largest project does not exceed it.
+
+Getting these questions answered before a project starts costs nothing. Getting them answered after a loss can cost everything.`,
+  },
+  {
+    slug: 'scaffolding-insurance-nz-guide',
+    title: 'Scaffolding Insurance NZ: Height Work Cover',
+    excerpt: 'Scaffolding insurance in NZ covers collapse, falling objects, and WorkSafe liability — here is what scaffolding contractors need to know.',
+    category: 'Guide',
+    readTime: '7 min read',
+    date: '2026-08-04',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
+    content: `## The Unique Liability of Scaffolding Work
+
+Scaffolding contractors occupy a distinctive position in the construction sector. Unlike most trades, you do not just create something that other people will use for decades to come — you create a temporary structure that other tradespeople will use and depend on for their safety every day of the project.
+
+This responsibility creates a liability exposure that is both immediate and ongoing throughout a project. If a scaffold you erected fails while a roofer is working on it, you are the first party whose work will be scrutinised. Understanding this liability — and ensuring you have the right insurance to respond to it — is fundamental to operating as a scaffolding contractor.
+
+## WorkSafe NZ and the Approved Code of Practice
+
+The Health and Safety at Work Act 2015 (HSWA) is the primary legislation governing scaffolding safety in New Zealand. WorkSafe NZ enforces HSWA and has produced an Approved Code of Practice (ACoP) for Scaffolding that sets out in detail the technical and procedural standards expected of all scaffolding contractors.
+
+The ACoP is not optional guidance — it represents the standard of practice that WorkSafe expects scaffolders to meet, and departure from it significantly strengthens a prosecution case if an incident occurs.
+
+### What the ACoP Covers
+
+The ACoP addresses scaffold design and loading calculations, erection and dismantling procedures, inspection and handover requirements, ties and anchors, edge protection, access and egress, and the qualifications required for scaffold erection. It is detailed, technical, and updated periodically.
+
+Familiarity with the current ACoP is an operational requirement for any scaffolding contractor. Your insurance broker should also understand that your work is governed by it — this is relevant to how your statutory liability policy is worded and what it covers.
+
+## The Scaffolder as Contractor vs the Scaffolder as User
+
+An important distinction that affects insurance is whether you are erecting scaffolding for others to use, using scaffolding that someone else erected, or both.
+
+### You Erect the Scaffold
+
+As the contractor who erects and maintains the scaffold, your liability extends to:
+
+- The structural integrity of the scaffold for its designed load
+- Compliance with the ACoP at the point of handover
+- Any modifications made to the scaffold during the project
+- Ongoing inspection and maintenance if that is within your contract scope
+
+If the scaffold fails and injures someone, your public liability and statutory liability are both engaged.
+
+### You Use Someone Else's Scaffold
+
+If you are working on a scaffold erected by another party, you have a duty under HSWA to satisfy yourself that the scaffold is safe before using it. You cannot simply assume that because it was erected by a licensed scaffolder it is safe for your specific task and load.
+
+As a user of another party's scaffold, your liability is different — but it does not disappear. If you modify the scaffold, overload it, or use it in a way that creates a hazard for others, your public liability responds to any resulting claims.
+
+## The Three Key Insurance Covers for Scaffolders
+
+### Public Liability
+
+Public liability is the foundation of your insurance programme. It covers claims from third parties — injured workers on your scaffold, people struck by falling objects, property owners whose buildings are damaged during erection or dismantling.
+
+The minimum recommended limit for scaffold contractors in New Zealand is NZ$2M public liability. Many commercial contracts and principal contractors require NZ$5M. For work in public spaces, over busy roads, or adjacent to significant commercial property, NZ$10M or more may be required.
+
+Falling objects are a particular concern for scaffolders because your scaffold is a platform from which other trades work — and tools, materials, and components can fall to the ground where pedestrians, vehicles, and other workers may be. Ensure your public liability policy covers falling object incidents.
+
+### Statutory Liability
+
+Statutory liability insurance is arguably the most critical cover for scaffolding contractors. WorkSafe NZ investigates scaffold-related incidents seriously and has a strong prosecution record in the construction sector.
+
+The cost of defending a WorkSafe prosecution — even one where the ultimate finding is that you complied with your obligations — can run to tens of thousands of dollars in legal fees. Statutory liability covers these defence costs, allowing you to mount a proper legal response without depleting your business finances.
+
+Note that while statutory liability covers defence costs and, in some cases, fines, it does not cover criminal sanctions or deliberate breaches of the law. It is designed for the situation where a scaffold incident occurs despite your genuine effort to comply — an accident in the truest sense.
+
+### Tools and Equipment Cover
+
+Scaffold components — frames, braces, boards, ties, clamps — represent a substantial capital investment. Tools and equipment insurance covers theft, loss, and accidental damage to your scaffold stock. Given that scaffold components are often stored on site for weeks at a time, and that construction sites experience regular theft, this cover is practically important.
+
+## Practical Risk Management and Insurance
+
+The scaffolding sector has a strong safety culture, and most scaffolding contractors take their HSWA obligations seriously. But safety culture and insurance work together, not instead of each other.
+
+Practical steps that support both safety and insurance outcomes:
+
+Keep thorough handover records — signed handover certificates confirming that each scaffold was erected to the ACoP and is safe for use before any other trade accesses it. These records are invaluable in the event of a claim or investigation.
+
+Conduct regular inspections — the ACoP requires scaffold inspection at specified intervals. Keep dated records of every inspection and any remedial work done. An inspection record showing you identified and corrected a defect is powerful evidence of responsible practice.
+
+Control scaffold modifications — other trades sometimes modify scaffold to suit their needs without notifying the scaffolding contractor. Establish in your contracts and on-site signage that no modifications are permitted without your approval.
+
+Disclose your full scope of work to your broker — the type of scaffold systems you use, the heights you work at, whether you do any specialised scaffold such as cantilevered, suspended, or engineered scaffold, and the proportion of commercial vs residential work all affect your risk profile and should be accurately disclosed.
+
+## Getting the Right Scaffolding Insurance
+
+Scaffolding insurance is complex enough that a specialist broker is strongly recommended. A broker who understands the construction sector can ensure your public liability, statutory liability, and tools cover are appropriately structured for the specific risks of scaffolding work.
+
+Use our free quote service to connect with a licensed broker experienced in the New Zealand scaffolding sector.`,
+  },
+  {
+    slug: 'tradie-insurance-subcontractors-nz',
+    title: 'Tradie Insurance for Subbies: What You Need',
+    excerpt: 'Working as a subcontractor does not mean you are covered by the principal contractor\'s insurance — here is what NZ subbies need to know.',
+    category: 'Business',
+    readTime: '6 min read',
+    date: '2026-08-04',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    content: `## The Common Assumption That Creates Real Risk
+
+One of the most frequent misconceptions among subcontractors is the assumption that working under a principal contractor means you are covered by their insurance. In some situations this may partially be true. In many situations it is not true at all. And in almost all situations, relying on someone else's insurance without verifying the specifics is a risk you should not take.
+
+This guide explains the insurance relationship between principal contractors and subcontractors in New Zealand, what gaps are common, and what cover you need to hold yourself.
+
+## How Principal Contractor Insurance Works
+
+Principal contractors on construction sites typically hold public liability insurance that extends to cover their own operations and, in many cases, the operations of subcontractors working under their direction. This sounds like it might cover you — but the reality is more complicated.
+
+### Named vs Unnamed Subcontractors
+
+Many principal contractor policies cover subcontractors only if they are specifically named on the policy schedule. An unnamed subcontractor — a trade contractor you have never worked with before who brings in a specialist — may simply not be covered by the principal's policy.
+
+If you start a job without confirming that you are named on the principal's policy, you cannot safely assume coverage applies to you.
+
+### Policy Conditions
+
+Even where a principal's policy nominally extends to subcontractors, it may do so only under specific conditions. Common conditions include:
+
+- The subcontractor must hold their own public liability insurance as a prerequisite for being covered under the principal's policy
+- The subcontractor's own policy must respond first, with the principal's policy sitting in excess
+- Cover may be limited to liability arising from the subcontractor's work on that specific project
+
+These conditions mean that in practice, a subcontractor often cannot rely on the principal's policy as primary cover — they need their own policy in place anyway.
+
+### What the Principal's Policy Does Not Cover
+
+Even if you are covered under the principal's policy for your liability to third parties on their site, the principal's policy will almost certainly not cover:
+
+- Your tools and equipment (you need your own tools cover)
+- Your commercial vehicle (you need your own vehicle insurance)
+- Your income if you cannot work (you need your own income protection)
+- Liability for work you do on other projects outside the principal's job
+
+In short, the principal's policy addresses at most one dimension of your risk exposure — your public liability on their specific project — and even that coverage is conditional and uncertain without verification.
+
+## The Certificate of Currency Requirement
+
+If you work as a subcontractor, you will increasingly be asked to provide a certificate of currency before you are allowed on site. This is a formal document from your insurer confirming that you hold specific insurance cover at a stated limit, effective on a stated date.
+
+Principal contractors ask for certificates of currency because:
+
+- They have contractual obligations to ensure all parties on their site hold adequate insurance
+- Their own insurer may require evidence of subcontractor insurance as a condition of the principal's policy
+- It shifts risk back to the subcontractor and creates a paper trail in the event of a claim
+
+If you cannot provide a certificate of currency, you cannot work on many commercial or larger residential projects. Holding your own insurance is not optional if you want access to this work.
+
+## The Risk of Gaps Between Policies
+
+Even when both a principal contractor and a subcontractor hold insurance, there can be gaps between the two policies that leave a claim partially or entirely uninsured. These gaps arise from:
+
+### Faulty Workmanship Exclusions
+
+Most public liability policies exclude damage that is the direct result of faulty workmanship — the damage to the thing you are actually working on. However, consequential damage from your faulty workmanship (damage to other property caused by the fault) is typically covered.
+
+The specific wording of faulty workmanship exclusions varies between insurers and policies. In a dispute between a principal and a subcontractor, both policies' faulty workmanship exclusions can be invoked, leaving neither policy clearly responding to a claim.
+
+### Completed Works Coverage
+
+Liability claims that arise after a project is completed fall under the completed works extension of a public liability policy. Not all policies include this automatically. If you are a subcontractor who does fit-out or installation work, ensure your policy has a completed works extension — because defect claims can arrive months or years after your work is done.
+
+### Cross-Liability
+
+In disputes between a principal contractor and a subcontractor, each party may claim against the other. Without cross-liability provisions in both policies, these situations can become complicated and expensive.
+
+## What Cover Every Subcontractor Should Hold
+
+Regardless of what the principal contractor holds, every New Zealand subcontractor should maintain:
+
+### Their Own Public Liability Insurance
+
+Minimum NZ$1M–$2M for residential work. NZ$2M–$5M for commercial work. Many principal contractors now require NZ$2M as a minimum condition of subcontracting — check your specific contracts.
+
+### Tools and Equipment Cover
+
+Your tools travel between jobs and are your financial responsibility regardless of whose site you are on. The principal contractor's insurance will not replace your stolen drill press or impact wrench set.
+
+### Commercial Vehicle Insurance
+
+Your ute or van is your responsibility, insured for business use. Do not rely on personal vehicle insurance for a vehicle used for commercial purposes.
+
+### Income Protection
+
+This is particularly important for self-employed subbies. If you cannot work due to illness or injury, the principal contractor's insurance provides no income support whatsoever. Income protection fills that gap.
+
+## Reviewing the Contract Before You Start
+
+Every subcontracting arrangement should be documented, and the insurance provisions should be read carefully. Key questions to answer before you start:
+
+- What does the contract say about insurance obligations?
+- Are you required to hold specific minimum limits?
+- Are you required to name the principal as an interested party on your policy?
+- Are you required to provide a certificate of currency before starting?
+- Does the principal's policy extend to subcontractors, and are you named on it?
+
+Getting these answers before starting work protects you legally and financially. A specialist broker can help you understand your obligations and ensure your cover meets any specific contract requirements.`,
+  },
+  {
+    slug: 'cyclone-damage-claims-tradies-nz',
+    title: 'Storm & Cyclone Claims: What Tradies Need to Know',
+    excerpt: 'Post-Cyclone Gabrielle lessons for NZ tradies — how to protect your tools, vehicle, and business when severe weather strikes.',
+    category: 'Claims',
+    readTime: '7 min read',
+    date: '2026-08-04',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
+    content: `## What Cyclone Gabrielle Taught the Trades Sector
+
+When Cyclone Gabrielle struck New Zealand's North Island in February 2023, it was the most significant weather event the country had experienced in decades. For tradies in Hawke's Bay, Gisborne, Northland, and Auckland, the aftermath was not just about rebuilding clients' properties — it was about managing the damage to their own tools, vehicles, and businesses.
+
+The lessons from Gabrielle are directly relevant to every tradie across the country, regardless of where they are based. Severe weather events are not limited to the regions that experienced the worst of 2023. Understanding how insurance responds — and critically, how to make a successful claim — is knowledge every tradie should have before the next event arrives.
+
+## What Happens to Your Tools and Equipment in a Storm
+
+### Tools in Your Vehicle
+
+If your ute or van is flood-damaged or struck by a falling tree during a storm, the response depends on how your vehicle and tools are insured.
+
+Your commercial vehicle policy covers the vehicle itself for storm damage if you hold comprehensive cover. The tools inside the vehicle are a separate matter. Some commercial vehicle policies include a tools-in-vehicle extension. Others do not, and tools inside a flood-damaged vehicle would need to be claimed on a separate tools and equipment policy.
+
+Check right now — before the next weather event — whether your tools-in-vehicle cover is part of your vehicle policy, your tools policy, or both, and whether there are any conditions around claiming from both simultaneously.
+
+### Tools on Site
+
+Tools and equipment left on a construction site during a storm are at risk from flooding, wind damage, and falling debris. Standard tools policies cover storm damage to tools, but conditions vary. Check whether your policy requires tools to be secured or stored in a specific way when not in use — a tool left on an open site rather than secured in a storage unit may face a coverage challenge.
+
+### Workshop or Storage Premises
+
+If you own or lease a workshop or storage unit, you need business contents and property insurance to cover storm damage to the building and its contents. This is separate from tools cover and from your home insurance. Many sole traders assume their home contents policy covers tools stored in a home garage — most home policies have significant limitations on business equipment.
+
+## What Happens to Your Vehicle
+
+Comprehensive commercial vehicle insurance covers storm damage, including:
+
+- Flooding that enters the vehicle and damages the interior and mechanics
+- Wind-blown debris that damages the bodywork or glazing
+- Trees or structures that fall onto the vehicle
+- Inundation events where the vehicle is caught in rising water
+
+If your vehicle is a total loss following a storm event, the settlement depends on whether your policy is agreed value (you receive the stated agreed amount) or market value (you receive what the vehicle was worth at the time). For tradies, agreed value policies are preferable because the recovery cost of a well-equipped work ute with canopy, drawers, and racking can significantly exceed its market value as a vehicle alone.
+
+### Flood and Storm Damage Claims Process
+
+If your vehicle is flood-damaged:
+
+Do not attempt to start a flood-damaged vehicle. Water in the engine or electrical system can cause catastrophic secondary damage that may not be covered if it results from attempting to start after flooding.
+
+Photograph everything before any drying or cleaning. Comprehensive documentation of the damage before any remediation is the foundation of a successful claim.
+
+Contact your insurer within 24 hours. Most commercial vehicle policies require prompt notification of claims. Delaying can complicate the claims process.
+
+Secure the vehicle against further damage. Remove salvageable items and ensure the vehicle is not further exposed to the elements.
+
+## Business Interruption During a Weather Event
+
+If a storm or cyclone makes it impossible for you to work — roads are cut off, the job site is inaccessible, your vehicle is damaged — you may face days or weeks without income. ACC does not cover this situation. Your tradie insurance does not automatically include business interruption cover.
+
+Business interruption insurance (sometimes called business income cover) can respond to income loss resulting from an insured event. However, for many sole trader tradies, this cover is either not held or not well understood. After Cyclone Gabrielle, many tradies discovered that their income protection insurance did not respond because they were not ill or injured — they simply could not access their work.
+
+If you are a sole trader or small business tradie with significant fixed costs (vehicle loans, equipment finance, lease obligations), business interruption cover deserves serious consideration, particularly if you operate in a region with meaningful cyclone or flooding risk.
+
+## Natural Hazards vs Storm Damage
+
+One distinction that catches some tradies out is the difference between storm damage (covered by private insurance) and natural hazard damage (covered by the Earthquake Commission, now Toka Tū Ake EQC).
+
+EQC cover applies to residential land and residential buildings for natural hazards including earthquake, volcanic eruption, hydrothermal activity, tsunami, and certain types of storm and flood damage to residential land. For a tradie's commercial vehicle, tools, or commercial premises, EQC does not apply — private insurance is the only protection.
+
+For residential work sites or clients' properties where you may have tools or materials, the distinction between EQC cover and private insurance coverage can be relevant to understanding whose policy responds to specific types of loss. If you have questions about this in the context of your specific situation, discuss it with your broker.
+
+## How to Document a Claim After a Weather Event
+
+Documentation is the single most important factor in the outcome of a weather-related insurance claim. The time to think about documentation is before a claim arises.
+
+### Maintain a Current Equipment Inventory
+
+Keep a running list of your tools and equipment — make, model, serial number, approximate age, and replacement cost. A spreadsheet updated whenever you buy new tools takes minutes to maintain and is invaluable when you need to make a claim. Photograph high-value items individually.
+
+### Act Immediately After the Event
+
+Take photos and video of all damage as soon as it is safe to do so. The sequence of actions should be: safety first, document second, then begin any necessary emergency response.
+
+Preserve damaged items. Do not dispose of damaged tools or equipment before your insurer has had an opportunity to assess them.
+
+### Record All Consequential Costs
+
+Storm events often generate costs beyond the direct damage — accommodation if your workshop is inaccessible, hire equipment if your tools are damaged, transport costs if your vehicle is off the road. Keep receipts for all of these costs and discuss with your broker whether they are claimable.
+
+## The Takeaway
+
+Severe weather is an increasing feature of New Zealand's climate, and the events of 2023 demonstrated that the consequences for tradies can be severe and prolonged. Reviewing your insurance programme to ensure it addresses storm, flood, and cyclone risks — before the next event arrives — is one of the most practical steps you can take to protect your business.`,
+  },
+  {
+    slug: 'tradie-business-insurance-nz-guide',
+    title: 'Building a Business? Your Insurance Checklist',
+    excerpt: 'Growing from sole trader to tradie business? Here is the insurance checklist every growing NZ trade business needs to work through.',
+    category: 'Business',
+    readTime: '7 min read',
+    date: '2026-08-04',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    content: `## When Your Insurance Needs Start to Change
+
+Many tradies start as sole operators — one person, one ute, one set of tools. At that stage, a basic public liability policy and tools cover addresses most of the risk. But as a tradie business grows — taking on employees, winning bigger contracts, operating more vehicles, investing in premises — the insurance programme that served a sole trader starts to show gaps.
+
+This guide is for tradies who are growing their business and want to ensure their insurance keeps pace with their actual risk exposure. It is structured as a checklist: work through each section and identify what you have, what you might need, and when to review.
+
+## The Five Core Policies Every Tradie Business Needs
+
+### Public Liability — The Non-Negotiable Foundation
+
+Public liability insurance is required for essentially any tradie business operating in New Zealand today. The question is not whether to hold it but at what limit and with what extensions.
+
+For a growing trade business, the public liability review should ask:
+
+Does your current limit reflect your largest active contract? If you are winning NZ$2M commercial contracts, a NZ$1M public liability limit is not just inadequate — it is a breach of most commercial contract terms. As you win larger work, your limit needs to increase.
+
+Does your policy include a completed works extension? As your business matures and you have more completed projects behind you, the risk of a claim arising from past work grows. Completed works cover ensures your policy responds to those claims.
+
+Are subcontractors you engage covered? If you now subcontract work to others, confirm whether they are required to hold their own cover or whether your policy extends to their activities on your projects.
+
+### Tools and Equipment — Your Capital Investment Grows
+
+A sole trader with NZ$8,000 of tools needs tools cover. A tradie business with NZ$30,000 of tools, a spray rig, a compressor, and specialised test equipment needs a properly scheduled tools policy with an accurate sum insured.
+
+As businesses grow, tools policies often become out of date. Review your sum insured at every renewal to ensure it reflects what a full replacement would actually cost — not what you originally paid for the tools.
+
+If you have begun storing tools and equipment at a workshop or yard premises, ensure that location is covered. Tools stored on premises you own or lease need contents and property insurance, not just a tools-in-vehicle policy.
+
+### Commercial Vehicle or Fleet Cover — Multiple Vehicles Need Coordinated Cover
+
+A single ute is straightforward. A business with three vehicles, each driven by a different employee, needs fleet cover or a properly structured multi-vehicle commercial policy.
+
+Key considerations as your vehicle fleet grows:
+
+Name or any driver policies — as employees use vehicles, a named driver restriction becomes impractical. Any driver policies are more flexible but typically cost more.
+
+Agreed value for all vehicles — ensure every vehicle in your fleet has an agreed value, not market value settlement. This avoids disputes over depreciation at claim time.
+
+Fleet cover efficiencies — fleet policies often offer administrative simplicity (one renewal, one premium) and can be more cost-effective than individual policies for four or more vehicles.
+
+### Statutory Liability — Essential Once You Have Staff
+
+Once you become an employer under the Health and Safety at Work Act 2015, your statutory liability exposure increases significantly. You now have a primary duty of care for your employees' health and safety, a duty to provide and maintain safe work systems, and an obligation to consult with workers on health and safety matters.
+
+WorkSafe NZ investigates serious incidents and prosecutes businesses where health and safety obligations have not been met. As a business with employees, you are held to a higher standard than a sole operator. Statutory liability insurance covers the legal defence costs and, where insurable, penalties arising from an unintentional HSWA breach.
+
+The cost of a statutory liability policy is modest relative to the financial exposure of defending a WorkSafe prosecution without it.
+
+### Professional Indemnity — Growing into Advisory Work
+
+As trade businesses grow, they often take on more advisory and design components — specifying products for clients, designing systems, project managing work that others carry out. This advisory dimension creates a professional indemnity exposure that pure hands-on trade work does not.
+
+If your business provides design input, specifications, recommendations on products or materials, or project management services, discuss professional indemnity with your broker. PI is claims-made — it covers claims made during the policy period, not claims arising from work done during it. Once you take on PI cover, maintain it continuously.
+
+## When You Take On Your First Employee
+
+The moment you employ someone, several things change simultaneously.
+
+Your HSWA obligations increase substantially. You are now responsible for your employee's health and safety at work, not just your own. This requires active hazard management, documented processes, training, and supervision.
+
+Your potential liability expands. Your public liability policy must extend to cover the actions of your employee while they are acting in the course of their employment. Confirm this extension is in place.
+
+Your administrative obligations begin. Payroll, PAYE, ACC employer levies, KiwiSaver contributions, and employment agreement obligations all start. ACC employer levies are separate from your self-employed ACC levy and must be paid for each employee.
+
+Your insurance programme needs review. This is not optional — taking on employees without reviewing your insurance is a significant risk.
+
+## Reviewing Your Cover as You Grow
+
+There is no permanent "right" level of insurance for a growing tradie business — the right level is the one that matches your current risk profile. The risk profile of a five-person trade business is fundamentally different from that of a sole trader.
+
+A practical approach to insurance review for growing tradie businesses:
+
+Review at every annual renewal. Check that your declared turnover is accurate, your limit reflects your largest contract, and your employee count is correct. These three factors drive most premium calculations.
+
+Review whenever something significant changes. New employees, new premises, a new type of work, a significant contract win — any of these should trigger a conversation with your broker.
+
+Review when you receive a new contract. Read the insurance requirements in every significant contract before you sign. If the contract requires cover you do not hold, arrange it before you start — not after a claim.
+
+## Working with a Specialist Broker
+
+The most efficient way to ensure a growing tradie business has the right insurance is to work with a specialist broker who understands the construction and trades sector. A good broker will review your contracts, understand your workflow and risk profile, identify gaps that you may not see yourself, and structure a programme that provides genuine protection without over-insuring.
+
+Broker advice typically costs you nothing directly — they are remunerated by commission from insurers. For a business that is actively growing, the value of professional broker advice far exceeds its cost.`,
   },
 ]
 

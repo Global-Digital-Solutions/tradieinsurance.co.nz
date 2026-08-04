@@ -4,7 +4,7 @@ import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Tradie Insurance Coverage Types NZ | All Cover Explained',
+  title: { absolute: 'Tradie Insurance Coverage Types | TradieInsurance.co.nz' },
   description: 'Explore all NZ tradie insurance coverage types — public liability, tools, commercial vehicle, income protection & more. Find the right cover for your trade.',
   alternates: { canonical: `${siteConfig.url}/coverage/` },
 }

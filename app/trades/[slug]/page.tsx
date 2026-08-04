@@ -18,10 +18,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const trade = getTradeBySlug(slug)
   if (!trade) return {}
-  const title = `${trade.name} Insurance NZ | Specialist Tradie Cover`
+  const title = `${trade.name} Insurance NZ | Specialist Cover`
   const description = `${trade.name} insurance — specialist cover from licensed brokers. Public liability from ${trade.costFrom}, tools, vehicle & more. 24hr broker response.`
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: { canonical: `${siteConfig.url}/trades/${slug}/` },
     openGraph: {
@@ -270,7 +270,7 @@ export default async function TradeTypePage({ params }: Props) {
           {/* ── INLINE CTA 2 — after why need it ── */}
           <div className="mt-8 mb-16 flex flex-col sm:flex-row gap-3">
             <a href="#get-quote" className="flex-1 sm:flex-none bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3.5 rounded-xl transition-colors text-sm text-center shadow-lg shadow-orange-500/20">
-              Get My Free {trade.name} Insurance Quote →
+              Get My {trade.name} Insurance Quote →
             </a>
             <span className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-gray-100 text-gray-600 px-6 py-3.5 rounded-xl text-sm">
               <span className="text-green-600 font-bold">✓</span> Licensed advisers · Free service · No obligation

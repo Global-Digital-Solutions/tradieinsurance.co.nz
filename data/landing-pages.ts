@@ -12,7 +12,7 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'cheap-tradie-insurance',
     title: 'Cheap Tradie Insurance NZ',
-    metaTitle: 'Cheap Tradie Insurance NZ | Affordable Cover from NZ$30/month',
+    metaTitle: 'Cheap Tradie Insurance | Affordable Cover from $30/Month',
     metaDesc: 'Find affordable tradie insurance in NZ. Public liability from NZ$30/month. Compare quotes from licensed brokers and get the best price for your trade.',
     hero: 'Affordable Tradie Insurance from NZ$30/Month',
     intro: 'Finding cheap tradie insurance does not mean cutting corners on cover. It means working with a specialist broker who can find the most competitive policy for your trade, turnover, and risk profile — so you pay only for what you actually need.',
@@ -56,7 +56,7 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'compare-tradie-insurance',
     title: 'Compare Tradie Insurance NZ',
-    metaTitle: 'Compare Tradie Insurance NZ | Get Quotes from Multiple Providers',
+    metaTitle: 'Compare Tradie Insurance | Get Quotes from Providers',
     metaDesc: 'Compare NZ tradie insurance quotes from multiple providers. Find the best cover for your trade and budget. Free broker matching service.',
     hero: 'Compare NZ Tradie Insurance Quotes',
     intro: 'Comparing tradie insurance is the best way to ensure you get the right cover at the best price. Rather than accepting the first quote you receive, use our free broker matching service to get competitive quotes from multiple licensed insurers.',
@@ -78,8 +78,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'tradie-insurance-auckland',
     title: 'Tradie Insurance Auckland',
-    metaTitle: 'Tradie Insurance Auckland | NZ Broker Quotes for Auckland Tradies',
-    metaDesc: 'Tradie insurance for Auckland tradies. Public liability, tools, vehicle & income protection. Get free quotes from licensed Auckland insurance brokers.',
+    metaTitle: 'Tradie Insurance Auckland | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Auckland tradies. Public liability, tools, vehicle & income protection. Quotes from licensed Auckland insurance brokers.',
     hero: 'Tradie Insurance for Auckland Tradies',
     intro: 'Auckland is New Zealand\'s largest construction market, with thousands of tradies working across residential developments, commercial projects, and infrastructure. The Auckland market has unique insurance considerations — from high-value residential work in North Shore and Remuera to large commercial projects in the CBD and Manukau.',
     sections: [
@@ -100,8 +100,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'tradie-insurance-wellington',
     title: 'Tradie Insurance Wellington',
-    metaTitle: 'Tradie Insurance Wellington | NZ Broker Quotes for Wellington Tradies',
-    metaDesc: 'Tradie insurance for Wellington tradies. Earthquake-aware cover, public liability, tools & vehicle insurance. Free quotes from licensed Wellington brokers.',
+    metaTitle: 'Tradie Insurance Wellington | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Wellington tradies. Earthquake-aware cover, public liability, tools & vehicle insurance. Quotes from licensed Wellington brokers.',
     hero: 'Tradie Insurance for Wellington Tradies',
     intro: 'Wellington tradies operate in one of New Zealand\'s most seismically active regions. The unique risks of working in an earthquake-prone environment, combined with Wellington\'s mix of heritage buildings, government infrastructure, and residential developments, create specific insurance considerations for the region\'s tradie community.',
     sections: [
@@ -122,8 +122,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'tradie-insurance-christchurch',
     title: 'Tradie Insurance Christchurch',
-    metaTitle: 'Tradie Insurance Christchurch | NZ Broker Quotes for Canterbury Tradies',
-    metaDesc: 'Tradie insurance for Christchurch and Canterbury tradies. Post-earthquake rebuild experience, public liability, tools & vehicle cover. Free quotes from licensed brokers.',
+    metaTitle: 'Tradie Insurance Christchurch | Broker Quotes Tradies',
+    metaDesc: 'Tradie insurance for Christchurch and Canterbury tradies. Post-earthquake rebuild experience, public liability, tools & vehicle cover. Quotes from licensed brokers.',
     hero: 'Tradie Insurance for Christchurch and Canterbury Tradies',
     intro: 'Christchurch and the Canterbury region have been through one of the most significant construction periods in NZ history following the 2010–2011 earthquakes. The rebuild created a sophisticated and experienced tradie community — and specific insurance lessons that continue to shape the local market.',
     sections: [
@@ -144,8 +144,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'builder-insurance-nz',
     title: 'Builder Insurance NZ',
-    metaTitle: 'Builder Insurance NZ 2026 | Public Liability, Tools & More for Builders',
-    metaDesc: 'Comprehensive builder insurance in NZ — public liability, contract works, tools, income protection & more. Get free quotes from specialist NZ builder insurance brokers.',
+    metaTitle: 'Builder Insurance NZ 2026 | Public Liability & Tools',
+    metaDesc: 'Comprehensive builder insurance in NZ — public liability, contract works, tools & income protection. Quotes from specialist NZ builder insurance brokers.',
     hero: 'Builder Insurance NZ: Complete Cover for NZ Builders',
     intro: 'Builder insurance is more complex than most other trades, because builders carry more risk — both in terms of the types of work they do and the long-tail liability that can arise from structural defects. Getting the right cover is essential for any NZ builder, from sole traders to large building companies.',
     sections: [
@@ -166,8 +166,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'public-liability-tradies-nz',
     title: 'Public Liability for Tradies NZ',
-    metaTitle: 'Public Liability Insurance for Tradies NZ | From NZ$30/Month',
-    metaDesc: 'Public liability insurance for NZ tradies from NZ$30/month. Covers injury and property damage claims. Get free quotes from licensed NZ brokers.',
+    metaTitle: 'Public Liability for Tradies | From NZ$30/Month',
+    metaDesc: 'Public liability insurance for NZ tradies from NZ$30/month. Covers injury and property damage claims. Quotes from licensed NZ brokers.',
     hero: 'Public Liability Insurance for NZ Tradies',
     intro: 'Public liability insurance is the single most important insurance product for any tradie. It protects you against claims for injury or property damage caused by your work — which for tradies working on client properties every day is a very real and frequent risk.',
     sections: [
@@ -188,8 +188,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'tool-insurance-nz',
     title: 'Tool Insurance NZ',
-    metaTitle: 'Tool Insurance NZ | Protect Your Tradie Tools from NZ$25/Month',
-    metaDesc: 'Tool insurance for NZ tradies from NZ$25/month. Covers theft, accidental damage, and loss of tools in vehicles, on sites & at home. Free quotes.',
+    metaTitle: 'Tool Insurance NZ | Protect Your Tools from $25/Month',
+    metaDesc: 'Tool insurance for NZ tradies from NZ$25/month. Covers theft, accidental damage, and loss of tools in vehicles, on sites & at home. Quotes available.',
     hero: 'Tool Insurance NZ: Protect Your Most Valuable Assets',
     intro: 'Your tools are how you earn your living. Tool theft from utes and vans is one of the most common insurance claims for tradies. A single overnight break-in can cost thousands and leave you unable to work. Tool insurance covers you for theft, accidental damage, and loss — wherever your tools are.',
     sections: [
@@ -232,8 +232,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'tradie-insurance-sole-trader',
     title: 'Tradie Insurance for Sole Traders NZ',
-    metaTitle: 'Sole Trader Tradie Insurance NZ | Affordable Cover for Self-Employed Tradies',
-    metaDesc: 'Tradie insurance for NZ sole traders. Public liability from NZ$30/month, tools, vehicle & income protection. Tailored for self-employed tradies. Free quotes.',
+    metaTitle: 'Sole Trader Tradie Insurance NZ | Affordable Cover',
+    metaDesc: 'Tradie insurance for NZ sole traders. Public liability from NZ$30/month, tools, vehicle & income protection. Tailored for self-employed tradies. Quotes from licensed brokers.',
     hero: 'Tradie Insurance for NZ Sole Traders',
     intro: 'As a self-employed sole trader, you are your business — which means the right insurance is even more critical than for a larger operation. With no employer to fall back on, no sick pay, and no safety net beyond ACC, sole trader tradies need cover that genuinely protects their livelihood.',
     sections: [
@@ -254,8 +254,8 @@ export const landingPages: LandingPage[] = [
   {
     slug: 'tradie-insurance-small-business',
     title: 'Tradie Insurance for Small Businesses NZ',
-    metaTitle: 'Small Business Tradie Insurance NZ | Cover for Trades with Employees',
-    metaDesc: 'Tradie insurance for NZ small businesses with employees. Public liability, statutory liability, tools, vehicle & more. Free quotes from licensed brokers.',
+    metaTitle: 'Small Business Tradie Insurance | Cover with Employees',
+    metaDesc: 'Tradie insurance for NZ small businesses with employees. Public liability, statutory liability, tools, vehicle & more. Quotes from licensed brokers.',
     hero: 'Tradie Insurance for NZ Small Businesses',
     intro: 'Growing your tradie business from a sole trader operation to a small business with employees is a significant milestone — and it comes with significantly greater insurance obligations. The right insurance package for a small tradie business protects your team, your clients, and everything you have built.',
     sections: [
@@ -270,6 +270,138 @@ export const landingPages: LandingPage[] = [
       {
         heading: 'Building Your Small Business Insurance Package',
         body: 'A comprehensive small tradie business insurance package typically includes:\n\n1. Public liability (NZ$2M–$10M depending on work type)\n2. Statutory liability\n3. Tools and equipment cover\n4. Fleet or commercial vehicle insurance\n5. Contents and property (if you have a workshop or yard)\n6. Professional indemnity (if applicable to your trade)\n\nWork with a specialist broker to build a package that addresses your specific business risk profile. Our free service connects you with licensed brokers who specialise in tradie business insurance.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-hamilton',
+    title: 'Tradie Insurance Hamilton',
+    metaTitle: 'Tradie Insurance Hamilton | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Hamilton tradies. Public liability, tools, vehicle & income protection. Quotes from licensed Waikato insurance brokers.',
+    hero: 'Tradie Insurance for Hamilton Tradies',
+    intro: 'Hamilton is one of the fastest-growing cities in the country, with major residential developments in Rototuna, Flagstaff, and the Peacocke greenfield area driving strong demand for tradies across all sectors. The Waikato construction market is active and competitive — and insurance requirements on Hamilton sites are keeping pace with the city\'s growth.',
+    sections: [
+      {
+        heading: 'Hamilton\'s Construction Boom',
+        body: 'Hamilton\'s residential growth has been sustained over the past decade, with greenfield developments south of the city and infill intensification in established suburbs creating consistent work for builders, plumbers, electricians, and specialist trades. Major roading and infrastructure projects — including the Waikato Expressway connections and Peacocke bridge — have brought large principal contractors to the region, each with their own insurance requirements for subcontractors.\n\nTradies working on Hamilton\'s growth projects typically need:\n\n- Public liability of NZ$2M–$5M for residential work in new subdivisions\n- NZ$5M–$20M for commercial or infrastructure projects\n- Statutory liability given WorkSafe\'s active presence on large construction sites\n- Tools and commercial vehicle cover for the daily commute between Hamilton and surrounding satellite towns',
+      },
+      {
+        heading: 'Waikato Tradie Insurance Considerations',
+        body: 'Hamilton-based tradies often work across a wide geographic area — from Raglan and Te Awamutu to Morrinsville and Cambridge. This means commercial vehicle insurance is particularly important, as is ensuring your policy covers the full range of locations you work in.\n\nThe Waikato region\'s mix of residential, agricultural, and commercial construction means your broker should understand rural as well as urban risk profiles. Tradies doing lifestyle block work, rural sheds, or agricultural infrastructure have different risk considerations than those doing urban residential or commercial work.',
+      },
+      {
+        heading: 'Getting Covered in Hamilton',
+        body: 'Our broker network includes specialists with experience in the Waikato construction market. Whether you are working on Hamilton\'s growth areas, taking on commercial contracts in the CBD, or travelling across the Waikato for residential jobs, we can match you with a licensed broker who understands the local market.\n\nUse our free quote service to get comparative quotes from licensed brokers. Standard tradie cover can typically be arranged within 24–48 hours.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-tauranga',
+    title: 'Tradie Insurance Tauranga',
+    metaTitle: 'Tradie Insurance Tauranga | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Tauranga and Bay of Plenty tradies. Public liability, tools, vehicle & income protection. Quotes from licensed brokers.',
+    hero: 'Tradie Insurance for Tauranga Tradies',
+    intro: 'Tauranga and the Bay of Plenty has been one of the country\'s fastest-growing regions for over a decade. The Papamoa East and Te Tumu growth areas, Port of Tauranga commercial development, and the expanding residential corridor towards Te Puke have created sustained demand for tradies at every level of the construction sector.',
+    sections: [
+      {
+        heading: 'Bay of Plenty Construction Activity',
+        body: 'Tauranga\'s construction market is driven by a combination of strong residential demand, significant commercial development around the Port of Tauranga, and ongoing retail and hospitality growth in the city centre and Mount Maunganui. The Papamoa corridor continues to expand with new subdivisions, and the Eastern Corridor growth area represents one of the largest greenfield housing developments in the country.\n\nFor tradies in the Bay of Plenty, this means:\n\n- Residential subdivision work typically requires NZ$2M public liability as a minimum\n- Port-adjacent commercial work may require NZ$5M–$10M\n- Principal contractors on large Bay of Plenty projects require statutory liability and health and safety documentation\n- The mix of residential and commercial work means tradies need cover that flexibly addresses both risk profiles',
+      },
+      {
+        heading: 'Tauranga-Specific Risk Factors',
+        body: 'Tauranga\'s coastal climate brings additional risk considerations for some trades. Roofing, painting, and exterior cladding contractors should ensure their policies cover weather-related delays and storm exposure for partially completed work.\n\nThe city\'s rapid growth has also placed pressure on services and infrastructure, meaning underground utility strikes are a genuine risk in areas where services may not be fully marked on available plans. Landscapers, drain layers, and earthworks contractors should ensure they carry adequate public liability and make use of the Before-U-Dig service before every dig.',
+      },
+      {
+        heading: 'Getting Covered in Tauranga',
+        body: 'Our free quote service connects Tauranga tradies with licensed brokers who understand the Bay of Plenty construction market. Whether you are doing residential work in Papamoa, commercial projects in Mount Maunganui, or infrastructure work around the port, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-dunedin',
+    title: 'Tradie Insurance Dunedin',
+    metaTitle: 'Tradie Insurance Dunedin | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Dunedin and Otago tradies. Public liability, tools, vehicle & income protection. Quotes from licensed brokers.',
+    hero: 'Tradie Insurance for Dunedin Tradies',
+    intro: 'Dunedin\'s construction sector has been transformed by the Southern Cancer Centre, Dunedin Hospital rebuild, and ongoing university and commercial development. The city\'s heritage buildings, high rainfall, and the scale of major public infrastructure projects create specific insurance considerations for tradies working in Otago.',
+    sections: [
+      {
+        heading: 'Major Projects Driving Dunedin Construction',
+        body: 'The Dunedin Hospital rebuild — one of the largest public construction projects in New Zealand\'s history — has brought significant activity and subcontracting opportunity to the Dunedin trades market. Principal contractors on major health and government projects typically require:\n\n- Public liability of NZ$5M–$20M\n- Statutory liability\n- Comprehensive health and safety plans\n- Specific documentation of qualifications and insurance for all subcontractors\n\nBeyond the hospital rebuild, the University of Otago\'s ongoing campus development, commercial and hospitality growth in the CBD, and residential development across South Dunedin and the hill suburbs all generate consistent work for local tradies.',
+      },
+      {
+        heading: 'Heritage Buildings and Dunedin\'s Climate',
+        body: 'Dunedin has one of New Zealand\'s most significant concentrations of Victorian and Edwardian heritage buildings. Tradies working on heritage properties face specific insurance considerations:\n\n- Higher public liability limits are often required due to the irreplaceable nature of heritage materials\n- Professional indemnity may be relevant for tradies advising on restoration methods or specifying heritage-appropriate materials\n- Some insurers apply specific conditions to work on pre-1935 buildings\n\nDunedin\'s high annual rainfall — among the highest of any New Zealand city — means that roofers, builders, and exterior trades face elevated exposure to weather events during partially completed work. Ensure your policy covers storm damage to incomplete structures.',
+      },
+      {
+        heading: 'Getting Covered in Dunedin',
+        body: 'Our broker network includes specialists with experience in the Otago and Southland construction markets. We can match Dunedin tradies with licensed brokers who understand local project requirements, heritage building work, and the specific demands of major public construction contracts.\n\nUse our free quote service to get started. Standard cover can typically be arranged within 24–48 hours.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-palmerston-north',
+    title: 'Tradie Insurance Palmerston North',
+    metaTitle: 'Tradie Insurance Palmerston North | Broker Quotes',
+    metaDesc: 'Tradie insurance for Palmerston North and Manawatū tradies. Public liability, tools, vehicle & income protection. Quotes from licensed brokers.',
+    hero: 'Tradie Insurance for Palmerston North Tradies',
+    intro: 'Palmerston North is the commercial and services hub of the Manawatū-Whanganui region, with a diverse construction market spanning residential growth, infrastructure investment, agricultural sector building, and defence-related projects at RNZAF Base Ohakea. The region\'s tradies work across a wide range of project types that require tailored insurance coverage.',
+    sections: [
+      {
+        heading: 'Manawatū Construction and Infrastructure',
+        body: 'Palmerston North\'s construction market is supported by strong institutions — Massey University, MidCentral DHB, and central government agencies — alongside steady residential demand and ongoing regional infrastructure investment. The Manawatū Gorge replacement route (Te Ahu a Turanga) brought major civil construction activity to the region, and defence infrastructure investment at Ohakea has created specialised contracting opportunities.\n\nFor tradies working in the region:\n\n- Institutional and government contract work typically requires NZ$5M–$10M public liability\n- Residential and small commercial work typically requires NZ$1M–$2M\n- Agricultural sector building — sheds, silos, irrigation infrastructure — has its own risk profile that brokers experienced in rural construction understand well',
+      },
+      {
+        heading: 'Agricultural and Rural Tradie Work',
+        body: 'The Manawatū region\'s strong agricultural base means many Palmerston North-based tradies work on farms and rural properties across the wider region. Agricultural building and rural contracting carries specific risks:\n\n- Working in remote locations where emergency services response is slower\n- Livestock and machinery on site creating additional hazard exposures\n- Rural roads creating higher commercial vehicle risk\n- Earthworks and drainage in agricultural settings with specific RMA considerations\n\nEnsure your broker understands that your work extends to rural settings — some urban-focused policies may have geographic limitations or different conditions for rural work.',
+      },
+      {
+        heading: 'Getting Covered in Palmerston North',
+        body: 'Our free quote service connects Manawatū tradies with licensed brokers who understand both the urban and rural dimensions of the region\'s construction sector. Whether you are doing residential work in Palmerston North, institutional projects at Massey, or rural building across the wider region, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-napier-hastings',
+    title: 'Tradie Insurance Napier Hastings',
+    metaTitle: 'Tradie Insurance Napier Hastings | Broker Quotes',
+    metaDesc: 'Tradie insurance for Napier, Hastings and Hawke\'s Bay tradies. Post-cyclone rebuild experience. Quotes from licensed brokers.',
+    hero: 'Tradie Insurance for Hawke\'s Bay Tradies',
+    intro: 'Hawke\'s Bay\'s tradie community has been at the centre of one of the most significant regional rebuild efforts in recent New Zealand history, following the devastation of Cyclone Gabrielle in February 2023. The combination of ongoing recovery work, the region\'s wine and horticultural sector construction, and Napier\'s heritage Art Deco character creates a distinctive insurance environment for local tradies.',
+    sections: [
+      {
+        heading: 'Post-Cyclone Gabrielle Rebuild',
+        body: 'Cyclone Gabrielle caused widespread damage across Hawke\'s Bay in February 2023, with flooding, slips, and infrastructure damage generating years of rebuild and recovery work. For tradies in the region, the rebuild has reinforced some important insurance lessons:\n\n- Documentation is critical: photograph everything before, during, and after work on cyclone-affected properties\n- Rebuild contracts often carry specific insurance requirements from principal contractors managing large repair programmes\n- Working on properties with pre-existing damage requires clear scope definition to avoid disputes about what your work covered\n- Business interruption cover proved its value during the disruption period — tradies with income protection were better positioned to manage through the recovery\n\nTradies taking on post-Gabrielle remediation and rebuild work should discuss the specific risk profile of this work with their broker before starting.',
+      },
+      {
+        heading: 'Hawke\'s Bay\'s Diverse Construction Market',
+        body: 'Beyond the rebuild, Hawke\'s Bay\'s construction market is shaped by its wine and horticultural industries. Winery buildings, cool store facilities, processing facilities, and worker accommodation create specialist commercial construction demand. Art Deco Napier — with its significant stock of heritage-listed buildings — requires tradies working on restoration and maintenance to understand the specific insurance considerations of heritage property work, including higher liability limits and the availability of like-for-like materials.\n\nResidential construction in Havelock North and new subdivisions in Hastings also generates consistent work for builders, plumbers, electricians, and specialist trades across the region.',
+      },
+      {
+        heading: 'Getting Covered in Hawke\'s Bay',
+        body: 'Our broker network includes specialists with experience in the Hawke\'s Bay market, including the specific requirements of post-cyclone rebuild work. We can match Napier and Hastings tradies with licensed brokers who understand the region.\n\nUse our free quote service to get comparative quotes. Standard cover can typically be arranged within 24–48 hours.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-nelson',
+    title: 'Tradie Insurance Nelson',
+    metaTitle: 'Tradie Insurance Nelson | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Nelson and Top of the South tradies. Public liability, tools, vehicle & income protection. Quotes from licensed brokers.',
+    hero: 'Tradie Insurance for Nelson Tradies',
+    intro: 'Nelson and the Top of the South region has experienced strong lifestyle-driven residential construction growth, supported by its aquaculture and fishing sector, the Marlborough wine industry crossover, and consistent domestic tourism infrastructure investment. Nelson\'s tradies serve a diverse and geographically spread market that requires flexible, comprehensive insurance.',
+    sections: [
+      {
+        heading: 'Nelson\'s Growing Construction Market',
+        body: 'Nelson\'s attractiveness as a lifestyle destination has driven sustained residential construction demand, with new subdivisions in Richmond, Wakefield, and the Waimea plains providing consistent work for builders and specialist trades. Commercial construction has followed residential growth, with retail, hospitality, and light industrial development adding to the region\'s construction pipeline.\n\nFor Nelson tradies, key insurance considerations include:\n\n- Residential work typically requires NZ$1M–$2M public liability\n- Commercial and tourism infrastructure projects require NZ$2M–$5M or more\n- The region\'s lifestyle block and rural residential market means tradies often work on remote sites with specific risk considerations\n- Aquaculture and marine sector construction has specialist risk requirements that benefit from expert broker advice',
+      },
+      {
+        heading: 'Marlborough Crossover and Regional Work',
+        body: 'Many Nelson-based tradies also work across into Marlborough — particularly on wine industry infrastructure, cool store construction, and winery building projects. Working across regional boundaries means your insurance needs to reflect the full geographic scope of your activities.\n\nThe Top of the South region\'s mix of alpine, coastal, and rural environments also means commercial vehicle risk can be elevated compared to urban markets. Nelson\'s roads to Golden Bay and other remote areas carry higher risk than main highway driving — ensure your vehicle policy reflects where you actually work.',
+      },
+      {
+        heading: 'Getting Covered in Nelson',
+        body: 'Our free quote service connects Nelson and Top of the South tradies with licensed brokers who understand the region\'s diverse construction market. Whether you are doing residential work in Richmond, commercial projects in central Nelson, or aquaculture infrastructure on the Sounds, we can match you with a broker suited to your needs.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
       },
     ],
   },

@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const page = getLandingPageBySlug(slug)
   if (!page) return {}
   return {
-    title: page.metaTitle,
+    title: { absolute: page.metaTitle },
     description: page.metaDesc,
     alternates: { canonical: `${siteConfig.url}/tradie-insurance/${slug}/` },
   }

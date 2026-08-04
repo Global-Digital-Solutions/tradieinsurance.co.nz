@@ -4,8 +4,8 @@ import QuoteForm from '@/components/QuoteForm'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
-  title: 'Get a Free Tradie Insurance Quote | Contact TradieInsurance.co.nz',
-  description: 'Get a free NZ tradie insurance quote. Connect with a licensed broker today. Fill in our form and we will match you with the right specialist within 24 hours.',
+  title: { absolute: 'Get a Quote | TradieInsurance.co.nz' },
+  description: 'Request a NZ tradie insurance quote. Connect with a licensed broker today. Fill in our form and we will match you with the right specialist within 24 hours.',
   alternates: { canonical: `${siteConfig.url}/contact/` },
 }
 
@@ -82,7 +82,7 @@ export default function ContactPage() {
           <nav className="text-sm text-white/80 mb-8 drop-shadow">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2 text-white/50">›</span>
-            <span className="text-white font-medium">Get a Free Quote</span>
+            <span className="text-white font-medium">Get a Quote</span>
           </nav>
           <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
             {/* Left — value proposition */}

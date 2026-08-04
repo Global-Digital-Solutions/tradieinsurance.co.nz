@@ -17,10 +17,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   const coverage = getCoverageBySlug(slug)
   if (!coverage) return {}
-  const title = `${coverage.name} Insurance NZ | Tradie Cover from ${coverage.fromPrice}`
+  const title = `${coverage.name} Cover for Tradies | From ${coverage.fromPrice}`
   const description = `${coverage.name} insurance for tradies from ${coverage.fromPrice}. ${coverage.description.split('.')[0]}. Quotes from licensed brokers.`
   return {
-    title,
+    title: { absolute: title },
     description,
     alternates: { canonical: `${siteConfig.url}/types/${slug}/` },
     openGraph: {
@@ -173,7 +173,7 @@ export default async function CoverageTypePage({ params }: Props) {
             <div className="space-y-6">
               <QuoteForm compact />
               <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-6">
-                <h3 className="font-extrabold text-gray-900 mb-4">Why Get a Free Quote?</h3>
+                <h3 className="font-extrabold text-gray-900 mb-4">Why Get a Quote?</h3>
                 <div className="space-y-3">
                   {[
                     { icon: '🏆', text: 'Licensed under the Financial Markets Conduct Act' },

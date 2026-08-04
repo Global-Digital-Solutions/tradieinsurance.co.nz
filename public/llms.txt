@@ -37,6 +37,12 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 - Roofers
 - Concreters
 - Handymen
+- Gasfitters (standalone licensed gasfitting)
+- Tilers (floor and wall tiling)
+- Glaziers (glass installation and replacement)
+- Landscapers (garden design, earthworks, irrigation)
+- Drain Layers (stormwater, sewage, drainage)
+- Scaffolders (construction scaffolding erection)
 
 ## Key Pages
 
@@ -44,7 +50,7 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 |---|---|
 | / | Homepage — overview, how it works, coverage and trades |
 | /coverage/ | All 8 coverage types explained |
-| /trades/ | All 9 trade-specific insurance pages |
+| /trades/ | All 15 trade-specific insurance pages |
 | /compare/ | Side-by-side provider comparison table |
 | /blog/ | Insurance guides and articles |
 | /faqs/ | 15 common questions answered |
@@ -73,6 +79,12 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 - /trades/roofers/ — Roofer insurance for high-risk work
 - /trades/concreters/ — Concreter insurance
 - /trades/handymen/ — Handyman insurance
+- /trades/gasfitters/ — Gasfitter insurance including PI and statutory liability
+- /trades/tilers/ — Tiler insurance including waterproofing liability
+- /trades/glaziers/ — Glazier insurance for glass handling and installation
+- /trades/landscapers/ — Landscaper insurance for earthworks and retaining walls
+- /trades/drain-layers/ — Drain layer insurance under Plumbers Act licensing
+- /trades/scaffolders/ — Scaffolding insurance including WorkSafe compliance
 
 ## Landing Pages (High-Intent)
 
@@ -82,6 +94,12 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 - /tradie-insurance/tradie-insurance-auckland/ — Auckland tradies
 - /tradie-insurance/tradie-insurance-wellington/ — Wellington tradies
 - /tradie-insurance/tradie-insurance-christchurch/ — Christchurch/Canterbury tradies
+- /tradie-insurance/tradie-insurance-hamilton/ — Hamilton/Waikato tradies
+- /tradie-insurance/tradie-insurance-tauranga/ — Tauranga/Bay of Plenty tradies
+- /tradie-insurance/tradie-insurance-dunedin/ — Dunedin/Otago tradies
+- /tradie-insurance/tradie-insurance-palmerston-north/ — Palmerston North/Manawatū tradies
+- /tradie-insurance/tradie-insurance-napier-hastings/ — Napier/Hastings/Hawke's Bay tradies
+- /tradie-insurance/tradie-insurance-nelson/ — Nelson/Top of the South tradies
 - /tradie-insurance/builder-insurance-nz/ — Builder insurance guide
 - /tradie-insurance/public-liability-tradies-nz/ — Public liability guide
 - /tradie-insurance/tool-insurance-nz/ — Tool insurance guide
@@ -94,14 +112,20 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 | Slug | Title | Date |
 |---|---|---|
 | tradie-insurance-guide-nz | The Complete Guide to Tradie Insurance (2026) | 2026-05-01 |
-| builder-insurance-checklist-nz | Builder Insurance Checklist: Are You Fully Covered? | 2026-04-28 |
-| public-liability-tradies-explained | Public Liability Insurance for Tradies Explained | 2026-04-22 |
-| tool-insurance-nz-guide | Tool Insurance: How to Protect Your Equipment | 2026-04-18 |
-| tradie-vehicle-insurance-nz | Commercial Vehicle Insurance for Tradies | 2026-04-15 |
-| electrician-insurance-nz | Electrician Insurance: High-Risk Cover Explained | 2026-04-10 |
-| income-protection-self-employed-nz | Why Self-Employed Tradies Need Income Protection | 2026-04-05 |
-| worksafe-nz-tradies-compliance | WorkSafe NZ: What Tradies Need to Know | 2026-03-28 |
-| compare-tradie-insurance-providers-nz | Comparing Tradie Insurance Providers | 2026-03-20 |
+| builder-insurance-checklist-nz | Builder Insurance Checklist: Fully Covered for 2026? | 2026-04-28 |
+| public-liability-tradies-explained | Public Liability for Tradies: What You Need to Know | 2026-04-22 |
+| tool-insurance-nz-guide | Tradie Tool Insurance: How to Protect Your Equipment | 2026-04-18 |
+| tradie-vehicle-insurance-nz | Commercial Vehicle Insurance for Tradies: Utes & Vans | 2026-04-15 |
+| electrician-insurance-nz | Electrician Insurance NZ: High-Risk Cover Explained | 2026-04-10 |
+| income-protection-self-employed-nz | Why Tradies Need Income Protection (ACC Isn't Enough) | 2026-04-05 |
+| worksafe-nz-tradies-compliance | WorkSafe NZ: What Tradies Need to Know About Health & Safety | 2026-03-28 |
+| compare-tradie-insurance-providers-nz | Comparing Tradie Insurance: AMI vs State vs BizCover | 2026-03-20 |
+| gasfitter-insurance-nz-guide | Gasfitter Insurance NZ: What You Need to Know | 2026-08-04 |
+| contract-works-insurance-nz-tradies | Contract Works Insurance for Tradies Explained | 2026-08-04 |
+| scaffolding-insurance-nz-guide | Scaffolding Insurance NZ: Height Work Cover | 2026-08-04 |
+| tradie-insurance-subcontractors-nz | Tradie Insurance for Subbies: What You Need | 2026-08-04 |
+| cyclone-damage-claims-tradies-nz | Storm & Cyclone Claims: What Tradies Need to Know | 2026-08-04 |
+| tradie-business-insurance-nz-guide | Building a Business? Your Insurance Checklist | 2026-08-04 |
 
 ## Insurance Providers Our Brokers Access
 
