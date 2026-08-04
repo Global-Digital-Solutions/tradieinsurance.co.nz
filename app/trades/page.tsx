@@ -38,7 +38,6 @@ export default function TradesPage() {
                 href={`/trades/${t.slug}/`}
                 className="group bg-white border-2 border-gray-100 hover:border-orange-200 rounded-2xl p-6 transition-all hover:shadow-lg"
               >
-                <div className="text-4xl mb-4">{t.icon}</div>
                 <h2 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors">{t.name}</h2>
                 <p className="text-gray-500 text-sm mb-4 leading-relaxed">{t.description.split('.')[0]}.</p>
                 <div className="flex flex-wrap gap-2">

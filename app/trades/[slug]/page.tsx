@@ -40,14 +40,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const claimIcons: Record<string, string> = {
-  'Public Liability': '🛡️',
-  'Statutory Liability': '⚖️',
-  'Professional Indemnity': '📋',
-  'Tools & Equipment': '🔧',
-  'Income Protection': '💰',
-}
-
 const coverNotCovered: Record<string, string[]> = {
   'public-liability': ['Damage to your own property or equipment', 'Deliberate or intentional acts'],
   'tools-equipment': ['Wear and tear or mechanical breakdown', 'Tools left unattended in an unsecured vehicle (standard policy)'],
@@ -297,9 +289,6 @@ export default async function TradeTypePage({ params }: Props) {
               <div key={c.slug} className="bg-gray-800 border-2 border-gray-700 hover:border-orange-500/50 rounded-2xl p-6 transition-colors">
                 <div className="flex items-start justify-between mb-4">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-orange-500/20 border border-orange-500/30 rounded-xl flex items-center justify-center text-xl flex-shrink-0">
-                      {c.icon}
-                    </div>
                     <div>
                       <h3 className="font-extrabold text-white">{c.name}</h3>
                       <span className="text-orange-400 text-xs font-bold">From {c.fromPrice} <span className="text-gray-500 font-normal">(indicative)</span></span>
@@ -351,9 +340,6 @@ export default async function TradeTypePage({ params }: Props) {
             <div className="grid sm:grid-cols-3 gap-6">
               {trade.claimExamples.map((claim, i) => (
                 <div key={i} className="bg-gray-50 border-2 border-gray-100 rounded-2xl p-6 hover:border-orange-200 hover:shadow-md transition-all">
-                  <div className="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center text-2xl mb-4">
-                    {claimIcons[claim.coverType] || '🛡️'}
-                  </div>
                   <h3 className="font-extrabold text-gray-900 mb-2 text-sm leading-snug">{claim.title}</h3>
                   <p className="text-gray-600 text-xs leading-relaxed mb-4">{claim.scenario}</p>
                   <div className="bg-green-50 border-l-4 border-green-500 rounded-r-xl px-4 py-3">
@@ -398,10 +384,7 @@ export default async function TradeTypePage({ params }: Props) {
                   {recommended.map((c, i) => (
                     <tr key={c.slug} className={`${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-orange-50/40 transition-colors border-b border-gray-200 last:border-b-0`}>
                       <td className="px-5 py-4 border-r border-gray-200">
-                        <div className="flex items-center gap-2">
-                          <span className="text-lg">{c.icon}</span>
-                          <span className="font-extrabold text-gray-900">{c.name}</span>
-                        </div>
+                        <span className="font-extrabold text-gray-900">{c.name}</span>
                       </td>
                       <td className="px-5 py-4 border-r border-gray-200">
                         <span className="text-orange-600 font-extrabold text-base">{c.fromPrice}</span>
@@ -463,14 +446,9 @@ export default async function TradeTypePage({ params }: Props) {
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {recommended.map((c) => (
-                <Link key={c.slug} href={`/types/${c.slug}/`} className="group flex items-center gap-3 bg-white border-2 border-gray-100 hover:border-orange-300 rounded-2xl p-4 transition-all hover:shadow-lg">
-                  <div className="w-10 h-10 bg-orange-50 border border-orange-100 rounded-xl flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-orange-100 transition-colors">
-                    {c.icon}
-                  </div>
-                  <div>
-                    <p className="font-extrabold text-gray-900 group-hover:text-orange-600 text-sm transition-colors">{c.name}</p>
-                    <p className="text-orange-500 text-xs font-bold mt-0.5">From {c.fromPrice}</p>
-                  </div>
+                <Link key={c.slug} href={`/types/${c.slug}/`} className="group bg-white border-2 border-gray-100 hover:border-orange-300 rounded-2xl p-4 transition-all hover:shadow-lg">
+                  <p className="font-extrabold text-gray-900 group-hover:text-orange-600 text-sm transition-colors">{c.name}</p>
+                  <p className="text-orange-500 text-xs font-bold mt-0.5">From {c.fromPrice}</p>
                 </Link>
               ))}
             </div>
@@ -531,13 +509,13 @@ export default async function TradeTypePage({ params }: Props) {
               {/* Why us list */}
               <div className="space-y-4 mb-8">
                 {[
-                  { icon: '⏱️', title: 'Saves you hours of research', desc: 'One form, multiple quotes. No need to call every insurer yourself.' },
-                  { icon: '💰', title: 'Saves money vs going direct', desc: 'Brokers access negotiated rates and compare the full market for you.' },
-                  { icon: '🎯', title: 'Cover matched to your trade', desc: `Specialist ${trade.name.toLowerCase()} cover — not a generic policy with gaps.` },
-                  { icon: '🔒', title: 'No obligation, no pressure', desc: 'Review the quotes in your own time. Our brokers advise — they don\'t sell.' },
+                  { title: 'Saves you hours of research', desc: 'One form, multiple quotes. No need to call every insurer yourself.' },
+                  { title: 'Saves money vs going direct', desc: 'Brokers access negotiated rates and compare the full market for you.' },
+                  { title: 'Cover matched to your trade', desc: `Specialist ${trade.name.toLowerCase()} cover — not a generic policy with gaps.` },
+                  { title: 'No obligation, no pressure', desc: 'Review the quotes in your own time. Our brokers advise — they don\'t sell.' },
                 ].map((item) => (
-                  <div key={item.title} className="flex items-start gap-4">
-                    <span className="text-xl flex-shrink-0 mt-0.5">{item.icon}</span>
+                  <div key={item.title} className="flex items-start gap-3">
+                    <span className="text-orange-400 font-bold flex-shrink-0 mt-0.5">✓</span>
                     <div>
                       <p className="text-white font-bold text-sm">{item.title}</p>
                       <p className="text-gray-400 text-xs leading-relaxed">{item.desc}</p>

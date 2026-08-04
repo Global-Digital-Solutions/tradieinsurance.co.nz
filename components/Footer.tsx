@@ -47,9 +47,8 @@ export default function Footer() {
                 <li key={c.slug}>
                   <Link
                     href={`/types/${c.slug}/`}
-                    className="text-gray-400 hover:text-orange-400 text-sm transition-colors flex items-center gap-1.5"
+                    className="text-gray-400 hover:text-orange-400 text-sm transition-colors"
                   >
-                    <span className="text-xs">{c.icon}</span>
                     {c.name}
                   </Link>
                 </li>
@@ -70,9 +69,8 @@ export default function Footer() {
                 <li key={t.slug}>
                   <Link
                     href={`/trades/${t.slug}/`}
-                    className="text-gray-400 hover:text-orange-400 text-sm transition-colors flex items-center gap-1.5"
+                    className="text-gray-400 hover:text-orange-400 text-sm transition-colors"
                   >
-                    <span className="text-xs">{t.icon}</span>
                     {t.name}
                   </Link>
                 </li>
