@@ -132,7 +132,7 @@ export default async function TradeTypePage({ params }: Props) {
       {/* ── HERO ── */}
       <div
         className="relative border-b border-gray-700"
-        style={{ backgroundImage: `url(${trade.heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className="absolute inset-0 bg-gray-900/80" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -145,7 +145,6 @@ export default async function TradeTypePage({ params }: Props) {
           </nav>
           <div className="flex flex-col lg:flex-row items-start gap-10">
             <div className="flex-1">
-              <div className="text-5xl mb-5">{trade.icon}</div>
               <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-5 leading-tight">{trade.name} Insurance</h1>
               <p className="text-gray-200 text-xl max-w-2xl leading-relaxed mb-6">
                 Specialist cover for New Zealand {trade.name.toLowerCase()}. Licensed advisers, free service, 24-hour response.
