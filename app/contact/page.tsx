@@ -79,10 +79,10 @@ export default function ContactPage() {
       >
         <div className="absolute inset-0 bg-gray-900/88" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-white/80 mb-5 lg:mb-8 drop-shadow">
-            <Link href="/" className="hover:text-white transition-colors">Home</Link>
-            <span className="mx-2 text-white/50">›</span>
-            <span className="text-white font-medium">Get a Quote</span>
+          <nav className="text-sm mb-5 lg:mb-8" style={{ textShadow: '0 1px 3px rgba(0,0,0,0.8)' }}>
+            <Link href="/" className="text-orange-400 hover:text-orange-300 font-medium transition-colors">Home</Link>
+            <span className="mx-2 text-white/60">›</span>
+            <span className="text-white font-semibold">Get a Quote</span>
           </nav>
           <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 items-start justify-between">
             {/* Left — value proposition (stacks below form on mobile) */}
