@@ -57,7 +57,7 @@ export default function ExitIntentPopup() {
             onClick={() => setShow(false)}
             className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-xl text-center transition-colors text-sm"
           >
-            Get a Quote — It's Free
+            Get a Quote →
           </Link>
           <button
             onClick={() => setShow(false)}
@@ -68,7 +68,7 @@ export default function ExitIntentPopup() {
         </div>
 
         <p className="text-xs text-gray-400 text-center mt-4">
-          Licensed advisers · No obligation · 24hr response
+          Registered Financial Service Providers · No obligation · 24hr response
         </p>
       </div>
     </div>
