@@ -21,6 +21,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: { absolute: page.metaTitle },
     description: page.metaDesc,
     alternates: { canonical: `${siteConfig.url}/tradie-insurance/${slug}/` },
+    openGraph: {
+      type: 'website',
+      title: page.metaTitle,
+      description: page.metaDesc,
+      url: `${siteConfig.url}/tradie-insurance/${slug}/`,
+      siteName: 'TradieInsurance.co.nz',
+      locale: 'en_NZ',
+      images: [{ url: `${siteConfig.url}/og-image.png`, width: 1200, height: 630, alt: page.title }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: page.metaTitle,
+      description: page.metaDesc,
+      images: [`${siteConfig.url}/og-image.png`],
+    },
   }
 }
 
@@ -38,9 +53,23 @@ export default async function LandingPage({ params }: Props) {
     ],
   }
 
+  const serviceSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${siteConfig.url}/tradie-insurance/${slug}/#service`,
+    name: page.title,
+    description: page.metaDesc,
+    provider: { '@id': `${siteConfig.url}/#organization` },
+    areaServed: { '@type': 'Country', name: 'New Zealand' },
+    url: `${siteConfig.url}/tradie-insurance/${slug}/`,
+    serviceType: 'Insurance Broker Referral',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'NZD', description: 'Free broker matching service' },
+  }
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
 
       <div className="bg-gray-900 border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">

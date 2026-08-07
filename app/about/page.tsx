@@ -6,6 +6,21 @@ export const metadata: Metadata = {
   title: { absolute: 'About TradieInsurance.co.nz | NZ Broker Referral Service' },
   description: 'About TradieInsurance.co.nz — NZ\'s specialist tradie insurance comparison and referral service. We connect tradies with licensed NZ insurance brokers.',
   alternates: { canonical: `${siteConfig.url}/about/` },
+  openGraph: {
+    type: 'website',
+    title: 'About TradieInsurance.co.nz | NZ Broker Referral Service',
+    description: 'About TradieInsurance.co.nz — NZ\'s specialist tradie insurance comparison and referral service. We connect tradies with Registered Financial Service Providers.',
+    url: `${siteConfig.url}/about/`,
+    siteName: 'TradieInsurance.co.nz',
+    locale: 'en_NZ',
+    images: [{ url: `${siteConfig.url}/og-image.png`, width: 1200, height: 630, alt: 'TradieInsurance.co.nz' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About TradieInsurance.co.nz',
+    description: 'NZ\'s specialist tradie insurance referral service — connecting tradies with Registered Financial Service Providers.',
+    images: [`${siteConfig.url}/og-image.png`],
+  },
 }
 
 const differences = [
@@ -17,7 +32,7 @@ const differences = [
   {
     icon: '🤝',
     title: 'Licensed Broker Network',
-    desc: 'Every broker in our network is licensed under the FMCA and specialises in trade and construction insurance. You get genuine expertise, not a call centre script.',
+    desc: 'Every broker in our network is a Registered Financial Service Provider specialising in trade and construction insurance. You get genuine expertise, not a call centre script.',
   },
   {
     icon: '🆓',
@@ -95,7 +110,7 @@ export default function AboutPage() {
           <section className="mb-14">
             <h2 className="text-2xl font-extrabold text-gray-900 mb-4">How Our Service Works</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              TradieInsurance.co.nz is a referral service. We do not sell insurance directly or act as a financial adviser. Instead, we connect you with licensed insurance brokers who are regulated under the Financial Markets Conduct Act 2013.
+              TradieInsurance.co.nz is a referral service. We do not sell insurance directly or act as a financial adviser. Instead, we connect you with Registered Financial Service Providers who specialise in trade and construction insurance.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               When you submit a quote request, we assess your trade type and cover needs, then match you with the most appropriate specialist broker in our network. That broker contacts you to discuss your requirements in detail and provides comparative quotes from multiple insurers.

@@ -7,6 +7,21 @@ export const metadata: Metadata = {
   title: { absolute: 'Tradie Insurance FAQs | TradieInsurance.co.nz' },
   description: 'Answers to the most common questions about NZ tradie insurance — cost, cover types, ACC, requirements, and how to get the right cover for your trade.',
   alternates: { canonical: `${siteConfig.url}/faqs/` },
+  openGraph: {
+    type: 'website',
+    title: 'Tradie Insurance FAQs | TradieInsurance.co.nz',
+    description: 'Common NZ tradie insurance questions answered — cost, cover types, ACC, requirements and how to get the right cover.',
+    url: `${siteConfig.url}/faqs/`,
+    siteName: 'TradieInsurance.co.nz',
+    locale: 'en_NZ',
+    images: [{ url: `${siteConfig.url}/og-image.png`, width: 1200, height: 630, alt: 'Tradie Insurance FAQs' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tradie Insurance FAQs',
+    description: 'Common NZ tradie insurance questions answered in plain English.',
+    images: [`${siteConfig.url}/og-image.png`],
+  },
 }
 
 export default function FaqsPage() {

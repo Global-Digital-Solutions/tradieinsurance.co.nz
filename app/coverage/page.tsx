@@ -7,11 +7,53 @@ export const metadata: Metadata = {
   title: { absolute: 'Tradie Insurance Coverage Types | TradieInsurance.co.nz' },
   description: 'Explore all NZ tradie insurance coverage types — public liability, tools, commercial vehicle, income protection & more. Find the right cover for your trade.',
   alternates: { canonical: `${siteConfig.url}/coverage/` },
+  openGraph: {
+    type: 'website',
+    title: 'Tradie Insurance Coverage Types | TradieInsurance.co.nz',
+    description: 'Every type of NZ tradie insurance explained — public liability, tools, commercial vehicle, income protection & more.',
+    url: `${siteConfig.url}/coverage/`,
+    siteName: 'TradieInsurance.co.nz',
+    locale: 'en_NZ',
+    images: [{ url: `${siteConfig.url}/og-image.png`, width: 1200, height: 630, alt: 'TradieInsurance.co.nz Coverage Types' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tradie Insurance Coverage Types',
+    description: 'Every type of NZ tradie insurance explained — find the right cover for your trade.',
+    images: [`${siteConfig.url}/og-image.png`],
+  },
 }
 
 export default function CoveragePage() {
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Tradie Insurance Coverage Types',
+    description: 'All NZ tradie insurance coverage types available through TradieInsurance.co.nz',
+    url: `${siteConfig.url}/coverage/`,
+    numberOfItems: coverageTypes.length,
+    itemListElement: coverageTypes.map((c, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `${c.name} Insurance`,
+      url: `${siteConfig.url}/types/${c.slug}/`,
+      description: c.description.split('.')[0],
+    })),
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteConfig.url + '/' },
+      { '@type': 'ListItem', position: 2, name: 'Coverage Types', item: `${siteConfig.url}/coverage/` },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-gray-900 border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <nav className="text-sm text-gray-400 mb-4">

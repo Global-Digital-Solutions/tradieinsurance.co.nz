@@ -114,7 +114,10 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getBlogBySlug(slug)
   if (!post) notFound()
 
-  const relatedPosts = blogPosts.filter((p) => p.slug !== slug).slice(0, 3)
+  // Same-category posts first, then fill from other categories
+  const sameCat = blogPosts.filter((p) => p.slug !== slug && p.category === post.category)
+  const otherCat = blogPosts.filter((p) => p.slug !== slug && p.category !== post.category)
+  const relatedPosts = [...sameCat, ...otherCat].slice(0, 3)
 
   const blogPostingSchema = {
     '@context': 'https://schema.org',

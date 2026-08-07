@@ -176,7 +176,7 @@ export default async function CoverageTypePage({ params }: Props) {
                 <h3 className="font-extrabold text-gray-900 mb-4">Why Get a Quote?</h3>
                 <div className="space-y-3">
                   {[
-                    { icon: '🏆', text: 'Licensed under the Financial Markets Conduct Act' },
+                    { icon: '🏆', text: 'Registered Financial Service Providers' },
                     { icon: '💸', text: 'Free service — brokers are paid by insurers, not you' },
                     { icon: '⚡', text: 'Response within 24 hours on business days' },
                     { icon: '🎯', text: 'Cover matched to your exact trade and contracts' },

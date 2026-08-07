@@ -28,7 +28,7 @@ const benefits = [
   {
     icon: '🛡️',
     title: 'Licensed Experts',
-    desc: 'Every broker in our network is licensed under the Financial Markets Conduct Act. You\'re getting regulated, qualified advice — not a sales call.',
+    desc: 'Every broker in our network is a Registered Financial Service Provider. You\'re getting qualified, specialist advice — not a sales call.',
   },
 ]
 
@@ -259,7 +259,7 @@ export default function ContactPage() {
                 <p className="text-white font-extrabold text-sm mb-4">Why trust our service?</p>
                 <div className="space-y-3">
                   {[
-                    { icon: '🏆', text: 'All brokers licensed under the FMA' },
+                    { icon: '🏆', text: 'Registered Financial Service Providers' },
                     { icon: '💸', text: 'Completely free — no hidden fees' },
                     { icon: '🔒', text: 'Your data is never sold or shared' },
                     { icon: '🎯', text: 'Matched to specialists in your trade' },
@@ -291,7 +291,7 @@ export default function ContactPage() {
                   { icon: '🔒', title: 'Your details are safe', desc: 'We only share your information with the matched broker. No spam lists, no third-party marketing.' },
                   { icon: '📋', title: 'No obligation whatsoever', desc: 'Receiving a quote commits you to nothing. Compare, decide in your own time, and walk away if it\'s not right for you.' },
                   { icon: '⚡', title: 'Fast response guaranteed', desc: 'Most enquiries are matched within the hour during business hours. Same-day response on urgent requests.' },
-                  { icon: '🏆', title: 'Licensed advisers only', desc: 'Every broker in our network holds a Financial Advice Provider licence under the FMA. You\'re in qualified hands.' },
+                  { icon: '🏆', title: 'Registered service providers', desc: 'Every broker in our network is a Registered Financial Service Provider. You\'re getting specialist advice, not a sales call.' },
                 ].map((item) => (
                   <div key={item.title} className="flex items-start gap-4 bg-gray-700/40 rounded-xl p-4 border border-gray-600/50">
                     <span className="text-2xl flex-shrink-0">{item.icon}</span>
@@ -304,7 +304,7 @@ export default function ContactPage() {
               </div>
               <div className="bg-white/5 border border-white/10 rounded-2xl p-5">
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  <strong className="text-white">How we're paid:</strong> Our referral service is funded by a fee from the broker — not by you. This means you always get unbiased matching based on your needs, not on who pays us the most. All brokers in our network are licensed under the Financial Markets Conduct Act 2013.
+                  <strong className="text-white">How we're paid:</strong> Our referral service is funded by a fee from the broker — not by you. This means you always get unbiased matching based on your needs, not on who pays us the most. All brokers in our network are Registered Financial Service Providers.
                 </p>
               </div>
             </div>

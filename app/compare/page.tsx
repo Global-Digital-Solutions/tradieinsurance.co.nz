@@ -7,6 +7,21 @@ export const metadata: Metadata = {
   title: { absolute: 'Compare Tradie Insurance Providers | TradieInsurance.co.nz' },
   description: 'Compare NZ tradie insurance providers side by side. Detailed coverage tables, pricing, ratings and expert profiles for BizCover, AMI, Builtin, Gallagher, FMG and Vero.',
   alternates: { canonical: `${siteConfig.url}/compare/` },
+  openGraph: {
+    type: 'website',
+    title: 'Compare NZ Tradie Insurance Providers | TradieInsurance.co.nz',
+    description: 'Side-by-side comparison of BizCover, AMI, Builtin, Gallagher, FMG and Vero — coverage, pricing, and ratings.',
+    url: `${siteConfig.url}/compare/`,
+    siteName: 'TradieInsurance.co.nz',
+    locale: 'en_NZ',
+    images: [{ url: `${siteConfig.url}/og-image.png`, width: 1200, height: 630, alt: 'Compare NZ Tradie Insurance Providers' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Compare NZ Tradie Insurance Providers',
+    description: 'Side-by-side comparison of NZ tradie insurance providers — coverage, pricing, and ratings.',
+    images: [`${siteConfig.url}/og-image.png`],
+  },
 }
 
 const coverColumns = [

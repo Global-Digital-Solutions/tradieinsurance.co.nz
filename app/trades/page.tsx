@@ -7,11 +7,53 @@ export const metadata: Metadata = {
   title: { absolute: 'Tradie Insurance by Trade Type | TradieInsurance.co.nz' },
   description: 'Find insurance for every NZ trade — builders, plumbers, electricians, painters, roofers & more. Specialist cover matched to your trade\'s specific risks.',
   alternates: { canonical: `${siteConfig.url}/trades/` },
+  openGraph: {
+    type: 'website',
+    title: 'Tradie Insurance by Trade Type | TradieInsurance.co.nz',
+    description: 'Insurance for every NZ trade — builders, plumbers, electricians, painters, roofers & more. Specialist cover for your trade\'s risks.',
+    url: `${siteConfig.url}/trades/`,
+    siteName: 'TradieInsurance.co.nz',
+    locale: 'en_NZ',
+    images: [{ url: `${siteConfig.url}/og-image.png`, width: 1200, height: 630, alt: 'TradieInsurance.co.nz Trade Types' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tradie Insurance by Trade Type',
+    description: 'Insurance for every NZ trade — specialist cover matched to your trade\'s specific risks.',
+    images: [`${siteConfig.url}/og-image.png`],
+  },
 }
 
 export default function TradesPage() {
+  const itemListSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'NZ Tradie Insurance by Trade Type',
+    description: 'Specialist insurance for every NZ trade type',
+    url: `${siteConfig.url}/trades/`,
+    numberOfItems: tradeTypes.length,
+    itemListElement: tradeTypes.map((t, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `${t.name} Insurance`,
+      url: `${siteConfig.url}/trades/${t.slug}/`,
+      description: t.description.split('.')[0],
+    })),
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: siteConfig.url + '/' },
+      { '@type': 'ListItem', position: 2, name: 'Trade Types', item: `${siteConfig.url}/trades/` },
+    ],
+  }
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <div className="bg-gray-900 border-b border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
           <nav className="text-sm text-gray-400 mb-4">

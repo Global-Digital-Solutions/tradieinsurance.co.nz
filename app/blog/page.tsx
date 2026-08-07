@@ -7,6 +7,21 @@ export const metadata: Metadata = {
   title: { absolute: 'Tradie Insurance Blog | TradieInsurance.co.nz' },
   description: 'NZ tradie insurance guides, tips, and industry news. Everything you need to know about tradie insurance — from public liability to WorkSafe compliance.',
   alternates: { canonical: `${siteConfig.url}/blog/` },
+  openGraph: {
+    type: 'website',
+    title: 'Tradie Insurance Blog | TradieInsurance.co.nz',
+    description: 'NZ tradie insurance guides, tips, and industry news — from public liability to WorkSafe compliance.',
+    url: `${siteConfig.url}/blog/`,
+    siteName: 'TradieInsurance.co.nz',
+    locale: 'en_NZ',
+    images: [{ url: `${siteConfig.url}/og-image.png`, width: 1200, height: 630, alt: 'TradieInsurance.co.nz Blog' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Tradie Insurance Blog',
+    description: 'NZ tradie insurance guides, industry news, and expert tips.',
+    images: [`${siteConfig.url}/og-image.png`],
+  },
 }
 
 export default function BlogPage() {
