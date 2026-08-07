@@ -70,7 +70,7 @@ export default function ContactPage() {
     <>
       {/* Hero with form */}
       <section
-        className="relative py-16 lg:py-24"
+        className="relative py-8 lg:py-24"
         style={{
           backgroundImage: 'url(https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80)',
           backgroundSize: 'cover',
@@ -79,26 +79,26 @@ export default function ContactPage() {
       >
         <div className="absolute inset-0 bg-gray-900/88" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="text-sm text-white/80 mb-8 drop-shadow">
+          <nav className="text-sm text-white/80 mb-5 lg:mb-8 drop-shadow">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <span className="mx-2 text-white/50">›</span>
             <span className="text-white font-medium">Get a Quote</span>
           </nav>
-          <div className="flex flex-col lg:flex-row gap-10 items-start justify-between">
-            {/* Left — value proposition */}
-            <div className="flex-1 lg:max-w-lg">
-              <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
+          <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 items-start justify-between">
+            {/* Left — value proposition (stacks below form on mobile) */}
+            <div className="flex-1 lg:max-w-lg order-2 lg:order-1">
+              <span className="hidden lg:inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
                 Free Broker Matching
               </span>
-              <h1 className="text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
+              <h1 className="hidden lg:block text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
                 Stop Overpaying for <span className="text-orange-500">Tradie Insurance</span>
               </h1>
-              <p className="text-white text-xl leading-relaxed mb-8 drop-shadow">
+              <p className="hidden lg:block text-white text-xl leading-relaxed mb-8 drop-shadow">
                 Our free service matches you with a specialist broker who finds the right cover for your trade — without the hours of research, comparison, and guesswork.
               </p>
 
-              {/* Key benefits list */}
-              <div className="space-y-3 mb-8">
+              {/* Key benefits list — desktop only */}
+              <div className="hidden lg:block space-y-3 mb-8">
                 {[
                   'Save 15–30% versus going direct',
                   'Quotes from multiple top insurers',
@@ -113,19 +113,19 @@ export default function ContactPage() {
                 ))}
               </div>
 
-              {/* Stats bar */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+              {/* Stats — compact strip on mobile, grid on desktop */}
+              <div className="grid grid-cols-4 gap-2 lg:gap-4">
                 {stats.map((s) => (
-                  <div key={s.label} className="bg-gray-800/90 border border-gray-600 rounded-xl px-4 py-3 text-center shadow-lg">
-                    <div className="text-orange-400 font-extrabold text-xl leading-tight">{s.value}</div>
-                    <div className="text-gray-200 text-xs mt-0.5 font-medium">{s.label}</div>
+                  <div key={s.label} className="bg-gray-800/90 border border-gray-600 rounded-lg lg:rounded-xl px-1.5 lg:px-4 py-1.5 lg:py-3 text-center shadow-lg">
+                    <div className="text-orange-400 font-extrabold text-sm lg:text-xl leading-tight">{s.value}</div>
+                    <div className="text-gray-300 text-[9px] lg:text-xs mt-0.5 font-medium leading-tight">{s.label}</div>
                   </div>
                 ))}
               </div>
             </div>
 
-            {/* Right — form */}
-            <div className="w-full lg:w-[420px] lg:flex-shrink-0">
+            {/* Right — form (shown first on mobile) */}
+            <div className="w-full lg:w-[420px] lg:flex-shrink-0 order-1 lg:order-2">
               <QuoteForm />
             </div>
           </div>
