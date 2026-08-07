@@ -195,6 +195,33 @@ export default async function CoverageTypePage({ params }: Props) {
           </div>
         </div>
       </div>
+
+      {/* ── RELATED GUIDES ── */}
+      <div className="bg-orange-50 border-t border-orange-100 py-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-lg font-extrabold text-gray-900 mb-4">Related Insurance Guides</h2>
+          <div className="flex flex-wrap gap-3">
+            {[
+              { href: '/tradie-insurance/best-tradie-insurance/', label: 'Best Tradie Insurance' },
+              { href: '/tradie-insurance/compare-tradie-insurance/', label: 'Compare Tradie Insurance' },
+              { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
+              { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance Guide' },
+              { href: '/tradie-insurance/tradie-insurance-cost-nz/', label: 'How Much Does It Cost?' },
+              { href: '/tradie-insurance/tradie-insurance-sole-trader/', label: 'Sole Trader Insurance' },
+              { href: '/tradie-insurance/builder-insurance-nz/', label: 'Builder Insurance' },
+              { href: '/tradie-insurance/tradie-insurance-small-business/', label: 'Small Business Insurance' },
+            ].map((g) => (
+              <Link
+                key={g.href}
+                href={g.href}
+                className="text-sm font-semibold text-orange-600 hover:text-orange-800 bg-white border border-orange-200 hover:border-orange-400 px-4 py-2 rounded-lg transition-all"
+              >
+                {g.label} →
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
     </>
   )
 }

@@ -1335,6 +1335,406 @@ The most efficient way to ensure a growing tradie business has the right insuran
 
 Broker advice typically costs you nothing directly — they are remunerated by commission from insurers. For a business that is actively growing, the value of professional broker advice far exceeds its cost.`,
   },
+  {
+    slug: 'self-certification-plumbers-drainlayers-2026',
+    title: 'Plumber Self-Certification 2026: What It Means for You',
+    excerpt: 'The government is expanding the self-certification scheme for plumbers and drainlayers. Here is what it means for professional liability and insurance.',
+    category: 'Compliance',
+    readTime: '7 min read',
+    date: '2026-08-07',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80',
+    content: `## What the Self-Certification Expansion Means
+
+In April 2026, the government confirmed an expansion of the self-certification scheme for licensed plumbers and drainlayers — a change that has been years in the making and carries significant implications for how licensed trades manage their professional liability.
+
+Under the expanded scheme, registered plumbers and drainlayers who meet competency criteria will be able to certify a wider range of their own work without requiring third-party inspection. For busy sole traders and small operators, this reduces administrative burden and project delays. But it also shifts more of the liability for certifying that work directly onto the licence holder.
+
+This is the trade-off at the heart of self-certification: less bureaucracy, more personal accountability.
+
+## How Self-Certification Changes Your Liability Profile
+
+When an independent inspector certifies your work, responsibility is shared. When you self-certify, the certification sits entirely with you. If work you have self-certified is later found to be defective — whether it is a drainage installation that fails, a water connection that leaks, or a hot water system that does not meet temperature requirements — the certification you signed becomes the central document in any subsequent liability claim.
+
+This matters for insurance in two distinct ways.
+
+First, it reinforces why professional indemnity (PI) insurance is so critical for licensed plumbers and drainlayers. PI responds to claims arising from errors in professional services — including certification. A public liability policy alone will not cover a claim that is characterised as arising from a professional certification error rather than physical property damage. For those self-certifying their work, PI is not an optional extra. It is foundational.
+
+Second, it raises the stakes around the accuracy of your records. Self-certification requires thorough documentation — what was installed, what was tested, when, and how. In the event of a claim, your certification records are the evidence of what you knew and when. Gaps in documentation can leave your insurer unable to mount an effective defence on your behalf.
+
+## What the Plumbers, Gasfitters, and Drainlayers Board Requires
+
+The Plumbers, Gasfitters, and Drainlayers Board (PGDB) administers the licensing framework for these trades under the Plumbers, Gasfitters, and Drainlayers Act 2006. Self-certification eligibility is determined by the PGDB based on competency, licence type, and compliance history.
+
+It is worth noting that the self-certification expansion does not change the underlying legal standards your work must meet. The Building Code requirements for plumbing (G12) and drainage (G13, E1) remain unchanged. What changes is who confirms that your work meets those standards.
+
+The PGDB has also signalled that auditing of self-certified work will continue, meaning that self-certification is not a reduction in accountability — it is a shift in where accountability sits. Licence holders who repeatedly produce substandard work risk losing their self-certification eligibility, as well as facing the broader consequences of repeated claims against their insurance.
+
+## Reviewing Your Insurance if You Self-Certify
+
+If you are an eligible plumber or drainlayer and you are taking advantage of the expanded self-certification scheme, now is the right time to review your insurance programme with your broker. Three specific questions are worth addressing:
+
+Do you hold professional indemnity insurance? If not, self-certifying your work without PI leaves a significant gap in your coverage. The expansion of self-certification makes PI cover more important, not less, for those it affects.
+
+Is your PI limit appropriate for the scale of work you certify? A residential plumbing installation carries different potential claim values than a commercial drainage project or a multi-storey residential development. Your PI limit should reflect the largest potential claim that could arise from your certifications.
+
+Is your public liability policy also in place with a completed works extension? PI and public liability address different types of claims — PI for professional errors in certification and advice, public liability for physical property damage caused by your work. Both are needed. The completed works extension ensures your public liability policy responds to claims that arise after you have finished and left the site.
+
+## The Broader Context: Rising Liability in a Growing Market
+
+The self-certification expansion comes at a time when the construction sector is experiencing some of its highest activity in years. Building consents were up 16% year-to-April 2026, and the government's infrastructure pipeline of approximately $60 billion is driving sustained demand for all licensed trades including plumbers and drainlayers.
+
+More work, higher certification responsibility, and increased activity all combine to create an environment where the risk of a claim — even for a careful and experienced operator — is statistically elevated simply because of the volume of work being done.
+
+The cost of reviewing and strengthening your insurance is modest relative to the cost of a single significant claim arising from self-certified work. Get a Quote from a specialist broker to ensure your programme is genuinely fit for purpose under the expanded scheme.
+
+## Gasfitters: A Note on the Separate Framework
+
+For gasfitters, self-certification is governed by the Gas (Safety and Measurement) Regulations 2010 under a separate but related framework. Gasfitting carries its own distinct certification obligations and, given the catastrophic potential of gas-related incidents, professional indemnity is arguably even more critical for gasfitters than for general plumbers.
+
+If you hold both a plumbing and a gasfitting licence, discuss with your broker whether your PI policy covers certifications under both frameworks — some policies may need to be specifically extended to address gasfitting certification liability.`,
+  },
+  {
+    slug: 'storm-flood-claims-tradies-nz-2026',
+    title: 'Storm Claims 2026: Wellington Floods & Cyclone Vaianu',
+    excerpt: 'Wellington and Wairarapa flooding and Cyclone Vaianu in April 2026 — what tradies need to know about storm damage claims, contract works cover, and weather-related gaps.',
+    category: 'Claims',
+    readTime: '7 min read',
+    date: '2026-08-07',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
+    content: `## April 2026: Another Wake-Up Call for Tradies
+
+The Wellington and Wairarapa flooding events of April 2026, followed closely by Cyclone Vaianu's impact on parts of the North Island, served as another sharp reminder that severe weather in this country is not a regional exception — it is a national reality. For tradies with tools on site, vehicles on the road, and partially completed projects exposed to the elements, the events of April 2026 generated losses that a well-structured insurance programme should have covered — but in too many cases, did not.
+
+This article covers what tradies need to know about how insurance responds to storm and flood events, the specific gaps that caught tradies out in April 2026, and the steps you can take now to ensure you are better positioned when the next significant weather event arrives.
+
+## What $235 Billion of Exposed Buildings Means for Tradies
+
+Research published alongside the 2026 weather events estimated that approximately $235 billion worth of buildings in the country are exposed to flooding risk. For tradies, this figure matters beyond the abstract: it means the properties you work on — where your materials are stored, where your tools are left, and where your clients are depending on your work to be completed — are increasingly likely to be in areas that flood.
+
+Contract works insurance becomes significantly more important in this context. A partially completed residential build that floods during a weather event generates a claim against contract works cover — not public liability. If you do not hold contract works insurance, or if the homeowner or principal contractor is responsible for it under the contract and has not arranged it, the loss falls to whoever holds the risk.
+
+Before your next significant project, confirm in writing who is responsible for contract works cover. Do not assume.
+
+## What Wellington and Wairarapa Tradies Faced
+
+The Wellington and Wairarapa events involved sustained heavy rainfall that caused surface flooding, stream overflow, and slip activity across a wide geographic area. For tradies, the consequences fell into several categories.
+
+Vehicles. Vans and utes parked on sites or in low-lying areas were at risk from surface water. A comprehensive commercial vehicle policy covers flood damage, but market value versus agreed value settlements matter here. A well-equipped work ute with a custom canopy, tool drawers, and racking may be worth significantly more than its insured market value. If you have not checked your vehicle's agreed value recently, now is the time.
+
+Tools on site. Construction materials and tools stored in or near flood-affected areas faced water damage or total loss. Whether those tools are covered depends on the specific conditions of your tools policy — check whether your policy covers storm-related damage to tools stored on open sites, and whether tools in partially completed buildings are treated differently from tools in locked storage.
+
+Partially completed work. A build with an incomplete roof, unsealed windows, or open wall framing is acutely vulnerable to rain ingress. One of the most common claims following the April events was water damage to partially completed structures — ceiling damage, wet insulation, floor swelling, and framing deterioration. These are contract works claims, not public liability claims.
+
+## Cyclone Vaianu: Northland and Bay of Plenty Impacts
+
+Cyclone Vaianu brought wind and rainfall impacts to parts of Northland and the Bay of Plenty in April 2026. For tradies in those regions, the specific risks were wind damage to scaffolding, materials stored on sites, and partially completed roof structures.
+
+Scaffolding contractors should confirm that their statutory liability and public liability policies cover wind events. If a wind event dislodges scaffold components or causes scaffold failure, the scaffolding contractor carries primary liability for the structural integrity of the installation regardless of whether the failure was weather-related. Reviewing your scaffold inspection records and handover documentation after any weather event is good practice — it protects you if a subsequent failure is attributed to the weather but challenged as a pre-existing issue with the installation.
+
+## The Insurance Gaps That Catch Tradies Out
+
+Post-event analysis consistently reveals the same gaps. Here is what to check:
+
+Contract works cover — is it in place for your current projects, and is it clear in your contracts who holds it?
+
+Tools-in-vehicle cover — does your vehicle policy or your tools policy cover tools in a flood-affected vehicle, and what are the conditions?
+
+Business interruption — if road closures, site access restrictions, or damage to your premises prevent you from working for days or weeks, does any policy respond to that income loss? For most tradies, the answer is no unless they hold specific business interruption cover.
+
+Income protection — this covers illness and injury preventing you from working, not weather events. But for a tradie who is injured during cleanup or disaster response work, it is the relevant policy.
+
+## Reviewing Your Programme Before the Next Event
+
+The window between major weather events is the time to act. Get a Quote from a specialist broker and specifically discuss:
+
+Whether your contract works obligations are clear on every current project. Whether your vehicle insurance is agreed value and whether the agreed value reflects your vehicle's actual equipped value. Whether your tools policy covers storm and flood damage on open sites. Whether your business interruption exposure justifies dedicated cover.
+
+Weather events are becoming more frequent and more severe. The cost of being caught without the right cover in place consistently exceeds the cost of arranging it in advance.`,
+  },
+  {
+    slug: 'fencer-insurance-nz-guide',
+    title: 'Fencer Insurance: The Complete Guide',
+    excerpt: 'Fencer insurance covers boundary disputes, underground service strikes, and livestock liability. Here is everything fencing contractors need to know.',
+    category: 'Trade Guide',
+    readTime: '6 min read',
+    date: '2026-08-07',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=800&q=80',
+    content: `## Fencing Insurance: Why It Matters More Than You Might Think
+
+Fencing might not be the first trade that comes to mind when you think about high insurance risk. But the combination of below-ground work, boundary sensitivity, and the real-world consequences of rural fence failure makes fencer insurance more important — and more nuanced — than many contractors appreciate.
+
+This guide covers everything fencing contractors need to know about their insurance, from the most common claim types to the specific legal framework that governs boundary fencing disputes.
+
+## The Three Main Risks Fencing Contractors Face
+
+### Boundary Errors
+
+A fence installed on the wrong boundary is one of the most dispute-prone outcomes in residential construction. When a fence is even 50–100mm off the legal boundary line across a residential section, the consequences can be significant — the affected neighbour has a legal right to require the fence to be removed and reinstalled on the correct boundary, and may also seek compensation for any damage to their garden or landscaping during the original installation.
+
+The Fencing Act 1978 governs the responsibilities of adjoining landowners for boundary fences. It sets out who pays for fencing work, what standards apply, and how disputes are resolved. But the Act does not protect a fencing contractor from a claim by a client whose fence was installed in the wrong place — that is a public liability matter.
+
+Most boundary errors arise from relying on physical markers or neighbour agreement rather than an accurate survey. The cost of confirming the legal boundary before installing a fence is modest. The cost of reinstalling a fence on the correct boundary after a dispute can run to NZ$5,000–$15,000 depending on fence length, materials, and site access.
+
+### Underground Service Strikes
+
+Post-hole boring for wooden or steel post fences carries a genuine risk of striking underground services. Power cables, gas lines, water mains, telecommunication conduits, and private drainage can all be present at depths that a standard boring machine will reach — and not all of them will appear on the plans or location diagrams available to the contractor.
+
+The Before-U-Dig service (0800 248 344) exists specifically to help contractors locate underground services before any excavation or boring work. Calling Before-U-Dig and acting on the information they provide is good practice, required by many principal contractors, and relevant to how an insurer will view a service strike claim.
+
+Even with a Before-U-Dig notification, private services — irrigation lines, private drainage, old fuel lines — may not be marked. Public liability insurance covers the cost of reinstatement and consequential damage when a boring strike occurs, provided the claim is not the result of wilful failure to take reasonable precautions.
+
+### Livestock and Rural Liability
+
+Rural fencing contractors carry a liability exposure that has no equivalent in urban residential work. A gate latch that fails, a post that has not been set deep enough for the load, or a fence line that is incomplete when livestock are returned to the paddock — any of these can result in stock escaping onto a public road.
+
+Stock on road incidents can cause vehicle accidents with serious personal injury consequences. The livestock owner may also have a claim for the cost of stock recovery and any injuries sustained by the animals. Both types of claim fall to the fencing contractor's public liability policy if the fence failure that caused the escape was the result of defective workmanship or materials.
+
+For rural fencing contractors, the coverage limit matters. A single stock-on-road incident involving a heavy vehicle can generate personal injury claims that approach or exceed a NZ$1M public liability limit. If you do significant rural fencing work, discuss higher limits with your broker.
+
+## Legal Framework: What Fencers Need to Know
+
+### The Fencing Act 1978
+
+The Fencing Act sets out the legal framework for boundary fencing disputes between neighbours. It provides a mechanism for adjoining owners to require each other to contribute to fencing costs, establishes what constitutes a "sufficient fence," and provides for dispute resolution through the District Court. While this legislation primarily governs the relationship between landowners rather than contractors, fencing contractors should be familiar with its provisions — particularly when working on boundary fences where the responsibility split between owners is disputed.
+
+### Building Consent for High Fences
+
+Most local authorities require a building consent for fences above 2.5 metres in height. Solid or semi-solid fences that exceed this height — including noise barriers, security fences, and agricultural wind barriers — generally require consent, and the contractor bears responsibility for ensuring this requirement has been addressed before construction begins. Installing a non-compliant fence can result in a demolition order, which creates a significant liability exposure for the contractor.
+
+### Resource Management Act Obligations
+
+Fencing near waterways, wetlands, or areas of indigenous vegetation may trigger Resource Management Act requirements. In riparian management zones, fencing to exclude livestock from waterways often requires resource consent and must meet specific standards for fence type and placement. This is relevant primarily for rural fencing contractors working on farms with waterway margins.
+
+## Getting the Right Fencer Insurance
+
+A comprehensive fencer insurance package typically includes public liability, tools and equipment cover for your post-hole borer and other machinery, and commercial vehicle insurance for your truck and trailer combination.
+
+The right public liability limit depends on the scale and type of your work. Residential fencing typically warrants NZ$1M–$2M. Rural fencing with livestock exposure and road-adjacent work warrants at least NZ$2M, and potentially more depending on the scale of your rural operations.
+
+Income protection is worth considering for any self-employed fencing contractor — manual handling and post-hole boring both carry injury risk, and ACC does not cover illness. A policy that replaces up to 75% of your income if you cannot work protects your business through any period of incapacity.
+
+Get a Quote from a specialist tradie insurance broker who can assess your specific work mix and recommend the right coverage structure.`,
+  },
+  {
+    slug: 'nz-infrastructure-boom-tradie-insurance-2026',
+    title: '$60B Infrastructure Boom: Insurance for Big Sites',
+    excerpt: 'The $60 billion infrastructure pipeline and 60,000-worker shortage are reshaping the market for tradies. Here is what the boom means for insurance on major projects.',
+    category: 'Business',
+    readTime: '7 min read',
+    date: '2026-08-07',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
+    content: `## A Once-in-a-Generation Construction Pipeline
+
+The infrastructure pipeline currently underway represents one of the most significant sustained investment programmes in living memory. With approximately $60 billion in infrastructure projects in various stages of planning, procurement, and delivery — spanning roads, water, hospitals, schools, and housing — the opportunity for tradies at every level of the construction sector has never been larger.
+
+At the same time, the construction sector is operating with a reported workforce shortfall of around 60,000 workers. This combination of high demand and constrained supply has created conditions where skilled tradies can access premium work — but also conditions where the risks of working at scale are elevated, and where insurance requirements on major sites are more demanding than most sole traders and small operators have historically encountered.
+
+This article explains what the infrastructure boom means for insurance, what the specific requirements of major sites look like, and how to prepare your business to qualify for and successfully deliver large infrastructure contracts.
+
+## How Major Site Insurance Requirements Differ
+
+Working on an infrastructure project is a fundamentally different insurance environment from working on a residential build or a commercial fit-out. The differences are material.
+
+### Higher Liability Limits
+
+Principal contractors on major infrastructure projects — roading, water infrastructure, hospitals, schools — routinely require subcontractors to hold public liability of NZ$5M–$20M. Some contracts specify even higher limits for trades working in high-risk contexts: electrical work in live network environments, structural work on occupied buildings, or trades working adjacent to major roads.
+
+If you currently hold NZ$2M public liability and are looking to access infrastructure work, the first practical step is reviewing your limit. The premium difference between NZ$2M and NZ$5M public liability is typically modest relative to the value of the contracts that the higher limit makes accessible.
+
+### Statutory Liability as a Requirement
+
+Large infrastructure sites have extensive health and safety management requirements under the Health and Safety at Work Act 2015. Principal contractors have a primary duty to manage the health and safety of all persons on their sites — and they discharge this duty in part by requiring all subcontractors to hold statutory liability insurance.
+
+Statutory liability covers your legal defence costs if you are prosecuted for an unintentional breach of health and safety legislation following a workplace incident. On a large construction site, where WorkSafe NZ has an active presence and incidents are investigated promptly, statutory liability is not optional. It is a baseline requirement.
+
+### Professional Indemnity for Design-Build Roles
+
+Infrastructure procurement increasingly involves design-build or design-construct delivery models, where contractors take on responsibility for both design and construction. Trades who contribute to design elements — structural engineers who are also contractors, electrical designers who also install — carry professional indemnity exposure in addition to their public liability obligations.
+
+If you are asked to take on any design or specification responsibility on an infrastructure project, confirm with your broker that your professional indemnity policy covers the specific role you are undertaking. PI policies are often scoped to a specific range of professional services, and infrastructure design work may sit outside a policy written for general trade work.
+
+### Subcontractor Insurance Requirements
+
+Principal contractors on infrastructure projects require all subcontractors to produce certificates of currency before starting work. These certificates confirm the type of cover, the limit, and the effective date. If you cannot produce a current certificate of currency at the required limit, you cannot start work — and in a tight labour market, that means someone else gets the job.
+
+Ensuring your insurance is current, at the right limit, and ready to be evidenced with a certificate of currency is a basic business requirement for anyone seeking to access the infrastructure market.
+
+## The Worker Shortage: Implications for Insurance
+
+The 60,000-worker shortage in the construction sector creates specific insurance pressures that are worth understanding.
+
+When demand exceeds supply, tradies are often asked to take on work outside their normal scope. An electrician is asked to manage a broader MEP package. A builder is asked to project-manage trades they do not normally coordinate. A plumber is asked to advise on system design rather than just installation. Each of these scope extensions carries insurance implications.
+
+Your public liability policy covers you for the specific work activities disclosed to your insurer at inception. If you take on new categories of work — particularly advisory or design work — you need to disclose that change to your insurer or broker. Failure to disclose material changes in the scope of your work can affect your ability to claim.
+
+The worker shortage also creates pressure to bring on new employees or subcontractors to meet demand. Each new employee or subcontractor changes your risk profile. Confirm with your broker that your policy extends to cover the activities of new workers, and that any subcontractors you engage are required to hold their own current insurance.
+
+## Building Consents Up 16%: Residential Tradies and the Boom
+
+The 16% increase in building consents year-to-April 2026 is not just an infrastructure story — it reflects the sustained strength of the residential construction market. For residential tradies, this means more work, but also more competition for that work and more pressure to demonstrate the professional credentials that major residential developers and project managers require.
+
+Residential builders, plumbers, electricians, and specialist trades working on volume residential developments — apartments, townhouses, subdivision builds — are increasingly required to hold the same insurance credentials as commercial subcontractors. Certificates of currency, adequate liability limits, and current statutory liability have become standard requirements even on residential projects of scale.
+
+## How to Position Your Business for Infrastructure Work
+
+If you are looking to access the infrastructure pipeline, the practical steps are:
+
+Review your liability limit and confirm it meets the minimum requirements of the contracts you are pursuing. Get a Quote from a specialist broker to understand the cost of moving to NZ$5M or NZ$10M public liability.
+
+Add statutory liability to your programme if you do not already hold it. This is a non-negotiable requirement on major sites.
+
+Ensure you have a current certificate of currency from your insurer. Get into the practice of requesting this at the start of each year so it is available when a principal contractor requests it.
+
+Review your tools and equipment sum insured — large infrastructure sites carry higher theft risk than residential sites, and your tools cover should reflect the actual replacement cost of everything you bring to site.`,
+  },
+  {
+    slug: 'hvac-refrigeration-insurance-nz',
+    title: 'HVAC Technician Insurance: What You Need to Know',
+    excerpt: 'HVAC and refrigeration technicians face unique insurance risks — refrigerant liability, system failure claims, and professional design exposure. Here is the full guide.',
+    category: 'Trade Guide',
+    readTime: '6 min read',
+    date: '2026-08-07',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+    content: `## A Trade That Sits at the Intersection of Multiple Risk Categories
+
+HVAC and refrigeration technicians occupy a distinctive position in the trades insurance landscape. Unlike most trades, where the primary risk is physical property damage caused during installation, HVAC work creates liability that spans environmental regulation, electrical systems, mechanical system design, and consequential loss — often all within a single commercial project.
+
+Understanding how these different risk categories interact — and how to ensure your insurance programme addresses all of them — is what this guide is about.
+
+## Refrigerant Handling: The Environmental Liability You Cannot Ignore
+
+Refrigerant handling is one of the most tightly regulated aspects of HVAC work. The Ozone Layer Protection Act 1996 governs the handling, recovery, and disposal of refrigerants, and breaches of its requirements can result in both regulatory action and civil liability.
+
+The practical insurance implication is that a refrigerant release — whether accidental or through inadequate recovery during decommission — can trigger two simultaneous claims: one from the regulator under the Ozone Layer Protection Act (a statutory liability scenario) and one from affected third parties if the release causes property damage or business disruption.
+
+Statutory liability insurance covers your legal defence costs and, where the regulatory consequences are civil rather than criminal, the penalties that arise from an unintentional breach. The keyword is unintentional — statutory liability is designed for genuine accidents and regulatory oversights, not for deliberate non-compliance.
+
+Some public liability policies also have specific conditions around pollution — refrigerant releases can be characterised as a pollution event, and if your policy has a pollution exclusion, you need to know whether refrigerant is captured by it. Confirm this with your broker before you rely on your public liability policy to respond to a refrigerant-related third-party claim.
+
+## Commercial System Failures and Consequential Loss
+
+The most financially significant claims facing HVAC and refrigeration technicians are consequential loss claims arising from system failures in commercial applications. The value of the HVAC system itself may be modest compared to the consequential losses it can cause when it fails.
+
+Consider a chiller failure in a commercial cold store operation. The chiller itself might represent NZ$30,000 of equipment. But if a failed chiller allows temperatures to rise above food safety thresholds overnight, the stock loss can easily reach NZ$50,000–$100,000 — in a large wholesale or processing operation, potentially more. The building operator's claim is not for the chiller. It is for the stock, the regulatory consequence of the temperature excursion, and any remediation required.
+
+Public liability insurance covers third-party property damage and consequential losses arising from your work. But the limit you hold matters significantly in commercial refrigeration contexts. A sole trader HVAC technician maintaining cold store equipment for a food wholesaler should hold a limit that reflects the worst-case consequential loss scenario for that client — not just a standard residential-scale limit.
+
+## Electrical Connection Work and EWRB Registration
+
+Many HVAC technicians are also registered with the Electrical Workers Registration Board (EWRB) to carry out the electrical connection work on the systems they install. This registration creates an additional layer of professional responsibility and insurance consideration.
+
+EWRB-registered electrical work carries the same certification obligations as trade electrician work. If an electrical connection you made on an HVAC system later causes a fault — a wiring failure, a control circuit error, an inadequate protective earth — the resulting claim combines public liability (for any property damage or injury) with professional liability (for the certified electrical work).
+
+If you carry out EWRB-registered electrical work as part of your HVAC practice, confirm with your broker that your policy covers this specific activity. Some HVAC insurance products are scoped to mechanical systems only and may not extend to electrical certification work without a specific endorsement.
+
+## Professional Design Liability
+
+The growing complexity of commercial HVAC systems — building management system integration, variable refrigerant flow multi-split systems, heat pump arrays, and large-scale mechanical ventilation — means that many HVAC technicians are now doing work that goes well beyond installation and maintenance. System design and specification have become core parts of commercial HVAC practice.
+
+This is where professional indemnity insurance becomes relevant. PI covers claims arising from errors in professional advice or design — including claims where a system you specified and installed fails to perform to the contractual or building code standard.
+
+Professional indemnity claims in HVAC work typically arise in one of three scenarios: a system that is undersized for its application and cannot maintain required conditions; a system that is incompatible with the building's control infrastructure; or a system that fails an energy efficiency or building code compliance test. In each case, the claim is for the cost of rectification — which may involve significant additional equipment, installation, and associated building work.
+
+PI is claims-made insurance, meaning the policy that responds is the one in force when the claim is made, not when the original work was done. If you carry out design work, maintain continuous PI cover — a gap in coverage leaves you exposed for past design work during that gap period.
+
+## Tools and Equipment: Specialist Kit Deserves Specialist Cover
+
+HVAC technicians invest significantly in specialist equipment. Refrigerant recovery machines, manifold gauge sets, vacuum pumps, leak detectors, and digital diagnostic tools all represent meaningful capital investment. Many of these items are not standard tools that any tradie might carry — they are specialist instruments that can cost thousands of dollars each.
+
+Standard tools policies with per-item limits of NZ$1,000–$2,000 may not adequately cover high-value HVAC test equipment. If you hold expensive specialist instruments, discuss with your broker whether they need to be specifically listed on your policy to ensure full replacement value is available in the event of theft or damage.
+
+## Getting the Right Cover
+
+The right HVAC insurance package covers public liability (with completed works and consequential loss scope), professional indemnity if you do design work, statutory liability for refrigerant and EWRB regulatory exposure, and specialist tools cover. A commercial vehicle policy for your service vehicle completes the package.
+
+Get a Quote from a specialist tradie insurance broker who can assess the specific mix of mechanical, electrical, and design work in your practice and ensure every exposure is addressed.`,
+  },
+  {
+    slug: 'tradie-business-structure-insurance-nz',
+    title: 'Sole Trader vs Company: What Changes for Insurance',
+    excerpt: 'Incorporating your tradie business changes your insurance obligations in ways many operators do not anticipate. Here is what you need to know before you make the switch.',
+    category: 'Business',
+    readTime: '7 min read',
+    date: '2026-08-07',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80',
+    content: `## The Decision to Incorporate: More Than a Tax Question
+
+Many tradies incorporate their business at some point — moving from operating as a sole trader to trading through a limited liability company. The decision is usually driven by tax advice, liability protection, or the impression that a company structure is more professional when approaching larger clients.
+
+What most tradies are not told clearly enough is that incorporating changes your insurance obligations in several ways. Some of those changes increase your protection. Others create gaps that need to be actively addressed. This guide covers what you need to know about the insurance implications of moving from sole trader to company — before you make the switch.
+
+## What Does Not Change: The Core Cover You Still Need
+
+When you incorporate, the fundamental risks you face as a tradie do not disappear. You still need:
+
+Public liability insurance, because the company's work can still damage clients' property or injure third parties. The company itself needs to hold this cover — your personal public liability policy as a sole trader does not transfer to a company.
+
+Tools and equipment cover, because your tools and equipment are still at risk of theft or damage regardless of whether you are a sole trader or a company.
+
+Commercial vehicle insurance, because your work vehicles are still exposed to accidents and damage in the course of the business.
+
+Income protection, because you — as the director and worker in your company — can still become unable to work due to illness or injury. A company structure does not protect your personal income if you cannot work.
+
+## What Changes: Liability Separation and Its Limits
+
+One of the main reasons tradies incorporate is the perceived liability protection of a limited liability company. It is worth being precise about what this protection actually means — and what it does not mean.
+
+A limited liability company is a separate legal entity. If the company is sued for a negligence claim arising from its work, the shareholders are not personally liable for the company's debts beyond their share capital — in most cases, a nominal amount. This is real protection in some circumstances.
+
+However, there are important limits. Directors of companies can be personally liable if they have been personally negligent in their role as a director — for example, if they directed the company to do work they knew was unsafe. Under the Health and Safety at Work Act 2015, officers of a company (which includes directors) have personal duties of due diligence that cannot be delegated away through a corporate structure.
+
+This means that the HSWA liability exposure you have as a director of a trading company is personal, not just corporate. Statutory liability insurance needs to cover both the company's obligations and, where appropriate, the director's personal obligations as an officer.
+
+## Professional Indemnity: The Policy That Must Follow the Work
+
+Professional indemnity insurance requires particular attention when you change business structure. PI is typically held by the entity that provides professional services. If you were operating as a sole trader and held a PI policy in your own name, that policy covers your personal professional liability for work done while you were a sole trader.
+
+When you incorporate and start operating through a company, your PI policy needs to be in the company's name — or you need to confirm that your existing policy extends to the company's activities. There is often a gap between the sole trader's historical work (covered by the old policy in run-off) and the new company's work (needing its own policy).
+
+This matters particularly for licensed tradies who certify work — LBPs, licensed plumbers, gasfitters, electricians. If your certification practice changes from personal to company-issued certifications, your PI policy needs to reflect the entity actually making the certifications.
+
+## ACC: A Significant Practical Change
+
+The ACC treatment of working directors is one of the most practically significant insurance changes when you incorporate.
+
+As a sole trader, you are a self-employed person for ACC purposes. You pay ACC levies as a self-employed person and receive cover for work-related accidents.
+
+As a working director of a company — where you are employed by the company and receive a salary — you are treated as an employee for ACC purposes. The company pays ACC employer levies on your behalf, and you receive cover as an employee.
+
+The key difference that catches many newly incorporated tradies out: as a sole trader, you could top up your ACC cover with a voluntary additional cover policy to increase the income replacement to a higher percentage. As a company director employee, your ACC cover as an employee is potentially more limited in some respects.
+
+Review your ACC position with your accountant and your insurance broker when you incorporate. Ensure you understand exactly what cover you have and whether income protection insurance needs to be adjusted or newly arranged.
+
+## Health and Safety Obligations: The Company Is a PCBU
+
+When you operate as a sole trader, you are a Person Conducting a Business or Undertaking (PCBU) under the Health and Safety at Work Act 2015. When you operate through a company, the company is the PCBU — but you, as a director, have personal officer duties that require you to exercise due diligence to ensure the company complies with its HSWA obligations.
+
+This is not a technicality. WorkSafe NZ has prosecuted directors personally alongside companies following serious workplace incidents. Statutory liability insurance needs to be arranged in a way that covers both the company as PCBU and you as an officer — confirm with your broker that your policy provides this dual coverage.
+
+## The Practical Checklist When You Incorporate
+
+When you change from sole trader to company, work through this insurance checklist:
+
+Transfer all policies to the company name — public liability, tools, statutory liability, vehicle. Do not assume your broker has done this automatically.
+
+Arrange a new professional indemnity policy in the company name, and ensure run-off cover is in place for your historical sole trader work if you were holding PI.
+
+Review your ACC position and determine whether income protection needs to be adjusted.
+
+Confirm your statutory liability policy covers both the company as PCBU and you as a director/officer.
+
+Update any certificates of currency you hold for current contracts — they need to show the company as the insured entity.
+
+Notify principal contractors and commercial clients of the change in entity, and provide updated certificates of currency.
+
+Getting these steps right at incorporation is far simpler than untangling the gaps after a claim. Get a Quote from a specialist tradie insurance broker to review your programme at the time of the transition — this is exactly the kind of change that warrants a full policy review.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

@@ -405,6 +405,116 @@ export const landingPages: LandingPage[] = [
       },
     ],
   },
+  {
+    slug: 'tradie-insurance-rotorua',
+    title: 'Tradie Insurance Rotorua',
+    metaTitle: 'Tradie Insurance Rotorua | Get a Quote Today',
+    metaDesc: 'Tradie insurance for Rotorua tradies. Public liability, tools, vehicle and income protection. Quotes from licensed Bay of Plenty insurance brokers.',
+    hero: 'Insurance for Rotorua Tradies',
+    intro: 'Rotorua\'s construction market is shaped by its booming domestic tourism infrastructure, strong residential growth, and the forestry and timber processing sector that underpins much of the region\'s economy. From lodge refurbishments on the lakefront to residential developments in the eastern suburbs and forestry contracting across the Kaingaroa Plateau, Rotorua tradies work across a uniquely diverse range of projects.',
+    sections: [
+      {
+        heading: 'Rotorua\'s Tourism and Construction Activity',
+        body: 'Rotorua\'s tourism economy drives continuous investment in accommodation, hospitality, and attraction infrastructure. Tradies working on commercial tourism builds — hotels, lodges, attraction venues, and geothermal spa facilities — often encounter higher-value project requirements with specific insurance terms.\n\nKey insurance considerations for Rotorua tradies:\n\n- Tourism and hospitality commercial projects typically require NZ$2M–$5M public liability\n- Geothermal ground conditions create specific earthworks risks — ground movement, hot ground, and steam activity\n- Forestry sector contracting carries specific rural and machinery risks that differ from urban residential work\n- Residential growth in Ngongotahā and eastern Rotorua generates consistent demand for builders, plumbers, and electricians',
+      },
+      {
+        heading: 'Geothermal and Environmental Risks',
+        body: 'Rotorua\'s active geothermal environment creates risks that are genuinely unique to the region. Tradies working on earthworks, foundations, or drainage in geothermal zones should be aware:\n\n- Ground conditions can vary significantly within short distances — unexpected geothermal activity during excavation creates both safety and property damage risk\n- Some areas are subject to resource consent requirements for earthworks due to geothermal sensitivity\n- Hydrogen sulphide corrosion affects electrical fittings, metal fixtures, and building materials — relevant to electricians and builders working in high-exposure zones\n\nEnsure your broker understands that you work in geothermal Rotorua — some policy conditions may need specific attention for the region.',
+      },
+      {
+        heading: 'Getting Covered in Rotorua',
+        body: 'Our broker network includes specialists with experience in the Bay of Plenty and Rotorua construction market. Whether you are doing tourism infrastructure work, residential builds in the suburbs, or forestry contracting in the wider region, we can match you with a licensed broker who understands local conditions.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-new-plymouth',
+    title: 'Tradie Insurance New Plymouth',
+    metaTitle: 'Tradie Insurance New Plymouth | Broker Quotes',
+    metaDesc: 'Tradie insurance for New Plymouth and Taranaki tradies. Public liability, tools, vehicle and income protection. Quotes from licensed brokers.',
+    hero: 'Insurance for Taranaki Tradies',
+    intro: 'New Plymouth and the wider Taranaki region support a diverse construction economy built on the oil and gas industry, strong dairy farming, and consistent residential and commercial growth in the city. The windy coastal environment, the presence of major energy infrastructure, and the region\'s proud agricultural heritage create specific insurance considerations for local tradies.',
+    sections: [
+      {
+        heading: 'Energy Sector and Industrial Work',
+        body: 'Taranaki\'s oil and gas industry has historically required a highly competent local trades workforce. Industrial contracting — whether in refineries, process plants, or energy infrastructure — carries specific insurance requirements that go beyond standard residential trade cover:\n\n- Industrial site work typically requires NZ$5M–$20M public liability\n- Specific health and safety induction, permitting, and contractor management requirements apply on energy sites\n- Statutory liability is critical for work in high-hazard industrial environments under HSWA\n- Some energy companies require contractors to hold specific additional endorsements or exclusions in their policies\n\nIf you work on industrial or energy sites in Taranaki, your broker needs to understand the specific requirements of those contracts.',
+      },
+      {
+        heading: 'Taranaki\'s Coastal and Agricultural Environment',
+        body: 'New Plymouth\'s coastal location means tradies working on exterior surfaces — painters, roofers, cladders — face elevated weather exposure. Strong westerly winds, salt-laden air, and high annual rainfall all affect the durability of exterior work and the conditions under which it is undertaken.\n\nThe Taranaki agricultural sector also generates consistent demand for rural building and contracting work. Dairy shed construction, farm infrastructure, and rural residential building all have insurance profiles that differ from urban residential work. FMG Insurance, with its specific rural focus, is particularly relevant for tradies working predominantly on Taranaki farms.',
+      },
+      {
+        heading: 'Getting Covered in New Plymouth',
+        body: 'Our free quote service connects Taranaki tradies with licensed brokers who understand both the industrial and residential dimensions of the region\'s construction sector. Whether you are doing oil and gas site work, residential builds in Strandon or Bell Block, or rural contracting across the ring plain, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-whangarei',
+    title: 'Tradie Insurance Whangarei',
+    metaTitle: 'Tradie Insurance Whangarei | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Whangarei and Northland tradies. Public liability, tools, vehicle and income protection. Quotes from licensed brokers.',
+    hero: 'Insurance for Northland Tradies',
+    intro: 'Whangarei is Northland\'s commercial hub and the region\'s largest city, supporting a construction market shaped by strong lifestyle and residential growth, the Port of Whangarei\'s industrial activity, and the ongoing challenge of building in one of the country\'s highest cyclone-risk regions. Northland\'s unique mix of coastal lifestyle, Maori land developments, and challenging weather patterns creates specific insurance considerations for local tradies.',
+    sections: [
+      {
+        heading: 'Northland\'s Weather and Cyclone Risk',
+        body: 'Northland is the most cyclone-exposed region in New Zealand. Cyclone Gabrielle in February 2023 and Cyclone Vaianu in April 2026 both demonstrated the real consequences of severe weather for tradies operating in the region.\n\nKey insurance considerations for Whangarei tradies:\n\n- Ensure your commercial vehicle policy is comprehensive — storm damage to your ute or van is covered only under comprehensive policies\n- Roofers, builders, and exterior tradies should confirm their policies cover storm damage to partially completed work\n- Tools stored on open sites are at elevated risk during weather events — check your tools policy for storm damage conditions\n- Business interruption cover deserves consideration for those with significant fixed costs if weather events disrupt access to job sites',
+      },
+      {
+        heading: 'Whangarei\'s Residential Growth',
+        body: 'Whangarei\'s population growth has been sustained by its attractiveness as a lifestyle destination and its role as a service centre for the wider Northland region. New subdivisions in Tikipunga, Ruakaka, and the Marsden Point corridor have driven consistent demand for residential tradies.\n\nInsurance requirements for Whangarei residential work are broadly in line with other provincial cities:\n\n- Residential construction typically requires NZ$1M–$2M public liability\n- LBP builders should ensure their professional indemnity is current — Northland\'s growth has brought increased scrutiny of building quality\n- Coastal construction near the Hātea River and harbour areas carries specific weathertight and corrosion-related risk that insurers may note',
+      },
+      {
+        heading: 'Getting Covered in Whangarei',
+        body: 'Our broker network includes specialists with experience in the Northland construction market. Whether you are doing residential work in Whangarei, coastal builds on the Tutukaka Coast, or infrastructure work further north, we can match you with a licensed broker who understands the region.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-invercargill',
+    title: 'Tradie Insurance Invercargill',
+    metaTitle: 'Tradie Insurance Invercargill | Broker Quotes',
+    metaDesc: 'Tradie insurance for Invercargill and Southland tradies. Public liability, tools, vehicle and income protection. Quotes from licensed brokers.',
+    hero: 'Insurance for Southland Tradies',
+    intro: 'Invercargill is the commercial and services hub of Southland — one of New Zealand\'s most productive agricultural regions and home to major industries including aluminium smelting, seafood processing, and dairy. The city\'s construction market is shaped by the region\'s strong agricultural base, the challenges of Southland\'s extreme weather conditions, and the industrial infrastructure that supports the region\'s primary industries.',
+    sections: [
+      {
+        heading: 'Southland\'s Agricultural and Industrial Construction',
+        body: 'Southland\'s primary industry base generates consistent demand for specialist trade skills beyond typical residential and commercial construction. Dairy shed construction and upgrades, coolstore and processing facility builds, and agricultural infrastructure are all significant components of the Southland construction market.\n\nFor tradies working across Southland\'s agricultural sector:\n\n- Rural and farm building work carries a different risk profile from urban residential — remote locations, livestock on site, and agricultural machinery create additional hazards\n- FMG Insurance is a well-established option for tradies with significant rural work exposure\n- Commercial and industrial contracts at the Tiwai Point aluminium smelter and other large facilities require high liability limits (NZ$5M–$20M) and specific contractor management documentation\n- Southland\'s road network is extensive and often challenging in winter — commercial vehicle cover is critical',
+      },
+      {
+        heading: 'Weather and Climate Considerations',
+        body: 'Southland experiences some of the most challenging weather conditions in the country. Invercargill is one of the windiest cities in New Zealand, and the region\'s exposure to polar fronts from the Southern Ocean means severe weather events are a regular feature of the calendar.\n\nInsurance implications for Southland tradies:\n\n- Roofers, exterior painters, and cladding contractors face elevated weather exposure during works — ensure your policy covers storm damage to partially complete projects\n- Frosts and sub-zero temperatures create specific risks for concrete work, plumbing, and exterior coatings in winter months\n- High winds create elevated risk for scaffolders and any trade working at height — statutory liability cover is particularly important in this environment\n- Income protection is strongly recommended — Southland\'s winter conditions can create extended periods of restricted outdoor work',
+      },
+      {
+        heading: 'Getting Covered in Invercargill',
+        body: 'Our broker network includes specialists with experience in the Southland and Otago construction markets. Whether you are doing residential work in Invercargill, agricultural building across the Southland plains, or industrial contracting at major facilities, we can match you with a licensed broker who understands the region.\n\nStandard tradie cover can typically be arranged within 24–48 hours.',
+      },
+    ],
+  },
+  {
+    slug: 'tradie-insurance-gisborne',
+    title: 'Tradie Insurance Gisborne',
+    metaTitle: 'Tradie Insurance Gisborne | Broker Quotes for Tradies',
+    metaDesc: 'Tradie insurance for Gisborne and East Coast tradies. Post-Cyclone Gabrielle rebuild experience. Quotes from licensed brokers.',
+    hero: 'Insurance for Gisborne and East Coast Tradies',
+    intro: 'Gisborne and the East Coast have been at the centre of one of the most significant regional recovery efforts in the country following the devastation of Cyclone Gabrielle in February 2023. The combination of ongoing recovery and rebuild work, the region\'s wine and horticulture industry construction, and Gisborne\'s unique position as one of New Zealand\'s more isolated regional centres creates a distinctive insurance environment for local tradies.',
+    sections: [
+      {
+        heading: 'Post-Cyclone Gabrielle Rebuild',
+        body: 'Cyclone Gabrielle caused catastrophic damage across the East Coast and Hawke\'s Bay in February 2023, with Gisborne, the Wairoa district, and surrounding areas experiencing widespread flooding, slips, and infrastructure loss. For tradies in the region, the rebuild has generated years of consistent work — but also reinforced critical insurance lessons:\n\n- Rebuild and remediation contracts often carry specific insurance requirements from principal contractors and government agencies managing recovery programmes\n- Working on cyclone-damaged properties requires clear scope definition — photograph and document conditions before starting work to protect against disputes about pre-existing damage\n- Insurance for tools and equipment stored in cyclone-vulnerable locations should be reviewed — check your policy\'s conditions for tools stored at open sites during weather warnings\n- Business interruption cover proved its value during and after Gabrielle; tradies with income protection fared significantly better through the disruption period',
+      },
+      {
+        heading: 'Wine, Horticulture, and Forestry',
+        body: 'Beyond the rebuild, Gisborne\'s economy is shaped by its wine industry (the region produces award-winning Chardonnay), horticulture, and commercial forestry. These industries generate significant construction demand — winery buildings, packhouses, cool stores, and forestry infrastructure all require specialist trade skills.\n\nFor tradies working in the Gisborne agricultural and horticultural sector:\n\n- Commercial agricultural buildings carry higher liability requirements than residential construction\n- Packhouse and cool store construction involves specific refrigeration and structural requirements\n- Forestry contracting carries elevated WorkSafe exposure — statutory liability cover is essential\n- The region\'s isolation means emergency services response times can be longer — income protection and tools cover become even more critical when a single incident can put you out of action for an extended period',
+      },
+      {
+        heading: 'Getting Covered in Gisborne',
+        body: 'Our broker network includes specialists with experience in the East Coast construction market, including the specific requirements of post-Cyclone Gabrielle rebuild work. We can match Gisborne tradies with licensed brokers who understand the region\'s unique risk profile.\n\nUse our free quote service to get comparative quotes. Standard cover can typically be arranged within 24–48 hours.',
+      },
+    ],
+  },
 ]
 
 export function getLandingPageBySlug(slug: string): LandingPage | undefined {

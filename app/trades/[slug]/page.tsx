@@ -556,6 +556,48 @@ export default async function TradeTypePage({ params }: Props) {
         </div>
       </div>
 
+      {/* ── RELATED GUIDES ── */}
+      {(() => {
+        const tradeGuideMap: Record<string, { href: string; label: string }[]> = {
+          builders: [
+            { href: '/tradie-insurance/builder-insurance-nz/', label: 'Builder Insurance Guide' },
+            { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
+            { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance Guide' },
+          ],
+        }
+        const defaultGuides = [
+          { href: '/tradie-insurance/best-tradie-insurance/', label: 'Best Tradie Insurance' },
+          { href: '/tradie-insurance/compare-tradie-insurance/', label: 'Compare Tradie Insurance' },
+          { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
+          { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance Guide' },
+          { href: '/tradie-insurance/tradie-insurance-cost-nz/', label: 'How Much Does It Cost?' },
+        ]
+        const guides = tradeGuideMap[trade.slug] ?? defaultGuides
+        return (
+          <div className="bg-orange-50 border-t border-orange-100 py-10">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="text-lg font-extrabold text-gray-900 mb-4">Related Insurance Guides</h2>
+              <div className="flex flex-wrap gap-3">
+                {guides.map((g) => (
+                  <Link
+                    key={g.href}
+                    href={g.href}
+                    className="text-sm font-semibold text-orange-600 hover:text-orange-800 bg-white border border-orange-200 hover:border-orange-400 px-4 py-2 rounded-lg transition-all"
+                  >
+                    {g.label} →
+                  </Link>
+                ))}
+                {trade.slug !== 'sole-trader' && (
+                  <Link href="/tradie-insurance/tradie-insurance-sole-trader/" className="text-sm font-semibold text-orange-600 hover:text-orange-800 bg-white border border-orange-200 hover:border-orange-400 px-4 py-2 rounded-lg transition-all">
+                    Sole Trader Insurance →
+                  </Link>
+                )}
+              </div>
+            </div>
+          </div>
+        )
+      })()}
+
       {/* ── BOTTOM CTA ── */}
       <div className="bg-gray-900 py-10 border-t border-gray-800 pb-24 lg:pb-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

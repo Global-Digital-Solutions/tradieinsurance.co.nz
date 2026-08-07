@@ -1307,6 +1307,535 @@ export const tradeTypes: TradeType[] = [
     ],
     recommendedCover: ['public-liability', 'statutory-liability', 'tools-equipment', 'commercial-vehicle', 'income-protection'],
   },
+  {
+    slug: 'fencers',
+    name: 'Fencers',
+    icon: '🪵',
+    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Fencers work across boundary disputes, underground services, and structural requirements that vary by council and region. From rural post-and-rail to urban timber and steel palisade, the right fencer insurance protects your business from boundary, liability, and property damage claims.',
+    keyFacts: [
+      'Boundary errors can generate legal disputes between neighbours that become costly to resolve',
+      'Underground service strikes during post-hole boring are a frequent fencing claim',
+      'Council building consent required for fences over 2.5 metres in most regions',
+      'Rural fencing on farmland carries specific livestock and road-adjacent liability',
+    ],
+    introText: [
+      'Fencer insurance is a specialist package of policies protecting New Zealand fencing contractors from the financial consequences of boundary disputes, underground service strikes, and property damage claims arising from residential, commercial, and rural fencing work. While fencing may appear straightforward, the combination of below-ground work, property boundary sensitivity, and the structural requirements of taller fence systems means that claims are more common than many contractors expect. Public liability for fencers typically starts from around NZ$30–$50 per month.',
+      'Fencing contractors working on residential boundary fences operate in one of construction\'s most dispute-prone areas — when a fence is even slightly off the legal boundary, the resulting neighbour disputes can escalate quickly and become expensive to resolve. Rural fencers face different but equally significant risks, including livestock escape following fence failure and the specific obligations of the Fencing Act 1978. A comprehensive insurance package ensures your fencing business is protected across all the contexts in which you work.',
+    ],
+    whyNeedIt: [
+      'A fence installed on the wrong boundary — even by centimetres — can trigger a neighbour dispute and a demand for full removal and reinstatement, making public liability essential.',
+      'Post-hole boring without a service location check can strike underground power, gas, or water lines — service reinstatement costs and consequential damage can reach NZ$10,000 or more.',
+      'Rural fencing that fails and allows livestock onto a road creates serious personal injury and vehicle damage liability — public liability cover is essential for any farm fencing contractor.',
+      'Building consent is required for fences over 2.5 metres, and non-compliant installations can require demolition and reconstruction — statutory liability covers the regulatory exposure.',
+    ],
+    coverPackage: 'A comprehensive fencer insurance package includes public liability ($1M–$2M), tools and equipment cover, commercial vehicle insurance for your truck and trailer, and income protection for injury or illness.',
+    costFrom: '~$32/month',
+    costFactors: [
+      'Rural vs urban fencing split',
+      'Annual turnover',
+      'Post-hole boring machine and equipment value',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Fencing Act 1978 — governs boundary fencing responsibilities and dispute resolution between neighbours',
+      'Building Act 2004 — fences over 2.5 metres generally require building consent',
+      'Health and Safety at Work Act 2015 — post-hole boring and manual handling obligations',
+      'Resource Management Act — fencing near waterways or indigenous vegetation may require resource consent',
+    ],
+    risks: [
+      {
+        title: 'Boundary Error Claims',
+        desc: 'A fence installed on the wrong boundary triggers a neighbour dispute and demand for removal and reinstallation. Public liability covers the cost of rectification.',
+      },
+      {
+        title: 'Underground Service Strike',
+        desc: 'Post-hole boring hits a concealed power, gas, or water service. Reinstatement and consequential damage claims can be significant.',
+      },
+      {
+        title: 'Livestock Escape',
+        desc: 'A rural fence failure allows livestock onto a road, causing a vehicle accident. Public liability covers the resulting personal injury and property damage claims.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Fence Built 120mm Over Boundary',
+        scenario: 'A fencer installed a boundary fence on a residential section. A subsequent survey by the neighbour found the fence was 120mm over the legal boundary across a 22-metre run. The neighbour demanded removal and reinstallation plus compensation for garden damage during the works.',
+        outcome: 'Public liability claim of NZ$8,400 paid for fence removal, re-survey, reinstallation on the correct alignment, and reinstatement of the affected garden.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Post-Hole Borer Strikes Gas Line',
+        scenario: 'A fencer was installing a new rural boundary fence using a tractor-mounted post-hole borer. The borer struck an unmarked gas line running to an outbuilding at 600mm depth. The gas company was called to isolate and repair the damaged section.',
+        outcome: 'Public liability claim of NZ$6,200 paid for gas line reinstatement, site safety management during the repair, and reinstatement of the post position.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Livestock Escape Following Gate Hardware Failure',
+        scenario: 'A fencing contractor installed a new farm gate with spring-loaded latch hardware. A spring failure within two months allowed the gate to hang open overnight. Cattle escaped and one animal was struck by a vehicle on the adjacent road.',
+        outcome: 'Public liability claim of NZ$14,800 paid for vehicle repair, livestock veterinary costs, and investigation and replacement of the failed gate hardware.',
+        coverType: 'Public Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance does a fencer need?',
+        a: 'At minimum, fencing contractors should hold public liability insurance. Rural fencers dealing with livestock and road-adjacent work should consider higher limits. Tools cover for post-hole boring equipment and a commercial vehicle policy complete a solid package.',
+      },
+      {
+        q: 'Does fencer insurance cover boundary disputes?',
+        a: 'Public liability covers the cost of rectifying a fence installed on the wrong boundary, including removal and reinstallation. Discuss specific wording for neighbour dispute costs with your broker.',
+      },
+      {
+        q: 'How much does fencer insurance cost?',
+        a: 'Fencer insurance typically starts from around NZ$30–$50/month for public liability. A full package including tools, vehicle, and income protection might cost NZ$100–$200/month depending on business size.',
+      },
+      {
+        q: 'Does fencer insurance cover post-hole boring work?',
+        a: 'Yes — public liability covers underground service strikes during post-hole boring, provided you disclose this activity to your insurer. Always call Before-U-Dig before any boring or excavation work.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'tools-equipment', 'commercial-vehicle', 'income-protection'],
+  },
+  {
+    slug: 'plasterers',
+    name: 'Plasterers',
+    icon: '🏗️',
+    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Plasterers work on surfaces that must be visually perfect and structurally sound. Cracking, delamination, and waterproofing failures in exterior plaster systems are among the most costly construction defect claims. The right plasterer insurance protects your trade from these long-tail exposures.',
+    keyFacts: [
+      'Exterior plaster system failures can generate six-figure remediation claims',
+      'Interior plastering defects — cracking, delamination — can appear months after completion',
+      'Wet area plasterboard installations carry waterproofing compliance requirements under NZ Building Code E3',
+      'Commercial plastering contracts routinely require proof of public liability cover',
+    ],
+    introText: [
+      'Plasterer insurance is a specialist package of policies protecting New Zealand plasterers from the financial consequences of surface defect claims, exterior cladding system failures, and the property damage risks of working with wet compounds in clients\' homes and commercial premises. While interior plastering claims tend to be modest — cracking, delamination, and adhesion issues — exterior plaster system failures are a different matter entirely. Defects in monolithic cladding systems can require full system removal and reinstatement, with remediation costs running to tens of thousands of dollars. Public liability for plasterers typically starts from around NZ$30–$50 per month.',
+      'Plasterers working on exterior cladding systems — particularly Exterior Insulation and Finish Systems (EIFS) — operate in one of construction\'s most liability-intensive areas. New Zealand\'s weathertight homes crisis of the 1990s and 2000s created lasting awareness of the long-tail consequences of cladding system defects, and insurers price this risk accordingly. A comprehensive insurance package ensures plasterers are protected against both the immediate claims of damage during works and the long-tail workmanship defect claims that can arise years after a project is complete.',
+    ],
+    whyNeedIt: [
+      'Exterior plaster system defects can require full cladding removal and reinstatement — these claims can reach NZ$30,000–$100,000+ on residential properties, making adequate public liability limits essential.',
+      'Interior plastering work in occupied homes carries constant risk of compound spills, overspray, and accidental damage to floors, joinery, and fittings — public liability covers these third-party claims.',
+      'Commercial plastering contracts and body corporate buildings routinely require contractors to produce a certificate of currency for public liability before site access is granted.',
+      'Dust and debris from grinding, cutting, and sanding can damage neighbouring properties and businesses — liability cover addresses claims from affected parties.',
+    ],
+    coverPackage: 'A comprehensive plasterer insurance package includes public liability ($1M–$2M), tools and equipment cover, commercial vehicle insurance, and income protection for illness or injury.',
+    costFrom: '~$33/month',
+    costFactors: [
+      'Interior vs exterior plastering split',
+      'Exterior cladding system work',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Building Act 2004 — exterior plaster systems must comply with NZ Building Code E2 (External Moisture)',
+      'Health and Safety at Work Act 2015 — silica dust, height, and manual handling obligations',
+      'WorkSafe NZ — silica dust exposure controls mandatory for cutting and grinding operations',
+      'Consumer Guarantees Act — guarantees of acceptable quality apply to all plastering work',
+    ],
+    risks: [
+      {
+        title: 'Exterior Cladding System Failure',
+        desc: 'An exterior plaster system fails and allows moisture ingress. Full remediation — removing and replacing the cladding — can cost tens of thousands of dollars and requires complete site access.',
+      },
+      {
+        title: 'Interior Surface Defects',
+        desc: 'Cracking, delamination, or poor finish quality on interior plasterwork requires remediation. Claims arise when defects emerge after the client has moved in or the project has been painted.',
+      },
+      {
+        title: 'Property Damage During Works',
+        desc: 'Compound spills, overspray, or dust damage to floors, joinery, and fittings in occupied premises. Public liability covers these third-party property damage claims.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Exterior Plaster Crack Allows Water Ingress',
+        scenario: 'A plasterer applied a monolithic plaster system to a new residential build. Within two years, hairline cracking at internal corners allowed moisture to track behind the plaster, causing damage to wall framing and wall linings. A weathertight assessor confirmed defective application.',
+        outcome: 'Public liability claim of NZ$34,000 paid for cladding remediation, framing repair, and full replastering of the affected elevations.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Plaster Compound Spill on Engineered Timber Floor',
+        scenario: 'A plasterer working on a commercial fit-out knocked over a bucket of base coat compound. The compound spread across a section of newly installed engineered timber floor, staining the surface and penetrating the joints before it could be contained.',
+        outcome: 'Public liability claim of NZ$5,100 paid for professional floor cleaning and replacement of three panels that could not be restored.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Silica Dust Controls — WorkSafe Investigation',
+        scenario: 'A plastering company was found by WorkSafe NZ to have inadequate respiratory protection controls during a commercial fit-out involving significant plasterboard cutting. An improvement notice was issued and work was paused pending a revised health and safety plan.',
+        outcome: 'Statutory liability covered NZ$12,000 in legal representation during the WorkSafe investigation and compliance proceedings.',
+        coverType: 'Statutory Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do plasterers need?',
+        a: 'Plasterers should carry public liability as a minimum. Those doing exterior cladding work should consider higher limits given the weathertight liability exposure. Tools cover and commercial vehicle insurance complete a standard package.',
+      },
+      {
+        q: 'Does plasterer insurance cover exterior cladding failures?',
+        a: 'Public liability with a completed works extension covers third-party claims arising from defective exterior plaster systems. Confirm with your broker that your policy covers exterior cladding system work and weathertight liability.',
+      },
+      {
+        q: 'How much does plasterer insurance cost?',
+        a: 'Interior plastering typically starts from around NZ$30–$50/month for public liability. Exterior cladding system work attracts higher premiums — expect NZ$50–$90/month for public liability if you do significant exterior work.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'tools-equipment', 'commercial-vehicle', 'income-protection'],
+  },
+  {
+    slug: 'hvac-technicians',
+    name: 'HVAC Technicians',
+    icon: '❄️',
+    heroImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'HVAC and refrigeration technicians work with complex mechanical systems that can cause significant property damage if they fail. Refrigerant handling regulations, electrical components, and the high value of commercial systems create specific insurance requirements for this specialist trade.',
+    keyFacts: [
+      'Refrigerant handling is regulated under the Ozone Layer Protection Act — breaches create environmental liability',
+      'Commercial HVAC system failures can cause significant consequential loss to building tenants',
+      'Electrical connection work on HVAC systems requires EWRB registration',
+      'System design and specification work carries professional indemnity exposure',
+    ],
+    introText: [
+      'HVAC and refrigeration insurance is a specialist package of policies protecting New Zealand heating, ventilation, and air conditioning technicians from the financial consequences of system failure, refrigerant-related liability, and the property damage claims that arise from work on complex mechanical systems in commercial and residential buildings. HVAC system failures can cause significant consequential losses — a failed chiller in a data centre, food store, or commercial building can generate claims that far exceed the value of the original installation. Public liability for HVAC technicians typically starts from around NZ$40–$65 per month.',
+      'HVAC technicians in New Zealand operate under a combination of regulatory frameworks — refrigerant handling is regulated under the Ozone Layer Protection Act, electrical connection work requires registration with the Electrical Workers Registration Board (EWRB), and health and safety obligations apply to the confined space and height work involved in plant installations. Professional indemnity is increasingly relevant for HVAC technicians who design and specify systems for commercial applications, where an incorrectly specified system can generate significant defect claims well after installation.',
+    ],
+    whyNeedIt: [
+      'A failed commercial refrigeration system in a supermarket or food processing facility can cause stock loss claims of NZ$50,000 or more in addition to equipment reinstatement costs.',
+      'Refrigerant gas leaks create environmental liability under the Ozone Layer Protection Act, with the potential for both regulatory action and third-party property damage claims.',
+      'HVAC technicians who design or specify systems carry professional indemnity exposure — an undersized commercial system can generate claims well after installation is complete.',
+      'Electrical connection work carries the same fire and fault liability as trade electricians — public liability with a completed works extension is essential.',
+    ],
+    coverPackage: 'A comprehensive HVAC insurance package includes public liability ($2M+), professional indemnity for system designers, statutory liability, tools and equipment cover, and commercial vehicle insurance.',
+    costFrom: '~$42/month',
+    costFactors: [
+      'Commercial vs residential HVAC work',
+      'Refrigeration and cold chain work',
+      'Annual turnover',
+      'System design and specification services',
+    ],
+    legalRequirements: [
+      'Ozone Layer Protection Act 1996 — regulated refrigerant handling, recovery, and disposal obligations',
+      'Electrical Workers Registration Board (EWRB) — registration required for electrical connection work on HVAC systems',
+      'Health and Safety at Work Act 2015 — confined space, height, and electrical safety obligations',
+      'Building Act 2004 — HVAC work must comply with NZ Building Code G4 (ventilation)',
+      'Consumer Guarantees Act — guarantees of acceptable quality apply to all HVAC installations and servicing',
+    ],
+    risks: [
+      {
+        title: 'System Failure and Consequential Loss',
+        desc: 'An HVAC or refrigeration system fails, causing stock loss or business interruption for a commercial tenant. Consequential loss claims can significantly exceed the equipment value.',
+      },
+      {
+        title: 'Refrigerant Leak',
+        desc: 'A refrigerant leak causes environmental damage or property contamination. Regulatory action under the Ozone Layer Protection Act and third-party claims can both arise from the same event.',
+      },
+      {
+        title: 'Professional Design Liability',
+        desc: 'An HVAC system specified or designed for a commercial application fails to meet performance requirements. Professional indemnity covers rectification costs and legal defence.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Chiller Failure Causes Food Stock Loss',
+        scenario: 'An HVAC technician serviced a commercial refrigeration system in a food wholesale facility. A valve incorrectly reinstated after service caused the chiller to lose capacity overnight. The temperature in the cool store rose above safe levels, resulting in a significant quantity of food stock being condemned.',
+        outcome: 'Public liability claim of NZ$28,500 paid for stock replacement, emergency engineering assessment, and chiller repair.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Refrigerant Release During System Decommission',
+        scenario: 'During decommission of an older commercial HVAC system, a technician failed to fully recover refrigerant before cutting into the circuit. A quantity of refrigerant was released to atmosphere and the environmental regulator investigated.',
+        outcome: 'Statutory liability covered NZ$16,000 in legal representation and regulatory compliance costs during the investigation. A formal warning was issued.',
+        coverType: 'Statutory Liability',
+      },
+      {
+        title: 'Undersized Commercial AC System',
+        scenario: 'An HVAC technician specified and installed a split system for a commercial office. The system was undersized for the actual occupancy and heat load, resulting in the office being unable to maintain comfortable temperatures during summer.',
+        outcome: 'Professional indemnity covered NZ$19,200 in costs for supplementary system installation and legal costs during the dispute.',
+        coverType: 'Professional Indemnity',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do HVAC technicians need?',
+        a: 'HVAC technicians should carry public liability and, if they design or specify systems, professional indemnity. Statutory liability is important given refrigerant and EWRB compliance obligations. Tools cover for specialist HVAC equipment is also recommended.',
+      },
+      {
+        q: 'Does HVAC insurance cover refrigerant leak claims?',
+        a: 'Public liability covers third-party property damage from refrigerant leaks. Statutory liability covers the regulatory consequences. Some policies have specific conditions around pollution — confirm with your broker.',
+      },
+      {
+        q: 'How much does HVAC insurance cost?',
+        a: 'HVAC technician insurance typically starts from around NZ$40–$65/month for public liability. A full package including professional indemnity, tools, and vehicle cover might cost NZ$150–$280/month.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'professional-indemnity', 'statutory-liability', 'tools-equipment', 'commercial-vehicle'],
+  },
+  {
+    slug: 'arborists',
+    name: 'Arborists',
+    icon: '🌳',
+    heroImage: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Arborists work at height with dangerous equipment, felling and trimming trees near buildings, power lines, and other structures. The potential for property damage and personal injury is significant. Specialist arborist insurance is essential for anyone working in the tree care sector.',
+    keyFacts: [
+      'Arborists have one of the highest rates of serious workplace injury in the outdoor sector',
+      'Falling trees or branches can cause catastrophic property and vehicle damage',
+      'Resource Management Act and council bylaws regulate tree removal in many areas',
+      'Proximity to power lines requires coordination with lines companies and specific clearance protocols',
+    ],
+    introText: [
+      'Arborist insurance is a specialist package of policies protecting New Zealand arborists and tree surgeons from the serious financial consequences of property damage, personal injury, and the complex liability exposures that come with working at height with chainsaws near buildings, vehicles, and power infrastructure. A single tree felling operation that goes wrong can cause property damage of NZ$50,000 or more if a tree or major limb falls onto a building or neighbouring structure. Public liability for arborists typically starts from around NZ$45–$70 per month, reflecting the elevated risk profile of the trade.',
+      'Arborists working in urban environments face additional complexity: protected trees under the Resource Management Act and council district plans create regulatory obligations before any removal can take place, and proximity to power lines requires coordination with lines companies and specific height work protocols. Many councils and body corporates require arborists to hold current public liability insurance before they will authorise tree removal work on public land or in urban precincts. A comprehensive insurance package gives you and your clients the confidence that your work is properly protected.',
+    ],
+    whyNeedIt: [
+      'A felled tree that strikes a building, vehicle, or neighbouring property can generate claims of NZ$20,000–$100,000+ — public liability is the only protection between that claim and your personal finances.',
+      'Chainsaw injuries are one of the most serious causes of injury in outdoor trade work — statutory liability cover is critical if WorkSafe NZ investigates following an incident.',
+      'Working near power lines creates specific obligations with lines companies; a contact incident can generate significant liability for personal injury and infrastructure damage.',
+      'Protected tree removal without appropriate council consent can trigger Resource Management Act prosecution — statutory liability covers legal defence costs for unintentional regulatory breaches.',
+    ],
+    coverPackage: 'A comprehensive arborist insurance package includes public liability ($2M+), statutory liability, tools and equipment cover for chainsaws and climbing gear, and income protection for height-work injury risk.',
+    costFrom: '~$48/month',
+    costFactors: [
+      'Urban vs rural arborist work',
+      'Proximity to power lines and structures',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Health and Safety at Work Act 2015 — primary duty for all height, chainsaw, and falling object risks',
+      'WorkSafe NZ — specific guidance on arborist and tree felling safety applies to all commercial tree work',
+      'Resource Management Act — council district plans regulate removal of significant and protected trees',
+      'Electricity Act 1992 — minimum clearance distances from power lines mandatory for all tree work',
+      'Local authority bylaws — many councils require permits for removal of trees above specified trunk diameter',
+    ],
+    risks: [
+      {
+        title: 'Tree or Branch Falls on Property',
+        desc: 'A felled tree or removed limb strikes a building, vehicle, or neighbouring structure. Property damage claims from these events are among the most common and costly arborist claims.',
+      },
+      {
+        title: 'Power Line Contact',
+        desc: 'A tree or limb contacts a power line during removal work, causing power outage, infrastructure damage, or electrocution risk. Lines companies may pursue recovery costs.',
+      },
+      {
+        title: 'WorkSafe Investigation Following Chainsaw Injury',
+        desc: 'An employee is injured using a chainsaw during tree work. WorkSafe investigates height work and chainsaw safety controls. Statutory liability covers the legal defence costs.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Felled Tree Strikes Neighbouring Garage',
+        scenario: 'An arborist was felling a large pine tree in a residential back garden. Despite rigging, one major limb fell in an unexpected direction, clearing the boundary fence and striking the neighbour\'s garage roof, penetrating the roofline and damaging rafter structure and stored contents.',
+        outcome: 'Public liability claim of NZ$22,400 paid for structural garage repairs, roofing reinstatement, and replacement of contents damaged by the falling limb.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Stump Grinder Strikes Irrigation Line',
+        scenario: 'After a tree removal, an arborist used a stump grinder to remove the remaining stump. The grinder struck a buried irrigation line that had not been marked on the property plan, cutting through the main supply pipe to the rear garden system.',
+        outcome: 'Public liability claim of NZ$2,800 paid for irrigation pipe repair, excavation, and backfill reinstatement around the affected area.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Protected Tree Removal — Council Investigation',
+        scenario: 'An arborist removed a tree that was subsequently found to be listed as a significant tree under the local district plan, requiring council consent before removal. The regional council issued an abatement notice and required replanting as remediation.',
+        outcome: 'Statutory liability covered NZ$14,000 in legal representation and compliance costs during the council investigation.',
+        coverType: 'Statutory Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do arborists need?',
+        a: 'Arborists should carry public liability and statutory liability as a minimum — both are critical given the height work and regulatory environment. Tools cover for chainsaws, chippers, and climbing gear is important. Income protection is strongly recommended given the injury risk.',
+      },
+      {
+        q: 'Do arborists need insurance to work near power lines?',
+        a: 'Working near power lines requires coordination with the lines company and specific safety protocols. Ensure your public liability policy covers this work — disclose power line proximity work to your broker.',
+      },
+      {
+        q: 'How much does arborist insurance cost?',
+        a: 'Arborists are a higher-risk trade due to height work and chainsaw use. Public liability typically starts from around NZ$45–$70/month. A full package including statutory liability, tools, and income protection can cost NZ$180–$350/month.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'statutory-liability', 'tools-equipment', 'income-protection'],
+  },
+  {
+    slug: 'welders',
+    name: 'Welders',
+    icon: '🔧',
+    heroImage: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Welders work with high heat and fire risk across fabrication, construction, and maintenance contexts. Sparks, fire, structural failures, and fume hazards are all real risks. Specialist welder insurance protects your business from the unique exposures of metalwork and welding.',
+    keyFacts: [
+      'Welding sparks are a leading cause of fire in industrial and construction settings',
+      'Structural welding certification creates professional liability for welders in construction',
+      'WorkSafe NZ has mandatory welding fume exposure controls for all welding operations',
+      'Fabrication and structural welding carry long-tail workmanship liability',
+    ],
+    introText: [
+      'Welder insurance is a specialist package of policies protecting New Zealand welders and metal fabricators from the financial consequences of fire incidents, structural failure claims, and the property damage that can arise from welding operations in construction, industrial, and workshop environments. Welding sparks are one of the most common causes of fire in construction and industrial settings — a single spark landing in combustible material can cause damage worth tens of thousands of dollars before it is brought under control. Public liability for welders typically starts from around NZ$35–$55 per month.',
+      'Structural welders who certify load-bearing connections carry professional liability that extends well beyond the immediate job. A weld failure in a structural steel connection, a pressure vessel, or a pipeline can have catastrophic consequences, and the resulting claims combine public liability and professional indemnity exposure. Workshop-based fabricators face different but equally real risks — fire, explosion, and the professional liability of producing components that must meet structural specifications. A comprehensive insurance package addresses all of these exposures while protecting your ability to work on the contracts that matter.',
+    ],
+    whyNeedIt: [
+      'Welding sparks can ignite combustible materials in walls, roof spaces, and adjacent areas — a fire caused by welding can generate claims of NZ$50,000 or more, often arising hours after the work is complete.',
+      'Structural welding certification carries long-tail liability — a weld failure in a building or industrial structure years after completion can generate claims far exceeding the original contract value.',
+      'Welding fume exposure is a serious health and safety issue regulated by WorkSafe NZ — statutory liability covers legal defence costs if a health and safety investigation follows a fume exposure incident.',
+      'Workshop equipment — MIG and TIG welding sets, plasma cutters, grinders — represents a significant investment; tools cover ensures fire or theft does not stop your fabrication business.',
+    ],
+    coverPackage: 'A comprehensive welder insurance package includes public liability ($2M+), professional indemnity for structural welders, statutory liability, tools and equipment cover for welding equipment, and commercial vehicle insurance.',
+    costFrom: '~$38/month',
+    costFactors: [
+      'Site welding vs workshop fabrication',
+      'Structural vs maintenance welding',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Health and Safety at Work Act 2015 — hot work permits, fire watch, and fume control obligations',
+      'WorkSafe NZ — welding fume exposure standards and respiratory protection requirements apply to all operations',
+      'Building Act 2004 — structural welding must comply with NZ Building Code B1 (Structure)',
+      'NZS 2980 — New Zealand Standard for quality requirements for welding of steel structures',
+      'Consumer Guarantees Act — guarantees of acceptable quality apply to all welding and fabrication work',
+    ],
+    risks: [
+      {
+        title: 'Welding Fire',
+        desc: 'Welding sparks ignite combustible material in a wall cavity, roof space, or adjacent area. Fire damage claims can be large and can arise hours after the welding is complete.',
+      },
+      {
+        title: 'Structural Weld Failure',
+        desc: 'A certified structural weld fails in service, causing property damage or injury. Structural welding carries long-tail professional liability extending years beyond the project.',
+      },
+      {
+        title: 'Fume Exposure — WorkSafe Investigation',
+        desc: 'WorkSafe NZ investigates fume control compliance following an exposure incident or complaint. Statutory liability covers legal defence costs during the investigation and proceedings.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Welding Sparks Start Wall Cavity Fire',
+        scenario: 'A welder was completing repairs to a steel balcony connection on a residential property. Sparks entered a gap between the cladding and framing and started a slow-burning fire in the wall cavity. The homeowner noticed smoke two hours after the welder had left the site.',
+        outcome: 'Public liability claim of NZ$41,000 paid for fire and smoke damage remediation, cladding reinstatement, and temporary accommodation for the homeowner during repairs.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Fabricated Gate Fails at Hinge Weld',
+        scenario: 'A welder fabricated and installed a large steel driveway gate for a commercial property. A hinge weld failed nine months after installation, causing the gate to fall onto a vehicle entering the property and causing bonnet damage.',
+        outcome: 'Public liability claim of NZ$9,600 paid for vehicle repair, gate removal, and full hinge weld reinstatement with upgraded specification.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'WorkSafe Investigation — Welding Fume Controls',
+        scenario: 'WorkSafe NZ investigated a fabrication workshop following a complaint about welding fume ventilation. Inspectors found the ventilation system was inadequate for the volume of welding being carried out, and an improvement notice was issued halting production.',
+        outcome: 'Statutory liability covered NZ$21,000 in legal representation and compliance costs while the ventilation system was upgraded to meet WorkSafe requirements.',
+        coverType: 'Statutory Liability',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do welders need?',
+        a: 'Welders should carry public liability as a minimum. Structural welders should add professional indemnity. Statutory liability is important given WorkSafe fume and fire exposure. Tools cover for welding equipment and commercial vehicle insurance complete a solid package.',
+      },
+      {
+        q: 'Does welder insurance cover fires caused by sparks?',
+        a: 'Yes — public liability covers third-party property damage caused by welding operations, including fires started by sparks. Always implement a hot work permit and post-welding fire watch to reduce this risk.',
+      },
+      {
+        q: 'How much does welder insurance cost?',
+        a: 'Welder insurance typically starts from around NZ$35–$55/month for public liability. A full package with professional indemnity, tools, and vehicle cover can cost NZ$130–$260/month depending on the type and scale of work.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'professional-indemnity', 'statutory-liability', 'tools-equipment'],
+  },
+  {
+    slug: 'irrigation-specialists',
+    name: 'Irrigation Specialists',
+    icon: '💧',
+    heroImage: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1920&q=80',
+    description:
+      'Irrigation specialists design and install systems that must perform reliably across seasons and soil types. Underground service risks, water damage, and design liability for agricultural and commercial systems create specific insurance needs for this growing trade sector.',
+    keyFacts: [
+      'Irrigation system failures can cause significant water damage to buildings and crop losses',
+      'Underground service strikes during trenching are a common irrigation claim',
+      'Agricultural irrigation design carries professional liability for yield and efficiency shortfalls',
+      'Resource Management Act obligations apply to all water takes near waterways',
+    ],
+    introText: [
+      'Irrigation specialist insurance is a tailored package of policies protecting New Zealand irrigation designers, installers, and service technicians from the financial consequences of system failures, water damage claims, and the professional liability that comes with designing irrigation systems for agricultural, commercial, and residential applications. A failed irrigation system can cause water damage to buildings, crop losses on agricultural properties, and significant consequential losses for commercial landscaped areas. Public liability typically starts from around NZ$35–$55 per month.',
+      'Irrigation specialists who design and specify systems for agricultural or commercial applications carry professional indemnity exposure that is distinct from hands-on installation risk. An undersized pump, an incorrectly specified controller, or a drainage design that does not account for soil type and topography can result in claims for yield shortfall, plant death, or property damage well after installation is complete. The Resource Management Act adds further complexity for irrigation systems near waterways, where water take consents and discharge conditions must be met. A comprehensive insurance programme addresses both the immediate installation risks and the longer-term professional liability.',
+    ],
+    whyNeedIt: [
+      'An irrigation controller failure on a large horticultural block can cause crop losses of NZ$20,000–$100,000 or more — public liability with completed works cover is essential for commercial agricultural work.',
+      'Trenching for underground irrigation pipes risks striking power, gas, or water services — service reinstatement claims and consequential damage can be significant without insurance.',
+      'Agricultural irrigation design carries professional liability — a system that fails to meet specified water efficiency or yield targets can generate claims from farming clients well after installation.',
+      'Water overflow from a failed irrigation system can damage buildings, hard landscaping, and neighbouring properties — public liability covers these third-party property damage claims.',
+    ],
+    coverPackage: 'A comprehensive irrigation specialist insurance package includes public liability ($1M–$2M), professional indemnity for system designers, tools and equipment cover, and commercial vehicle insurance.',
+    costFrom: '~$35/month',
+    costFactors: [
+      'Agricultural vs residential and commercial irrigation',
+      'System design and specification services',
+      'Annual turnover',
+      'Number of employees',
+    ],
+    legalRequirements: [
+      'Resource Management Act — water takes and discharges near waterways require regional council consent',
+      'Health and Safety at Work Act 2015 — trenching, excavation, and manual handling obligations',
+      'Building Act 2004 — irrigation connections to building water supplies must meet NZ Building Code G12 (water supplies)',
+      'Local authority bylaws — backflow prevention requirements for systems connected to public water supply',
+    ],
+    risks: [
+      {
+        title: 'System Failure and Water Damage',
+        desc: 'An irrigation system failure causes flooding to a building, garden, or neighbouring property. Water damage claims from system failures can be significant and arise without warning.',
+      },
+      {
+        title: 'Underground Service Strike',
+        desc: 'Trenching for irrigation pipework strikes an unmarked power, gas, or water service. Reinstatement and consequential damage costs can be substantial.',
+      },
+      {
+        title: 'Agricultural Design Liability',
+        desc: 'An agricultural irrigation system fails to meet performance specifications, causing yield shortfall or crop loss. Professional indemnity covers rectification and legal defence costs.',
+      },
+    ],
+    claimExamples: [
+      {
+        title: 'Controller Failure Floods Commercial Landscaping',
+        scenario: 'An irrigation specialist installed an automated commercial irrigation system for a large office park. A controller programming error caused the system to run continuously overnight. By morning, water had flooded garden beds, tracked along drainage paths, and entered a car park basement.',
+        outcome: 'Public liability claim of NZ$17,800 paid for water extraction, landscaping reinstatement, car park drainage remediation, and affected tenants\' property damage.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Trenching Strikes Power Cable',
+        scenario: 'An irrigation specialist was trenching for a new drip irrigation system on a rural horticultural property. The trencher struck an unmarked underground power cable supplying a pump shed, cutting the cable and leaving the property without power for twelve hours.',
+        outcome: 'Public liability claim of NZ$5,400 paid for cable reinstatement, emergency electrician callout, and consequential losses from pump downtime during the repair.',
+        coverType: 'Public Liability',
+      },
+      {
+        title: 'Agricultural Irrigation System Underperforms',
+        scenario: 'An irrigation specialist designed and installed a centre-pivot irrigation system for a large arable farm. The system was specified with insufficient pressure for the soil type and topography, resulting in uneven water distribution and a yield shortfall in the first season.',
+        outcome: 'Professional indemnity covered NZ$24,000 in rectification costs for pump and pressure specification upgrades and a partial settlement for the season\'s yield shortfall.',
+        coverType: 'Professional Indemnity',
+      },
+    ],
+    faqs: [
+      {
+        q: 'What insurance do irrigation specialists need?',
+        a: 'Irrigation specialists should carry public liability as a minimum. Those designing agricultural or commercial systems should add professional indemnity. Tools cover and commercial vehicle insurance complete a standard package.',
+      },
+      {
+        q: 'Does irrigation insurance cover crop or yield losses?',
+        a: 'Public liability covers third-party property damage from system failures. Claims for agricultural yield shortfall arising from professional design errors are covered by professional indemnity. Confirm the specific scope with your broker.',
+      },
+      {
+        q: 'How much does irrigation specialist insurance cost?',
+        a: 'Irrigation insurance typically starts from around NZ$35–$55/month for public liability. Adding professional indemnity for design work brings the cost to NZ$70–$120/month. A full package can cost NZ$120–$220/month.',
+      },
+    ],
+    recommendedCover: ['public-liability', 'professional-indemnity', 'tools-equipment', 'commercial-vehicle'],
+  },
 ]
 
 export function getTradeBySlug(slug: string): TradeType | undefined {

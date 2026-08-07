@@ -315,6 +315,11 @@ export default function HomePage() {
               { href: '/tradie-insurance/tradie-insurance-cost-nz/', label: 'Tradie Insurance Cost' },
               { href: '/tradie-insurance/tradie-insurance-sole-trader/', label: 'Sole Trader Insurance' },
               { href: '/tradie-insurance/tradie-insurance-small-business/', label: 'Small Business Insurance' },
+              { href: '/tradie-insurance/tradie-insurance-hamilton/', label: 'Tradie Insurance Hamilton' },
+              { href: '/tradie-insurance/tradie-insurance-tauranga/', label: 'Tradie Insurance Tauranga' },
+              { href: '/tradie-insurance/tradie-insurance-dunedin/', label: 'Tradie Insurance Dunedin' },
+              { href: '/tradie-insurance/tradie-insurance-rotorua/', label: 'Tradie Insurance Rotorua' },
+              { href: '/tradie-insurance/tradie-insurance-whangarei/', label: 'Tradie Insurance Whangārei' },
             ].map((link) => (
               <Link
                 key={link.href}

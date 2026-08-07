@@ -43,6 +43,12 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 - Landscapers (garden design, earthworks, irrigation)
 - Drain Layers (stormwater, sewage, drainage)
 - Scaffolders (construction scaffolding erection)
+- Fencers (boundary and rural fencing)
+- Plasterers (interior and exterior plaster systems)
+- HVAC Technicians (heating, ventilation, and refrigeration)
+- Arborists (tree surgery and arboriculture)
+- Welders (metal fabrication and structural welding)
+- Irrigation Specialists (agricultural and commercial irrigation)
 
 ## Key Pages
 
@@ -50,7 +56,7 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 |---|---|
 | / | Homepage — overview, how it works, coverage and trades |
 | /coverage/ | All 8 coverage types explained |
-| /trades/ | All 15 trade-specific insurance pages |
+| /trades/ | All 21 trade-specific insurance pages |
 | /compare/ | Side-by-side provider comparison table |
 | /blog/ | Insurance guides and articles |
 | /faqs/ | 15 common questions answered |
@@ -85,6 +91,12 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 - /trades/landscapers/ — Landscaper insurance for earthworks and retaining walls
 - /trades/drain-layers/ — Drain layer insurance under Plumbers Act licensing
 - /trades/scaffolders/ — Scaffolding insurance including WorkSafe compliance
+- /trades/fencers/ — Fencer insurance for boundary disputes and underground service strikes
+- /trades/plasterers/ — Plasterer insurance including exterior cladding system liability
+- /trades/hvac-technicians/ — HVAC and refrigeration insurance including refrigerant liability
+- /trades/arborists/ — Arborist insurance for height work and tree felling liability
+- /trades/welders/ — Welder insurance for fire risk and structural weld liability
+- /trades/irrigation-specialists/ — Irrigation specialist insurance including agricultural design liability
 
 ## Landing Pages (High-Intent)
 
@@ -100,6 +112,11 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 - /tradie-insurance/tradie-insurance-palmerston-north/ — Palmerston North/Manawatū tradies
 - /tradie-insurance/tradie-insurance-napier-hastings/ — Napier/Hastings/Hawke's Bay tradies
 - /tradie-insurance/tradie-insurance-nelson/ — Nelson/Top of the South tradies
+- /tradie-insurance/tradie-insurance-rotorua/ — Rotorua/Bay of Plenty tradies
+- /tradie-insurance/tradie-insurance-new-plymouth/ — New Plymouth/Taranaki tradies
+- /tradie-insurance/tradie-insurance-whangarei/ — Whangarei/Northland tradies
+- /tradie-insurance/tradie-insurance-invercargill/ — Invercargill/Southland tradies
+- /tradie-insurance/tradie-insurance-gisborne/ — Gisborne/East Coast tradies
 - /tradie-insurance/builder-insurance-nz/ — Builder insurance guide
 - /tradie-insurance/public-liability-tradies-nz/ — Public liability guide
 - /tradie-insurance/tool-insurance-nz/ — Tool insurance guide
@@ -126,6 +143,12 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 | tradie-insurance-subcontractors-nz | Tradie Insurance for Subbies: What You Need | 2026-08-04 |
 | cyclone-damage-claims-tradies-nz | Storm & Cyclone Claims: What Tradies Need to Know | 2026-08-04 |
 | tradie-business-insurance-nz-guide | Building a Business? Your Insurance Checklist | 2026-08-04 |
+| self-certification-plumbers-drainlayers-2026 | Plumber Self-Certification 2026: What It Means for You | 2026-08-07 |
+| storm-flood-claims-tradies-nz-2026 | Storm Claims 2026: Wellington Floods & Cyclone Vaianu | 2026-08-07 |
+| fencer-insurance-nz-guide | Fencer Insurance: The Complete Guide | 2026-08-07 |
+| nz-infrastructure-boom-tradie-insurance-2026 | $60B Infrastructure Boom: Insurance for Big Sites | 2026-08-07 |
+| hvac-refrigeration-insurance-nz | HVAC Technician Insurance: What You Need to Know | 2026-08-07 |
+| tradie-business-structure-insurance-nz | Sole Trader vs Company: What Changes for Insurance | 2026-08-07 |
 
 ## Insurance Providers Our Brokers Access
 
