@@ -136,7 +136,7 @@ export default function ContactPage() {
       <div className="bg-orange-500 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-2">
-            {['✓ Licensed & Regulated Brokers', '✓ 100% Free Service', '✓ No Obligation', '✓ All Trades Covered', '✓ NZ Based Team', '✓ 24hr Broker Response'].map((t) => (
+            {['✓ Licensed & Regulated Brokers', '✓ 100% Free Service', '✓ No Obligation', '✓ All Trades Covered', '✓ NZ Based Team', '✓ Quick Broker Response'].map((t) => (
               <span key={t} className="text-white text-xs font-bold tracking-wide">{t}</span>
             ))}
           </div>

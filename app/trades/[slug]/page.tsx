@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const trade = getTradeBySlug(slug)
   if (!trade) return {}
   const title = `${trade.name} Insurance NZ | Specialist Cover`
-  const description = `${trade.name} insurance — specialist cover from licensed brokers. Public liability from ${trade.costFrom}, tools, vehicle & more. 24hr broker response.`
+  const description = `${trade.name} insurance — specialist cover from licensed brokers. Public liability from ${trade.costFrom}, tools, vehicle & more. quick broker response.`
   return {
     title: { absolute: title },
     description,
@@ -142,7 +142,7 @@ export default async function TradeTypePage({ params }: Props) {
                 Specialist cover for New Zealand {trade.name.toLowerCase()}. Licensed advisers, free service, 24-hour response.
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
-                {['Free broker matching', 'All NZ trades covered', 'Licensed advisers only', '24hr response'].map((b) => (
+                {['Free broker matching', 'All NZ trades covered', 'Licensed advisers only', 'quick response'].map((b) => (
                   <span key={b} className="inline-flex items-center gap-1.5 bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-full">
                     <span className="text-orange-400">✓</span> {b}
                   </span>
@@ -186,7 +186,7 @@ export default async function TradeTypePage({ params }: Props) {
       <div className="bg-orange-500 py-3.5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
-            {['✓ Licensed & Regulated Advisers', '✓ 100% Free Service', '✓ No Obligation', '✓ All NZ Trades Covered', '✓ 24hr Broker Response'].map((pill) => (
+            {['✓ Licensed & Regulated Advisers', '✓ 100% Free Service', '✓ No Obligation', '✓ All NZ Trades Covered', '✓ Quick Broker Response'].map((pill) => (
               <span key={pill} className="text-white text-xs font-bold tracking-wide">{pill}</span>
             ))}
           </div>
@@ -526,7 +526,7 @@ export default async function TradeTypePage({ params }: Props) {
 
               {/* Trust badges */}
               <div className="flex flex-wrap gap-2 mb-8">
-                {['Licensed under FMA', 'No Obligation', 'Free Service', 'All Trades', 'NZ Based', '24hr Response'].map((pill) => (
+                {['Registered Financial Service Providers', 'No Obligation', 'Free Service', 'All Trades', 'NZ Based', 'Quick Response'].map((pill) => (
                   <span key={pill} className="text-xs text-gray-300 bg-gray-700 border border-gray-600 px-3 py-1.5 rounded-full flex items-center gap-1.5">
                     <span className="text-orange-400">✓</span> {pill}
                   </span>
@@ -541,7 +541,7 @@ export default async function TradeTypePage({ params }: Props) {
                   {siteConfig.email}
                 </a>
                 <div className="flex flex-wrap gap-1.5">
-                  {['Licensed FMA', 'Free Service', 'No Obligation'].map((b) => (
+                  {['Registered FSP', 'Free Service', 'No Obligation'].map((b) => (
                     <span key={b} className="text-xs text-gray-400 bg-gray-800 border border-gray-600 px-2 py-1 rounded-full">✓ {b}</span>
                   ))}
                 </div>

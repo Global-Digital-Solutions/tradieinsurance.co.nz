@@ -2,7 +2,7 @@ const usps = [
   { icon: '🏆', title: 'Licensed Brokers', desc: 'Registered Financial Service Providers' },
   { icon: '🆓', title: 'Free Quotes', desc: 'No cost, no obligation service' },
   { icon: '🇳🇿', title: 'NZ Based', desc: 'Local expertise, local knowledge' },
-  { icon: '⚡', title: '24hr Response', desc: 'Quick turnaround on all enquiries' },
+  { icon: '⚡', title: 'Quick Response', desc: 'Quick turnaround on all enquiries' },
 ]
 
 export default function USPBar() {

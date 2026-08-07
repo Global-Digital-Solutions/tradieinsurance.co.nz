@@ -88,7 +88,7 @@ export default function HomePage() {
                   <span className="text-orange-500">✓</span> Licensed advisers only
                 </div>
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
-                  <span className="text-orange-500">✓</span> 24hr response
+                  <span className="text-orange-500">✓</span> quick response
                 </div>
               </div>
               <div className="flex flex-wrap gap-4">
@@ -350,7 +350,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            {['✓ FMA-Licensed Advisers', '✓ Free Service', '✓ No Obligation', '✓ 24hr Response', '✓ NZ Based'].map((b) => (
+            {['✓ Registered Financial Service Providers', '✓ Free Service', '✓ No Obligation', '✓ Quick Response', '✓ NZ Based'].map((b) => (
               <span key={b} className="text-orange-200 text-xs font-semibold">{b}</span>
             ))}
           </div>

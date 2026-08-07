@@ -209,7 +209,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
 
       {/* Trust pills */}
       <div className="mt-4 flex flex-wrap gap-2 justify-center">
-        {['Licensed Brokers', 'No Obligation', 'NZ Based', '24hr Response'].map((pill) => (
+        {['Licensed Brokers', 'No Obligation', 'NZ Based', 'Quick Response'].map((pill) => (
           <span key={pill} className="text-xs text-gray-400 bg-gray-700 px-2.5 py-1 rounded-full border border-gray-600">
             ✓ {pill}
           </span>

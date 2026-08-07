@@ -68,7 +68,7 @@ export default function ExitIntentPopup() {
         </div>
 
         <p className="text-xs text-gray-400 text-center mt-4">
-          Registered Financial Service Providers · No obligation · 24hr response
+          Registered Financial Service Providers · No obligation · quick response
         </p>
       </div>
     </div>
