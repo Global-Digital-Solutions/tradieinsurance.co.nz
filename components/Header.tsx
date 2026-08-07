@@ -116,58 +116,75 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu — fixed overlay so it scrolls independently of page */}
       {menuOpen && (
-        <div className="lg:hidden bg-gray-800 border-t border-gray-700 px-4 py-4 space-y-2">
-          <div>
-            <p className="text-orange-400 text-xs font-bold uppercase tracking-widest mb-2">Coverage Types</p>
-            {coverageTypes.map((c) => (
-              <Link
-                key={c.slug}
-                href={`/types/${c.slug}/`}
-                className="flex items-center gap-2 py-1.5 text-sm text-gray-300 hover:text-white"
-                onClick={() => setMenuOpen(false)}
-              >
-                {c.icon} {c.name}
-              </Link>
-            ))}
+        <>
+          {/* Backdrop — tap to close */}
+          <div
+            className="lg:hidden fixed inset-0 top-16 z-40 bg-black/50"
+            onClick={() => setMenuOpen(false)}
+            aria-hidden="true"
+          />
+          {/* Drawer */}
+          <div className="lg:hidden fixed top-16 left-0 right-0 bottom-0 z-50 bg-gray-800 border-t border-gray-700 overflow-y-auto overscroll-contain">
+            <div className="px-4 py-4 space-y-2 pb-10">
+              <div>
+                <p className="text-orange-400 text-xs font-bold uppercase tracking-widest mb-2">Coverage Types</p>
+                {coverageTypes.map((c) => (
+                  <Link
+                    key={c.slug}
+                    href={`/types/${c.slug}/`}
+                    className="flex items-center gap-2 py-2 text-sm text-gray-300 hover:text-white border-b border-gray-700/50"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {c.icon} {c.name}
+                  </Link>
+                ))}
+                <Link href="/coverage/" className="flex items-center gap-2 py-2 text-sm text-orange-400 font-medium" onClick={() => setMenuOpen(false)}>
+                  View All Coverage →
+                </Link>
+              </div>
+              <div className="border-t border-gray-700 pt-2">
+                <p className="text-orange-400 text-xs font-bold uppercase tracking-widest mb-2">Trade Types</p>
+                {tradeTypes.map((t) => (
+                  <Link
+                    key={t.slug}
+                    href={`/trades/${t.slug}/`}
+                    className="flex items-center gap-2 py-2 text-sm text-gray-300 hover:text-white border-b border-gray-700/50"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {t.icon} {t.name}
+                  </Link>
+                ))}
+                <Link href="/trades/" className="flex items-center gap-2 py-2 text-sm text-orange-400 font-medium" onClick={() => setMenuOpen(false)}>
+                  All Trades →
+                </Link>
+              </div>
+              <div className="border-t border-gray-700 pt-2 space-y-1">
+                {[
+                  { href: '/compare/', label: 'Compare Providers' },
+                  { href: '/blog/', label: 'Resources' },
+                  { href: '/faqs/', label: 'FAQs' },
+                  { href: '/contact/', label: 'Contact' },
+                ].map((l) => (
+                  <Link
+                    key={l.href}
+                    href={l.href}
+                    className="block py-2 text-sm text-gray-300 hover:text-white border-b border-gray-700/50"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {l.label}
+                  </Link>
+                ))}
+              </div>
+              <div className="border-t border-gray-700 pt-3">
+                <Link href="/contact/" className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm py-3 rounded-lg text-center transition-colors" onClick={() => setMenuOpen(false)}>
+                  Get a Quote →
+                </Link>
+              </div>
+            </div>
           </div>
-          <div className="border-t border-gray-700 pt-2">
-            <p className="text-orange-400 text-xs font-bold uppercase tracking-widest mb-2">Trade Types</p>
-            {tradeTypes.map((t) => (
-              <Link
-                key={t.slug}
-                href={`/trades/${t.slug}/`}
-                className="flex items-center gap-2 py-1.5 text-sm text-gray-300 hover:text-white"
-                onClick={() => setMenuOpen(false)}
-              >
-                {t.icon} {t.name}
-              </Link>
-            ))}
-          </div>
-          <div className="border-t border-gray-700 pt-2 space-y-1">
-            {[
-              { href: '/compare/', label: 'Compare Providers' },
-              { href: '/blog/', label: 'Resources' },
-              { href: '/faqs/', label: 'FAQs' },
-              { href: '/contact/', label: 'Contact' },
-            ].map((l) => (
-              <Link
-                key={l.href}
-                href={l.href}
-                className="block py-1.5 text-sm text-gray-300 hover:text-white"
-                onClick={() => setMenuOpen(false)}
-              >
-                {l.label}
-              </Link>
-            ))}
-          </div>
-          <div className="border-t border-gray-700 pt-3">
-            <Link href="/contact/" className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm py-2.5 rounded-lg text-center transition-colors" onClick={() => setMenuOpen(false)}>
-              Get a Quote →
-            </Link>
-          </div>
-        </div>
+        </>
       )}
     </header>
   )
