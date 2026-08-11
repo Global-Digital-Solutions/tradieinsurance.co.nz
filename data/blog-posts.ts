@@ -1735,6 +1735,65 @@ Notify principal contractors and commercial clients of the change in entity, and
 
 Getting these steps right at incorporation is far simpler than untangling the gaps after a claim. Get a Quote from a specialist tradie insurance broker to review your programme at the time of the transition — this is exactly the kind of change that warrants a full policy review.`,
   },
+  {
+    slug: 'height-safety-law-changes-tradies-2026',
+    title: 'Height Safety Law Changes: What They Mean for Your Cover',
+    excerpt: 'The Health and Safety at Work Amendment Bill is expected to pass before late September 2026, bringing risk-based height rules. Here is what changes — and what it means for your insurance.',
+    category: 'Industry News',
+    readTime: '7 min read',
+    date: '2026-08-11',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
+    content: `## The Biggest Height Safety Shake-Up in a Decade
+
+The Health and Safety at Work Amendment Bill — introduced to Parliament in February 2026 — is expected to pass and come into force before Parliament rises in late September 2026. For anyone who works off a ladder, a scaffold, or a roof, it is the most significant rewrite of height safety rules since the Health and Safety at Work Act arrived a decade ago, and it will change how you plan jobs, what paperwork you complete, and how WorkSafe assesses whether you have done enough.
+
+The reform follows Workplace Relations and Safety Minister Brooke van Velden's 2024 consultation roadshow, where tradies consistently reported that the rules were confusing, prequalification requirements were repetitive and costly, and businesses were often unclear on what they actually needed to do to comply. One industry submitter reported completing 76 separate prequalification forms in a single year. The Government's response is a shift from treating every conceivable risk equally to concentrating effort on critical risks — the ones genuinely likely to cause serious harm or death.
+
+Falls from height sit firmly in that category. Between 2022 and 2023 the construction sector recorded 645 reported injuries and 12 fatalities from falls, and falls remain the leading cause of serious injury and death on building sites. This reform is not about relaxing height safety — it is about making the rules proportionate and clear.
+
+## What Is Actually Changing
+
+The change most relevant to everyday trade work is a risk-based hierarchy of controls for working at height. Under the new framework, the safety measure you use must match the actual danger of the job rather than defaulting to the most expensive option every time. The example the Minister has used repeatedly: a simple gutter repair or minor electrical maintenance at height does not necessarily require scaffolding — a ladder or harness may be sufficient, and legal, for genuinely low-risk tasks.
+
+Scaffolding certification is also being modernised. The Health and Safety in Employment Regulations 1995 define three categories of scaffolding competence, but SARNZ — the industry body — has long operated with four: elementary, intermediate, advanced suspended, and restricted. The Government has confirmed the certificate of competence categories will be updated to match current industry practice, with a review of certificate fees to follow. Scaffolders should see less wasted training time and clearer certification pathways.
+
+Approved Codes of Practice are being given real teeth. Under current rules, following an ACoP is voluntary evidence that you tried to comply. The Amendment Bill gives ACoPs formal safe harbour status: follow the code for a specific risk and you are deemed to have met the relevant duty. Once the new working-at-height ACoP is published, following it carefully will give you genuine legal certainty for the first time.
+
+Small operators get more targeted duties too. Businesses with fewer than 20 workers for at least nine months of the year will only need to comply with core duties as they relate to critical risks. Since height work almost always qualifies as a critical risk, your obligations there do not shrink — but your compliance effort should become far more focused on what actually matters.
+
+Three things are explicitly not changing: the three-metre fall protection threshold stays, scaffolding where a person can fall five metres or more remains notifiable work requiring a certified scaffolder, and the duty to eliminate or minimise risk so far as is reasonably practicable is untouched. WorkSafe updated its working-at-height guidance as recently as 7 August 2026, and it is enforcing the existing rules in full until the Bill receives Royal Assent.
+
+## What This Means for Your Insurance
+
+The reform has real consequences for how your cover responds, and the biggest one is evidential. When the law moves from prescriptive rules to risk-based judgement, the question after an incident becomes: can you show your control decision was reasonable? If you chose a ladder and harness over scaffolding for a job under the new framework, your documented risk assessment becomes the difference between a defensible position and a difficult one — for WorkSafe, and for your insurer.
+
+Statutory liability insurance is the policy to review first. It covers defence costs for prosecutions under the Health and Safety at Work Act and can cover reparation orders, though fines themselves are not insurable by law. With WorkSafe's enforcement focus shifting toward critical risks — and falls at the top of that list — height trades should expect scrutiny to intensify, not ease. Check your statutory liability limit reflects the realistic cost of defending a prosecution, which routinely runs well into six figures.
+
+Public liability remains essential, but pay attention to policy conditions. Some policies carry conditions around compliance with health and safety legislation or specific height work exclusions. As the rules change, wording that referenced the old framework may need updating — a conversation your broker should be having with insurers over the coming year.
+
+Income protection deserves a hard look given the numbers above. ACC covers workplace accidents, but weekly compensation caps at 80% of earnings, and a serious fall can end a physical career entirely. For self-employed tradies, income protection and permanent disablement cover fill the gap between what ACC pays and what your family actually needs.
+
+There is also a practical upside coming. The prequalification overhaul — free, nationally consistent WorkSafe templates usable across multiple clients — should reduce the paperwork burden of proving cover. Keep your certificates of currency accurate and current so they slot straight into the new templates when they arrive.
+
+## What Height Trades Should Do Before September
+
+Keep operating under the current rules until Royal Assent — nothing has legally changed yet, and getting caught cutting corners during a reform period is a poor look with both WorkSafe and your insurer. Sign up for WorkSafe updates so you see the new working-at-height ACoP the day it lands, because following it will become your strongest legal position.
+
+If you are a scaffolder, watch the certificate of competence review through SARNZ and time any new training against the updated categories rather than the outgoing ones. SARNZ has backed the intent of the reform while cautioning that scaffolding regulations directly saved lives when first introduced — a reminder that the goal is proportionate safety, not less safety.
+
+And regardless of trade, start writing down your height work decisions now. A simple, consistent record of why you chose a particular control for a particular job costs you minutes and builds exactly the evidence trail the new risk-based framework — and any future claim — will demand.
+
+## Key Takeaways
+
+- The Health and Safety at Work Amendment Bill is expected to come into force before late September 2026, introducing a risk-based hierarchy of controls for height work.
+- The three-metre fall protection threshold and five-metre notifiable scaffolding threshold are not changing.
+- ACoPs gain safe harbour status — following the new working-at-height code will be deemed compliance.
+- Statutory liability, public liability, and income protection are the policies most affected; fines are never insurable, but defence costs and reparations can be covered.
+- Document every height work control decision — the new framework rewards evidence of reasonable judgement.
+
+Height safety law is changing faster than most policy wordings. A specialist broker can check your statutory liability limits, public liability conditions, and income protection before the new framework lands — [Get a Quote](/contact/) and have your cover reviewed while the current rules still apply.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {
