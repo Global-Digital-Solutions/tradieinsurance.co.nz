@@ -90,6 +90,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-NZ">
       <head>
+        {/* Google tag (gtag.js) – GA4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-15Y8JJ68CM" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-15Y8JJ68CM');`,
+          }}
+        />
         <script
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${siteConfig.adsenseId}`}
