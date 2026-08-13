@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
@@ -126,7 +126,7 @@ export default function ContactPage() {
 
             {/* Right — form (shown first on mobile) */}
             <div className="w-full lg:w-[420px] lg:flex-shrink-0 order-1 lg:order-2">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>
@@ -310,7 +310,7 @@ export default function ContactPage() {
             </div>
             {/* Right — form */}
             <div className="w-full lg:w-[420px] lg:flex-shrink-0">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>

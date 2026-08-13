@@ -656,7 +656,7 @@ Use our free quote service to connect with a specialist broker who can ensure yo
   },
   {
     slug: 'compare-tradie-insurance-providers-nz',
-    title: 'Comparing Tradie Insurance: AMI vs State vs BizCover',
+    title: 'Comparing Tradie Insurance: AMI vs State vs BizCover vs Builtin',
     excerpt: 'A practical comparison of the main tradie insurance providers — what they offer, their strengths, and how to choose the right one for your trade.',
     category: 'Comparison',
     readTime: '7 min read',
@@ -700,20 +700,20 @@ State Insurance (also an IAG brand) is one of NZ's oldest insurers and offers a 
 
 **Best for:** Straightforward tradie businesses with standard risk profiles and modest cover requirements
 
-### FMG (Farmers Mutual Group)
+### Rural and Provincial Insurers
 
-FMG is a mutual insurer focused on rural and provincial New Zealand. While primarily known for farming and agricultural insurance, FMG also covers trade businesses in rural and provincial markets.
+Several mutual and regional insurers serve provincial New Zealand tradies. These providers often have stronger presence and specialist knowledge outside the main centres.
 
 **Strengths:**
 - Specialist knowledge of rural NZ risks
-- Strong claims service in provincial areas
-- Mutual structure means profits stay within the membership
+- Strong claims service in provincial and agricultural areas
+- In some cases, mutual structures that keep profits within the membership
 
 **Considerations:**
-- Less relevant for urban-based tradies
-- Product range not as comprehensive for specialist trade risks as urban-focused providers
+- May be less competitive or accessible for urban-based tradies
+- Product range varies — check whether specialist trade risks are well covered
 
-**Best for:** Tradies working primarily in rural or provincial NZ, particularly those with farming connections
+**Best for:** Tradies working primarily in rural or provincial NZ who want a provider with strong local presence. A specialist broker can identify the most suitable option for your region.
 
 ### Builtin New Zealand
 

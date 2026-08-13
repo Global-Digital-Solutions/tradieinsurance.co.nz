@@ -159,7 +159,6 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 | AMI Insurance | General business insurance | From ~$25/month |
 | Builtin Insurance | Construction specialist | Quote required |
 | Gallagher Insurance | Complex/large operations | Quote required |
-| FMG Insurance | Rural and provincial tradies | Quote required |
 | Vero Insurance | Comprehensive business cover | From ~$40/month |
 
 ## Regulatory and Compliance Information

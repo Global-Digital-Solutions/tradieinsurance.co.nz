@@ -5,12 +5,12 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: { absolute: 'Compare Tradie Insurance Providers | TradieInsurance.co.nz' },
-  description: 'Compare NZ tradie insurance providers side by side. Detailed coverage tables, pricing, ratings and expert profiles for BizCover, AMI, Builtin, Gallagher, FMG and Vero.',
+  description: 'Compare NZ tradie insurance providers side by side. Detailed coverage tables, pricing, ratings and expert profiles for BizCover, AMI, Builtin, Gallagher and Vero.',
   alternates: { canonical: `${siteConfig.url}/compare/` },
   openGraph: {
     type: 'website',
     title: 'Compare NZ Tradie Insurance Providers | TradieInsurance.co.nz',
-    description: 'Side-by-side comparison of BizCover, AMI, Builtin, Gallagher, FMG and Vero — coverage, pricing, and ratings.',
+    description: 'Side-by-side comparison of BizCover, AMI, Builtin, Gallagher and Vero — coverage, pricing, and ratings.',
     url: `${siteConfig.url}/compare/`,
     siteName: 'TradieInsurance.co.nz',
     locale: 'en_NZ',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Compare NZ Tradie Insurance Providers',
-    description: 'Side-by-side comparison of NZ tradie insurance providers — coverage, pricing, and ratings.',
+    description: 'Side-by-side comparison of NZ tradie insurance providers — coverage, pricing, and ratings for BizCover, AMI, Builtin, Gallagher and Vero.',
     images: [`${siteConfig.url}/og-image.png`],
   },
 }
@@ -61,7 +61,7 @@ export default function ComparePage() {
             Compare NZ Tradie Insurance Providers
           </h1>
           <p className="text-white text-xl max-w-2xl leading-relaxed mb-8 opacity-90">
-            Detailed side-by-side comparison of BizCover, AMI, Builtin, Gallagher, FMG, and Vero — coverage types, pricing, online quoting, and what each provider does best.
+            Detailed side-by-side comparison of BizCover, AMI, Builtin, Gallagher, and Vero — coverage types, pricing, online quoting, and what each provider does best.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/contact/" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
@@ -280,8 +280,8 @@ export default function ComparePage() {
                 },
                 {
                   title: 'Rural or provincial tradie',
-                  rec: 'FMG Insurance',
-                  detail: 'FMG specialises in rural NZ and has staff and service in regions where other insurers have minimal presence.',
+                  rec: 'Speak to a specialist broker',
+                  detail: 'Some regional and mutual insurers have stronger presence outside the main centres. A specialist broker can identify the right fit for your region and risk profile.',
                   icon: '🌾',
                 },
               ].map((item, i) => (

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import { blogPosts, getBlogBySlug } from '@/data/blog-posts'
 import { tradeTypes } from '@/data/trade-types'
 import { coverageTypes } from '@/data/coverage-types'
@@ -226,7 +226,7 @@ export default async function BlogPostPage({ params }: Props) {
             </article>
 
             <aside className="space-y-6">
-              <QuoteForm compact />
+              <HoldingPanel />
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-3">Browse by Trade</h3>
                 <ul className="space-y-1.5">

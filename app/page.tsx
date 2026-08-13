@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import USPBar from '@/components/USPBar'
 import { coverageTypes } from '@/data/coverage-types'
 import { tradeTypes } from '@/data/trade-types'
@@ -101,7 +101,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="w-full mx-auto lg:ml-auto lg:mr-0 max-w-sm">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import QuoteForm from '@/components/QuoteForm'
+import HoldingPanel from '@/components/HoldingPanel'
 import { tradeTypes, getTradeBySlug } from '@/data/trade-types'
 import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
@@ -550,7 +550,7 @@ export default async function TradeTypePage({ params }: Props) {
 
             {/* Right — form */}
             <div className="w-full lg:w-auto lg:min-w-[380px] lg:max-w-sm">
-              <QuoteForm />
+              <HoldingPanel />
             </div>
           </div>
         </div>
