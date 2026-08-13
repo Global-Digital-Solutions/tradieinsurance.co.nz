@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import HoldingPanel from '@/components/HoldingPanel'
+import QuoteForm from '@/components/QuoteForm'
 import { coverageTypes, getCoverageBySlug } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
 
@@ -171,7 +171,7 @@ export default async function CoverageTypePage({ params }: Props) {
 
             {/* Sidebar */}
             <div className="space-y-6">
-              <HoldingPanel />
+              <QuoteForm compact />
               <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-6">
                 <h3 className="font-extrabold text-gray-900 mb-4">Why Get a Quote?</h3>
                 <div className="space-y-3">

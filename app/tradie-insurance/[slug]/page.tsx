@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import HoldingPanel from '@/components/HoldingPanel'
+import QuoteForm from '@/components/QuoteForm'
 import { landingPages, getLandingPageBySlug } from '@/data/landing-pages'
 import { siteConfig } from '@/data/site-config'
 
@@ -126,7 +126,7 @@ export default async function LandingPage({ params }: Props) {
             </div>
 
             <div className="space-y-6">
-              <HoldingPanel />
+              <QuoteForm compact />
               <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-3">Related Resources</h3>
                 <ul className="space-y-2">
