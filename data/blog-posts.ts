@@ -1794,6 +1794,69 @@ And regardless of trade, start writing down your height work decisions now. A si
 
 Height safety law is changing faster than most policy wordings. A specialist broker can check your statutory liability limits, public liability conditions, and income protection before the new framework lands — [Get a Quote](/contact/) and have your cover reviewed while the current rules still apply.`,
   },
+  {
+    slug: 'two-speed-building-market-tradie-insurance-2026',
+    title: 'The Two-Speed Building Market: What It Means for Cover',
+    excerpt: 'Residential consents topped 40,581 in the year to June 2026 while non-residential work hit its weakest June quarter since 2021 — and a shifting work mix has real consequences for your cover.',
+    category: 'Industry News',
+    readTime: '9 min read',
+    date: '2026-08-17',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
+    content: `## Consents Cleared 40,000 While Commercial Work Went Backwards
+
+Something unusual is happening in the building market, and it is worth understanding before you commit to your next six months of work. Stats NZ figures released on 3 August show 40,581 new dwellings were consented in the 12 months to June 2026, up 19 percent on the previous year, carrying a construction value of $18.2 billion. It is the first time the annual count has cleared 40,000 since 2023. Stats NZ economic indicators spokesperson Michelle Feyen confirmed the milestone when the figures were published.
+
+The other half of the industry is heading the opposite way. Consents for non-residential buildings — offices, shops, factories, warehouses, schools and hospitals — came to $2.145 billion in the June quarter, down 9.6 percent on the same quarter a year earlier and the weakest June quarter since 2021. Westpac senior economist Satish Ranchhod attributed the commercial weakness to sluggish economic conditions and continuing uncertainty, noting that commercial consent values were down 2.8 percent over the year and consented floor space down 1.4 percent.
+
+The growth is also concentrated geographically. Auckland consented 17,097 new homes over the year, up 20 percent. Canterbury consented 8,647, up 33 percent, the fastest growth of any major region. Waikato reached 3,205, Otago 2,982 with Queenstown-Lakes alone responsible for more than 2,000 of those, and the Wellington region 2,217. The shape of the work has shifted too: townhouses, flats and units accounted for 17,675 consents, up 23 percent, and now come close to matching the 18,627 stand-alone houses consented over the same period.
+
+## Why a Change in Work Mix Changes Your Risk Profile
+
+If commercial work has dried up and you have picked up residential jobs to fill the gap, your insurance almost certainly still describes the business you were running two years ago. That gap matters more than most tradies realise.
+
+Insurance policies are priced and worded around a declared description of your business — the trades you perform, the type of sites you work on, your annual turnover, and often the maximum contract value you take on. Move from fitting out a warehouse to framing three-storey townhouses and you have changed your height exposure, your subcontractor arrangements, your materials handling, and the type of contract you sign. None of that is inherently uninsurable. It simply needs to be disclosed.
+
+The duty of disclosure runs for the life of the policy, not just at the point you first take it out. An insurer who declines a claim because the work being performed sat outside the declared business description is not being unreasonable — they are applying the policy you agreed to. A five-minute call to your broker when your work mix changes is the cheapest risk management available.
+
+Multi-unit residential work is where this bites hardest. Townhouse and apartment builds involve more parties on site, more coordination between contractors, more work at height, and contract conditions that frequently specify minimum liability limits. A sole operator carrying $1 million of public liability from a run of small renovation jobs can find themselves unable to sign onto a townhouse development that requires $5 million or more.
+
+## What This Means for Your Insurance
+
+Public liability is the first thing to check. Limits that were comfortable for residential renovations often fall short on multi-unit developments, and principal contractors on those sites will ask for a certificate of currency before you set foot on the job. If you are quoting for townhouse work, confirm the required limit before you price the job rather than after you win it.
+
+Contract works cover deserves a second look for anyone moving into new-build residential. Contract works insures the structure while it is being built — against fire, storm, theft of materials, and accidental damage — and responsibility for arranging it varies between contracts. On some jobs the principal carries it and you are named as an interested party; on others the obligation sits with you. Assuming someone else has it covered is how a partly framed build ends up uninsured after a storm.
+
+Tools and equipment cover needs revisiting when your job mix changes, because so does where your gear sits overnight. Tools left in a locked vehicle on a suburban street carry a different risk to tools in a secured commercial site compound, and some policies apply lower limits or additional conditions to vehicle storage. Check the sub-limits and the unattended vehicle wording.
+
+Statutory liability and professional indemnity become more relevant as residential work grows, particularly for the trades that certify their own work. Statutory liability responds to defence costs and reparations arising from prosecutions under legislation such as the Health and Safety at Work Act 2015 — fines themselves are never insurable — while professional indemnity covers claims arising from advice, design or specification decisions rather than physical workmanship.
+
+## The Other Risk in a Two-Speed Market: Getting Paid
+
+A building sector expanding into a contracting economy carries a specific hazard that no material damage policy fixes. 768 building and construction firms were liquidated in the year to March 2026, representing around 30 percent of all liquidation appointments and roughly 0.9 percent of every registered construction company. Company liquidations across the economy reached an 11-year high in 2026, and there were 551 fewer building and construction companies trading at the end of 2025 than a year earlier.
+
+For a subcontractor, that means the counterparty risk on any given job is higher than it has been in over a decade. If the main contractor above you fails mid-project, your unpaid invoices sit alongside every other creditor, and your tools, plant and part-completed work may be locked behind a site you can no longer access.
+
+Insurance cannot make a bad debt good, but a few things reduce the damage. Retentions on residential and commercial contracts over the relevant thresholds must be held in a separate trust account or backed by a complying instrument under the Construction Contracts Act 2002 — ask where your retentions are held before you sign. Progress claims made promptly under the Act preserve your ability to enforce payment. And business interruption cover, which some tradies dismiss as something only shops need, can keep the lights on if an insured event at your own premises stops you trading during an already thin period.
+
+## Practical Steps Before Your Next Quote
+
+Start by pulling out your current policy schedule and reading the business description line. If it does not accurately describe the work you are doing in August 2026, that is the conversation to have this week.
+
+Check your public liability limit against the contracts you are chasing, not the ones you have finished. Confirm who is arranging contract works on every new-build job before work starts, and get it in writing. Review your tools sum insured against what you actually own now rather than what you owned when you last updated it, because replacement costs have moved considerably.
+
+Finally, run the numbers on your own exposure to a single client. If more than a third of your revenue comes from one main contractor in a market with 768 construction liquidations behind it in twelve months, that concentration is a bigger threat to your business than most of the perils your policy covers.
+
+## Key Takeaways
+
+- 40,581 new dwellings were consented in the year to June 2026, up 19 percent, with a construction value of $18.2 billion — the first time above 40,000 since 2023.
+- Non-residential consents hit $2.145 billion in the June quarter, down 9.6 percent and the weakest June quarter since 2021.
+- Shifting from commercial to residential work changes your declared business description; disclose it or risk a declined claim.
+- Multi-unit and townhouse work frequently requires higher public liability limits than small residential renovations.
+- 768 construction firms were liquidated in the year to March 2026 — counterparty risk deserves as much attention as insurable risk.
+
+Work mix changes faster than most policy schedules do. A specialist broker can review your business description, public liability limit and contract works arrangements against the work you are actually taking on this spring — [Get a Quote](/contact/) and have your cover checked before the next job starts.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {
