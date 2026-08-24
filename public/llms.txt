@@ -126,7 +126,7 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 
 ## Blog Articles
 
-Last updated: 2026-08-17 — 23 articles
+Last updated: 2026-08-24 — 24 articles
 
 | Slug | Title | Date |
 |---|---|---|
@@ -153,6 +153,7 @@ Last updated: 2026-08-17 — 23 articles
 | tradie-business-structure-insurance-nz | Sole Trader vs Company: What Changes for Insurance | 2026-08-07 |
 | height-safety-law-changes-tradies-2026 | Height Safety Law Changes: What They Mean for Your Cover | 2026-08-11 |
 | two-speed-building-market-tradie-insurance-2026 | The Two-Speed Building Market: What It Means for Cover | 2026-08-17 |
+| building-amendment-bill-liability-insurance-2026 | Building Amendment Bill: Liability and Cover Changes | 2026-08-24 |
 
 ## Insurance Providers Our Brokers Access
 

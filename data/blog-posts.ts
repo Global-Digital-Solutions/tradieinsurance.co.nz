@@ -1857,6 +1857,81 @@ Finally, run the numbers on your own exposure to a single client. If more than a
 
 Work mix changes faster than most policy schedules do. A specialist broker can review your business description, public liability limit and contract works arrangements against the work you are actually taking on this spring — [Get a Quote](/contact/) and have your cover checked before the next job starts.`,
   },
+  {
+    slug: 'building-amendment-bill-liability-insurance-2026',
+    title: 'Building Amendment Bill: Liability and Cover Changes',
+    excerpt: 'The Building Amendment Bill passed its first reading on 2 July 2026 by 107 votes to 15, shifting defect liability from joint and several to proportionate and making professional indemnity compulsory on design work over $100,000.',
+    category: 'Industry News',
+    readTime: '10 min read',
+    date: '2026-08-24',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
+    content: `## The Biggest Shake-Up to Building Liability in Twenty Years
+
+If you build, design, plumb, wire or certify residential work, the rules about who pays when something goes wrong are about to change — and the window to have your say closes in November.
+
+The Building Amendment Bill passed its first reading in Parliament on 2 July 2026 by 107 votes to 15, which for legislation of this scale is close to unopposed. Building and Construction Minister Chris Penk described it as the most significant set of building system reforms in twenty years. Submissions to the Transport and Infrastructure Committee are open until 15 November 2026, and the committee is due to report back to the House on 30 December 2026.
+
+Three changes in the Bill matter directly to anyone holding a tool or signing a design. Liability for defective building work moves from joint and several to proportionate. Professional indemnity insurance becomes compulsory for design professionals on work valued at $100,000 or more. And a mandatory home warranty scheme attaches to most new houses and major renovations, with councils required to confirm a warranty is in place before they issue a consent.
+
+None of it lands tomorrow. The reforms come into force a year after the Bill becomes law, and they apply only to work carried out under building consents issued after that date. Anything consented before then stays under the current regime. Realistically that puts the practical start somewhere around 2028 — but the shape of the risk is already visible, and the submissions window is now.
+
+## What Proportionate Liability Actually Changes for You
+
+Under the current joint and several regime, a homeowner with a defective build can recover their entire loss from any one party who contributed to it, regardless of how small that party's share of the fault was. In practice this is why councils have so often ended up carrying the bill: when the developer has been liquidated and the builder has moved on, the council is the last solvent defendant standing.
+
+Proportionate liability replaces that with a court or adjudicator apportioning what is a just and equitable share of the loss to each defendant, having regard to the extent of their responsibility. The Bill's wording closely mirrors Queensland's Civil Liability Act 2003, so there is at least an offshore body of case law to look to, though how the courts here will apply it remains untested.
+
+For a competent subcontractor this is largely good news: your exposure is capped at your own contribution rather than the full cost of a defect someone else caused. But there is a catch. The Bill provides no mechanism to make a homeowner whole when one of the liable parties is insolvent or uninsured. That shortfall simply sits with the owner. Which means homeowners, developers and principal contractors will have a much sharper interest in confirming that every party on a job is properly insured before they engage them — because under the new regime, an uninsured subcontractor is an unrecoverable hole in the claim.
+
+## What This Means for Your Insurance
+
+Expect certificates of currency to be requested far more often, and to be scrutinised properly rather than filed unread. A principal contractor who cannot recover a defaulting sub's share from anyone else has every reason to check your public liability limit, your policy period and your business description before you start. Tradies who let cover lapse between jobs, or who carry a limit that has not been reviewed in five years, will find themselves quietly dropped from tender lists.
+
+Public liability remains the foundation. It responds to third-party property damage and injury arising from your work, and the limit you carry is the practical ceiling on what a principal can recover from you.
+
+Professional indemnity is where the reform bites hardest, and it is worth understanding that PI and public liability answer different questions. Public liability responds when your work physically damages something or injures someone. PI responds to claims arising from advice, design, specification or certification — the decisions you made rather than the work of your hands. If you size a beam, specify a cladding system, sign off a producer statement or provide a design-and-build service, PI is the policy that answers.
+
+Statutory liability is the third piece. It covers defence costs and reparations arising from prosecutions under legislation such as the Building Act 2004 and the Health and Safety at Work Act 2015. Fines themselves are never insurable in this country, and the Bill carries some substantial ones.
+
+## The $100,000 Threshold and the Fines Attached
+
+Mandatory professional indemnity insurance under the Bill applies to design consultants — architects, designers, engineers and building surveyors — carrying out prescribed services in connection with building work valued at $100,000 or more. Details of the cover must be disclosed before design or other services begin.
+
+The penalties are not trivial. Failing to disclose insurance details attracts fines of up to $2,000. Failing to hold the required insurance, or making a false or misleading disclosure about it, attracts fines of up to $150,000. Notably, the Bill imposes no duty on councils to verify that compliant cover is actually in place, so enforcement will rely on disclosure and on the commercial diligence of the parties engaging you.
+
+Two details are still unresolved and will be settled in regulations rather than the Bill itself: which additional service providers get captured, and what the minimum sum insured will be. If you sit anywhere near the design end of your trade, those regulations are the ones to watch.
+
+The Bill also allows the Government to temporarily suspend the insurance requirements for up to two years. Combined with proportionate liability, that creates a genuine gap — a liable party might not be required to hold cover, and the owner could not recover that share from anyone else.
+
+## Home Warranties Become a Condition of Consent
+
+The warranty scheme applies to detached houses and small-to-medium apartment buildings not exceeding 10 metres in height, plus major renovations valued at $100,000 or more. Larger buildings and mixed-use developments — a shop with apartments above, for instance — are excluded.
+
+Minimum periods are one year covering all defects and ten years covering structural defects. Building Consent Authorities get a new duty to confirm a warranty is in place before issuing consent, which makes warranty procurement part of the pre-construction critical path rather than an afterthought. Fines of up to $150,000 apply for carrying out building work without a warranty, or for making misleading statements about one.
+
+For a builder or main contractor this means a new cost line and a new administrative step on almost every residential job, and it needs to be priced in. For subcontractors it means the party above you will be carrying a ten-year structural exposure and will be considerably more careful about who they let near the structural elements.
+
+## Practical Steps While the Bill Is Still in Committee
+
+Make a submission if the reforms affect how you work. Submissions close 15 November 2026 and can be lodged through Parliament's website. Trade bodies will make their own, but individual operator submissions carry weight on questions like the minimum sum insured.
+
+Pull out your policy schedule this month and read the business description line. If you have drifted into design-and-build, or you routinely sign producer statements, or you specify products rather than just install them, check whether you hold professional indemnity at all. Many tradies who need it assume their public liability covers it.
+
+Review your public liability limit against the contracts you are chasing rather than the ones you have finished, and make sure your certificate of currency is easy to produce. In a proportionate liability world, being demonstrably insured becomes a competitive advantage rather than a box to tick.
+
+Keep your records straight. Records of work, producer statements, as-built drawings and photographs are what will define your just and equitable share when apportionment is argued years later. The tradie with documentation carries a smaller share than the one relying on memory.
+
+## Key Takeaways
+
+- The Building Amendment Bill passed its first reading on 2 July 2026 by 107 votes to 15; submissions close 15 November 2026 and the select committee reports back 30 December 2026.
+- Liability for defective building work moves from joint and several to proportionate, capping each party's exposure at their own share of the fault.
+- Professional indemnity insurance becomes mandatory for design professionals on work valued at $100,000 or more, with fines up to $150,000 for failing to hold it.
+- Mandatory home warranties of one year for defects and ten years for structural work will apply to most new houses and renovations over $100,000, with councils checking before consent is issued.
+- The changes take effect a year after the Bill becomes law and apply only to work under consents issued after that date.
+
+Reform of this size tends to arrive faster than it feels like it will, and the businesses that come through it comfortably are the ones whose cover already matches what they actually do. A specialist broker can check your public liability limit, confirm whether you need professional indemnity, and review your business description against the work you are taking on — [Get a Quote](/contact/) and get it looked at before the rules land.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {
