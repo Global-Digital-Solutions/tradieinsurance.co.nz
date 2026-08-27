@@ -182,7 +182,7 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
         <div>
           <label className="block text-sm font-medium text-gray-300 mb-1">Phone Number</label>
           <input
-            type="tel"
+            type="tel" pattern="[+]?[0-9\s\-().]{6,}" title="Please enter a valid phone number" minLength={6}
             name="phone"
             value={form.phone}
             onChange={handleChange}
