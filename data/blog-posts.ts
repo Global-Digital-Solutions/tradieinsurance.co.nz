@@ -1932,6 +1932,66 @@ Keep your records straight. Records of work, producer statements, as-built drawi
 
 Reform of this size tends to arrive faster than it feels like it will, and the businesses that come through it comfortably are the ones whose cover already matches what they actually do. A specialist broker can check your public liability limit, confirm whether you need professional indemnity, and review your business description against the work you are taking on — [Get a Quote](/contact/) and get it looked at before the rules land.`,
   },
+  {
+    slug: 'worksafe-prequalification-template-tradies-2026',
+    title: 'Prequalification Just Got Simpler: What It Means for You',
+    excerpt: 'WorkSafe released a standard prequalification template on 20 August 2026 after submitters reported completing up to 76 separate prequalifications in a single year. Here is what it changes for your insurance evidence.',
+    category: 'Industry News',
+    readTime: '7 min read',
+    date: '2026-08-31',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
+    content: `## Contractor Prequalification Finally Gets One Template
+
+Anyone who tenders for work has felt the paperwork creep. WorkSafe released a position statement and a standard prequalification template on 20 August 2026, aimed squarely at the mess of duplicated forms that main contractors, councils and government agencies have been sending out to the subbies they hire.
+
+The scale of the problem came through clearly in the submissions. Minister for Workplace Relations and Safety Brooke van Velden described widespread frustration about a lack of consistency and duplication, noting that businesses can be asked to get a new prequalification for every job they tender for, with varying requirements each time, and asked for the same information more than once on the same job. One submitter reported completing 76 prequalifications in a single year. Others said they had walked away from clients entirely because the cost of getting prequalified was worth more than the work on offer.
+
+The response, made under a direction from the Minister, is twofold. The position statement sets out what health and safety information a business genuinely needs before hiring a contractor, and the template gives small operators and sole traders a single format to present that information in. The two are meant to be used together — the statement tells the hiring business what is reasonable to ask, the template gives you a ready-made answer.
+
+None of this is legally binding on the party asking for your paperwork. A main contractor can still hand you a 40-page portal login if they want to. But a regulator position statement changes the conversation, because it establishes what proportionate looks like. The framing the Minister used is worth remembering when you are pushing back: effective contractor management is about capability and practice, not paperwork alone.
+
+The timing is not accidental. Construction accounts for roughly 15 percent of work-related fatalities and serious injuries, and amendments to the Health and Safety at Work Act 2015 received Royal Assent on 13 July 2026 with effect from 1 April 2027. A separate approved code of practice for residential construction, which went out for consultation on 20 April 2026, will clarify who holds which duty before, during and after work on a residential site. Prequalification is the front door to all of it.
+
+## What This Means for Your Insurance
+
+Almost every prequalification pack asks for the same insurance evidence, and it is the section that most often trips people up. A standardised template does not soften those requirements — it makes them more visible, because your certificates now sit in a consistent, comparable format that the hiring business can actually read.
+
+Public liability is the first thing checked and the most common reason a submission gets bounced back. The limit that suited residential fit-out work will not clear the threshold on a commercial or infrastructure job. Residential contracts typically ask for NZ$1M to NZ$2M, while commercial and civil work regularly specifies NZ$5M to NZ$20M. Discovering that gap at tender stage costs you the job, because increasing a limit takes days you usually do not have.
+
+The second issue is quieter and more damaging. Your policy carries a business description, and that description defines what you are covered for. Insurers pay claims against the activity described, so a builder whose schedule says residential alterations and who signs up for a commercial roof replacement has a problem that only shows up when something goes wrong. Prequalification is a natural prompt to read that wording again and check it still matches the work you are actually chasing.
+
+Beyond public liability, most packs want to see contract works cover for the value of the project, tools and plant cover, commercial vehicle cover, and — for anyone giving design input, method statements or producer statements — professional indemnity. Statutory liability sits alongside these and covers your legal defence costs and certain fines arising from a health and safety investigation, which becomes more relevant as the amended Act comes into force in April 2027.
+
+## Building a Prequalification Pack You Can Reuse
+
+The point of a standard template is reuse, and that only works if the underlying documents are current and stored somewhere you can reach from a job site.
+
+Keep a dated certificate of currency for every policy, and diarise the renewal so you are never sending out a certificate that expires halfway through the tender period. An expired certificate is treated as no certificate.
+
+Note whether the contract requires the principal to be named as an interested party or requires a waiver of subrogation. Both are common in commercial contracts, both need to be arranged through your broker before work starts, and neither can be applied retrospectively after an incident.
+
+Check the cover held by anyone working under you. If a subbie on your site causes damage and their policy has lapsed, the claim tends to land on yours, and your no-claims record wears it. Asking for their certificate is now easier to justify when the regulator has published a template for exactly that purpose.
+
+Keep your safety documentation proportionate to the risk. The position statement is explicit that the information requested should reflect the actual risk of the work, which gives sole traders reasonable grounds to decline a request that would suit a 200-person civil contractor.
+
+## Why the Timing Favours Getting This Sorted
+
+The residential market has turned. In the year ended May 2026, 39,737 new dwellings were consented, up 19 percent on the previous year, after three years of falling activity that took hundreds of firms with it. Non-residential told a different story, with the value of consented work down 4.0 percent to $8.7 billion as businesses stayed cautious about new premises.
+
+That mix matters for anyone weighing up which work to chase. A residential recovery pulls tradies toward higher volumes of smaller jobs and more clients, each with their own paperwork. A softer commercial pipeline means more competition for the jobs that are out there, and in a competitive tender the operator whose insurance evidence is complete and current has an advantage that costs nothing to hold.
+
+## Key Takeaways
+
+- WorkSafe published a position statement and a standard prequalification template on 20 August 2026, following a direction from the Minister for Workplace Relations and Safety.
+- Submissions described businesses completing dozens of separate prequalifications a year, with one reporting 76 in twelve months, and some walking away from clients over the cost.
+- The template is designed for small businesses and sole traders and must be used alongside the position statement, which sets out what information a hiring business reasonably needs.
+- Insurance evidence is the section most likely to fail — check your public liability limit against the contracts you are tendering for, not the ones you have finished.
+- Confirm your policy business description matches the work you are chasing, keep certificates of currency current, and check whether the contract needs the principal named as an interested party.
+- Amendments to the Health and Safety at Work Act 2015 take effect on 1 April 2027, making statutory liability cover more relevant for anyone running a site.
+
+A consistent template only helps if what you put in it holds up. A specialist broker can review your public liability limit against the jobs you are tendering for, confirm your business description covers the work you actually do, and make sure your certificates and interested-party endorsements are in order before the next pack lands in your inbox — [Get a Quote](/contact/) and have it checked while the pipeline is busy.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {
