@@ -1992,6 +1992,72 @@ That mix matters for anyone weighing up which work to chase. A residential recov
 
 A consistent template only helps if what you put in it holds up. A specialist broker can review your public liability limit against the jobs you are tendering for, confirm your business description covers the work you actually do, and make sure your certificates and interested-party endorsements are in order before the next pack lands in your inbox — [Get a Quote](/contact/) and have it checked while the pipeline is busy.`,
   },
+  {
+    slug: 'granny-flat-exemption-builder-liability-2026',
+    title: 'Granny Flat Builds: The Cover Gap Most Builders Miss',
+    excerpt: 'The 70m\u00b2 consent exemption has been in force since 15 January 2026, and MBIE expects around 13,000 of these dwellings over the next decade. Public liability will not cover the part of the job that goes wrong most often.',
+    category: 'Industry News',
+    readTime: '8 min read',
+    date: '2026-09-07',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=800&q=80',
+    content: `## The 70 Square Metre Rule Has Quietly Shifted Who Carries the Risk
+
+Since 15 January 2026, a single-storey, detached dwelling of 70 square metres or less can be built without a building consent, under clause 1 of Schedule 1A of the Building Act. The Ministry of Business, Innovation and Employment expects the change to add roughly 13,000 of these dwellings over the next decade, and the operators picking up that work are overwhelmingly small residential outfits.
+
+The exemption is narrower than the headlines suggested. The dwelling must be single storey, standalone, on the same site as an existing home, of simple design, and it must fully comply with the Building Code. Design, construction or supervision has to involve Licensed Building Practitioners. The homeowner still needs a Project Information Memorandum from the council before work starts, and still has to notify the council once the build is finished.
+
+Here is the part that matters commercially. In the PIM, the council must state whether the work is likely, unlikely, or unclear to meet the exemption conditions, along with a statement about natural hazards on the site. If a homeowner presses ahead against an adverse council statement, MBIE guidance is clear that the homeowner carries responsibility for the non-compliance. That is cold comfort. When a build goes bad three years later, the homeowner's lawyer looks for the professional in the room, and that is you.
+
+Removing the consent has not removed the standard. It has removed the inspections. Every judgement call that a building consent authority used to sign off on now rests on the practitioner's own skill, and rests there permanently.
+
+## What This Means for Your Insurance
+
+Most builders working under the exemption assume their public liability policy has them covered. It does not, and this is the single biggest gap in the market right now.
+
+Public liability responds to accidental property damage and injury caused by your work. It does not respond to errors in professional advice or design. If you tell a homeowner the exemption applies to their site and you are wrong, the resulting cost of remediation, relocation, or in the worst case demolition, is a professional advice claim, not a property damage claim. Contract works insurance will not answer it either, because nothing was accidentally damaged.
+
+The second exposure is regulatory. Failing to apply for a building consent when one was required is an offence under the Building Act, and those fines can be covered by statutory liability insurance provided the breach was unintentional. Resource Management Act breaches sit differently. RMA fines are no longer insurable, though the cost of defending a prosecution is still covered under most statutory liability wordings. Granny flat builds touch earthworks, stormwater and setbacks more often than a straightforward extension does, so that distinction is worth understanding before you quote the work.
+
+Then there is the Licensed Building Practitioners Board. An unhappy homeowner can complain directly, and the Board can order costs, impose a fine, and suspend a licence. Some statutory liability policies extend to defending Board complaints and the associated fines, and a small number of standalone LBP policies still do the same. It is not automatic. Check the wording rather than assuming.
+
+## Where Public Liability Stops and Professional Indemnity Starts
+
+If you are doing any of the planning, design or advisory work on these jobs, professional indemnity is the cover that fills the gap. Under the Building Act, a designer includes anyone who gives advice about building work, Building Code compliance, or whether work needs a consent. A builder who sketches up a plan and tells a client no consent is needed has stepped into that definition, whether or not they meant to.
+
+Standard professional indemnity wordings are often narrow, scoped to design, engineering and surveying but not to project or construction management. Design and construct professional indemnity is the broader option and is usually the right fit for a builder who runs the job end to end. For the exempt granny flat specifically, an LBP Design licence holder must be involved in the design, so if that is not you, make sure you know who it is and that they are covered.
+
+Subcontracting the professional services out does not automatically shift the liability. Both contractually and legally you can remain answerable for a subconsultant's error, so cover for your liability arising from their work is worth having.
+
+## Contract Works: Settle Who Arranges It Before Anyone Turns a Sod
+
+Contract works insurance is needed for the duration of every one of these builds, covering theft of materials, vandalism, fire, storm, flood and natural disaster during construction. What is different about a granny flat is that the work sits on a property with an existing insured home on it, which means either the builder or the homeowner's insurer could arrange the cover.
+
+That ambiguity is where claims fall through the cracks. Agree in writing, before work starts, who is arranging contract works, and share the policy documentation with both parties, since it covers both of you. Some house policies carry an automatic benefit for new building work, but a self-contained dwelling will almost always exceed the limit on that extension, so a standalone contract works policy is the realistic answer.
+
+Once the build is practically complete, the dwelling needs to sit on a house policy. Insurers have signalled they will not demand additional paperwork for consent-exempt dwellings added to a policy for now, and will treat them like any other structure. They have also been clear that if the work was not built to code, that becomes a live issue at claim time, particularly where the claim arises from the non-compliant work or from a natural hazard the build did not adequately allow for. Worth mentioning to the client at handover, and worth noting in your file that you did.
+
+## If You Are Only Swinging the Hammer
+
+Plenty of builders will take these jobs on a build-only basis, with the design and the exemption call made by someone else. That is a cleaner position, but it is not a clean one.
+
+Your obligations still include building to code, completing Records of Work and providing them to the homeowner and council, and meeting the Building Act requirements for a written contract, disclosure statement and checklist. Paperwork is doing more work than usual on these jobs, because there is no inspection record to fall back on.
+
+There is also a scenario worth thinking through now rather than on site. If you realise partway through that the build does not actually meet the exemption conditions and does require a consent, saying nothing is not a defence. That is a probable breach of the LBP Code of Ethics as well as your duty of care. Raise it, put it in writing, and keep the copy.
+
+The residential market is running hot enough that this work will keep coming. Consents reached 40,581 in the year to June 2026, up 19 percent, with Auckland up 20 percent and Canterbury up 33 percent. Spring is when the small residential jobs stack up, and granny flats are exactly the kind of job that fills a diary quickly and quietly.
+
+## Key Takeaways
+
+- The consent exemption for detached dwellings up to 70 square metres has applied since 15 January 2026, with MBIE projecting around 13,000 such builds over a decade.
+- Public liability and contract works will not respond to an error in advice about whether the exemption applies. That is a professional indemnity exposure.
+- Building Act fines can be covered by statutory liability where the breach was unintentional. RMA fines cannot, although defence costs generally are.
+- Complaints to the LBP Board can bring costs, fines and licence suspension. Check whether your statutory liability wording extends to defending them.
+- Agree in writing who arranges contract works before work starts, since either the builder or the homeowner's insurer could hold it.
+- Build-only operators still carry Records of Work, written contract and disclosure obligations, and cannot ignore a build that clearly needs a consent.
+
+If you are quoting granny flat work this spring, the question worth answering before you sign anything is whether your current policy schedule includes professional indemnity at all, and whether its scope matches the advice you are actually giving. A specialist broker can check your business description, your liability limits and your statutory liability extensions against the work you are taking on — [Get a Quote](/contact/) and have it reviewed before the summer run starts.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

@@ -100,6 +100,13 @@
     <priority>0.6</priority>
   </url>
 
+  <url>
+    <loc>https://www.tradieinsurance.co.nz/blog/granny-flat-exemption-builder-liability-2026/</loc>
+    <lastmod>2026-09-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
   <!-- Supporting Pages -->
   <url><loc>https://www.tradieinsurance.co.nz/about/</loc><lastmod>2026-05-21</lastmod><changefreq>yearly</changefreq><priority>0.6</priority></url>
   <url><loc>https://www.tradieinsurance.co.nz/privacy/</loc><lastmod>2026-05-21</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
