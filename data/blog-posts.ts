@@ -2058,6 +2058,68 @@ The residential market is running hot enough that this work will keep coming. Co
 
 If you are quoting granny flat work this spring, the question worth answering before you sign anything is whether your current policy schedule includes professional indemnity at all, and whether its scope matches the advice you are actually giving. A specialist broker can check your business description, your liability limits and your statutory liability extensions against the work you are taking on — [Get a Quote](/contact/) and have it reviewed before the summer run starts.`,
   },
+  {
+    slug: 'regional-shift-building-work-tradie-cover-2026',
+    title: 'The Work Has Moved Regions \u2014 Has Your Cover?',
+    excerpt: 'Canterbury recorded $1.439 billion of building work in the June 2026 quarter, its biggest on record, while Wellington fell 8.9 percent. If you are following the work across regions, your policy may still describe a business that never leaves town.',
+    category: 'Industry News',
+    readTime: '9 min read',
+    date: '2026-09-14',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    content: `## Canterbury Just Posted Its Biggest Building Quarter on Record
+
+The official building activity figures for the June 2026 quarter landed on 4 September, and they carry the number the industry has been waiting nearly three years to see. Stats NZ reported that builders put $8.15 billion of work in place in the three months to June, up 5.2 percent on the same quarter a year earlier. It is the first time that annual comparison has been positive since the December 2023 quarter.
+
+Adjust for seasonal patterns and construction cost inflation, which is how the figures are usually read, and the volume of work rose 4.8 percent on the March quarter. Residential volumes were up 4.8 percent and non-residential volumes up 3.3 percent, both after falls in the previous quarter.
+
+The national number matters less to your diary than where the work actually is, and on that front the map has changed. Canterbury recorded $1.439 billion of building work in the June quarter, up 13.9 percent on a year earlier and the highest figure for any quarter in the regional series published since June 2011, ahead of the previous high of $1.402 billion set in December 2023. That comparison is in plain dollars rather than adjusted for building costs, so it is a record in cash terms rather than in timber and concrete. It is still a striking result for a region whose building industry was widely expected to quieten once the rebuild wound down.
+
+Auckland remains by far the biggest market at $3.207 billion, up 3.7 percent, though that sits roughly 17 percent below its September 2023 peak of $3.868 billion before any allowance for the cost increases since. Wellington was the only region to go backwards, with $591 million of work put in place, down 8.9 percent and its weakest June quarter since 2020. Waikato, at $692 million and up 11.6 percent, has now passed the capital and widened the gap since first doing so in the March 2026 quarter.
+
+## Following the Work Is Not the Same as Following the Risk
+
+When one region runs hot and another goes quiet, tradies move. Some take a job three hours up the road and live out of a motel for a fortnight. Some open a second base. Plenty simply widen the radius they will quote on and hope the fuel bill works out.
+
+Every one of those decisions changes something an insurer priced. Not dramatically, and usually not in a way that makes the cover unavailable, but in a way that needs to be on the record. Policies are underwritten against a description of your business: the trades you perform, the sites you work on, your turnover, and in many cases the area you operate in. Cover arranged for a business working within an hour of home describes a different risk to one running crews between Christchurch and Timaru.
+
+The duty of disclosure does not stop once the policy is issued. It runs for as long as the cover is in force. A short call to your broker when the shape of your work changes costs nothing. Discovering the mismatch at claim time costs a great deal.
+
+## What This Means for Your Insurance
+
+Start with the territorial scope on your liability cover. Most tradie public liability arranged locally responds anywhere in the country, but the wording is worth reading rather than assuming, particularly on packages bundled through a trade association or a bank. If you are picking up work in a region you have never operated in, confirm the geographic wording in writing before you sign the contract.
+
+Contract works is the next one, because regional hazards are not evenly spread. Natural hazard excesses vary by location, and a policy arranged around Auckland residential work may carry quite different terms once the site sits in a higher-rated seismic or flood zone. Ask for the schedule that applies to this site, not the one from last year's job, and read the excess structure before you price the work.
+
+Watch who is arranging contract works as well. On some contracts the principal holds it and names you as an interested party. On others the obligation is yours. Working in an unfamiliar region usually means working for a principal whose contract you have not seen before, and the assumption that someone else has the build covered is how a half-framed structure ends up uninsured after a storm.
+
+Subcontractor arrangements deserve real attention when you scale into a new area. You will not know the local subbies the way you know the ones at home, and a liability policy generally expects you to have taken reasonable steps to confirm that the people working under you carry their own cover. Collect certificates of currency before they start, check the limit rather than just the existence of a policy, and keep the copies on file. If a subbie causes the damage and has no cover behind them, the claim finds its way back to you.
+
+## Tools, Vehicles and Nights Away From the Yard
+
+Tools cover is written around where your gear normally sits, and working away changes that completely. Most policies apply a lower sub-limit to tools stolen from an unattended vehicle than from a locked premises, and many attach conditions about visible forced entry or overnight parking. A trailer sitting outside a motel in a town you do not know is exactly the scenario those clauses were written for. Check the unattended vehicle wording and the sub-limit, and if that limit looks thin against what you now carry, raise it before the season starts rather than after.
+
+Commercial vehicle cover has its own version of the problem. Policies frequently record an estimated annual mileage and a usage description. Doubling your road time because the work is now two regions away is a material change to both. So is putting a new employee behind the wheel of the ute to cover the extra travel, since driver details and age restrictions can sit quietly on a schedule for years without anyone remembering they are there.
+
+More time on the road raises a question most tradies would rather not think about. Income protection and personal accident cover matter more when a bigger share of your week is spent driving between sites, and ACC only responds to injury. It does not pay out for illness, and what it does pay is based on your last declared income rather than the income you are earning during a busy run.
+
+## If the Work Is Coming Back, Check the Numbers Behind It
+
+Two details in the release are worth carrying into any decision. Construction costs are still climbing, with residential prices up 1.4 percent in the June quarter and non-residential prices up 0.9 percent on the capital goods price index, a step up from 0.5 and 0.3 percent in March. Some of the extra money flowing through the industry is buying the same amount of building, which matters when you are relying on a sum insured for tools or plant, or a contract works limit, that was calculated two years ago.
+
+The figures are also provisional. Stats NZ treats the latest three quarters as provisional and revises them each release, and it revised the September 2025 quarter onwards this time. The March 2026 quarter was originally published as a 3.5 percent fall in seasonally adjusted volume and now reads as a 1.5 percent fall, which means the slump early this year was shallower than it looked and the June rebound is correspondingly less dramatic. The next release, covering the September 2026 quarter, is due on 7 December.
+
+## Key Takeaways
+
+- Building work put in place reached $8.15 billion in the June 2026 quarter, up 5.2 percent and the first annual lift since the December 2023 quarter.
+- Canterbury set a record at $1.439 billion, up 13.9 percent, while Wellington fell 8.9 percent to $591 million and was passed by Waikato at $692 million.
+- Working outside your usual area can fall outside the business description your policy was underwritten on. Disclose the change while the policy is live, not at claim time.
+- Check territorial wording on liability, site-specific excesses on contract works, and who is actually arranging the contract works policy on an unfamiliar principal's job.
+- Unattended vehicle sub-limits on tools cover and declared mileage on commercial vehicle policies are the two clauses most likely to bite when you are working away from the yard.
+- Construction prices rose again in the June quarter, so sums insured and contract works limits set two years ago are almost certainly short.
+
+If the June quarter figures have you looking at work in a region you do not usually cover, the policy schedule is worth reading before the contract is. A specialist broker can check your business description, territorial wording, tool sub-limits and contract works terms against the jobs you are actually chasing this spring — [Get a Quote](/contact/) and have it reviewed before you commit to the travel.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {
