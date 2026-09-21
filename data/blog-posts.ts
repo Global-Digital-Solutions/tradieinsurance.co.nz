@@ -2120,6 +2120,74 @@ The figures are also provisional. Stats NZ treats the latest three quarters as p
 
 If the June quarter figures have you looking at work in a region you do not usually cover, the policy schedule is worth reading before the contract is. A specialist broker can check your business description, territorial wording, tool sub-limits and contract works terms against the jobs you are actually chasing this spring — [Get a Quote](/contact/) and have it reviewed before you commit to the travel.`,
   },
+  {
+    slug: 'worksafe-residential-height-assessments-2026',
+    title: 'Inspectors Are Coming to Residential Sites in October',
+    excerpt: 'WorkSafe confirmed on 15 September that inspectors will run proactive assessment visits on residential building sites from October to December 2026, focused on falls from height. A fine handed down in August shows what the other path looks like.',
+    category: 'Safety',
+    readTime: '8 min read',
+    date: '2026-09-21',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
+    content: `## A Knock on the Gate Between October and December
+
+WorkSafe put out a short notice on 15 September confirming something worth putting in your diary. From October to December 2026, health and safety inspectors will carry out proactive assessment visits to residential construction sites around the country, and the risk they are primarily there to look at is falls from working at height.
+
+The same programme is running across beef and lamb farms. WorkSafe says it picked agriculture and construction because of the number of deaths and serious injuries in both. Head of Inspectorate Rob Pope framed the visits as a chance for inspectors to talk with people on site about how they keep themselves and others safe, and to provide guidance where improvements are needed.
+
+A proactive assessment is not a prosecution. It is also not a courtesy call, because inspectors who find work being carried out unsafely have the same powers on a proactive visit as on any other. The useful way to read the announcement is as a heads-up: the regulator has told you which risk it is coming to look at, in which quarter, on which type of site. Very few compliance obligations arrive with that much notice.
+
+There is a precedent for what these programmes produce. WorkSafe ran the same style of assessment across sheep, beef and dairy farms in 2025, found significant gaps in vehicle safety and hazardous substances management, and followed up with free learning modules rather than a prosecution wave. What inspectors see on residential sites this quarter will shape the guidance and the enforcement posture that lands on every site next year.
+
+## What the Grace Motors Case Tells You About the Other Path
+
+If the October visits are the carrot, a sentencing in the Waitakere District Court on 20 August 2026 is a fair picture of the stick.
+
+Grace Motors Limited, trading as Grace Construction, was building two-storey residential units in Kelston, Auckland. On 30 August 2024 a WorkSafe inspector saw workers on the second floor working near an edge without adequate fall protection. The site also had temporary platforms, partially removed scaffolding, and ladders that were neither compliant nor secured. The inspector issued a prohibition notice to one of the directors requiring work at height on the second floor to stop until fall protection was in place.
+
+Inspectors came back on 2 September and again on 4 September 2024 and observed workers at height both times. The company was convicted and fined $38,500, with costs of $1,099.10, under sections 107(1) and 107(2)(b) of the Health and Safety at Work Act 2015. Judge Tremewan found the prohibition notice was simple in its meaning and not complicated, and acknowledged that the inspector had gathered workers together to explain what the notice meant, including arranging translation for Mandarin-speaking workers.
+
+Note what the charge actually was. The prosecution was not for the unsafe work itself. It was for carrying on after being told to stop. WorkSafe Area Manager Parani Wiki put it plainly, saying a prohibition notice is not a suggestion and is not something a business can ignore.
+
+One figure from the same release runs against how most sites think about risk: ladders are involved in about 40 percent of all fall injuries in construction. Falls from or through a building remain the most common cause of fatal or very serious injuries such as spinal fractures and head injuries, but for injuries overall it is ladders — the piece of gear nobody writes a method statement for.
+
+## What This Means for Your Insurance
+
+Here is the part that catches operators out, and it is written into the legislation rather than buried in a policy wording. Section 29 of the Health and Safety at Work Act 2015 makes it unlawful to insure against a fine or infringement fee under the Act. It is unlawful to offer the indemnity, unlawful to accept it, and the section goes further by stripping the courts of jurisdiction to grant relief on any policy that purports to provide it. A $38,500 fine of the kind Grace Motors received comes out of the business, full stop. No insurer in the country can lawfully pay it.
+
+What statutory liability insurance does cover is the material that sits either side of the fine. Defence costs are the first and most practical piece. Defending a prosecution under the Act means lawyers, expert evidence and often a technical report on the controls that were or were not in place, and those costs accumulate whether the charge is ultimately proven or not. The Grace Motors case ran from the September 2024 site visits through to an August 2026 sentencing, which is close to two years of legal exposure on a charge the company faced over three days of work.
+
+The second piece is reparation. Where a worker is hurt, a court can order the business to pay reparation to the victim for emotional harm and consequential loss, and those orders routinely run well past the fine itself. Reparation is not a fine, so section 29 does not touch it, and most statutory liability policies written for trade businesses will respond. Whether yours does, and to what limit, is a wording question rather than an assumption.
+
+There is a third exposure most sole traders have never priced. Officers and individual workers carry duties of their own under the Act, and the prohibition notice in the Kelston case was issued to a director personally. If your statutory liability cover is written for the company alone, the individual sitting in the dock may not have defence costs behind them.
+
+Worth checking at the same time: whether your policy has a condition requiring you to comply with improvement or prohibition notices. Many do. Trading through a notice, as happened in Kelston, is the kind of conduct that can put the rest of your cover in question, not just the statutory liability section.
+
+## What to Have Sorted Before a Visit
+
+The assessment focus has been published, so the preparation is not guesswork.
+
+Walk the site the way an inspector would. Every edge above two metres, every ladder, every scaffold that has been partly struck by another trade and left in that state. Partially removed scaffolding was one of the specific things noted at Kelston, and it is one of the most common findings on a busy residential site where multiple trades are moving through.
+
+Check that ladders are the right tool for the task, are in good order, and are secured. Given the 40 percent figure, this is where the quickest gain sits, and where inspectors will have their eye on a site that otherwise looks tidy.
+
+Have your written height controls where you can put a hand on them. The updated guidance expects falls to be actively managed, which means you identified where someone could fall, chose suitable controls, and kept them in place for as long as the risk existed. A task analysis that was filled out at the start of the job and has not been looked at since the roof went on does not evidence that.
+
+Know who your officers are and what they have personally signed off. If you run a company with two directors and one of them never visits site, that is a conversation to have now rather than after a notice lands.
+
+Finally, pull out your statutory liability schedule and read the limit. Many trade packages carry a default of around $250,000 for defence costs and reparation combined. Against a defence that can run two years plus a reparation order in a serious harm case, that number deserves a second look.
+
+## Key Takeaways
+
+- Inspectors will visit residential building sites from October to December 2026, primarily assessing how falls from working at height are managed.
+- Grace Motors Limited was fined $38,500 plus $1,099.10 in costs on 20 August 2026 for carrying out work at height while a prohibition notice was in force.
+- Ladders are involved in around 40 percent of all fall injuries in construction, making them the highest-value thing to fix before a visit.
+- Section 29 of the Health and Safety at Work Act 2015 makes insuring a fine unlawful. Statutory liability responds to defence costs and reparation, not the fine.
+- Check that your statutory liability cover extends to officers and individual workers, not only the company, and that the limit is realistic against a multi-year defence.
+- A prohibition notice means stop. Trading through one risks both prosecution and a policy condition that could affect the rest of your cover.
+
+You have a quarter's notice on exactly what the regulator is coming to look at, which is more warning than most compliance changes give you. Use the same window to check the statutory liability section of your policy actually matches the exposure. A specialist broker can review your limits, confirm whether officers and workers are named, and tell you where defence costs sit before an inspector walks onto your site — [Get a Quote](/contact/) and have it looked at this month.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

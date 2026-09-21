@@ -126,7 +126,7 @@ TradieInsurance.co.nz is an information and referral service for tradies seeking
 
 ## Blog Articles
 
-Last updated: 2026-09-14 — 27 articles
+Last updated: 2026-09-21 — 28 articles
 
 | Slug | Title | Date |
 |---|---|---|
@@ -157,6 +157,7 @@ Last updated: 2026-09-14 — 27 articles
 | worksafe-prequalification-template-tradies-2026 | Prequalification Just Got Simpler: What It Means for You | 2026-08-31 |
 | granny-flat-exemption-builder-liability-2026 | Granny Flat Builds: The Cover Gap Most Builders Miss | 2026-09-07 |
 | regional-shift-building-work-tradie-cover-2026 | The Work Has Moved Regions — Has Your Cover? | 2026-09-14 |
+| worksafe-residential-height-assessments-2026 | Inspectors Are Coming to Residential Sites in October | 2026-09-21 |
 
 ## Insurance Providers Our Brokers Access
 
