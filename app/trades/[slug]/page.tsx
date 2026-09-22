@@ -6,6 +6,8 @@ import { tradeTypes, getTradeBySlug } from '@/data/trade-types'
 import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
 import { metaDescription } from '@/lib/meta'
+import FromPrice from '@/components/FromPrice'
+import { INDICATIVE_NOTE } from '@/data/pricing'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -224,6 +226,9 @@ export default async function TradeTypePage({ params }: Props) {
               <a href="#get-quote" className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm py-2.5 rounded-lg text-center transition-colors">
                 Talk to a broker →
               </a>
+              <div className="mt-4 border-t border-gray-600 pt-4">
+                <FromPrice compact />
+              </div>
             </div>
           </div>
         </div>
@@ -417,6 +422,7 @@ export default async function TradeTypePage({ params }: Props) {
             <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Cost</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-4">How Much Does {trade.name} Insurance Cost?</h2>
             <p className="text-gray-600 mb-8 leading-relaxed">There is no fixed price for {trade.name.toLowerCase()} insurance. Each insurer rates your business on the details below, so two {trade.name.toLowerCase()} with the same cover can pay very different premiums. The way to find out what yours will cost is to be quoted on your actual numbers.</p>
+            <div className="mb-8"><FromPrice /></div>
             <div className="overflow-x-auto rounded-2xl border-2 border-gray-200 shadow-md mb-6">
               <table className="w-full text-sm border-collapse">
                 <thead>
@@ -437,6 +443,7 @@ export default async function TradeTypePage({ params }: Props) {
                 </tbody>
               </table>
             </div>
+            <p className="text-gray-500 text-xs mb-5">{INDICATIVE_NOTE}</p>
             <div className="flex flex-wrap gap-3 mb-8">
               {trade.costFactors.map((f) => (
                 <span key={f} className="bg-orange-50 border border-orange-200 text-orange-800 text-xs font-bold px-4 py-2 rounded-full flex items-center gap-1.5">

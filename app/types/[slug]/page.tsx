@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import { metaDescription } from '@/lib/meta'
+import FromPrice from '@/components/FromPrice'
+import { INDICATIVE_NOTE } from '@/data/pricing'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import QuoteForm from '@/components/QuoteForm'
@@ -65,16 +67,6 @@ export default async function CoverageTypePage({ params }: Props) {
     areaServed: { '@type': 'Country', name: 'New Zealand' },
     url: `${siteConfig.url}/types/${slug}/`,
     serviceType: 'Insurance Broker Referral',
-    offers: {
-      '@type': 'Offer',
-      description: `${coverage.name} insurance from ${coverage.fromPrice}`,
-      priceSpecification: {
-        '@type': 'UnitPriceSpecification',
-        price: coverage.fromPrice.replace(/[^0-9]/g, ''),
-        priceCurrency: 'NZD',
-        unitText: 'month',
-      },
-    },
   }
 
   return (
@@ -107,7 +99,7 @@ export default async function CoverageTypePage({ params }: Props) {
           </h1>
           <p className="text-gray-300 text-xl max-w-2xl leading-relaxed mb-5">{coverage.description.split('.')[0]}.</p>
           <div className="flex flex-wrap items-center gap-4">
-            <span className="bg-orange-500 text-white font-extrabold text-sm px-4 py-2 rounded-lg">From {coverage.fromPrice}</span>
+            <span className="bg-orange-500 text-white font-extrabold text-sm px-4 py-2 rounded-lg">From {coverage.fromPrice} <span className="font-semibold opacity-80">indicative</span></span>
             <Link href="/contact/" className="bg-white text-gray-900 hover:bg-orange-50 font-bold text-sm px-6 py-2 rounded-lg transition-colors">
               Get a Quote →
             </Link>
@@ -162,7 +154,7 @@ export default async function CoverageTypePage({ params }: Props) {
                         <span className="text-2xl">{c.icon}</span>
                         <div>
                           <p className="font-bold text-gray-900 group-hover:text-orange-600 transition-colors text-sm">{c.name}</p>
-                          <p className="text-gray-500 text-xs">From {c.fromPrice}</p>
+                          <p className="text-gray-500 text-xs">From {c.fromPrice} indicative</p>
                         </div>
                       </Link>
                     ))}
@@ -173,6 +165,8 @@ export default async function CoverageTypePage({ params }: Props) {
             {/* Sidebar */}
             <div className="space-y-6">
               <QuoteForm compact />
+              <FromPrice />
+              <p className="text-gray-400 text-xs">{INDICATIVE_NOTE}</p>
               <div className="bg-orange-50 border-2 border-orange-200 rounded-2xl p-6">
                 <h3 className="font-extrabold text-gray-900 mb-4">Why Get a Quote?</h3>
                 <div className="space-y-3">

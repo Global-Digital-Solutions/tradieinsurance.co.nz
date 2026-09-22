@@ -7,7 +7,7 @@ export interface Faq {
 export const faqs: Faq[] = [
   {
     q: 'How much does tradie insurance cost?',
-    a: 'The cost of tradie insurance varies by trade, cover type, turnover, and number of employees. Public liability for a sole trader typically starts from NZ$30/month. A comprehensive package including public liability, tools, commercial vehicle, and income protection might cost NZ$150–$350/month. Use our free quote service to get an accurate figure for your specific situation.',
+    a: 'The cost of tradie insurance varies by trade, cover type, turnover, and number of employees. As a published example, AMI lists its Tradies Bundle, which combines tools cover to $10,000 with $2M public liability, from $19 a week including GST. Other figures on this site are indicative ranges rather than quotes. A comprehensive package including public liability, tools, commercial vehicle, and income protection might cost NZ$150–$350/month. Use our free quote service to get an accurate figure for your specific situation.',
     category: 'Cost',
   },
   {

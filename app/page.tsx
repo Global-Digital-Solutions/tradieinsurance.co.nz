@@ -8,6 +8,8 @@ import { providers } from '@/data/providers'
 import { faqs } from '@/data/faqs'
 import { postsByDate } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
+import FromPrice from '@/components/FromPrice'
+import { INDICATIVE_NOTE } from '@/data/pricing'
 
 export const metadata: Metadata = {
   title: { absolute: 'Tradie Insurance | Compare Quotes from Licensed Brokers' },
@@ -71,7 +73,7 @@ export default function HomePage() {
                 Tradie Insurance <span className="text-orange-500">Made Simple</span>
               </h1>
               <p className="text-white text-xl leading-relaxed mb-5">
-                Public liability from <strong className="text-orange-400">$30/month</strong>. Tools, vehicle, income protection & more. Get quotes from licensed brokers — no obligation.
+                Tools and public liability bundled <strong className="text-orange-400">from $19 a week</strong> with one insurer. Vehicle, income protection and more through a specialist broker.
               </p>
               <p className="text-gray-200 text-base leading-relaxed mb-8">
                 You&apos;re an expert in your trade — leave the insurance to us. Our licensed brokers take the time to understand your specific work, contracts, and risks. That means cover built around your business, not a generic policy with gaps or charges for things you&apos;ll never need.
@@ -131,12 +133,16 @@ export default function HomePage() {
                   <h3 className="text-lg font-extrabold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors leading-snug">{c.name}</h3>
                   <p className="text-gray-500 text-sm leading-relaxed line-clamp-3 flex-1">{c.description.split('.')[0]}.</p>
                   <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
-                    <span className="text-orange-500 font-extrabold text-sm">From {c.fromPrice}</span>
+                    <span className="text-orange-500 font-extrabold text-sm">From {c.fromPrice}<span className="text-gray-400 font-normal"> indicative</span></span>
                     <span className="text-orange-400 text-lg group-hover:translate-x-1 transition-transform">→</span>
                   </div>
                 </div>
               </Link>
             ))}
+          </div>
+          <div className="mt-10 max-w-3xl mx-auto">
+            <FromPrice />
+            <p className="text-gray-400 text-xs mt-3 text-center">{INDICATIVE_NOTE}</p>
           </div>
           <div className="text-center mt-10">
             <Link href="/coverage/" className="inline-block bg-gray-900 hover:bg-orange-500 text-white font-bold px-8 py-3 rounded-xl transition-colors text-sm shadow-md">

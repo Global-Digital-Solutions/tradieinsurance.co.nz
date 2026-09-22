@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import { siteConfig } from '@/data/site-config'
+import FromPrice from '@/components/FromPrice'
+import { INDICATIVE_NOTE } from '@/data/pricing'
 
 /**
  * /compare/ — rebuilt September 2026.
@@ -13,9 +15,9 @@ import { siteConfig } from '@/data/site-config'
  * The URL is kept so whatever it ranks for carries over.
  */
 
-const title = 'How to Compare Tradie Insurance in NZ | What to Check'
+const title = 'Compare Tradie Insurance NZ | Wordings Side by Side'
 const description =
-  'How to compare tradie insurance policies in NZ: limits, excesses, defective workmanship, subcontractors, tools and statutory liability. What to check and what to ask.'
+  'Compare tradie insurance in NZ: three published liability wordings clause by clause, what a broker adds, and the checks to run before you buy.'
 
 export const metadata: Metadata = {
   title: { absolute: title },
@@ -32,6 +34,111 @@ export const metadata: Metadata = {
   },
   twitter: { card: 'summary_large_image', title, description, images: [`${siteConfig.url}/og-image.png`] },
 }
+
+/**
+ * The wording comparison.
+ *
+ * Three liability wordings that the insurers publish themselves, read on
+ * 22 September 2026. Clause numbers are given so a reader can open the PDF and
+ * check. No ratings, no prices, no view on which insurer is better: the point
+ * is to show that the same "public liability" can mean different things, and
+ * which clauses decide that.
+ */
+const wordings = [
+  { key: 'nzi', name: 'NZI Broadform Liability', ref: 'NZ5060/10, 03/18', url: 'https://www.nzi.co.nz/content/dam/insurance-brands-nz/nzi/nz/en/documents/nzi/liability/nzi-liability-broadform-pw-nz5060-10-0318.pdf' },
+  { key: 'ami', name: 'AMI Broadform Liability', ref: 'AMI1159/2, 10/21', url: 'https://www.ami.co.nz/content/dam/insurance-brands-nz/ami/nz/en/documents/liability/ami-business-broadform-liability-policy-wording-ami1159-2-1021.pdf' },
+  { key: 'vero', name: 'Vero Combined Broadform, Employers and Statutory Liability', ref: '07/24', url: 'https://www.vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf' },
+] as const
+
+const clauses: { topic: string; why: string; nzi: string; ami: string; vero: string }[] = [
+  {
+    topic: 'Redoing your own faulty work',
+    why: 'The single biggest gap tradies hit. Damage your work causes to other property is one thing; the cost of putting the work itself right is another.',
+    nzi: 'Excluded. 5.8 Faulty workmanship: no cover for the cost of performing, completing, repairing, rectifying, correcting or improving work you undertook. Resultant damage to other property is still covered.',
+    ami: 'Excluded. 5.8 Faulty workmanship, in the same terms, with the same exception for resultant damage to other property.',
+    vero: 'Excluded. Exclusion 4 Defective work: the cost of performing, completing, correcting or improving your work. It does not apply to resultant damage to other separate property or parts not being worked on.',
+  },
+  {
+    topic: 'Damage to property in your care',
+    why: 'The client\'s house, the section, the plant you hired. Often excluded, then partly bought back by an extension with its own limit and excess.',
+    nzi: 'Excluded by 5.19, then extension 3.4 Care, custody or control covers damage to property in your control: up to $500,000 a year, $1,000 excess per event.',
+    ami: 'Excluded by 5.19, then extension 3.4 Care, custody or control: up to $250,000 a year, $1,000 excess per event.',
+    vero: 'Excluded by exclusion 14, then extension 15 Property in care, custody or control: up to $500,000 per period, $1,000 excess. Land and buildings, including fixtures and fittings, stay outside the extension.',
+  },
+  {
+    topic: 'Defective workmanship extension',
+    why: 'The optional cover that responds to damage to the property you were working on when your own workmanship caused it.',
+    nzi: 'Not present in this wording.',
+    ami: 'Not present in this wording.',
+    vero: 'Optional extension PLB554 Defective workmanship: damage to property you are or have been working on, caused by your defective workmanship. Limit $100,000 unless the schedule says otherwise. It switches off exclusions 4 and 12, but not the building defects and mould exclusion.',
+  },
+  {
+    topic: 'Weathertightness and building defects',
+    why: 'Leaks, mould and Building Code performance. This is where a lot of building-related claims actually land.',
+    nzi: 'Excluded by 5.3 Building defects: failure of a building or structure to comply with or perform to a building code or standard, to meet a standard of performance, quality, fitness or durability, or to be fit for purpose, plus moisture penetration and mould.',
+    ami: 'Excluded by 5.3 Building defects: a building or structure affected by moisture or water build-up or penetration, or by mould, fungi, mildew, rot or decay.',
+    vero: 'Excluded by exclusion 3 Building defects and mould, including failure to comply with or perform to a building code, and failure to prevent or manage moisture penetration.',
+  },
+  {
+    topic: 'Underground services',
+    why: 'Cables and pipes you cannot see. Every wording here makes cover conditional on what you did before you dug.',
+    nzi: 'Excluded by 5.24, bought back by extension 3.16 Underground services, which requires enquiry of the authorities, sighting location plans, or a competent third party verifying what is there before work starts.',
+    ami: 'Excluded by 5.24, bought back by extension 3.15 Underground services on the same kind of conditions, with a $2,500 excess per event.',
+    vero: 'Excluded by exclusion 15 unless all reasonable steps were taken immediately before the work to establish the position of the services and to avoid damage, in which case a $5,000 underground services excess applies.',
+  },
+  {
+    topic: 'Hot work away from your premises',
+    why: 'Grinding, brazing, torch-on. Cover turns on precautions that have to be followed every time, not just usually.',
+    nzi: 'Excluded by 5.11, with extension 3.7 Hot works away from your premises: clear combustible material about 10 metres, keep fire equipment at hand, and examine the area immediately after the work and again an hour later.',
+    ami: 'Excluded by 5.11, with extension 3.6 Hot works away from your premises: the same precautions, plus limiting ignition time, checking metal passing through walls and floors, and complying with any site hot work permit.',
+    vero: 'Extension 6 Fire risk work away covers the application of heat involving a naked flame or open heat source away from your premises, provided the listed precautions were complied with on each occasion.',
+  },
+  {
+    topic: 'Vibration and removal of support',
+    why: 'Excavation, piling, demolition next to someone else\'s building.',
+    nzi: 'Excluded by 5.26, bought back by extension 3.18: up to $500,000 a year, $5,000 excess per event.',
+    ami: 'Excluded by 5.26, with extension 3.17 Vibration and removal of support.',
+    vero: 'Excluded by exclusion 17, with extension 18 Vibration or weakening of support.',
+  },
+  {
+    topic: 'Fines and penalties',
+    why: 'Fines under the Health and Safety at Work Act cannot be insured at all, and neither can RMA fines imposed after 20 August 2025.',
+    nzi: 'Excluded by 5.9 Fines and exemplary damages: any fine or penalty imposed under contract or statute, and punitive or exemplary damages.',
+    ami: 'Excluded by 5.9 Fines and exemplary damages, in the same terms.',
+    vero: 'Excluded by exclusion 6 in the liability section. Extension 16 covers court-ordered reparation, and the separate statutory liability section can pay a fine under an Act, with defence costs, where the law allows that fine to be insured.',
+  },
+]
+
+/**
+ * The other comparison Darin asked for: not which insurer, but how the cover
+ * gets arranged. Written to describe what each route does, not to push one.
+ */
+const routes = [
+  {
+    route: 'Buying online, direct',
+    wording: 'You pick from what that site sells, and read the wording yourself.',
+    limits: 'You match the limits to your contracts.',
+    changes: 'You update the policy when the work changes.',
+    claim: 'You deal with the insurer yourself.',
+    cost: 'No commission is disclosed to you as a separate charge; it is built into the premium.',
+  },
+  {
+    route: 'Direct with an insurer',
+    wording: 'One insurer\'s wording, explained by that insurer.',
+    limits: 'You say what you need. The insurer prices its own product.',
+    changes: 'You tell the insurer when something changes.',
+    claim: 'You deal with the insurer yourself.',
+    cost: 'Built into the premium.',
+  },
+  {
+    route: 'Through a broker',
+    wording: 'A broker can put your details to more than one insurer and compare the clauses above, including which wordings offer a defective workmanship extension.',
+    limits: 'A broker reads the insurance clause in your contracts and sets limits against it, and can issue a certificate of currency for a head contractor.',
+    changes: 'A broker records changes with the insurer, which matters because non-disclosure is what declines claims.',
+    claim: 'A broker lodges and argues the claim for you.',
+    cost: 'Usually paid commission by the insurer, and some brokers also charge a fee. Ask for both before you place cover. A broker giving advice must be a licensed Financial Advice Provider or work under one.',
+  },
+]
 
 const checks = [
   {
@@ -106,6 +213,10 @@ const faqs = [
 ]
 
 const sources = [
+  { label: 'NZI Broadform Liability policy wording (NZ5060/10, 03/18)', url: 'https://www.nzi.co.nz/content/dam/insurance-brands-nz/nzi/nz/en/documents/nzi/liability/nzi-liability-broadform-pw-nz5060-10-0318.pdf' },
+  { label: 'AMI Broadform Liability policy wording (AMI1159/2, 10/21)', url: 'https://www.ami.co.nz/content/dam/insurance-brands-nz/ami/nz/en/documents/liability/ami-business-broadform-liability-policy-wording-ami1159-2-1021.pdf' },
+  { label: 'Vero Combined Broadform, Employers and Statutory Liability policy wording (07/24)', url: 'https://www.vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf' },
+  { label: 'AMI: Tradies insurance, published bundle price', url: 'https://www.ami.co.nz/business/tradies' },
   { label: 'MBIE Building Performance: Consumer protection, disclosure and checklist', url: 'https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/consumer-protection-disclosure-and-checklist' },
   { label: 'MBIE Building Performance: Implied warranties and defects', url: 'https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/implied-warranties-and-defects' },
   { label: 'Health and Safety at Work Act 2015, section 29: Insurance against fines unlawful', url: 'https://www.legislation.govt.nz/act/public/2015/0070/latest/DLM6375600.html' },
@@ -152,14 +263,14 @@ export default function ComparePage() {
             Buyer&apos;s guide
           </span>
           <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-5 leading-tight max-w-3xl">
-            How to Compare Tradie Insurance
+            Compare Tradie Insurance
           </h1>
           <p className="text-white text-xl max-w-2xl leading-relaxed mb-8 opacity-90">
-            Two policies with the same limit and a similar premium can pay out very differently. Here is what to check in the wording, and the question to ask about each.
+            Two policies with the same limit and a similar premium can pay out very differently. Here are three published wordings side by side, clause by clause, and what changes depending on how you arrange the cover.
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="#checklist" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
-              The checklist ↓
+            <a href="#wordings" className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm">
+              Compare the wordings ↓
             </a>
             <Link href="/contact/" className="bg-white/10 hover:bg-white/20 text-white font-bold px-6 py-3 rounded-xl transition-colors text-sm border border-white/30">
               Talk to a broker
@@ -187,6 +298,83 @@ export default function ComparePage() {
                 Insurance is not mandatory for most trades, but construction companies, head contractors and commercial clients routinely require public liability before you start. For residential work of $30,000 or more (incl GST), the contractor must also give the homeowner a disclosure statement setting out their insurance, the amount of cover and any relevant exclusions.
               </p>
             </div>
+          </section>
+
+          <section id="wordings" className="mb-14 scroll-mt-20">
+            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">Wording comparison</span>
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-3">What three published wordings actually say</h2>
+            <p className="text-gray-600 mb-6 max-w-3xl">
+              These are the insurers&apos; own documents, with clause numbers so you can check them. They are examples, not a ranking, and not every insurer or scheme is shown. Your own policy may be endorsed differently, so read the schedule with the wording.
+            </p>
+            <div className="overflow-x-auto rounded-2xl border-2 border-gray-200 shadow-md mb-4">
+              <table className="w-full text-sm border-collapse min-w-[900px]">
+                <thead>
+                  <tr className="bg-gray-900 text-left align-top">
+                    <th className="px-5 py-4 text-white font-bold w-56 border-r border-gray-700">What to check</th>
+                    {wordings.map((w) => (
+                      <th key={w.key} className="px-5 py-4 text-white font-semibold text-xs border-r border-gray-700 last:border-r-0">
+                        <a href={w.url} target="_blank" rel="noopener noreferrer" className="underline decoration-gray-500 hover:text-orange-300">{w.name}</a>
+                        <span className="block text-gray-400 font-normal mt-1">{w.ref}</span>
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {clauses.map((c, i) => (
+                    <tr key={c.topic} className={`${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-b border-gray-200 last:border-b-0 align-top`}>
+                      <td className="px-5 py-4 border-r border-gray-200">
+                        <span className="font-extrabold text-gray-900 block mb-1">{c.topic}</span>
+                        <span className="text-gray-500 text-xs leading-relaxed">{c.why}</span>
+                      </td>
+                      <td className="px-5 py-4 border-r border-gray-200 text-gray-700 text-xs leading-relaxed">{c.nzi}</td>
+                      <td className="px-5 py-4 border-r border-gray-200 text-gray-700 text-xs leading-relaxed">{c.ami}</td>
+                      <td className="px-5 py-4 text-gray-700 text-xs leading-relaxed">{c.vero}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-gray-400 text-xs">Wordings read on 22 September 2026. Insurers change them, so check the version your quote is on.</p>
+          </section>
+
+          <section id="routes" className="mb-14 scroll-mt-20">
+            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">How you arrange it</span>
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-3">Buying direct, online, or through a broker</h2>
+            <p className="text-gray-600 mb-6 max-w-3xl">
+              The same cover can be arranged three ways. What changes is who reads the wording, who matches the limits to your contracts, and who does the work when you claim.
+            </p>
+            <div className="overflow-x-auto rounded-2xl border-2 border-gray-200 shadow-md">
+              <table className="w-full text-sm border-collapse min-w-[900px]">
+                <thead>
+                  <tr className="bg-gray-900 text-left">
+                    <th className="px-5 py-4 text-white font-bold w-44 border-r border-gray-700">Route</th>
+                    <th className="px-5 py-4 text-white font-semibold text-xs border-r border-gray-700">Choosing the wording</th>
+                    <th className="px-5 py-4 text-white font-semibold text-xs border-r border-gray-700">Limits and contracts</th>
+                    <th className="px-5 py-4 text-white font-semibold text-xs border-r border-gray-700">Keeping it current</th>
+                    <th className="px-5 py-4 text-white font-semibold text-xs border-r border-gray-700">At claim time</th>
+                    <th className="px-5 py-4 text-white font-semibold text-xs">What it costs</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {routes.map((r, i) => (
+                    <tr key={r.route} className={`${r.route === 'Through a broker' ? 'bg-orange-50 border-orange-200' : i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-b border-gray-200 last:border-b-0 align-top`}>
+                      <td className="px-5 py-4 border-r border-gray-200 font-extrabold text-gray-900">{r.route}</td>
+                      <td className="px-5 py-4 border-r border-gray-200 text-gray-700 text-xs leading-relaxed">{r.wording}</td>
+                      <td className="px-5 py-4 border-r border-gray-200 text-gray-700 text-xs leading-relaxed">{r.limits}</td>
+                      <td className="px-5 py-4 border-r border-gray-200 text-gray-700 text-xs leading-relaxed">{r.changes}</td>
+                      <td className="px-5 py-4 border-r border-gray-200 text-gray-700 text-xs leading-relaxed">{r.claim}</td>
+                      <td className="px-5 py-4 text-gray-700 text-xs leading-relaxed">{r.cost}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section className="mb-14">
+            <h2 className="text-2xl font-extrabold text-gray-900 mb-4">What it costs</h2>
+            <FromPrice />
+            <p className="text-gray-400 text-xs mt-3">{INDICATIVE_NOTE}</p>
           </section>
 
           <section id="checklist" className="mb-14 scroll-mt-20">

@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
+import FromPrice from '@/components/FromPrice'
+import { INDICATIVE_NOTE } from '@/data/pricing'
 
 export const metadata: Metadata = {
   title: { absolute: 'Tradie Insurance Coverage Types | TradieInsurance.co.nz' },
@@ -84,11 +86,16 @@ export default function CoveragePage() {
                 <h2 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-orange-600 transition-colors">{c.name}</h2>
                 <p className="text-gray-500 text-sm mb-4 leading-relaxed">{c.description.split('.')[0]}.</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-orange-500 font-bold text-sm">From {c.fromPrice}</span>
+                  <span className="text-orange-500 font-bold text-sm">From {c.fromPrice}<span className="text-gray-400 font-normal"> indicative</span></span>
                   <span className="text-orange-500 text-sm group-hover:translate-x-1 transition-transform">→</span>
                 </div>
               </Link>
             ))}
+          </div>
+
+          <div className="mt-12 max-w-3xl mx-auto">
+            <FromPrice />
+            <p className="text-gray-400 text-xs mt-3 text-center">{INDICATIVE_NOTE}</p>
           </div>
 
           <div className="mt-16 bg-gray-900 rounded-2xl p-8 text-center">
