@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { blogPosts } from '@/data/blog-posts'
+import { postsByDate } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
@@ -47,7 +47,7 @@ export default function BlogPage() {
       <div className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {blogPosts.map((post) => (
+            {postsByDate.map((post) => (
               <Link
                 key={post.slug}
                 href={`/blog/${post.slug}/`}

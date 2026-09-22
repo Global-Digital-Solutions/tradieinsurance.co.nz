@@ -5,7 +5,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: { absolute: 'Compare Tradie Insurance Providers | TradieInsurance.co.nz' },
-  description: 'Compare NZ tradie insurance providers side by side. Detailed coverage tables, pricing, ratings and expert profiles for BizCover, AMI, Builtin, Gallagher and Vero.',
+  description: 'Compare NZ tradie insurance providers side by side: coverage tables, pricing and profiles for BizCover, AMI, Builtin, Gallagher and Vero.',
   alternates: { canonical: `${siteConfig.url}/compare/` },
   openGraph: {
     type: 'website',

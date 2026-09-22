@@ -6,7 +6,7 @@ import { coverageTypes } from '@/data/coverage-types'
 import { tradeTypes } from '@/data/trade-types'
 import { providers } from '@/data/providers'
 import { faqs } from '@/data/faqs'
-import { blogPosts } from '@/data/blog-posts'
+import { postsByDate } from '@/data/blog-posts'
 import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
@@ -23,7 +23,7 @@ const steps = [
 
 export default function HomePage() {
   const topFaqs = faqs.slice(0, 5)
-  const latestPosts = blogPosts.slice(0, 3)
+  const latestPosts = postsByDate.slice(0, 3)
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -320,6 +320,12 @@ export default function HomePage() {
               { href: '/tradie-insurance/tradie-insurance-dunedin/', label: 'Tradie Insurance Dunedin' },
               { href: '/tradie-insurance/tradie-insurance-rotorua/', label: 'Tradie Insurance Rotorua' },
               { href: '/tradie-insurance/tradie-insurance-whangarei/', label: 'Tradie Insurance Whangārei' },
+              { href: '/tradie-insurance/tradie-insurance-palmerston-north/', label: 'Tradie Insurance Palmerston North' },
+              { href: '/tradie-insurance/tradie-insurance-napier-hastings/', label: 'Tradie Insurance Napier-Hastings' },
+              { href: '/tradie-insurance/tradie-insurance-nelson/', label: 'Tradie Insurance Nelson' },
+              { href: '/tradie-insurance/tradie-insurance-new-plymouth/', label: 'Tradie Insurance New Plymouth' },
+              { href: '/tradie-insurance/tradie-insurance-invercargill/', label: 'Tradie Insurance Invercargill' },
+              { href: '/tradie-insurance/tradie-insurance-gisborne/', label: 'Tradie Insurance Gisborne' },
             ].map((link) => (
               <Link
                 key={link.href}

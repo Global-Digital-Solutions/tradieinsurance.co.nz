@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
+import { metaDescription } from '@/lib/meta'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import QuoteForm from '@/components/QuoteForm'
-import { blogPosts, getBlogBySlug } from '@/data/blog-posts'
+import { blogPosts, postsByDate, getBlogBySlug } from '@/data/blog-posts'
 import { tradeTypes } from '@/data/trade-types'
 import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
@@ -21,13 +22,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {}
   return {
     title: { absolute: post.title },
-    description: post.excerpt,
+    description: metaDescription(post.excerpt),
     authors: [{ name: post.author, url: siteConfig.url }],
     alternates: { canonical: `${siteConfig.url}/blog/${slug}/` },
     openGraph: {
       type: 'article',
       title: post.title,
-      description: post.excerpt,
+      description: metaDescription(post.excerpt),
       url: `${siteConfig.url}/blog/${slug}/`,
       siteName: 'TradieInsurance.co.nz',
       locale: 'en_NZ',
@@ -40,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       title: post.title,
-      description: post.excerpt,
+      description: metaDescription(post.excerpt),
       ...(post.image && { images: [post.image] }),
     },
   }
@@ -115,8 +116,8 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) notFound()
 
   // Same-category posts first, then fill from other categories
-  const sameCat = blogPosts.filter((p) => p.slug !== slug && p.category === post.category)
-  const otherCat = blogPosts.filter((p) => p.slug !== slug && p.category !== post.category)
+  const sameCat = postsByDate.filter((p) => p.slug !== slug && p.category === post.category)
+  const otherCat = postsByDate.filter((p) => p.slug !== slug && p.category !== post.category)
   const relatedPosts = [...sameCat, ...otherCat].slice(0, 3)
 
   const blogPostingSchema = {

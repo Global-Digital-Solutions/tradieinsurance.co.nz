@@ -1,0 +1,462 @@
+{
+ "/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "weekly",
+  "priority": "1.0"
+ },
+ "/compare/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.9"
+ },
+ "/contact/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.9"
+ },
+ "/faqs/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/coverage/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.9"
+ },
+ "/types/public-liability/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/types/tools-equipment/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/types/commercial-vehicle/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/types/income-protection/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/types/statutory-liability/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/types/professional-indemnity/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/types/contents-property/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/types/building-insurance/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.9"
+ },
+ "/trades/builders/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/plumbers/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/painters/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/carpenters-woodworkers/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/electricians/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/bricklayers/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/roofers/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/concreters/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/handymen/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/gasfitters/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/tilers/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/glaziers/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/landscapers/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/drain-layers/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/scaffolders/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/fencers/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/plasterers/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/hvac-technicians/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/arborists/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/welders/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/trades/irrigation-specialists/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/cheap-tradie-insurance/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/best-tradie-insurance/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/compare-tradie-insurance/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-auckland/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-wellington/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-christchurch/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-hamilton/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-tauranga/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-dunedin/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-palmerston-north/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-napier-hastings/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-nelson/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-rotorua/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-new-plymouth/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-whangarei/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-invercargill/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-gisborne/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/builder-insurance-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/public-liability-tradies-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tool-insurance-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-cost-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-sole-trader/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/tradie-insurance/tradie-insurance-small-business/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.8"
+ },
+ "/blog/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "weekly",
+  "priority": "0.9"
+ },
+ "/blog/tradie-insurance-guide-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/builder-insurance-checklist-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/public-liability-tradies-explained/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/tool-insurance-nz-guide/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/tradie-vehicle-insurance-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/electrician-insurance-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/income-protection-self-employed-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/worksafe-nz-tradies-compliance/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/compare-tradie-insurance-providers-nz/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/gasfitter-insurance-nz-guide/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/contract-works-insurance-nz-tradies/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/scaffolding-insurance-nz-guide/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/tradie-insurance-subcontractors-nz/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/cyclone-damage-claims-tradies-nz/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/tradie-business-insurance-nz-guide/": {
+  "lastmod": "2026-08-04",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/self-certification-plumbers-drainlayers-2026/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/storm-flood-claims-tradies-nz-2026/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/fencer-insurance-nz-guide/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/nz-infrastructure-boom-tradie-insurance-2026/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/hvac-refrigeration-insurance-nz/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/tradie-business-structure-insurance-nz/": {
+  "lastmod": "2026-08-07",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/blog/height-safety-law-changes-tradies-2026/": {
+  "lastmod": "2026-08-11",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/two-speed-building-market-tradie-insurance-2026/": {
+  "lastmod": "2026-08-17",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/building-amendment-bill-liability-insurance-2026/": {
+  "lastmod": "2026-08-24",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/worksafe-prequalification-template-tradies-2026/": {
+  "lastmod": "2026-08-31",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/granny-flat-exemption-builder-liability-2026/": {
+  "lastmod": "2026-09-07",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/regional-shift-building-work-tradie-cover-2026/": {
+  "lastmod": "2026-09-14",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/worksafe-residential-height-assessments-2026/": {
+  "lastmod": "2026-09-21",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/other-trades-defective-workmanship-cover/": {
+  "lastmod": "2026-09-22",
+  "changefreq": "monthly",
+  "priority": "0.7"
+ },
+ "/about/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "yearly",
+  "priority": "0.6"
+ },
+ "/privacy/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "yearly",
+  "priority": "0.3"
+ },
+ "/terms/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "yearly",
+  "priority": "0.3"
+ },
+ "/disclaimer/": {
+  "lastmod": "2026-05-21",
+  "changefreq": "yearly",
+  "priority": "0.3"
+ }
+}

@@ -1,8 +1,13 @@
 import type { Metadata } from 'next'
+import { metaDescription } from '@/lib/meta'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import QuoteForm from '@/components/QuoteForm'
 import { landingPages, getLandingPageBySlug } from '@/data/landing-pages'
+
+// City pages are the tradie-insurance-{city} slugs; the rest are topic pages.
+const NOT_CITIES = ['tradie-insurance-cost-nz', 'tradie-insurance-sole-trader', 'tradie-insurance-small-business']
+const cityPages = landingPages.filter((p) => p.slug.startsWith('tradie-insurance-') && !NOT_CITIES.includes(p.slug))
 import { siteConfig } from '@/data/site-config'
 
 interface Props {
@@ -19,12 +24,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!page) return {}
   return {
     title: { absolute: page.metaTitle },
-    description: page.metaDesc,
+    description: metaDescription(page.metaDesc),
     alternates: { canonical: `${siteConfig.url}/tradie-insurance/${slug}/` },
     openGraph: {
       type: 'website',
       title: page.metaTitle,
-      description: page.metaDesc,
+      description: metaDescription(page.metaDesc),
       url: `${siteConfig.url}/tradie-insurance/${slug}/`,
       siteName: 'TradieInsurance.co.nz',
       locale: 'en_NZ',
@@ -33,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       title: page.metaTitle,
-      description: page.metaDesc,
+      description: metaDescription(page.metaDesc),
       images: [`${siteConfig.url}/og-image.png`],
     },
   }
@@ -118,7 +123,7 @@ export default async function LandingPage({ params }: Props) {
 
               <div className="mt-10 bg-orange-50 rounded-2xl p-8 border border-orange-100">
                 <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Ready to Get Covered?</h2>
-                <p className="text-gray-600 mb-6">Use our free service to connect with a specialist tradie insurance broker — no cost, no obligation.</p>
+                <p className="text-gray-600 mb-6">Connect with a specialist tradie insurance broker. No cost to you, no obligation.</p>
                 <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
                   Get a Quote →
                 </Link>
@@ -137,6 +142,29 @@ export default async function LandingPage({ params }: Props) {
                   <li><Link href="/blog/" className="text-orange-500 hover:text-orange-600 text-sm">Blog & Guides →</Link></li>
                 </ul>
               </div>
+              {/*
+                City pages link to each other. Before this, eight city pages had
+                one inbound link (the homepage) and six had none at all, so the
+                crawler barely found them and they passed no authority between
+                themselves. Derived from the data, so a new city page joins in
+                automatically.
+              */}
+              {cityPages.some((c) => c.slug === page.slug) && (
+                <div className="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+                  <h3 className="font-bold text-gray-900 mb-3">Tradie insurance in other cities</h3>
+                  <ul className="grid grid-cols-2 gap-x-3 gap-y-2">
+                    {cityPages
+                      .filter((c) => c.slug !== page.slug)
+                      .map((c) => (
+                        <li key={c.slug}>
+                          <Link href={`/tradie-insurance/${c.slug}/`} className="text-orange-500 hover:text-orange-600 text-sm">
+                            {c.title.replace(/^Tradie Insurance\s+/, '')}
+                          </Link>
+                        </li>
+                      ))}
+                  </ul>
+                </div>
+              )}
             </div>
           </div>
         </div>

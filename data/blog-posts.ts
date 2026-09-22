@@ -2266,9 +2266,17 @@ Keep your completion dates and sign-offs somewhere you can find them. The 12-mon
 
 If you regularly bring other trades onto your jobs, this is the part of your cover worth checking before the next one starts. A registered adviser can read your current schedule against how you actually work, and tell you whether cover available through them extends defective workmanship protection to the trades you engage, and at what limit.
 
-Sources: Building Performance (MBIE), <a href="https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/implied-warranties-and-defects/" target="_blank" rel="noopener" class="text-orange-700 underline">Implied warranties and defects</a> and <a href="https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/know-your-rights-consumers/once-building-work-finishes/" target="_blank" rel="noopener" class="text-orange-700 underline">Once building work finishes</a>. AA Insurance help centre, Do I need defective workmanship cover if I have public liability cover? QBE New Zealand, General, Statutory and Employers Liability product briefing, October 2022. Policy terms vary by insurer; the wording of your own policy governs.`,
+Sources: Building Performance (MBIE), <a href="https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/implied-warranties-and-defects" target="_blank" rel="noopener" class="text-orange-700 underline">Implied warranties and defects</a> and <a href="https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/know-your-rights-consumers/once-building-work-finishes" target="_blank" rel="noopener" class="text-orange-700 underline">Once building work finishes</a>. AA Insurance help centre, Do I need defective workmanship cover if I have public liability cover? QBE New Zealand, General, Statutory and Employers Liability product briefing, October 2022. Policy terms vary by insurer; the wording of your own policy governs.`,
   },
 ]
+
+/**
+ * Newest first. The array above is in publication-history order (the weekly
+ * articles are appended to the end), so every listing must use this rather
+ * than blogPosts directly — the blog index was showing a May article at the
+ * top in September.
+ */
+export const postsByDate: BlogPost[] = [...blogPosts].sort((a, b) => b.date.localeCompare(a.date))
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {
   return blogPosts.find((p) => p.slug === slug)

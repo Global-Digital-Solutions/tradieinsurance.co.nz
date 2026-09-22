@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { metaDescription } from '@/lib/meta'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import QuoteForm from '@/components/QuoteForm'
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const coverage = getCoverageBySlug(slug)
   if (!coverage) return {}
   const title = `${coverage.name} Cover for Tradies | From ${coverage.fromPrice}`
-  const description = `${coverage.name} insurance for tradies from ${coverage.fromPrice}. ${coverage.description.split('.')[0]}. Quotes from licensed brokers.`
+  const description = metaDescription(`${coverage.name} insurance for tradies from ${coverage.fromPrice}. ${coverage.description.split('.')[0]}.`)
   return {
     title: { absolute: title },
     description,
