@@ -309,7 +309,7 @@ export default function HomePage() {
               { href: '/tradie-insurance/tradie-insurance-auckland/', label: 'Tradie Insurance Auckland' },
               { href: '/tradie-insurance/tradie-insurance-wellington/', label: 'Tradie Insurance Wellington' },
               { href: '/tradie-insurance/tradie-insurance-christchurch/', label: 'Tradie Insurance Christchurch' },
-              { href: '/tradie-insurance/builder-insurance-nz/', label: 'Builder Insurance' },
+              { href: '/trades/builders/', label: 'Builders Insurance' },
               { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
               { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance' },
               { href: '/tradie-insurance/tradie-insurance-cost-nz/', label: 'Tradie Insurance Cost' },

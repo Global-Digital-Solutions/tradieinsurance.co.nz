@@ -12,6 +12,9 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Merged into the builders trade page (Sept 2026): two pages were
+      // competing for "builders insurance nz".
+      { source: '/tradie-insurance/builder-insurance-nz/', destination: '/trades/builders/', permanent: true },
       {
         source: '/:path*',
         has: [{ type: 'host', value: 'tradieinsurance.co.nz' }],

@@ -32,6 +32,12 @@ export interface TradeType {
   introText: string[]
   whyNeedIt: string[]
   coverPackage: string
+  /** Optional, used by the rewritten pages. `source` is an index into `sources`. */
+  metaDescription?: string
+  heroLead?: string
+  stats?: { value: string; label: string; note: string; source?: number }[]
+  legalCallout?: { title: string; body: string; source?: number }
+  sources?: { label: string; url: string }[]
 }
 
 export const tradeTypes: TradeType[] = [
@@ -40,89 +46,121 @@ export const tradeTypes: TradeType[] = [
     name: 'Builders',
     icon: '🏗️',
     heroImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80',
+    // Every factual claim on this page is sourced (see `sources`). Rewritten
+    // September 2026 as the model for the other trade pages: no prices, no
+    // invented claim amounts, and the legal points taken from MBIE.
+    metaDescription:
+      'Builders insurance in NZ: public liability, contract works, defective workmanship and what your disclosure statement must say about your cover. Talk to a specialist broker.',
+    heroLead:
+      'What New Zealand builders need to insure, what the Building Act asks you to disclose about that insurance, and where standard policies stop.',
     description:
-      'Builders face some of the highest risk exposures of any trade. From structural defects to on-site injuries, a single claim can threaten your entire business. The right insurance package protects your livelihood, your team, and your clients.',
-    keyFacts: [
-      'Public liability is mandatory on most NZ building sites',
-      'LBP certification may require professional indemnity',
-      'Structural defects claims can arise years after completion',
-      'Building contracts often specify minimum cover requirements',
+      'Builders insurance for New Zealand builders: public liability, contract works, defective workmanship, tools and statutory liability, read against the disclosure, defect repair and warranty obligations in the Building Act.',
+    stats: [
+      { value: '$30,000', label: 'Disclosure threshold', note: 'Residential work at or above this (incl GST) needs a written contract and a disclosure statement that sets out your insurance.', source: 0 },
+      { value: '12 months', label: 'Defect repair period', note: 'After completion you must fix defects, including in work done by your subcontractors.', source: 2 },
+      { value: '10 years', label: 'Implied warranties', note: 'Implied warranties on residential building work run for up to 10 years, written contract or not.', source: 2 },
     ],
     introText: [
-      'Builders insurance is a suite of specialist policies designed to protect New Zealand builders from the financial consequences of property damage, personal injury, and legal claims arising from construction work. Whether you are building new homes, completing renovations, or managing a commercial construction project, the exposures are significant — a single incident on site can generate a claim worth tens of thousands of dollars. Public liability insurance for builders averages around $26.83 per month, making it one of the most cost-effective risk management tools available.',
-      'Construction is New Zealand\'s most claim-intensive trade sector. The Building Act 2004 imposes ten-year liability on builders for defective work, meaning claims can arrive years or even decades after a project is complete. Add in the risks of on-site injury, tool theft, statutory compliance, and the ever-present threat of a WorkSafe prosecution, and it becomes clear that a comprehensive insurance package is not a luxury — it is a business necessity for any builder working today.',
+      'Builders insurance is not one policy. It is usually public liability for injury to other people and damage to their property, contract works cover for the job itself while it is being built, tools and vehicle cover, and statutory liability for the cost of defending a prosecution. Which of those you need, and at what limits, depends on whether you contract directly with homeowners, work as a labour-only subcontractor, or run a building company with staff.',
+      'Residential building in New Zealand also puts obligations on the builder who signs with the client. For work of $30,000 or more, including GST, the contractor must give the homeowner a disclosure statement that sets out the insurance they hold, with the amount of cover and any relevant exclusions. The contractor must fix defects that appear in the first 12 months, including defects in subcontractors\' work, and implied warranties run for up to 10 years. Your insurance should be checked against those obligations, not just against the risk of a spark or a dropped beam.',
     ],
     whyNeedIt: [
-      'The Building Act 2004 requires Licensed Building Practitioners to disclose their insurance details to clients before signing a contract — without current cover you cannot legally take on LBP work.',
-      'Structural defect claims carry a ten-year tail under NZ law, meaning a claim can arrive years after you have moved on from a project — ongoing cover is essential even between active contracts.',
-      'A single on-site incident — a spark from angle grinding causing $5,300 of window damage, or a misplaced concrete pour crushing underground drainage — can easily exceed a month\'s revenue.',
-      'Principal contractors and commercial clients routinely require proof of $2M–$20M public liability before allowing subcontractors on site — holding cover keeps you eligible for the best work.',
+      'Contracts require it, even where the law does not. Head contractors, developers and commercial clients routinely make public liability a condition of the contract, set a minimum limit, and ask for a certificate of currency before you go on site. Without cover you are shut out of that work, and your client is left exposed if something goes wrong.',
+      'Your insurance goes on the disclosure statement. For residential work of $30,000 or more, the homeowner sees your cover amounts and relevant exclusions before the job starts. Knowingly giving false or misleading information, or leaving information out, can mean a fine of up to $50,000 for an individual or $150,000 for a company.',
+      'You answer for your subbies\' defects. In the 12 months after completion, the builder who contracted with the homeowner has to fix defects, including in work done by subcontractors. Public liability generally pays for damage your work causes, not the cost of putting the faulty work itself right, so check how your policy treats defective workmanship.',
+      'The job is at risk until handover. A fire, storm or theft on site can wipe out weeks of work and materials before the client takes the building over. Contract works insurance covers the works in progress; public liability does not cover your own job.',
     ],
-    coverPackage: 'A comprehensive builders insurance package typically includes public liability ($2M–$5M), statutory liability, tools and equipment cover, and commercial vehicle insurance — all arranged through a single licensed broker.',
-    costFrom: '~$27/month',
+    legalCallout: {
+      title: 'Building Act: what you must disclose',
+      body: 'For residential building work of $30,000 or more (including GST), the building contractor must give the homeowner a disclosure statement. It must include the insurance policies the contractor has, or intends to have, for the work, with the amount of cover and any relevant exclusions, and any guarantees or warranties offered. This duty sits with the contractor who signs with the homeowner, not with subcontractors engaged by that contractor.',
+      source: 0,
+    },
+    coverPackage:
+      'For a builder contracting directly with homeowners: public liability at a limit that meets your contracts, a defective workmanship extension that responds to subcontractors\' work, contract works cover where the contract makes the works your responsibility, statutory liability, and cover for tools and vehicles. Labour-only subcontractors usually need less, but should check what the head contractor\'s policy does and does not extend to them.',
+    costFrom: '',
     costFactors: [
-      'Annual turnover',
-      'Number of employees',
-      'Cover limit selected',
+      'Annual turnover and wages',
+      'Residential, commercial or both',
+      'Use of subcontractors',
+      'Public liability limit',
+      'Value of contract works',
       'Claims history',
     ],
     legalRequirements: [
-      'Building Act 2004 — Licensed Building Practitioners must disclose insurance details to clients',
-      'Building Act 2004 — ten-year liability on residential building work',
-      'Health and Safety at Work Act 2015 — duty of care for all persons on site',
-      'Resource Management Act — applies to earthworks, site disturbance, and discharge consents',
-      'Consumer Guarantees Act — guarantees of acceptable quality apply to building work',
-      'Fair Trading Act — prohibits misleading representations about your work or qualifications',
+      'Building Act 2004: residential building work of $30,000 or more (incl GST) must have a written contract, and the contractor must provide a disclosure statement and consumer checklist.',
+      'Building Act 2004: implied warranties apply to residential building work for up to 10 years, whether the contract is written or verbal.',
+      'Building Act 2004: a 12-month defect repair period runs from completion, and covers defects in subcontractors\' work.',
+      'Restricted building work (primary structure, weathertightness and fire safety design) must be carried out or supervised by a Licensed Building Practitioner, as it has been since 1 March 2012.',
+      'Health and Safety at Work Act 2015: you owe a duty to workers and others on and around your site. Insurance against fines under the Act is unlawful (section 29).',
+      'Resource Management Act 1991: earthworks, sediment and discharges from site can be prosecuted. Fines imposed after 20 August 2025 cannot be insured.',
     ],
     risks: [
       {
-        title: 'Structural Defect Claims',
-        desc: 'A client discovers a defect in your work years later and seeks compensation. Without cover, legal costs alone can be devastating.',
+        title: 'Defects in subcontracted work',
+        desc: 'A subbie\'s work fails after handover and the homeowner looks to you, because your name is on the contract.',
       },
       {
-        title: 'On-Site Injury',
-        desc: 'A visitor or passerby is injured on your building site. Public liability covers their claim and your legal defence.',
+        title: 'Damage to the works before handover',
+        desc: 'Fire, storm or theft damages the partly built job and materials on site. Contract works cover is designed for this.',
       },
       {
-        title: 'Tool Theft',
-        desc: 'Your tools are stolen from a job site overnight. Tools cover replaces them so you can keep working without financial hardship.',
+        title: 'Damage to neighbouring property',
+        desc: 'Excavation, demolition or hot work damages a neighbour\'s property or buried services. Public liability responds, subject to its terms.',
       },
     ],
     claimExamples: [
       {
-        title: 'Sparks from Angle Grinder Damage Windows',
-        scenario: 'A builder was grinding steel near a row of residential windows on a renovation project. Sparks travelled further than expected and damaged three large panes of glass across two properties.',
-        outcome: '$5,300 public liability claim paid, covering full replacement of damaged glass and remediation of surrounding frames.',
-        coverType: 'Public Liability',
+        title: 'A subbie\'s flashing leaks after handover',
+        scenario: 'Eight months after a renovation, the homeowner reports water coming in around a new window. The flashing was installed by a subcontractor, but the homeowner\'s contract is with the builder, and it is inside the 12-month defect repair period.',
+        outcome: 'Public liability may pay for resulting damage to linings and contents. Redoing the flashing itself is usually excluded unless the policy has a defective workmanship extension that responds to subcontractors\' work.',
+        coverType: 'Public liability and defective workmanship',
       },
       {
-        title: 'Concrete Pour Crushes Underground Drainage',
-        scenario: 'During a residential slab pour, a builder drove a concrete truck over an unmarked section of the property. The weight crushed an underground drainage pipe, causing sewage overflow into the garden.',
-        outcome: '$560 public liability claim paid for emergency plumber callout and drainage pipe repair — caught early before major damage occurred.',
-        coverType: 'Public Liability',
+        title: 'A storm hits an open frame',
+        scenario: 'A new build is framed and wrapped but not yet clad when a storm tears off the building wrap and soaks the framing and the materials stacked on site.',
+        outcome: 'This is what contract works insurance is for: loss of or damage to the works and materials on site before handover. Whether the builder or the owner insures the works is set by the contract.',
+        coverType: 'Contract works',
       },
       {
-        title: 'Nail Through Electrical Cable Causes Fire',
-        scenario: 'A builder fastening framing timber drove a nail through a concealed electrical cable. The resulting short circuit caused a small fire in the wall cavity before the homeowner smelled smoke.',
-        outcome: 'Public liability cover responded, paying for smoke and fire damage remediation, rewiring, and alternative accommodation for the homeowner during repairs.',
-        coverType: 'Public Liability',
+        title: 'A nail through a concealed cable',
+        scenario: 'Fixing framing during an alteration, a builder drives a nail through a cable hidden in the wall. The short circuit starts a small fire in the cavity.',
+        outcome: 'Public liability generally responds to damage to the client\'s property caused by your work, such as fire and smoke damage to the wall and contents, subject to the excess and the policy terms.',
+        coverType: 'Public liability',
       },
     ],
     faqs: [
       {
-        q: 'Do builders legally need insurance?',
-        a: 'Public liability is not legally required for all builders, but most principal contractors and building contracts require it. LBPs must meet professional standards that often necessitate PI cover.',
+        q: 'Do builders legally need insurance in NZ?',
+        a: 'Not by law, but in practice you need it to get the work. Head contractors, developers and commercial clients routinely make public liability a condition of the contract and ask for proof of cover before you start. The Building Act adds a disclosure duty: for residential work of $30,000 or more, the contractor must tell the homeowner what insurance they hold, including the amount of cover and relevant exclusions. Cover protects your client as well as you, because it means a claim can actually be paid.',
       },
       {
-        q: 'What level of public liability do builders need?',
-        a: 'Most NZ building contracts require at least NZ$1M–$2M public liability. Some large commercial contracts require $5M–$20M cover. Your broker can advise on the right limit.',
+        q: 'Does public liability cover defective workmanship?',
+        a: 'Generally not the cost of fixing the faulty work itself. Public liability responds to injury to other people and damage to their property caused by your business. Some insurers offer a defective workmanship extension, often with its own sub-limit, and wordings differ on work done by subcontractors. Ask to see how your wording treats both.',
       },
       {
-        q: 'Is ACC enough cover for builders?',
-        a: 'ACC covers work-related injuries only. It does not cover illness, non-work injuries, third-party property damage, or income lost due to business disruption. Income protection and public liability fill those critical gaps.',
+        q: 'What is contract works insurance and who arranges it?',
+        a: 'Contract works insurance covers the building work in progress and the materials on site against loss or damage, such as fire, storm, theft and vandalism, until handover. Whether the builder or the owner arranges it is set by the insurance clause in the building contract, so check that clause before work starts.',
+      },
+      {
+        q: 'Does being a Licensed Building Practitioner mean I am covered?',
+        a: 'No. An LBP licence shows you are competent to carry out or supervise restricted building work. It is not insurance, and it does not pay for damage, defects or legal costs. Your insurance position is what goes on the disclosure statement.',
+      },
+      {
+        q: 'What limit of public liability should a builder have?',
+        a: 'Start with your contracts. Head contractors and commercial clients commonly set a minimum limit, and residential clients will see your limit on the disclosure statement. Beyond that, the right limit depends on the value of the properties you work on or next to, and the worst damage your work could realistically cause. A broker can set a limit against those.',
+      },
+      {
+        q: 'Is ACC enough for a builder?',
+        a: 'ACC covers injury to people, including you, but it does not pay for damage to property, the cost of defending a claim, or loss of the works you are building. It also does not cover income lost to illness.',
       },
     ],
-    recommendedCover: ['public-liability', 'tools-equipment', 'commercial-vehicle', 'statutory-liability'],
+    sources: [
+      { label: 'MBIE Building Performance: Consumer protection, disclosure and checklist', url: 'https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/consumer-protection-disclosure-and-checklist' },
+      { label: 'MBIE Building Performance: Contracts for your building project', url: 'https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/contracts-for-your-building-project' },
+      { label: 'MBIE Building Performance: Implied warranties and defects', url: 'https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/implied-warranties-and-defects' },
+      { label: 'Licensed Building Practitioners: LBP scheme overview', url: 'https://www.lbp.govt.nz/about-us/about-the-lbp-scheme/overview/' },
+    ],
+    recommendedCover: ['public-liability', 'statutory-liability', 'tools-equipment', 'commercial-vehicle'],
   },
   {
     slug: 'plumbers',

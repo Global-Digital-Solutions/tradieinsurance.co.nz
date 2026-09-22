@@ -209,7 +209,7 @@ export default async function CoverageTypePage({ params }: Props) {
               { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance Guide' },
               { href: '/tradie-insurance/tradie-insurance-cost-nz/', label: 'How Much Does It Cost?' },
               { href: '/tradie-insurance/tradie-insurance-sole-trader/', label: 'Sole Trader Insurance' },
-              { href: '/tradie-insurance/builder-insurance-nz/', label: 'Builder Insurance' },
+              { href: '/trades/builders/', label: 'Builders Insurance' },
               { href: '/tradie-insurance/tradie-insurance-small-business/', label: 'Small Business Insurance' },
             ].map((g) => (
               <Link

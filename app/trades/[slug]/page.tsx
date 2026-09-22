@@ -5,6 +5,7 @@ import QuoteForm from '@/components/QuoteForm'
 import { tradeTypes, getTradeBySlug } from '@/data/trade-types'
 import { coverageTypes } from '@/data/coverage-types'
 import { siteConfig } from '@/data/site-config'
+import { metaDescription } from '@/lib/meta'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -19,7 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const trade = getTradeBySlug(slug)
   if (!trade) return {}
   const title = `${trade.name} Insurance NZ | Specialist Cover`
-  const description = `${trade.name} insurance — specialist cover from licensed brokers. Public liability from ${trade.costFrom}, tools, vehicle & more. quick broker response.`
+  const description = metaDescription(
+    trade.metaDescription ??
+      `${trade.name} insurance in NZ: the cover ${trade.name.toLowerCase()} need, what sets the price, and the rules that apply. Connect with a specialist broker.`,
+  )
   return {
     title: { absolute: title },
     description,
@@ -62,6 +66,25 @@ const coverWhatsCovered: Record<string, string[]> = {
   'building-insurance': ['Fire, storm, and flood damage', 'Earthquake and natural disaster events', 'Malicious damage and vandalism'],
 }
 
+// What an insurer prices each cover on. Replaces the old "from $X/month"
+// figures, which had no source and were shown as if they were quotes.
+const pricedOn: Record<string, string> = {
+  'public-liability': 'Limit of indemnity, turnover or wages, the work you do, claims history',
+  'tools-equipment': 'Sum insured, where tools are kept overnight, security, excess',
+  'statutory-liability': 'Limit chosen, turnover, number of staff',
+  'professional-indemnity': 'Fee income, the advice or design you provide, limit chosen',
+  'commercial-vehicle': 'Vehicle value, drivers, how the vehicle is used, excess',
+  'income-protection': 'Age, occupation, benefit amount, wait and benefit periods',
+  'contents-property': 'Sum insured, location, construction, security',
+  'building-insurance': 'Sum insured, location, construction, natural hazard exposure',
+}
+
+// Sources shown on every trade page, for the statutory liability box.
+const STANDARD_SOURCES = [
+  { label: 'Health and Safety at Work Act 2015, section 29: Insurance against fines unlawful', url: 'https://www.legislation.govt.nz/act/public/2015/0070/latest/DLM6375600.html' },
+  { label: 'MinterEllison: Another ban on insuring against fines, key changes to the RMA', url: 'https://minterellison.co.nz/insights/another-ban-on-insuring-against-fines-key-changes' },
+]
+
 export default async function TradeTypePage({ params }: Props) {
   const { slug } = await params
   const trade = getTradeBySlug(slug)
@@ -86,24 +109,36 @@ export default async function TradeTypePage({ params }: Props) {
     '@type': 'Service',
     '@id': `${siteConfig.url}/trades/${slug}/#service`,
     name: `${trade.name} Insurance`,
-    description: `Specialist ${trade.name.toLowerCase()} insurance from licensed brokers — public liability, tools, commercial vehicle, income protection and more.`,
+    description: `Insurance for New Zealand ${trade.name.toLowerCase()}, arranged through specialist brokers: public liability, tools, commercial vehicle, statutory liability and more.`,
     provider: { '@id': `${siteConfig.url}/#organization` },
     areaServed: { '@type': 'Country', name: 'New Zealand' },
     url: `${siteConfig.url}/trades/${slug}/`,
     serviceType: 'Insurance Broker Referral',
-    offers: {
-      '@type': 'Offer',
-      description: `${trade.name} insurance quotes from multiple licensed insurers`,
-      price: '0',
-      priceCurrency: 'NZD',
-      priceSpecification: { '@type': 'UnitPriceSpecification', description: 'Free broker matching service' },
-    },
   }
+
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: trade.faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  }
+
+  const sources = [...(trade.sources ?? []), ...STANDARD_SOURCES]
+  const cite = (i?: number) =>
+    i === undefined || !trade.sources?.[i] ? null : (
+      <a href={trade.sources[i].url} target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2 hover:text-orange-600">
+        Source
+      </a>
+    )
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* ── STICKY MOBILE CTA BAR ── */}
       <div className="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-gray-900/95 backdrop-blur border-t border-gray-700 px-4 py-3 flex items-center gap-3 shadow-2xl">
@@ -139,10 +174,10 @@ export default async function TradeTypePage({ params }: Props) {
             <div className="flex-1">
               <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-5 leading-tight">{trade.name} Insurance</h1>
               <p className="text-gray-200 text-xl max-w-2xl leading-relaxed mb-6">
-                Specialist cover for New Zealand {trade.name.toLowerCase()}. Licensed advisers, free service, 24-hour response.
+                {trade.heroLead ?? `Insurance for New Zealand ${trade.name.toLowerCase()}: the cover you need, what the law asks of you, and a specialist broker to arrange it.`}
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
-                {['Free broker matching', 'All NZ trades covered', 'Licensed advisers only', 'quick response'].map((b) => (
+                {['Specialist trade brokers', 'No cost to you', 'No obligation'].map((b) => (
                   <span key={b} className="inline-flex items-center gap-1.5 bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-full">
                     <span className="text-orange-400">✓</span> {b}
                   </span>
@@ -157,25 +192,20 @@ export default async function TradeTypePage({ params }: Props) {
                 </Link>
               </div>
             </div>
-            {/* Hero pricing callout */}
-            <div className="w-full lg:w-64 bg-gray-800/80 border border-gray-600 rounded-2xl p-6 backdrop-blur-sm">
-              <p className="text-gray-400 text-xs uppercase tracking-widest font-bold mb-3">Public Liability from</p>
-              <p className="text-orange-400 font-extrabold text-4xl mb-1">{trade.costFrom}</p>
-              <p className="text-gray-500 text-xs mb-5">Indicative only — subject to assessment</p>
-              <div className="space-y-2.5 mb-5">
-                {[
-                  { label: 'Cover range', val: '$1M – $20M' },
-                  { label: 'Response time', val: '24 hours' },
-                  { label: 'Service cost', val: 'Free' },
-                ].map((r) => (
-                  <div key={r.label} className="flex items-center justify-between text-xs">
-                    <span className="text-gray-400">{r.label}</span>
-                    <span className="text-white font-bold">{r.val}</span>
-                  </div>
+            {/* Hero: the covers this trade usually asks about (replaces an unsourced "from $X" price). */}
+            <div className="w-full lg:w-72 bg-gray-800/80 border border-gray-600 rounded-2xl p-6 backdrop-blur-sm">
+              <p className="text-gray-400 text-xs uppercase tracking-widest font-bold mb-3">Cover {trade.name.toLowerCase()} usually ask about</p>
+              <ul className="space-y-2 mb-5">
+                {recommended.map((c) => (
+                  <li key={c.slug}>
+                    <Link href={`/types/${c.slug}/`} className="flex items-center justify-between text-sm text-white hover:text-orange-300 transition-colors">
+                      <span>{c.name}</span><span className="text-orange-400">›</span>
+                    </Link>
+                  </li>
                 ))}
-              </div>
+              </ul>
               <a href="#get-quote" className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-bold text-sm py-2.5 rounded-lg text-center transition-colors">
-                Get My Quote →
+                Talk to a broker →
               </a>
             </div>
           </div>
@@ -186,7 +216,7 @@ export default async function TradeTypePage({ params }: Props) {
       <div className="bg-orange-500 py-3.5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
-            {['✓ Licensed & Regulated Advisers', '✓ 100% Free Service', '✓ No Obligation', '✓ All NZ Trades Covered', '✓ Quick Broker Response'].map((pill) => (
+            {['✓ Specialist Trade Brokers', '✓ No Cost to You', '✓ No Obligation', '✓ All NZ Trades'].map((pill) => (
               <span key={pill} className="text-white text-xs font-bold tracking-wide">{pill}</span>
             ))}
           </div>
@@ -204,30 +234,24 @@ export default async function TradeTypePage({ params }: Props) {
                 <p key={i} className="text-gray-700 leading-relaxed">{para}</p>
               ))}
             </div>
-            <div className="grid sm:grid-cols-3 gap-5 mb-8">
-              <div className="bg-orange-500 rounded-2xl p-6 text-center shadow-lg shadow-orange-500/20">
-                <div className="text-3xl font-extrabold text-white mb-2">{trade.costFrom}</div>
-                <div className="text-sm font-bold text-orange-100">Public Liability from</div>
-                <div className="text-xs text-orange-200 mt-1">indicative, subject to assessment</div>
+            {trade.stats && (
+              <div className="grid sm:grid-cols-3 gap-5 mb-8">
+                {trade.stats.map((st, i) => (
+                  <div key={st.label} className={i === 0 ? 'bg-orange-500 rounded-2xl p-6 shadow-lg shadow-orange-500/20 text-white' : i === 1 ? 'bg-gray-900 rounded-2xl p-6 text-white' : 'bg-gray-50 border-2 border-orange-200 rounded-2xl p-6 text-gray-900'}>
+                    <div className={`text-3xl font-extrabold mb-1 ${i === 1 ? 'text-orange-400' : i === 2 ? 'text-orange-500' : ''}`}>{st.value}</div>
+                    <div className="text-sm font-bold mb-2">{st.label}</div>
+                    <p className={`text-xs leading-relaxed ${i === 2 ? 'text-gray-600' : 'opacity-80'}`}>{st.note} {cite(st.source)}</p>
+                  </div>
+                ))}
               </div>
-              <div className="bg-gray-900 rounded-2xl p-6 text-center">
-                <div className="text-3xl font-extrabold text-orange-400 mb-2">$1M–$20M</div>
-                <div className="text-sm font-bold text-white">Typical PL Limit Range</div>
-                <div className="text-xs text-gray-400 mt-1">6 cover levels available</div>
-              </div>
-              <div className="bg-gray-50 border-2 border-orange-200 rounded-2xl p-6 text-center">
-                <div className="text-3xl font-extrabold text-orange-500 mb-2">24hrs</div>
-                <div className="text-sm font-bold text-gray-700">Broker Response Time</div>
-                <div className="text-xs text-gray-500 mt-1">Most tradies covered in 24–48hrs</div>
-              </div>
-            </div>
+            )}
           </section>
 
           {/* ── INLINE CTA 1 — after intro ── */}
           <div className="bg-gray-900 rounded-2xl p-6 mb-16 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <p className="text-white font-extrabold text-lg mb-1">Ready to get covered?</p>
-              <p className="text-gray-400 text-sm">Compare quotes from top insurers — free, no obligation.</p>
+              <p className="text-white font-extrabold text-lg mb-1">Not sure what you need?</p>
+              <p className="text-gray-400 text-sm">A specialist broker can check your contracts and current cover. No cost to you, no obligation.</p>
             </div>
             <a href="#get-quote" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-lg shadow-orange-500/30 flex-shrink-0">
               Get a Quote →
@@ -245,15 +269,20 @@ export default async function TradeTypePage({ params }: Props) {
                 </div>
               ))}
             </div>
-            {slug === 'builders' ? (
+            {/* Applies to every trade: cover is rarely a legal requirement, but it is a contract one. */}
+            <div className="bg-orange-50 border-l-4 border-orange-500 rounded-r-2xl p-5 mb-5">
+              <p className="text-orange-900 font-bold mb-1">Not required by law. Required to get the work.</p>
+              <p className="text-orange-800 text-sm">Insurance is not mandatory for most {trade.name.toLowerCase()}, but construction companies, head contractors and commercial clients routinely require public liability before you start, often at a set minimum limit with a certificate of currency. Cover protects your client as well as your business: if your work causes damage or injury, there is a policy to pay the claim.</p>
+            </div>
+            {trade.legalCallout ? (
               <div className="bg-blue-900/10 border-l-4 border-blue-500 rounded-r-2xl p-5 mb-0">
-                <p className="text-blue-900 font-bold mb-1">Building Act Requirement</p>
-                <p className="text-blue-800 text-sm">The Building Act 2004 requires Licensed Building Practitioners to disclose their insurance details to clients before signing a building contract. Operating without current cover may put your LBP licence at risk.</p>
+                <p className="text-blue-900 font-bold mb-1">{trade.legalCallout.title}</p>
+                <p className="text-blue-800 text-sm">{trade.legalCallout.body} {cite(trade.legalCallout.source)}</p>
               </div>
             ) : (
               <div className="bg-blue-900/10 border-l-4 border-blue-500 rounded-r-2xl p-5 mb-0">
                 <p className="text-blue-900 font-bold mb-1">Health and Safety at Work Act 2015</p>
-                <p className="text-blue-800 text-sm">All New Zealand businesses have a duty to ensure the health and safety of workers and others affected by their work. Statutory liability insurance protects you if WorkSafe NZ investigates or prosecutes following an incident on your site.</p>
+                <p className="text-blue-800 text-sm">Every New Zealand business has a duty to ensure the health and safety of workers and others affected by its work. Fines under the Act cannot be insured, but statutory liability insurance can pay the legal costs of responding to a WorkSafe investigation or prosecution.</p>
               </div>
             )}
           </section>
@@ -264,7 +293,7 @@ export default async function TradeTypePage({ params }: Props) {
               Get My {trade.name} Insurance Quote →
             </a>
             <span className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-gray-100 text-gray-600 px-6 py-3.5 rounded-xl text-sm">
-              <span className="text-green-600 font-bold">✓</span> Licensed advisers · Free service · No obligation
+              <span className="text-green-600 font-bold">✓</span> Specialist brokers · No cost to you · No obligation
             </span>
           </div>
 
@@ -278,10 +307,10 @@ export default async function TradeTypePage({ params }: Props) {
             <div>
               <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">Cover Types</span>
               <h2 className="text-3xl font-extrabold text-white mb-2">Cover Types for {trade.name}</h2>
-              <p className="text-gray-400 text-sm max-w-xl">Your licensed adviser will recommend the right combination for your business size and risk profile.</p>
+              <p className="text-gray-400 text-sm max-w-xl">What each cover typically includes and leaves out. Wordings differ between insurers, so check the policy itself.</p>
             </div>
             <a href="#get-quote" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-6 py-3 rounded-xl transition-colors text-sm shadow-lg shadow-orange-500/30 flex-shrink-0">
-              Get Quotes →
+              Get a Quote →
             </a>
           </div>
           <div className="grid sm:grid-cols-2 gap-6">
@@ -291,7 +320,6 @@ export default async function TradeTypePage({ params }: Props) {
                   <div className="flex items-center gap-3">
                     <div>
                       <h3 className="font-extrabold text-white">{c.name}</h3>
-                      <span className="text-orange-400 text-xs font-bold">From {c.fromPrice} <span className="text-gray-500 font-normal">(indicative)</span></span>
                     </div>
                   </div>
                   <Link href={`/types/${c.slug}/`} className="text-xs text-orange-400 hover:text-orange-300 font-bold whitespace-nowrap transition-colors">Details →</Link>
@@ -299,7 +327,7 @@ export default async function TradeTypePage({ params }: Props) {
                 <p className="text-gray-400 text-sm leading-relaxed mb-5">{c.description.split('.')[0]}.</p>
                 <div className="grid grid-cols-2 gap-4 border-t border-gray-700 pt-4">
                   <div>
-                    <p className="text-xs font-extrabold text-green-400 mb-2.5 flex items-center gap-1">✓ COVERED</p>
+                    <p className="text-xs font-extrabold text-green-400 mb-2.5 flex items-center gap-1">✓ TYPICALLY COVERED</p>
                     <ul className="space-y-1.5">
                       {(coverWhatsCovered[c.slug] || []).map((item, i) => (
                         <li key={i} className="text-xs text-gray-300 flex items-start gap-1.5 leading-relaxed">
@@ -309,7 +337,7 @@ export default async function TradeTypePage({ params }: Props) {
                     </ul>
                   </div>
                   <div>
-                    <p className="text-xs font-extrabold text-red-400 mb-2.5 flex items-center gap-1">✗ NOT COVERED</p>
+                    <p className="text-xs font-extrabold text-red-400 mb-2.5 flex items-center gap-1">✗ TYPICALLY EXCLUDED</p>
                     <ul className="space-y-1.5">
                       {(coverNotCovered[c.slug] || []).map((item, i) => (
                         <li key={i} className="text-xs text-gray-400 flex items-start gap-1.5 leading-relaxed">
@@ -332,9 +360,9 @@ export default async function TradeTypePage({ params }: Props) {
           <section className="mb-6">
             <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-8">
               <div>
-                <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">Real-World Claims</span>
+                <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">Claim Scenarios</span>
                 <h2 className="text-3xl font-extrabold text-gray-900 mb-2">What Can Go Wrong?</h2>
-                <p className="text-gray-600 text-sm max-w-xl">Based on real incidents in the NZ trades sector. Details are illustrative.</p>
+                <p className="text-gray-600 text-sm max-w-xl">The kinds of claims {trade.name.toLowerCase()} face. Scenarios are illustrative, and whether a policy responds depends on its wording.</p>
               </div>
             </div>
             <div className="grid sm:grid-cols-3 gap-6">
@@ -343,7 +371,7 @@ export default async function TradeTypePage({ params }: Props) {
                   <h3 className="font-extrabold text-gray-900 mb-2 text-sm leading-snug">{claim.title}</h3>
                   <p className="text-gray-600 text-xs leading-relaxed mb-4">{claim.scenario}</p>
                   <div className="bg-green-50 border-l-4 border-green-500 rounded-r-xl px-4 py-3">
-                    <p className="text-green-800 text-xs font-extrabold mb-0.5">{claim.coverType} covered:</p>
+                    <p className="text-green-800 text-xs font-extrabold mb-0.5">Where cover may respond: {claim.coverType}</p>
                     <p className="text-green-700 text-xs leading-relaxed">{claim.outcome}</p>
                   </div>
                 </div>
@@ -354,7 +382,7 @@ export default async function TradeTypePage({ params }: Props) {
           {/* ── INLINE CTA 3 — after claims (high intent moment) ── */}
           <div className="mt-8 mb-16 bg-orange-500 rounded-2xl p-8 text-center shadow-xl shadow-orange-500/20">
             <h3 className="text-2xl font-extrabold text-white mb-2">Don&apos;t Wait Until a Claim Happens</h3>
-            <p className="text-orange-100 mb-6 max-w-xl mx-auto">Get specialist {trade.name.toLowerCase()} insurance in place today — free broker matching, no obligation.</p>
+            <p className="text-orange-100 mb-6 max-w-xl mx-auto">Get {trade.name.toLowerCase()} insurance in place before the job that needs it. No cost to you, no obligation.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <a href="#get-quote" className="bg-white text-orange-600 hover:bg-orange-50 font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-md">
                 Get a Quote →
@@ -367,32 +395,24 @@ export default async function TradeTypePage({ params }: Props) {
 
           {/* ── COST TABLE ── */}
           <section className="mb-6">
-            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Pricing</span>
+            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Cost</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-4">How Much Does {trade.name} Insurance Cost?</h2>
-            <p className="text-gray-600 mb-8 leading-relaxed">The cost of {trade.name.toLowerCase()} insurance depends on your annual turnover, number of employees, claims history, and the level of cover you select. The table below provides indicative starting prices only.</p>
+            <p className="text-gray-600 mb-8 leading-relaxed">There is no fixed price for {trade.name.toLowerCase()} insurance. Each insurer rates your business on the details below, so two {trade.name.toLowerCase()} with the same cover can pay very different premiums. The way to find out what yours will cost is to be quoted on your actual numbers.</p>
             <div className="overflow-x-auto rounded-2xl border-2 border-gray-200 shadow-md mb-6">
               <table className="w-full text-sm border-collapse">
                 <thead>
                   <tr className="bg-gray-900">
                     <th className="text-left px-5 py-4 text-white font-bold border-r border-gray-700">Cover Type</th>
-                    <th className="text-left px-5 py-4 text-white font-semibold text-xs border-r border-gray-700">Starting Price</th>
-                    <th className="text-left px-5 py-4 text-white font-semibold text-xs border-r border-gray-700">Typical Cover Level</th>
-                    <th className="text-left px-5 py-4 text-white font-semibold text-xs">Notes</th>
+                    <th className="text-left px-5 py-4 text-white font-semibold text-xs">What the insurer prices it on</th>
                   </tr>
                 </thead>
                 <tbody>
                   {recommended.map((c, i) => (
-                    <tr key={c.slug} className={`${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-orange-50/40 transition-colors border-b border-gray-200 last:border-b-0`}>
+                    <tr key={c.slug} className={`${i % 2 === 0 ? 'bg-white' : 'bg-gray-50'} border-b border-gray-200 last:border-b-0`}>
                       <td className="px-5 py-4 border-r border-gray-200">
-                        <span className="font-extrabold text-gray-900">{c.name}</span>
+                        <Link href={`/types/${c.slug}/`} className="font-extrabold text-gray-900 hover:text-orange-600">{c.name}</Link>
                       </td>
-                      <td className="px-5 py-4 border-r border-gray-200">
-                        <span className="text-orange-600 font-extrabold text-base">{c.fromPrice}</span>
-                      </td>
-                      <td className="px-5 py-4 border-r border-gray-200 text-gray-700 text-xs">
-                        {c.slug === 'public-liability' ? '$1M–$20M' : c.slug === 'statutory-liability' ? '$250k–$1M' : c.slug === 'professional-indemnity' ? '$500k–$2M' : c.slug === 'income-protection' ? 'Up to 75% income' : 'Per policy'}
-                      </td>
-                      <td className="px-5 py-4 text-gray-400 text-xs">Subject to individual assessment</td>
+                      <td className="px-5 py-4 text-gray-700 text-xs">{pricedOn[c.slug] ?? 'Sum insured or limit, and your business details'}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -410,11 +430,11 @@ export default async function TradeTypePage({ params }: Props) {
           {/* ── INLINE CTA 4 — after cost table ── */}
           <div className="mb-16 bg-gray-900 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <p className="text-white font-extrabold mb-1">Get an accurate quote for your business</p>
-              <p className="text-gray-400 text-sm">Our brokers compare multiple insurers to find the best rate for your trade and turnover.</p>
+              <p className="text-white font-extrabold mb-1">Get priced on your actual numbers</p>
+              <p className="text-gray-400 text-sm">A specialist broker takes your turnover, staff and the work you do, and arranges quotes to match.</p>
             </div>
             <a href="#get-quote" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3 rounded-xl transition-colors text-sm flex-shrink-0 shadow-lg shadow-orange-500/20">
-              Compare Quotes Free →
+              Get a Quote →
             </a>
           </div>
 
@@ -431,8 +451,8 @@ export default async function TradeTypePage({ params }: Props) {
               ))}
             </div>
             <div className="bg-amber-50 border-2 border-amber-200 rounded-2xl p-6">
-              <p className="font-extrabold text-amber-900 mb-2 flex items-center gap-2"><span className="text-amber-500">⚠</span> Important: Statutory Liability and RMA Fines</p>
-              <p className="text-amber-800 text-sm leading-relaxed">As of late 2025, statutory liability insurance may no longer cover fines under the Resource Management Act. Additionally, fines under the Health and Safety at Work Act 2015 cannot be insured by law — however, legal defence costs for WorkSafe NZ investigations and prosecutions remain insurable. Discuss the current scope of statutory liability cover with your licensed adviser before relying on it for RMA compliance.</p>
+              <p className="font-extrabold text-amber-900 mb-2 flex items-center gap-2"><span className="text-amber-500">⚠</span> Fines you cannot insure</p>
+              <p className="text-amber-800 text-sm leading-relaxed">Since 20 August 2025, fines under the Resource Management Act cannot be insured, and the maximum fines rose to $1 million for individuals and $10 million for companies. Defence costs and court-ordered remediation can still be insured. Insuring against fines under the Health and Safety at Work Act 2015 is also unlawful. Statutory liability cover still matters for defence costs, but check what your policy now pays for.</p>
             </div>
           </section>
 
@@ -448,7 +468,7 @@ export default async function TradeTypePage({ params }: Props) {
               {recommended.map((c) => (
                 <Link key={c.slug} href={`/types/${c.slug}/`} className="group bg-white border-2 border-gray-100 hover:border-orange-300 rounded-2xl p-4 transition-all hover:shadow-lg">
                   <p className="font-extrabold text-gray-900 group-hover:text-orange-600 text-sm transition-colors">{c.name}</p>
-                  <p className="text-orange-500 text-xs font-bold mt-0.5">From {c.fromPrice}</p>
+                  <p className="text-gray-500 text-xs mt-0.5">What it covers →</p>
                 </Link>
               ))}
             </div>
@@ -474,7 +494,7 @@ export default async function TradeTypePage({ params }: Props) {
           <div className="mt-8 mb-0 bg-gray-50 border-2 border-orange-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-gray-900 font-extrabold mb-1">Still have questions? Talk to a specialist.</p>
-              <p className="text-gray-500 text-sm">Our licensed brokers answer trade-specific questions before you commit to anything.</p>
+              <p className="text-gray-500 text-sm">A specialist broker can answer trade-specific questions before you commit to anything.</p>
             </div>
             <div className="flex gap-3 flex-shrink-0">
               <a href="#get-quote" className="bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-6 py-3 rounded-xl transition-colors text-sm">
@@ -497,22 +517,22 @@ export default async function TradeTypePage({ params }: Props) {
             {/* Left — trust copy */}
             <div className="flex-1">
               <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-5">
-                Free {trade.name} Insurance Quotes
+                {trade.name} Insurance Quotes
               </span>
               <h2 className="text-3xl font-extrabold text-white mb-5 leading-tight">
-                Get the Right {trade.name} Insurance — Without Overpaying
+                Get the Right {trade.name} Insurance
               </h2>
               <p className="text-gray-300 leading-relaxed mb-8">
-                Our free broker matching service connects you with a specialist who knows {trade.name.toLowerCase()} risks inside out. They compare multiple insurers and find cover that fits your contracts, your business size, and your budget.
+                Tell us about your business and a specialist broker who works with {trade.name.toLowerCase()} will be in touch. They look at your contracts, the work you do and the cover you already hold, then recommend cover and arrange quotes. No cost to you, no obligation.
               </p>
 
               {/* Why us list */}
               <div className="space-y-4 mb-8">
                 {[
-                  { title: 'Saves you hours of research', desc: 'One form, multiple quotes. No need to call every insurer yourself.' },
-                  { title: 'Saves money vs going direct', desc: 'Brokers access negotiated rates and compare the full market for you.' },
-                  { title: 'Cover matched to your trade', desc: `Specialist ${trade.name.toLowerCase()} cover — not a generic policy with gaps.` },
-                  { title: 'No obligation, no pressure', desc: 'Review the quotes in your own time. Our brokers advise — they don\'t sell.' },
+                  { title: 'One form, not ten phone calls', desc: 'Tell us once. The broker does the running around with insurers.' },
+                  { title: 'Cover matched to your trade', desc: `A broker who works with ${trade.name.toLowerCase()} knows where standard policies leave gaps.` },
+                  { title: 'Advice before you buy', desc: 'Ask what a policy does and does not cover before you commit.' },
+                  { title: 'No obligation', desc: 'Review what you are offered in your own time.' },
                 ].map((item) => (
                   <div key={item.title} className="flex items-start gap-3">
                     <span className="text-orange-400 font-bold flex-shrink-0 mt-0.5">✓</span>
@@ -526,7 +546,7 @@ export default async function TradeTypePage({ params }: Props) {
 
               {/* Trust badges */}
               <div className="flex flex-wrap gap-2 mb-8">
-                {['Registered Financial Service Providers', 'No Obligation', 'Free Service', 'All Trades', 'NZ Based', 'Quick Response'].map((pill) => (
+                {['Registered Financial Service Providers', 'No Obligation', 'No Cost to You', 'All Trades', 'NZ Based'].map((pill) => (
                   <span key={pill} className="text-xs text-gray-300 bg-gray-700 border border-gray-600 px-3 py-1.5 rounded-full flex items-center gap-1.5">
                     <span className="text-orange-400">✓</span> {pill}
                   </span>
@@ -536,12 +556,12 @@ export default async function TradeTypePage({ params }: Props) {
               {/* Contact */}
               <div className="bg-gray-900/50 border border-gray-600 rounded-2xl p-5">
                 <p className="text-gray-300 text-xs font-bold uppercase tracking-widest mb-3">Got Questions?</p>
-                <p className="text-white font-bold text-sm mb-3">Email our team and we&apos;ll get back to you within 24 hours.</p>
+                <p className="text-white font-bold text-sm mb-3">Email our team with any question about cover.</p>
                 <a href={`mailto:${siteConfig.email}`} className="text-orange-400 hover:text-orange-300 font-bold text-sm transition-colors block mb-3">
                   {siteConfig.email}
                 </a>
                 <div className="flex flex-wrap gap-1.5">
-                  {['Registered FSP', 'Free Service', 'No Obligation'].map((b) => (
+                  {['Registered FSP', 'No Cost to You', 'No Obligation'].map((b) => (
                     <span key={b} className="text-xs text-gray-400 bg-gray-800 border border-gray-600 px-2 py-1 rounded-full">✓ {b}</span>
                   ))}
                 </div>
@@ -560,7 +580,9 @@ export default async function TradeTypePage({ params }: Props) {
       {(() => {
         const tradeGuideMap: Record<string, { href: string; label: string }[]> = {
           builders: [
-            { href: '/tradie-insurance/builder-insurance-nz/', label: 'Builder Insurance Guide' },
+            { href: '/blog/other-trades-defective-workmanship-cover/', label: 'Defective Workmanship by Other Trades' },
+            { href: '/blog/builder-insurance-checklist-nz/', label: 'Builder Insurance Checklist' },
+            { href: '/blog/building-amendment-bill-liability-insurance-2026/', label: 'Building Liability Reform' },
             { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
             { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance Guide' },
           ],
@@ -598,10 +620,25 @@ export default async function TradeTypePage({ params }: Props) {
         )
       })()}
 
+      {/* ── SOURCES ── */}
+      <div className="bg-white border-t border-gray-100 py-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-sm font-extrabold text-gray-900 uppercase tracking-widest mb-3">Sources</h2>
+          <ul className="space-y-1.5 text-sm">
+            {sources.map((src) => (
+              <li key={src.url}>
+                <a href={src.url} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-orange-600 underline decoration-gray-300 underline-offset-2">{src.label}</a>
+              </li>
+            ))}
+          </ul>
+          <p className="text-xs text-gray-400 mt-4">General information, not advice. Cover depends on the policy wording and the insurer&apos;s assessment.</p>
+        </div>
+      </div>
+
       {/* ── BOTTOM CTA ── */}
       <div className="bg-gray-900 py-10 border-t border-gray-800 pb-24 lg:pb-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-gray-600 text-xs">All prices indicative only and subject to individual insurer assessment. Insurance arranged by licensed financial advisers under applicable New Zealand legislation. This is a referral service — the referred advisers hold their own Financial Advice Provider licences.</p>
+          <p className="text-gray-600 text-xs">Premiums are set by each insurer on your details. Insurance arranged by licensed financial advisers under applicable New Zealand legislation. This is a referral service — the referred advisers hold their own Financial Advice Provider licences.</p>
         </div>
       </div>
     </>

@@ -5,7 +5,7 @@
   "priority": "1.0"
  },
  "/compare/": {
-  "lastmod": "2026-05-21",
+  "lastmod": "2026-09-22",
   "changefreq": "monthly",
   "priority": "0.9"
  },
@@ -70,7 +70,7 @@
   "priority": "0.9"
  },
  "/trades/builders/": {
-  "lastmod": "2026-05-21",
+  "lastmod": "2026-09-22",
   "changefreq": "monthly",
   "priority": "0.8"
  },
@@ -256,11 +256,6 @@
  },
  "/tradie-insurance/tradie-insurance-gisborne/": {
   "lastmod": "2026-08-07",
-  "changefreq": "monthly",
-  "priority": "0.8"
- },
- "/tradie-insurance/builder-insurance-nz/": {
-  "lastmod": "2026-05-21",
   "changefreq": "monthly",
   "priority": "0.8"
  },

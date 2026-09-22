@@ -142,28 +142,6 @@ export const landingPages: LandingPage[] = [
     ],
   },
   {
-    slug: 'builder-insurance-nz',
-    title: 'Builder Insurance NZ',
-    metaTitle: 'Builder Insurance NZ 2026 | Public Liability & Tools',
-    metaDesc: 'Comprehensive builder insurance in NZ — public liability, contract works, tools & income protection. Quotes from specialist NZ builder insurance brokers.',
-    hero: 'Builder Insurance NZ: Complete Cover for NZ Builders',
-    intro: 'Builder insurance is more complex than most other trades, because builders carry more risk — both in terms of the types of work they do and the long-tail liability that can arise from structural defects. Getting the right cover is essential for any NZ builder, from sole traders to large building companies.',
-    sections: [
-      {
-        heading: 'What Insurance Does a Builder Need?',
-        body: 'A comprehensive builder insurance package typically includes:\n\n**Public Liability:** The foundation of any builder\'s insurance — covers third-party injury and property damage. Limits should reflect your largest contract value.\n\n**Contract Works Insurance:** Covers the partially completed structure and materials on site against fire, theft, storm, and accidental damage.\n\n**Professional Indemnity:** Essential for LBPs and builders who provide design input or professional advice.\n\n**Statutory Liability:** Covers legal defence costs if prosecuted for health and safety breaches under HSWA.\n\n**Tools and Equipment:** Covers theft and damage to your tools on site and in your vehicle.\n\n**Commercial Vehicle:** Covers your ute, van, or truck for business use.',
-      },
-      {
-        heading: 'LBP Insurance Requirements',
-        body: 'Licensed Building Practitioners (LBPs) have specific insurance considerations. As an LBP, you personally certify that your work meets the Building Code. If that certification proves incorrect, you can face both regulatory sanctions and civil liability.\n\nProfessional indemnity insurance is strongly recommended for LBPs — and increasingly, principal contractors and homeowners on larger projects require LBPs to hold PI cover. Check the requirements in your building contracts and licensing conditions.',
-      },
-      {
-        heading: 'How Much Does Builder Insurance Cost?',
-        body: 'Builder insurance costs depend on your annual turnover, the type of work you do, and the cover you need. Rough indicative figures:\n\n- Sole trader builder, public liability only: NZ$50–$100/month\n- Small building company (1–5 staff), public liability + tools: NZ$150–$300/month\n- Larger building company with full package: NZ$300–$800+/month\n\nThese are indicative ranges only. Use our free quote service to get a precise figure for your specific situation.',
-      },
-    ],
-  },
-  {
     slug: 'public-liability-tradies-nz',
     title: 'Public Liability for Tradies NZ',
     metaTitle: 'Public Liability for Tradies | From NZ$30/Month',
