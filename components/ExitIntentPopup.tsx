@@ -71,19 +71,18 @@ function DesktopPopup({ onClose, onArticle }: { onClose: () => void; onArticle: 
           aria-label="Close"
         >✕</button>
 
-        <p className="text-xs font-bold uppercase tracking-widest text-orange-600 mb-3">Did you know?</p>
+        <p className="text-xs font-bold uppercase tracking-widest text-orange-600 mb-3">Defective workmanship</p>
 
         <h2 id="exit-popup-title" className="text-2xl font-extrabold text-gray-900 mb-3 leading-tight">
-          If a trade you brought on gets it wrong, the client comes to you.
+          Don&apos;t let other tradies&apos; mistakes cost you.
         </h2>
         <p className="text-gray-600 text-sm leading-relaxed mb-3">
-          On residential work, the contractor who signed with the client has to fix defects in the first 12
-          months, including a subcontractor&apos;s. Standard public liability often won&apos;t pay to put faulty
-          work right.
+          <strong className="text-gray-800">Did you know?</strong> On residential work, the contractor who signed
+          with the client has to fix defects in the first 12 months, including a subcontractor&apos;s. Standard
+          public liability often won&apos;t pay to put faulty work right.
         </p>
         <p className="text-gray-600 text-sm leading-relaxed mb-6">
-          Some policies can be extended to cover defective workmanship by the trades you engage. Find out
-          whether yours does, before a subbie&apos;s mistake becomes your claim.
+          Check whether your policy covers defective workmanship by the trades you bring on.
         </p>
 
         <div className="flex flex-col gap-3">
@@ -127,9 +126,7 @@ function MobileStickyBar({ onClose }: { onClose: () => void }) {
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-slate-900 border-t-2 border-orange-500 shadow-2xl">
       <div className="flex items-center gap-2 px-3 py-2">
         <p className="flex-1 min-w-0 text-xs leading-tight text-white">
-          {/* Dropped below 380px (small Androids) so the line still fits in two rows. */}
-          <span className="hidden font-bold text-orange-400 min-[380px]:inline">Did you know? </span>
-          <span className="font-semibold">A subbie&apos;s mistake can be your claim.</span>
+          <span className="font-semibold">Don&apos;t let other tradies&apos; mistakes cost you.</span>
         </p>
         <Link
           href="/contact/"
