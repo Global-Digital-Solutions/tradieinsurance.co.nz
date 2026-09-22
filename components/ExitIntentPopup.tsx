@@ -120,24 +120,28 @@ function DesktopPopup({ onClose, onArticle }: { onClose: () => void; onArticle: 
 }
 
 function MobileStickyBar({ onClose }: { onClose: () => void }) {
+  // Kept to roughly 48px at 390px — half the first version, which stacked an
+  // eyebrow over a three-line message and took 95–113px of a phone screen.
+  // One run of small text, a compact button, no second line of chrome.
   return (
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-slate-900 border-t-2 border-orange-500 shadow-2xl">
-      <div className="flex items-center gap-3 px-4 py-3">
-        <div className="flex-1 min-w-0">
-          <p className="text-orange-400 text-[11px] font-bold uppercase tracking-wide">Did you know?</p>
-          <p className="text-white font-semibold text-sm leading-tight">A subbie&apos;s mistake can become your claim.</p>
-        </div>
+      <div className="flex items-center gap-2 px-3 py-2">
+        <p className="flex-1 min-w-0 text-xs leading-tight text-white">
+          {/* Dropped below 380px (small Androids) so the line still fits in two rows. */}
+          <span className="hidden font-bold text-orange-400 min-[380px]:inline">Did you know? </span>
+          <span className="font-semibold">A subbie&apos;s mistake can be your claim.</span>
+        </p>
         <Link
           href="/contact/"
           onClick={onClose}
-          className="shrink-0 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-xl text-sm transition-colors"
+          className="shrink-0 whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-bold py-1.5 px-3 rounded-lg text-xs transition-colors"
         >
           Check my cover
         </Link>
         <button
           onClick={onClose}
           aria-label="Dismiss"
-          className="shrink-0 text-gray-500 hover:text-gray-300 text-lg leading-none p-1 transition-colors"
+          className="shrink-0 text-gray-500 hover:text-gray-300 text-base leading-none p-1 transition-colors"
         >✕</button>
       </div>
     </div>
