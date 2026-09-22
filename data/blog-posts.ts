@@ -546,7 +546,7 @@ Use our service to connect with a specialist broker who can assess your income p
   },
   {
     slug: 'worksafe-nz-tradies-compliance',
-    title: 'WorkSafe NZ: What Tradies Need to Know About Health & Safety',
+    title: 'WorkSafe: What Tradies Need to Know About Safety',
     excerpt: 'The Health and Safety at Work Act 2015 places real obligations on tradies. Here is what you need to know to stay compliant and how insurance protects you.',
     category: 'Compliance',
     readTime: '7 min read',
@@ -656,7 +656,7 @@ Use our service to connect with a specialist broker who can ensure your insuranc
   },
   {
     slug: 'compare-tradie-insurance-providers-nz',
-    title: 'Comparing Tradie Insurance: AMI vs State vs BizCover vs Builtin',
+    title: 'Tradie Insurance Compared: AMI, State, BizCover, Builtin',
     excerpt: 'A practical comparison of the main tradie insurance providers — what they offer, their strengths, and how to choose the right one for your trade.',
     category: 'Comparison',
     readTime: '7 min read',

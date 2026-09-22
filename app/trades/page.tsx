@@ -5,7 +5,7 @@ import { siteConfig } from '@/data/site-config'
 
 export const metadata: Metadata = {
   title: { absolute: 'Tradie Insurance by Trade Type | TradieInsurance.co.nz' },
-  description: 'Find insurance for every NZ trade — builders, plumbers, electricians, painters, roofers & more. Specialist cover matched to your trade\'s specific risks.',
+  description: 'Insurance for every NZ trade: builders, plumbers, electricians, painters, roofers and more. What each trade needs to insure, and what the rules require.',
   alternates: { canonical: `${siteConfig.url}/trades/` },
   openGraph: {
     type: 'website',

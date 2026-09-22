@@ -604,23 +604,75 @@ export default async function TradeTypePage({ params }: Props) {
 
       {/* ── RELATED GUIDES ── */}
       {(() => {
+        // Trade pages link to the articles that actually bear on that trade.
+        // This is also what gives newer articles inbound links from somewhere
+        // other than the blog index: every post below is reachable from at
+        // least one trade page.
         const tradeGuideMap: Record<string, { href: string; label: string }[]> = {
           builders: [
             { href: '/blog/other-trades-defective-workmanship-cover/', label: 'Defective Workmanship by Other Trades' },
             { href: '/blog/builder-insurance-checklist-nz/', label: 'Builder Insurance Checklist' },
+            { href: '/blog/granny-flat-exemption-builder-liability-2026/', label: 'Granny Flat Builds and Cover' },
             { href: '/blog/building-amendment-bill-liability-insurance-2026/', label: 'Building Liability Reform' },
-            { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
-            { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance Guide' },
           ],
+          plumbers: [
+            { href: '/blog/self-certification-plumbers-drainlayers-2026/', label: 'Plumber Self-Certification 2026' },
+            { href: '/blog/other-trades-defective-workmanship-cover/', label: 'Defective Workmanship by Other Trades' },
+          ],
+          'drain-layers': [
+            { href: '/blog/self-certification-plumbers-drainlayers-2026/', label: 'Self-Certification for Drainlayers' },
+            { href: '/blog/contract-works-insurance-nz-tradies/', label: 'Contract Works Explained' },
+          ],
+          gasfitters: [{ href: '/blog/gasfitter-insurance-nz-guide/', label: 'Gasfitter Insurance Guide' }],
+          electricians: [{ href: '/blog/electrician-insurance-nz/', label: 'Electrician Insurance Guide' }],
+          scaffolders: [
+            { href: '/blog/scaffolding-insurance-nz-guide/', label: 'Scaffolding Insurance Guide' },
+            { href: '/blog/height-safety-law-changes-tradies-2026/', label: 'Height Safety Law Changes' },
+          ],
+          roofers: [
+            { href: '/blog/height-safety-law-changes-tradies-2026/', label: 'Height Safety Law Changes' },
+            { href: '/blog/worksafe-residential-height-assessments-2026/', label: 'Height Assessments on Residential Sites' },
+            { href: '/blog/cyclone-damage-claims-tradies-nz/', label: 'Storm and Cyclone Claims' },
+          ],
+          painters: [{ href: '/blog/height-safety-law-changes-tradies-2026/', label: 'Height Safety Law Changes' }],
+          plasterers: [{ href: '/blog/other-trades-defective-workmanship-cover/', label: 'Defective Workmanship by Other Trades' }],
+          tilers: [{ href: '/blog/other-trades-defective-workmanship-cover/', label: 'Defective Workmanship by Other Trades' }],
+          bricklayers: [{ href: '/blog/two-speed-building-market-tradie-insurance-2026/', label: 'The Two-Speed Building Market' }],
+          'carpenters-woodworkers': [
+            { href: '/blog/two-speed-building-market-tradie-insurance-2026/', label: 'The Two-Speed Building Market' },
+            { href: '/blog/builder-insurance-checklist-nz/', label: 'Builder Insurance Checklist' },
+          ],
+          concreters: [{ href: '/blog/nz-infrastructure-boom-tradie-insurance-2026/', label: 'Insurance for Big Sites' }],
+          handymen: [{ href: '/blog/tradie-business-structure-insurance-nz/', label: 'Sole Trader vs Company' }],
+          landscapers: [{ href: '/blog/storm-flood-claims-tradies-nz-2026/', label: 'Storm and Flood Claims' }],
+          fencers: [
+            { href: '/blog/fencer-insurance-nz-guide/', label: 'Fencer Insurance Guide' },
+            { href: '/blog/storm-flood-claims-tradies-nz-2026/', label: 'Storm and Flood Claims' },
+          ],
+          arborists: [{ href: '/blog/cyclone-damage-claims-tradies-nz/', label: 'Storm and Cyclone Claims' }],
+          welders: [{ href: '/blog/worksafe-nz-tradies-compliance/', label: 'WorkSafe and Health and Safety' }],
+          glaziers: [{ href: '/blog/tradie-vehicle-insurance-nz/', label: 'Vehicle Cover for Tradies' }],
+          'hvac-technicians': [
+            { href: '/blog/hvac-refrigeration-insurance-nz/', label: 'HVAC Technician Insurance' },
+            { href: '/blog/tradie-vehicle-insurance-nz/', label: 'Vehicle Cover for Tradies' },
+          ],
+          'irrigation-specialists': [{ href: '/blog/tradie-vehicle-insurance-nz/', label: 'Vehicle Cover for Tradies' }],
         }
-        const defaultGuides = [
-          { href: '/tradie-insurance/best-tradie-insurance/', label: 'Best Tradie Insurance' },
-          { href: '/tradie-insurance/compare-tradie-insurance/', label: 'Compare Tradie Insurance' },
+        // Shown on every trade page, after the trade-specific articles.
+        const commonGuides = [
           { href: '/tradie-insurance/public-liability-tradies-nz/', label: 'Public Liability for Tradies' },
           { href: '/tradie-insurance/tool-insurance-nz/', label: 'Tool Insurance Guide' },
+          { href: '/blog/contract-works-insurance-nz-tradies/', label: 'Contract Works Explained' },
+          { href: '/compare/', label: 'How to Compare Cover' },
+        ]
+        const defaultGuides = [
+          { href: '/tradie-insurance/best-tradie-insurance/', label: 'Best Tradie Insurance' },
           { href: '/tradie-insurance/tradie-insurance-cost-nz/', label: 'How Much Does It Cost?' },
         ]
-        const guides = tradeGuideMap[trade.slug] ?? defaultGuides
+        const guides = [
+          ...(tradeGuideMap[trade.slug] ?? defaultGuides),
+          ...commonGuides.filter((g) => !(tradeGuideMap[trade.slug] ?? []).some((x) => x.href === g.href)),
+        ]
         return (
           <div className="bg-orange-50 border-t border-orange-100 py-10">
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
