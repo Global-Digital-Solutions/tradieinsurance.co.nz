@@ -2188,6 +2188,86 @@ Finally, pull out your statutory liability schedule and read the limit. Many tra
 
 You have a quarter's notice on exactly what the regulator is coming to look at, which is more warning than most compliance changes give you. Use the same window to check the statutory liability section of your policy actually matches the exposure. A specialist broker can review your limits, confirm whether officers and workers are named, and tell you where defence costs sit before an inspector walks onto your site — [Get a Quote](/contact/) and have it looked at this month.`,
   },
+  {
+    slug: 'other-trades-defective-workmanship-cover',
+    title: "When Another Trade's Mistake Lands on You",
+    excerpt: "On residential work, the contractor who signed with the client has to put defects right, including a subcontractor's. Standard public liability often will not pay for it. Here is where the gap sits and the questions to ask about your own policy.",
+    category: 'Guide',
+    readTime: '7 min read',
+    date: '2026-09-22',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=800&q=80',
+    content: `## The Call That Comes Six Months Later
+
+You ran the bathroom renovation. You did the framing, the lining and the finishing, and you brought in a plumber you have used for years to do the rough-in and fit-off. The job was signed off, the client paid, and everyone moved on.
+
+Six months later the client rings. A shower connection behind the new tiles was never properly crimped. It has been weeping into the wall cavity, and now there is a stain spreading across the ceiling of the room below. The tiles have to come off, the wall has to be opened, and the downstairs ceiling needs replacing.
+
+The client does not ring the plumber. They ring you, because their contract is with you. That scenario is illustrative, but the obligation behind it is not.
+
+## Why the Client Comes to You
+
+The Building Act gives homeowners implied warranties on residential building work, and MBIE's guidance on building.govt.nz says those warranties apply for up to 10 years, whether or not there is a written contract.
+
+There is also a defect repair period of 12 months from the date the building work is complete. If a defect shows up in that time, the builder must put it right within a reasonable timeframe of being notified in writing. MBIE is specific about who carries it: it is up to the builder to arrange and manage the repairs, including any defects in work done by subcontractors.
+
+In other words, if a trade you brought onto the job gets it wrong, the first call is yours. You may be able to recover the cost from them afterwards, but the client does not have to go to them, and you do not get to tell the client to wait while you sort it out.
+
+## What Your Public Liability Probably Does Not Do
+
+Most tradies assume public liability covers this. Often it does not, or only covers part of it.
+
+AA Insurance puts the distinction plainly in its own help guidance: defective workmanship cover and public liability cover protect you in different situations. Public liability responds to damage to other people's property around your work that you are not directly working on. Defective workmanship cover is about damage to the property you are working on, caused by defective work.
+
+Apply that to the bathroom. The ceiling in the room below was not part of the job, so a public liability policy may well respond to it. The bathroom itself, the tiles and lining that have to come off and go back on, is the property that was being worked on. A standard public liability policy commonly excludes that, and that is usually the more expensive half of the bill.
+
+## The Extensions That Close the Gap
+
+The gap is well known in the industry, and insurers offer extensions for it, usually called property being worked on, faulty workmanship or defective workmanship cover. Names and triggers differ between insurers, so the details below are one insurer's version to show what to look for, not a description of every policy.
+
+QBE's New Zealand liability product briefing describes its faulty workmanship cover as paying the cost of repairing or replacing third-party property that the insured worked on and that was damaged due to faulty workmanship, with a sub-limit of NZD 100,000.
+
+The same briefing deals with the subcontractor question. Where labour-only contractors or subcontractors are not otherwise insured, QBE treats them as employees while they are carrying out the insured's business. Other insurers take a different line and make it a condition of your policy that the trades you engage hold their own public liability cover. That is the single most important thing to find out about your own wording, because it decides whether the plumber's mistake in the example is covered under your policy, under theirs, or under neither.
+
+## What These Extensions Still Do Not Do
+
+Even the right extension is liability cover, not a maintenance guarantee. It responds where you have a legal liability to someone else, not to the cost of improving work that was simply below standard.
+
+The QBE briefing also excludes poor workmanship relating to leaky or mouldy buildings, and products that have not been completed or handed over. Water penetration, mould, rot and gradual deterioration are common exclusions across the market, as are defects in design and in materials.
+
+Most wordings also respond to damage caused by the faulty work, rather than to the work simply being wrong. A few are broader and do not require physical damage before they respond. You need to know which kind you have.
+
+## Five Questions to Ask About Your Own Policy
+
+Pull out your schedule and wording, or ask whoever arranged it, and get a straight answer to each of these.
+
+- Does my policy include a property being worked on or defective workmanship extension, and what is the sub-limit?
+- Does that extension respond to work done by subcontractors I engage, or only to my own employees?
+- Does my policy require every trade I bring on to hold their own public liability, and at what limit?
+- Does the extension need physical damage before it responds, or does it cover defective work on its own?
+- What is excluded: water penetration, mould, gradual damage, design, materials, work not yet handed over?
+
+## What to Do on Your Next Job
+
+Ask every trade you engage for a current public liability certificate before they start, and check the limit and the expiry date rather than filing it. If your policy requires them to be insured and they are not, the gap is yours.
+
+Put the scope of each trade's work in writing, even briefly. When something goes wrong a year later, the first argument is always about whose work it was.
+
+Keep your completion dates and sign-offs somewhere you can find them. The 12-month defect repair period runs from completion, and after that period the homeowner has to prove the work is defective rather than you having to show it is not, according to MBIE.
+
+## Key Takeaways
+
+- On residential building work, the contractor who signed with the client must arrange and manage defect repairs in the first 12 months, including defects in subcontractors' work (MBIE).
+- Implied warranties under the Building Act apply for up to 10 years.
+- Public liability and defective workmanship cover protect different situations. Public liability usually does not pay to repair the property you were working on.
+- Defective workmanship or property being worked on extensions exist, but sub-limits apply. QBE, for example, publishes NZD 100,000.
+- Whether that extension covers work by the trades you engage depends on the wording. Some treat uninsured subcontractors as employees; others require subbies to carry their own cover.
+- Leaky building, mould, gradual damage, design and materials are common exclusions.
+
+If you regularly bring other trades onto your jobs, this is the part of your cover worth checking before the next one starts. A registered adviser can read your current schedule against how you actually work, and tell you whether cover available through them extends defective workmanship protection to the trades you engage, and at what limit.
+
+Sources: Building Performance (MBIE), <a href="https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/implied-warranties-and-defects/" target="_blank" rel="noopener" class="text-orange-700 underline">Implied warranties and defects</a> and <a href="https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/know-your-rights-consumers/once-building-work-finishes/" target="_blank" rel="noopener" class="text-orange-700 underline">Once building work finishes</a>. AA Insurance help centre, Do I need defective workmanship cover if I have public liability cover? QBE New Zealand, General, Statutory and Employers Liability product briefing, October 2022. Policy terms vary by insurer; the wording of your own policy governs.`,
+  },
 ]
 
 export function getBlogBySlug(slug: string): BlogPost | undefined {

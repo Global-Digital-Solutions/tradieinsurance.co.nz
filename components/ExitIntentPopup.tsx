@@ -2,9 +2,36 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+
+/**
+ * Exit intent, site-wide (mounted once in app/layout.tsx).
+ *
+ * The message is one specific, true thing most tradies have not thought about,
+ * rather than a generic "need cover?": on residential work the contractor who
+ * signed with the client carries the defect repair obligation, including for
+ * work done by subcontractors (MBIE, building.govt.nz), and standard public
+ * liability generally does not pay to put faulty work right. It links to the
+ * article that explains it properly.
+ *
+ * Wording rules this copy is held to:
+ * - It never says WE cover anything. This site refers enquiries; the adviser
+ *   and the insurer decide what cover is available.
+ * - It never promises cover for other trades' work. Whether a defective
+ *   workmanship extension responds to work by subcontractors depends on the
+ *   wording (QBE, for example, treats uninsured labour-only subcontractors as
+ *   employees; others require subbies to hold their own cover). So the ask is
+ *   "find out whether yours does", which is true for every reader.
+ * - Change this copy only alongside the article, so the two stay in step.
+ */
 
 const STORAGE_KEY = 'exitPopupLastShown'
 const COOLDOWN_DAYS = 7
+const ARTICLE = '/blog/other-trades-defective-workmanship-cover/'
+
+// Pages where an interruption is wrong: the form itself, and the page people
+// land on after using it.
+const SUPPRESS = ['/contact/', '/thank-you/']
 
 function hasRecentlyShown(): boolean {
   try {
@@ -14,6 +41,10 @@ function hasRecentlyShown(): boolean {
   } catch { return false }
 }
 
+function alreadyShownThisSession(): boolean {
+  try { return !!sessionStorage.getItem(STORAGE_KEY) } catch { return false }
+}
+
 function markShown() {
   try {
     localStorage.setItem(STORAGE_KEY, Date.now().toString())
@@ -21,11 +52,14 @@ function markShown() {
   } catch { /* ignore */ }
 }
 
-function DesktopPopup({ onClose }: { onClose: () => void }) {
+function DesktopPopup({ onClose, onArticle }: { onClose: () => void; onArticle: boolean }) {
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm px-4"
       onClick={onClose}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="exit-popup-title"
     >
       <div
         className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8 relative"
@@ -37,13 +71,19 @@ function DesktopPopup({ onClose }: { onClose: () => void }) {
           aria-label="Close"
         >✕</button>
 
-        <div className="w-12 h-1 bg-orange-500 rounded-full mb-5" />
+        <p className="text-xs font-bold uppercase tracking-widest text-orange-600 mb-3">Did you know?</p>
 
-        <h2 className="text-2xl font-extrabold text-gray-900 mb-3 leading-tight">
-          Not sure which cover is right for your trade?
+        <h2 id="exit-popup-title" className="text-2xl font-extrabold text-gray-900 mb-3 leading-tight">
+          If a trade you brought on gets it wrong, the client comes to you.
         </h2>
+        <p className="text-gray-600 text-sm leading-relaxed mb-3">
+          On residential work, the contractor who signed with the client has to fix defects in the first 12
+          months, including a subcontractor&apos;s. Standard public liability often won&apos;t pay to put faulty
+          work right.
+        </p>
         <p className="text-gray-600 text-sm leading-relaxed mb-6">
-          Our specialists match tradies with the right cover for their trade, tools, and contracts — with no jargon and no obligation. Registered Financial Service Providers who know the NZ trades market.
+          Some policies can be extended to cover defective workmanship by the trades you engage. Find out
+          whether yours does, before a subbie&apos;s mistake becomes your claim.
         </p>
 
         <div className="flex flex-col gap-3">
@@ -52,18 +92,27 @@ function DesktopPopup({ onClose }: { onClose: () => void }) {
             onClick={onClose}
             className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-xl text-center transition-colors text-sm"
           >
-            Get a Quote →
+            Check my cover →
           </Link>
+          {!onArticle && (
+            <Link
+              href={ARTICLE}
+              onClick={onClose}
+              className="w-full text-orange-700 hover:text-orange-800 font-semibold text-sm text-center py-1 transition-colors"
+            >
+              How it works
+            </Link>
+          )}
           <button
             onClick={onClose}
             className="w-full text-gray-400 hover:text-gray-600 text-xs py-2 transition-colors"
           >
-            I&apos;ll come back later
+            Not now
           </button>
         </div>
 
         <p className="text-xs text-gray-400 text-center mt-4">
-          Registered Financial Service Providers · No obligation · Reply within 1 business day
+          Registered Financial Service Providers · No obligation
         </p>
       </div>
     </div>
@@ -75,14 +124,15 @@ function MobileStickyBar({ onClose }: { onClose: () => void }) {
     <div className="fixed bottom-0 left-0 right-0 z-50 bg-slate-900 border-t-2 border-orange-500 shadow-2xl">
       <div className="flex items-center gap-3 px-4 py-3">
         <div className="flex-1 min-w-0">
-          <p className="text-white font-semibold text-sm leading-tight">Ready to get your trade covered?</p>
-          <p className="text-gray-400 text-xs mt-0.5">No obligation · Registered advisers</p>
+          <p className="text-orange-400 text-[11px] font-bold uppercase tracking-wide">Did you know?</p>
+          <p className="text-white font-semibold text-sm leading-tight">A subbie&apos;s mistake can become your claim.</p>
         </div>
         <Link
           href="/contact/"
+          onClick={onClose}
           className="shrink-0 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-xl text-sm transition-colors"
         >
-          Get a Quote →
+          Check my cover
         </Link>
         <button
           onClick={onClose}
@@ -95,11 +145,14 @@ function MobileStickyBar({ onClose }: { onClose: () => void }) {
 }
 
 export default function ExitIntentPopup() {
+  const pathname = usePathname() || '/'
+  const suppressed = SUPPRESS.some((p) => pathname.startsWith(p))
   const [showPopup, setShowPopup] = useState(false)
   const [showBar, setShowBar] = useState(false)
 
   useEffect(() => {
-    if (sessionStorage.getItem(STORAGE_KEY)) return
+    if (suppressed) return
+    if (alreadyShownThisSession()) return
     if (hasRecentlyShown()) return
 
     const isMobile = window.innerWidth < 768 || 'ontouchstart' in window
@@ -109,35 +162,36 @@ export default function ExitIntentPopup() {
         const pct = window.scrollY / Math.max(document.body.scrollHeight - window.innerHeight, 1)
         if (pct >= 0.4) {
           setShowBar(true)
+          markShown()
           window.removeEventListener('scroll', onScroll)
         }
       }
       window.addEventListener('scroll', onScroll, { passive: true })
       return () => window.removeEventListener('scroll', onScroll)
-    } else {
-      let activated = false
-      const activationTimer = setTimeout(() => { activated = true }, 20000)
-
-      const handleMouseLeave = (e: MouseEvent) => {
-        if (!activated) return
-        if (e.clientY <= 10 && e.clientX > window.innerWidth * 0.5) {
-          setShowPopup(true)
-          markShown()
-        }
-      }
-
-      document.addEventListener('mouseleave', handleMouseLeave)
-      return () => {
-        clearTimeout(activationTimer)
-        document.removeEventListener('mouseleave', handleMouseLeave)
-      }
     }
-  }, [])
 
-  const dismissBar = () => { setShowBar(false); markShown() }
-  const dismissPopup = () => { setShowPopup(false) }
+    // Desktop: armed after 8 seconds, then fires when the pointer leaves
+    // through the top of the window. The earlier version waited 20 seconds
+    // and only counted exits through the top-RIGHT half, which missed anyone
+    // heading for the back button, the tab strip or the address bar on the
+    // left — most real exits.
+    let armed = false
+    const armTimer = setTimeout(() => { armed = true }, 8000)
+    const onLeave = (e: MouseEvent) => {
+      if (!armed || e.clientY > 0 || e.relatedTarget) return
+      setShowPopup(true)
+      markShown()
+      document.removeEventListener('mouseout', onLeave)
+    }
+    document.addEventListener('mouseout', onLeave)
+    return () => {
+      clearTimeout(armTimer)
+      document.removeEventListener('mouseout', onLeave)
+    }
+  }, [suppressed])
 
-  if (showPopup) return <DesktopPopup onClose={dismissPopup} />
-  if (showBar)   return <MobileStickyBar onClose={dismissBar} />
+  if (suppressed) return null
+  if (showPopup) return <DesktopPopup onClose={() => setShowPopup(false)} onArticle={pathname.startsWith(ARTICLE)} />
+  if (showBar) return <MobileStickyBar onClose={() => setShowBar(false)} />
   return null
 }
