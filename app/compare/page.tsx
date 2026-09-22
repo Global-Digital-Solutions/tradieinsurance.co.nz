@@ -211,7 +211,7 @@ export default function ComparePage() {
           <div className="mb-14 bg-gray-900 rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
               <p className="text-white font-extrabold text-lg mb-1">Want someone to check these for you?</p>
-              <p className="text-gray-400 text-sm">A specialist tradie broker can compare wordings against your contracts. No cost to you, no obligation.</p>
+              <p className="text-gray-400 text-sm">A specialist tradie broker can compare wordings against your contracts. No obligation.</p>
             </div>
             <Link href="/contact/" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3 rounded-xl transition-colors text-sm flex-shrink-0">
               Get a Quote →

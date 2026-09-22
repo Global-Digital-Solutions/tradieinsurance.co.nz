@@ -116,17 +116,34 @@ export default async function TradeTypePage({ params }: Props) {
     serviceType: 'Insurance Broker Referral',
   }
 
+  // The two questions UK trade-insurance pages are built around ("what does it
+  // cover", "how much does it cost"), answered from this trade's own data.
+  const lower = trade.name.toLowerCase()
+  const coverNames = recommended.map((c) => c.name.toLowerCase())
+  const listed = coverNames.length > 1 ? `${coverNames.slice(0, -1).join(', ')} and ${coverNames[coverNames.length - 1]}` : coverNames[0]
+  const faqs = [
+    ...trade.faqs,
+    {
+      q: `What does ${lower} insurance cover?`,
+      a: `${trade.name} insurance is usually a combination of covers rather than one policy. The covers ${lower} most often ask about are ${listed}. What each one pays for, and what it leaves out, is set by the policy wording, so the wording is the document to compare.`,
+    },
+    {
+      q: `How much does ${lower} insurance cost?`,
+      a: `There is no fixed price. Each insurer sets the premium on the details of the business, including ${trade.costFactors.map((f) => f.toLowerCase()).join(', ')}. The way to find out is to be quoted on your own numbers.`,
+    },
+  ]
+
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: trade.faqs.map((f) => ({
+    mainEntity: faqs.map((f) => ({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
   }
 
-  const sources = [...(trade.sources ?? []), ...STANDARD_SOURCES]
+  const sources = [...(trade.sources ?? []), ...STANDARD_SOURCES].filter((s, i, all) => all.findIndex((x) => x.url === s.url) === i)
   const cite = (i?: number) =>
     i === undefined || !trade.sources?.[i] ? null : (
       <a href={trade.sources[i].url} target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2 hover:text-orange-600">
@@ -174,10 +191,10 @@ export default async function TradeTypePage({ params }: Props) {
             <div className="flex-1">
               <h1 className="text-4xl lg:text-5xl font-extrabold text-white mb-5 leading-tight">{trade.name} Insurance</h1>
               <p className="text-gray-200 text-xl max-w-2xl leading-relaxed mb-6">
-                {trade.heroLead ?? `Insurance for New Zealand ${trade.name.toLowerCase()}: the cover you need, what the law asks of you, and a specialist broker to arrange it.`}
+                {trade.heroLead ?? `Insurance for ${trade.name.toLowerCase()}: the covers commonly held, what the rules ask of the trade, and a specialist broker to arrange it.`}
               </p>
               <div className="flex flex-wrap gap-3 mb-8">
-                {['Specialist trade brokers', 'No cost to you', 'No obligation'].map((b) => (
+                {['Specialist trade brokers', 'No obligation', 'All trades'].map((b) => (
                   <span key={b} className="inline-flex items-center gap-1.5 bg-white/10 border border-white/20 text-white text-xs font-bold px-3 py-1.5 rounded-full">
                     <span className="text-orange-400">✓</span> {b}
                   </span>
@@ -216,7 +233,7 @@ export default async function TradeTypePage({ params }: Props) {
       <div className="bg-orange-500 py-3.5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
-            {['✓ Specialist Trade Brokers', '✓ No Cost to You', '✓ No Obligation', '✓ All NZ Trades'].map((pill) => (
+            {['✓ Specialist Trade Brokers', '✓ No Obligation', '✓ All NZ Trades'].map((pill) => (
               <span key={pill} className="text-white text-xs font-bold tracking-wide">{pill}</span>
             ))}
           </div>
@@ -250,8 +267,8 @@ export default async function TradeTypePage({ params }: Props) {
           {/* ── INLINE CTA 1 — after intro ── */}
           <div className="bg-gray-900 rounded-2xl p-6 mb-16 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div>
-              <p className="text-white font-extrabold text-lg mb-1">Not sure what you need?</p>
-              <p className="text-gray-400 text-sm">A specialist broker can check your contracts and current cover. No cost to you, no obligation.</p>
+              <p className="text-white font-extrabold text-lg mb-1">Want to talk it through?</p>
+              <p className="text-gray-400 text-sm">A specialist broker can check your contracts and current cover. No obligation.</p>
             </div>
             <a href="#get-quote" className="whitespace-nowrap bg-orange-500 hover:bg-orange-600 text-white font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-lg shadow-orange-500/30 flex-shrink-0">
               Get a Quote →
@@ -260,9 +277,11 @@ export default async function TradeTypePage({ params }: Props) {
 
           {/* ── WHY NEED IT ── */}
           <section className="mb-6">
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Why Do {trade.name} Need Insurance?</h2>
-            <div className="grid sm:grid-cols-2 gap-5 mb-8">
-              {trade.whyNeedIt.map((reason, i) => (
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-6">Why {trade.name} Carry Insurance</h2>
+            {/* The contract point is made once, in the callout below, so a trade's own
+                "contracts require it" item is not repeated here. */}
+            <div className="grid lg:grid-cols-3 gap-5 mb-8">
+              {trade.whyNeedIt.filter((w) => !/head contractor|certificate of currency/i.test(w)).map((reason, i) => (
                 <div key={i} className="flex items-start gap-4 bg-gray-50 rounded-2xl p-5 border-2 border-gray-100 hover:border-orange-200 transition-colors">
                   <span className="w-8 h-8 rounded-full bg-orange-500 text-white font-extrabold text-sm flex items-center justify-center flex-shrink-0 mt-0.5 shadow-md">0{i + 1}</span>
                   <p className="text-gray-700 text-sm leading-relaxed">{reason}</p>
@@ -293,7 +312,7 @@ export default async function TradeTypePage({ params }: Props) {
               Get My {trade.name} Insurance Quote →
             </a>
             <span className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-gray-100 text-gray-600 px-6 py-3.5 rounded-xl text-sm">
-              <span className="text-green-600 font-bold">✓</span> Specialist brokers · No cost to you · No obligation
+              <span className="text-green-600 font-bold">✓</span> Specialist brokers · No obligation
             </span>
           </div>
 
@@ -381,8 +400,8 @@ export default async function TradeTypePage({ params }: Props) {
 
           {/* ── INLINE CTA 3 — after claims (high intent moment) ── */}
           <div className="mt-8 mb-16 bg-orange-500 rounded-2xl p-8 text-center shadow-xl shadow-orange-500/20">
-            <h3 className="text-2xl font-extrabold text-white mb-2">Don&apos;t Wait Until a Claim Happens</h3>
-            <p className="text-orange-100 mb-6 max-w-xl mx-auto">Get {trade.name.toLowerCase()} insurance in place before the job that needs it. No cost to you, no obligation.</p>
+            <h3 className="text-2xl font-extrabold text-white mb-2">Talk to a Broker Before the Next Job</h3>
+            <p className="text-orange-100 mb-6 max-w-xl mx-auto">A specialist broker can go through how a policy would respond to claims like these. No obligation.</p>
             <div className="flex flex-wrap justify-center gap-3">
               <a href="#get-quote" className="bg-white text-orange-600 hover:bg-orange-50 font-extrabold px-8 py-3 rounded-xl transition-colors text-sm shadow-md">
                 Get a Quote →
@@ -458,10 +477,10 @@ export default async function TradeTypePage({ params }: Props) {
 
           {/* ── RECOMMENDED PACKAGE ── */}
           <section className="mb-16">
-            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Recommended</span>
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Recommended Cover Package</h2>
+            <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Typical Package</span>
+            <h2 className="text-3xl font-extrabold text-gray-900 mb-4">Cover {trade.name} Commonly Hold</h2>
             <div className="bg-orange-50 border-l-4 border-orange-500 rounded-r-2xl p-6 mb-8">
-              <p className="text-orange-900 font-extrabold mb-2">{trade.name} Insurance Package</p>
+              <p className="text-orange-900 font-extrabold mb-2">A typical {trade.name.toLowerCase()} package</p>
               <p className="text-orange-800 text-sm leading-relaxed">{trade.coverPackage}</p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -479,7 +498,7 @@ export default async function TradeTypePage({ params }: Props) {
             <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">FAQs</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-6">{trade.name} Insurance FAQs</h2>
             <div className="space-y-3">
-              {trade.faqs.map((faq, i) => (
+              {faqs.map((faq, i) => (
                 <div key={i} className="bg-gray-50 border-2 border-gray-100 hover:border-orange-200 rounded-2xl p-6 transition-colors">
                   <h3 className="font-extrabold text-gray-900 mb-2 flex items-start gap-2">
                     <span className="text-orange-500 flex-shrink-0">Q.</span>{faq.q}
@@ -523,7 +542,7 @@ export default async function TradeTypePage({ params }: Props) {
                 Get the Right {trade.name} Insurance
               </h2>
               <p className="text-gray-300 leading-relaxed mb-8">
-                Tell us about your business and a specialist broker who works with {trade.name.toLowerCase()} will be in touch. They look at your contracts, the work you do and the cover you already hold, then recommend cover and arrange quotes. No cost to you, no obligation.
+                Tell us about your business and a specialist broker who works with {trade.name.toLowerCase()} will be in touch. They look at your contracts, the work you do and the cover you already hold, then recommend cover and arrange quotes. No obligation.
               </p>
 
               {/* Why us list */}
@@ -546,7 +565,7 @@ export default async function TradeTypePage({ params }: Props) {
 
               {/* Trust badges */}
               <div className="flex flex-wrap gap-2 mb-8">
-                {['Registered Financial Service Providers', 'No Obligation', 'No Cost to You', 'All Trades', 'NZ Based'].map((pill) => (
+                {['Registered Financial Service Providers', 'No Obligation', 'All Trades', 'NZ Based'].map((pill) => (
                   <span key={pill} className="text-xs text-gray-300 bg-gray-700 border border-gray-600 px-3 py-1.5 rounded-full flex items-center gap-1.5">
                     <span className="text-orange-400">✓</span> {pill}
                   </span>
@@ -561,7 +580,7 @@ export default async function TradeTypePage({ params }: Props) {
                   {siteConfig.email}
                 </a>
                 <div className="flex flex-wrap gap-1.5">
-                  {['Registered FSP', 'No Cost to You', 'No Obligation'].map((b) => (
+                  {['Registered FSP', 'No Obligation'].map((b) => (
                     <span key={b} className="text-xs text-gray-400 bg-gray-800 border border-gray-600 px-2 py-1 rounded-full">✓ {b}</span>
                   ))}
                 </div>

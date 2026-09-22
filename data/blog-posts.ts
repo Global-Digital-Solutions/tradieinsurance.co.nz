@@ -72,7 +72,7 @@ Buying tradie insurance through a specialist broker gives you access to policies
 
 ## Next Steps
 
-Use our free quote service to connect with a specialist tradie insurance broker. Tell us your trade, your business size, and what cover you need — and we will match you with a licensed broker who can find you the best deal.`,
+Use our service to connect with a specialist tradie insurance broker. Tell us your trade, your business size, and what cover you need — and we will match you with a licensed broker who can find you the best deal.`,
   },
   {
     slug: 'builder-insurance-checklist-nz',
@@ -153,7 +153,7 @@ If you employ staff, you need to consider employer liability insurance. This cov
 
 If you have identified any gaps in this checklist, the next step is a review with a specialist broker. A broker can assess your contracts, your risk profile, and your current policies to identify gaps and recommend cost-effective solutions.
 
-Use our free quote service to connect with a licensed builder insurance specialist today.`,
+Use our service to connect with a licensed builder insurance specialist today.`,
   },
   {
     slug: 'public-liability-tradies-explained',
@@ -232,7 +232,7 @@ The fastest and most effective way to get the right PL cover at a competitive pr
 - Tailor the policy to your trade type and contracts
 - Ensure there are no coverage gaps that could leave you exposed
 
-Use our free quote service to connect with a licensed tradie insurance broker and get public liability cover in place quickly.`,
+Use our service to connect with a licensed tradie insurance broker and get public liability cover in place quickly.`,
   },
   {
     slug: 'tool-insurance-nz-guide',
@@ -471,7 +471,7 @@ Electricians are rated as a higher-risk trade due to fire and electrocution haza
 
 Electrician insurance is complex enough that using a specialist broker is strongly recommended. A broker familiar with the trade can ensure your cover addresses the specific risks of electrical work, complies with your licensing requirements, and meets any contractual obligations.
 
-Use our free quote service to connect with a licensed electrician insurance specialist today.`,
+Use our service to connect with a licensed electrician insurance specialist today.`,
   },
   {
     slug: 'income-protection-self-employed-nz',
@@ -542,7 +542,7 @@ These are indicative only. Your actual premium will depend on your health histor
 
 Income protection is one of those policies that you hope you never need — but if you do need it, you will be extremely grateful you have it. The best time to get it in place is while you are healthy; premiums increase with age and health issues can make cover more expensive or difficult to obtain.
 
-Use our free quote service to connect with a specialist broker who can assess your income protection needs and find the right policy for your situation.`,
+Use our service to connect with a specialist broker who can assess your income protection needs and find the right policy for your situation.`,
   },
   {
     slug: 'worksafe-nz-tradies-compliance',
@@ -652,7 +652,7 @@ Even if the ultimate penalty is a fine that is not insurable (criminal fines can
 
 Statutory liability insurance is a prudent addition to any tradie's insurance package, especially for those with employees or in high-risk trades. It should sit alongside public liability, not instead of it.
 
-Use our free quote service to connect with a specialist broker who can ensure your insurance package addresses all your liability exposures.`,
+Use our service to connect with a specialist broker who can ensure your insurance package addresses all your liability exposures.`,
   },
   {
     slug: 'compare-tradie-insurance-providers-nz',
@@ -777,7 +777,7 @@ Rather than picking a provider first, consider these steps:
 
 The best tradie insurance provider is the one that offers the right cover for your specific trade, at a competitive price, with strong claims service. A specialist broker is your best ally in finding that combination — they know the market, understand your trade's risks, and can negotiate terms on your behalf.
 
-Use our free quote service to connect with a licensed tradie insurance broker and get comparative quotes from multiple providers.`,
+Use our service to connect with a licensed tradie insurance broker and get comparative quotes from multiple providers.`,
   },
   {
     slug: 'gasfitter-insurance-nz-guide',
@@ -1038,7 +1038,7 @@ Disclose your full scope of work to your broker — the type of scaffold systems
 
 Scaffolding insurance is complex enough that a specialist broker is strongly recommended. A broker who understands the construction sector can ensure your public liability, statutory liability, and tools cover are appropriately structured for the specific risks of scaffolding work.
 
-Use our free quote service to connect with a licensed broker experienced in the New Zealand scaffolding sector.`,
+Use our service to connect with a licensed broker experienced in the New Zealand scaffolding sector.`,
   },
   {
     slug: 'tradie-insurance-subcontractors-nz',

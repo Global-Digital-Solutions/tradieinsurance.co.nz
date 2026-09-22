@@ -81,10 +81,10 @@ export default function FaqsPage() {
 
           <div className="bg-gray-900 rounded-2xl p-8 text-center mt-8">
             <h2 className="text-xl font-bold text-white mb-3">Still Have Questions?</h2>
-            <p className="text-gray-400 mb-6">Connect with a specialist tradie insurance broker who can answer your specific questions — for free.</p>
+            <p className="text-gray-400 mb-6">Connect with a specialist tradie insurance broker who can answer your specific questions.</p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
-                Get Free Advice →
+                Talk to a Broker →
               </Link>
               <Link href="/compare/" className="inline-block bg-gray-700 hover:bg-gray-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
                 Compare Providers →

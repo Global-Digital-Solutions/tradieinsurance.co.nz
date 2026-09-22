@@ -40,12 +40,11 @@ export default function HomePage() {
     '@type': 'Service',
     '@id': 'https://tradieinsurance.co.nz/#service',
     name: 'Tradie Insurance Broker Referral',
-    description: 'Free broker matching service connecting tradies with licensed insurance advisers for public liability, tools, vehicle, income protection and more.',
+    description: 'Broker matching service connecting tradies with licensed insurance advisers for public liability, tools, vehicle, income protection and more.',
     provider: { '@id': 'https://tradieinsurance.co.nz/#organization' },
     areaServed: { '@type': 'Country', name: 'New Zealand' },
     url: 'https://tradieinsurance.co.nz/',
     serviceType: 'Insurance Broker Referral',
-    offers: { '@type': 'Offer', price: '0', priceCurrency: 'NZD', description: 'Free broker matching — no fee to you' },
   }
 
   return (
@@ -75,11 +74,11 @@ export default function HomePage() {
                 Public liability from <strong className="text-orange-400">$30/month</strong>. Tools, vehicle, income protection & more. Get quotes from licensed brokers — no obligation.
               </p>
               <p className="text-gray-200 text-base leading-relaxed mb-8">
-                You&apos;re an expert in your trade — leave the insurance to us. Our licensed brokers take the time to understand your specific work, contracts, and risks. That means cover built around your business, not a generic policy with gaps or charges for things you&apos;ll never need. Most tradies who use our free matching service pay <strong className="text-orange-400">15–30% less</strong> than going direct.
+                You&apos;re an expert in your trade — leave the insurance to us. Our licensed brokers take the time to understand your specific work, contracts, and risks. That means cover built around your business, not a generic policy with gaps or charges for things you&apos;ll never need.
               </p>
               <div className="flex flex-wrap gap-4 mb-8">
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
-                  <span className="text-orange-500">✓</span> Free broker matching
+                  <span className="text-orange-500">✓</span> Specialist trade brokers
                 </div>
                 <div className="flex items-center gap-2 text-gray-300 text-sm">
                   <span className="text-orange-500">✓</span> All trades covered
@@ -185,7 +184,7 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">How It Works</span>
             <h2 className="text-3xl font-extrabold text-white mb-4">Get Covered in 3 Simple Steps</h2>
-            <p className="text-gray-400 text-lg max-w-2xl mx-auto">Our free service connects you with the right broker quickly — so you can focus on the tools, not the paperwork.</p>
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">Our service connects you with a specialist broker — so you can focus on the tools, not the paperwork.</p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {steps.map((s) => (
@@ -200,7 +199,7 @@ export default function HomePage() {
           </div>
           <div className="text-center mt-10">
             <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
-              Start Now — It&apos;s Free
+              Get a Quote
             </Link>
           </div>
         </div>
@@ -345,7 +344,7 @@ export default function HomePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Get Covered?</h2>
           <p className="text-orange-100 text-lg mb-8">
-            Join thousands of tradies who have found the right insurance through our free broker matching service.
+            Tell us about your business and we will connect you with a specialist tradie broker. No obligation.
           </p>
           <div className="flex flex-wrap justify-center gap-4 mb-8">
             <Link href="/contact/" className="bg-white text-orange-600 hover:bg-orange-50 font-bold px-8 py-3 rounded-xl transition-colors">
@@ -356,7 +355,7 @@ export default function HomePage() {
             </Link>
           </div>
           <div className="flex flex-wrap justify-center gap-4">
-            {['✓ Registered Financial Service Providers', '✓ Free Service', '✓ No Obligation', '✓ Quick Response', '✓ NZ Based'].map((b) => (
+            {['✓ Registered Financial Service Providers', '✓ No Obligation', '✓ NZ Based'].map((b) => (
               <span key={b} className="text-orange-200 text-xs font-semibold">{b}</span>
             ))}
           </div>

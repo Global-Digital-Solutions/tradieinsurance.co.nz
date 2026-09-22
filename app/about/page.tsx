@@ -35,9 +35,9 @@ const differences = [
     desc: 'Every broker in our network is a Registered Financial Service Provider specialising in trade and construction insurance. You get genuine expertise, not a call centre script.',
   },
   {
-    icon: '🆓',
-    title: 'Truly Free Service',
-    desc: 'There is no catch. We are paid a referral fee by brokers — you pay nothing extra and the competition between brokers keeps pricing competitive.',
+    icon: '🤝',
+    title: 'No Obligation',
+    desc: 'We are paid a referral fee by the broker. Whatever you are offered, there is no obligation to take it up.',
   },
   {
     icon: '⚡',

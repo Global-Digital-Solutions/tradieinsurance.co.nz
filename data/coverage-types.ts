@@ -101,7 +101,7 @@ export const coverageTypes: CoverageType[] = [
     fromPrice: 'NZ$20/month',
     heroImage: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1920&q=80',
     description:
-      'Statutory liability insurance covers fines and legal costs if you unintentionally breach New Zealand legislation such as the Health and Safety at Work Act 2015, the Resource Management Act, or the Building Act. It does not cover deliberate breaches. For tradies, WorkSafe NZ prosecution is the most common trigger.',
+      'Statutory liability insurance covers legal defence costs, and fines where the law allows them to be insured, after an unintentional breach of legislation such as the Building Act. Fines under the Health and Safety at Work Act 2015, and Resource Management Act fines imposed after 20 August 2025, cannot be insured. It does not cover deliberate breaches.',
     keyFacts: [
       'Covers unintentional breaches of NZ legislation',
       'Includes legal defence costs and fines where insurable',

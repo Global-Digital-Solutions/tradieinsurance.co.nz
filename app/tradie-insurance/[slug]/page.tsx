@@ -68,7 +68,6 @@ export default async function LandingPage({ params }: Props) {
     areaServed: { '@type': 'Country', name: 'New Zealand' },
     url: `${siteConfig.url}/tradie-insurance/${slug}/`,
     serviceType: 'Insurance Broker Referral',
-    offers: { '@type': 'Offer', price: '0', priceCurrency: 'NZD', description: 'Free broker matching service' },
   }
 
   return (
@@ -123,7 +122,7 @@ export default async function LandingPage({ params }: Props) {
 
               <div className="mt-10 bg-orange-50 rounded-2xl p-8 border border-orange-100">
                 <h2 className="text-2xl font-extrabold text-gray-900 mb-3">Ready to Get Covered?</h2>
-                <p className="text-gray-600 mb-6">Connect with a specialist tradie insurance broker. No cost to you, no obligation.</p>
+                <p className="text-gray-600 mb-6">Connect with a specialist tradie insurance broker. No obligation.</p>
                 <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-6 py-3 rounded-xl transition-colors">
                   Get a Quote →
                 </Link>

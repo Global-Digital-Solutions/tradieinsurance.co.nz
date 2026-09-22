@@ -40,16 +40,16 @@ const steps = [
 ]
 
 const stats = [
-  { value: '10,000+', label: 'Tradies matched' },
-  { value: '$30/mo', label: 'PL from' },
-  { value: '24hrs', label: 'Broker response' },
-  { value: '100%', label: 'Free service' },
+  { value: '1 form', label: 'To reach a broker' },
+  { value: '21', label: 'Trade guides' },
+  { value: 'NZ', label: 'Based brokers' },
+  { value: 'None', label: 'Obligation' },
 ]
 
 const faqs = [
   {
-    q: 'Is this service really free?',
-    a: 'Yes. We receive a referral fee from the broker — you pay nothing extra for the matching service. Our goal is to connect you with the right broker, not sell you a policy.',
+    q: 'Does it cost anything to use this service?',
+    a: 'There is no charge for using this site or for being put in touch with a broker. We receive a referral fee from the broker. Our goal is to connect you with the right broker, not sell you a policy.',
   },
   {
     q: 'How quickly will a broker contact me?',
@@ -88,13 +88,13 @@ export default function ContactPage() {
             {/* Left — value proposition (stacks below form on mobile) */}
             <div className="flex-1 lg:max-w-lg order-2 lg:order-1">
               <span className="hidden lg:inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-6">
-                Free Broker Matching
+                Broker Matching
               </span>
               <h1 className="hidden lg:block text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-6">
                 Stop Overpaying for <span className="text-orange-500">Tradie Insurance</span>
               </h1>
               <p className="hidden lg:block text-white text-xl leading-relaxed mb-8 drop-shadow">
-                Our free service matches you with a specialist broker who finds the right cover for your trade — without the hours of research, comparison, and guesswork.
+                Our service matches you with a specialist broker who finds the right cover for your trade — without the hours of research, comparison, and guesswork.
               </p>
 
               {/* Key benefits list — desktop only */}
@@ -136,7 +136,7 @@ export default function ContactPage() {
       <div className="bg-orange-500 py-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-2">
-            {['✓ Licensed & Regulated Brokers', '✓ 100% Free Service', '✓ No Obligation', '✓ All Trades Covered', '✓ NZ Based Team', '✓ Quick Broker Response'].map((t) => (
+            {['✓ Licensed & Regulated Brokers', '✓ No Obligation', '✓ All Trades Covered', '✓ NZ Based Team'].map((t) => (
               <span key={t} className="text-white text-xs font-bold tracking-wide">{t}</span>
             ))}
           </div>
@@ -149,7 +149,7 @@ export default function ContactPage() {
           <div className="text-center mb-14">
             <span className="inline-block bg-orange-100 text-orange-600 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-4">Why Tradies Choose Us</span>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-4">The Smarter Way to Arrange Tradie Insurance</h2>
-            <p className="text-gray-500 text-lg max-w-2xl mx-auto">Going direct to an insurer means one quote. Going through us means a specialist broker comparing the whole market — on your behalf, for free.</p>
+            <p className="text-gray-500 text-lg max-w-2xl mx-auto">Going direct to an insurer means one quote. Going through a broker means someone who can put your details to more than one insurer.</p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {benefits.map((b) => (
@@ -189,7 +189,7 @@ export default function ContactPage() {
           </div>
           <div className="text-center mt-12">
             <a href="#quote-form" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-lg shadow-orange-500/30">
-              Start Now — It&apos;s Free →
+              Get a Quote →
             </a>
           </div>
         </div>
@@ -210,10 +210,8 @@ export default function ContactPage() {
               </p>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: 'Providers compared', value: '6+ major insurers' },
                   { label: 'Trade types covered', value: 'All NZ trades' },
-                  { label: 'Average response', value: 'Within 24 hours' },
-                  { label: 'Cost to you', value: '$0 — completely free' },
+                  { label: 'Obligation', value: 'None' },
                 ].map((item) => (
                   <div key={item.label} className="bg-white rounded-xl p-4 border border-gray-200">
                     <div className="text-xs text-gray-400 uppercase tracking-wide mb-1">{item.label}</div>
@@ -260,7 +258,7 @@ export default function ContactPage() {
                 <div className="space-y-3">
                   {[
                     { icon: '🏆', text: 'Registered Financial Service Providers' },
-                    { icon: '💸', text: 'Completely free — no hidden fees' },
+                    { icon: '💸', text: 'No obligation to take up a quote' },
                     { icon: '🔒', text: 'Your data is never sold or shared' },
                     { icon: '🎯', text: 'Matched to specialists in your trade' },
                   ].map((item) => (

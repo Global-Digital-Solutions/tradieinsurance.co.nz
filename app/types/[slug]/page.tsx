@@ -178,7 +178,7 @@ export default async function CoverageTypePage({ params }: Props) {
                 <div className="space-y-3">
                   {[
                     { icon: '🏆', text: 'Registered Financial Service Providers' },
-                    { icon: '💸', text: 'Free service — brokers are paid by insurers, not you' },
+                    { icon: '💸', text: 'No obligation to take up any quote' },
                     { icon: '⚡', text: 'Response within 24 hours on business days' },
                     { icon: '🎯', text: 'Cover matched to your exact trade and contracts' },
                   ].map((item) => (

@@ -93,9 +93,9 @@ export default function CoveragePage() {
 
           <div className="mt-16 bg-gray-900 rounded-2xl p-8 text-center">
             <h2 className="text-2xl font-extrabold text-white mb-4">Not Sure Which Cover You Need?</h2>
-            <p className="text-gray-400 mb-6">Our specialist brokers will assess your trade and recommend the right package — for free.</p>
+            <p className="text-gray-400 mb-6">A specialist broker can look at your trade and contracts and recommend a package.</p>
             <Link href="/contact/" className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 py-3 rounded-xl transition-colors">
-              Get Free Advice →
+              Talk to a Broker →
             </Link>
           </div>
         </div>

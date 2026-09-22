@@ -49,7 +49,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'The Role of a Specialist Broker',
-        body: 'A specialist tradie insurance broker is your most valuable resource in finding the best cover. Brokers:\n\n- Access products from multiple insurers including exclusive policy wordings not available directly\n- Understand the specific risks of your trade and how different policies address them\n- Can negotiate premiums and terms on your behalf\n- Advise on the right mix of cover types for your business\n- Advocate for you in the event of a claim\n\nUsing a broker typically costs you nothing — they are remunerated by commission from the insurer. Use our free service to connect with a specialist tradie insurance broker today.',
+        body: 'A specialist tradie insurance broker is your most valuable resource in finding the best cover. Brokers:\n\n- Access products from multiple insurers including exclusive policy wordings not available directly\n- Understand the specific risks of your trade and how different policies address them\n- Can negotiate premiums and terms on your behalf\n- Advise on the right mix of cover types for your business\n- Advocate for you in the event of a claim\n\nUsing a broker typically costs you nothing — they are remunerated by commission from the insurer. Use our service to connect with a specialist tradie insurance broker today.',
       },
     ],
   },
@@ -57,9 +57,9 @@ export const landingPages: LandingPage[] = [
     slug: 'compare-tradie-insurance',
     title: 'Compare Tradie Insurance NZ',
     metaTitle: 'Compare Tradie Insurance | Get Quotes from Providers',
-    metaDesc: 'Compare NZ tradie insurance quotes from multiple providers. Find the best cover for your trade and budget. Free broker matching service.',
+    metaDesc: 'Compare NZ tradie insurance quotes from multiple providers. Find the best cover for your trade and budget. Specialist broker matching.',
     hero: 'Compare NZ Tradie Insurance Quotes',
-    intro: 'Comparing tradie insurance is the best way to ensure you get the right cover at the best price. Rather than accepting the first quote you receive, use our free broker matching service to get competitive quotes from multiple licensed insurers.',
+    intro: 'Comparing tradie insurance is the best way to ensure you get the right cover at the best price. Rather than accepting the first quote you receive, use our broker matching service to get competitive quotes from multiple licensed insurers.',
     sections: [
       {
         heading: 'What to Compare When Shopping for Tradie Insurance',
@@ -67,7 +67,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Using a Broker vs Direct Comparison',
-        body: 'There are two main ways to compare tradie insurance:\n\n**Online comparison platforms** (like BizCover) allow you to get multiple quotes quickly by entering your details once. This works well for simple risk profiles with standard requirements.\n\n**Specialist brokers** provide access to a wider range of products, including policies not available on comparison platforms. They also provide personalised advice, policy reviews, and claims advocacy. For tradies with complex requirements or non-standard risk profiles, a broker is strongly recommended.\n\nOur free service connects you with specialist tradie insurance brokers — at no cost to you.',
+        body: 'There are two main ways to compare tradie insurance:\n\n**Online comparison platforms** (like BizCover) allow you to get multiple quotes quickly by entering your details once. This works well for simple risk profiles with standard requirements.\n\n**Specialist brokers** provide access to a wider range of products, including policies not available on comparison platforms. They also provide personalised advice, policy reviews, and claims advocacy. For tradies with complex requirements or non-standard risk profiles, a broker is strongly recommended.\n\nOur service connects you with specialist tradie insurance brokers — at no cost to you.',
       },
       {
         heading: 'How Our Comparison Service Works',
@@ -93,7 +93,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Finding the Right Insurance Broker in Auckland',
-        body: 'While our service is national, we work with brokers who have specific expertise in the Auckland construction and trades market. They understand the local market, the principal contractor requirements on major Auckland projects, and the specific risks of working in one of Australasia\'s most active construction environments.\n\nUse our free quote service to be matched with a specialist Auckland tradie insurance broker. Cover can typically be arranged within 24–48 hours for standard requirements.',
+        body: 'While our service is national, we work with brokers who have specific expertise in the Auckland construction and trades market. They understand the local market, the principal contractor requirements on major Auckland projects, and the specific risks of working in one of Australasia\'s most active construction environments.\n\nUse our service to be matched with a specialist Auckland tradie insurance broker. Cover can typically be arranged within 24–48 hours for standard requirements.',
       },
     ],
   },
@@ -115,7 +115,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Government and Commercial Work in Wellington',
-        body: 'Wellington\'s role as the seat of government means significant commercial and government construction activity. Government contracts and large commercial projects typically require:\n\n- Higher public liability limits (NZ$5M–$20M+)\n- Statutory liability cover\n- Specific health and safety documentation\n- Vehicle insurance for all site vehicles\n\nUse our free service to connect with a Wellington-experienced tradie insurance broker who understands the local market requirements.',
+        body: 'Wellington\'s role as the seat of government means significant commercial and government construction activity. Government contracts and large commercial projects typically require:\n\n- Higher public liability limits (NZ$5M–$20M+)\n- Statutory liability cover\n- Specific health and safety documentation\n- Vehicle insurance for all site vehicles\n\nUse our service to connect with a Wellington-experienced tradie insurance broker who understands the local market requirements.',
       },
     ],
   },
@@ -137,7 +137,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Christchurch',
-        body: 'Our broker network includes specialists with deep experience in the Canterbury construction market. They understand the region\'s history, the current market dynamics, and the specific requirements of principal contractors and commercial clients in the region.\n\nUse our free quote service to be matched with a specialist Christchurch tradie insurance broker. Standard cover can typically be arranged within 24–48 hours.',
+        body: 'Our broker network includes specialists with deep experience in the Canterbury construction market. They understand the region\'s history, the current market dynamics, and the specific requirements of principal contractors and commercial clients in the region.\n\nUse our service to be matched with a specialist Christchurch tradie insurance broker. Standard cover can typically be arranged within 24–48 hours.',
       },
     ],
   },
@@ -159,7 +159,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Public Liability Cover Quickly',
-        body: 'Public liability cover for standard tradie risk profiles can often be arranged within 24 hours. Use our free quote service to connect with a specialist broker who can get you covered quickly — whether you need cover for a specific contract starting Monday or want a longer-term policy review.',
+        body: 'Public liability cover for standard tradie risk profiles can often be arranged within 24 hours. Use our service to connect with a specialist broker who can get you covered quickly — whether you need cover for a specific contract starting Monday or want a longer-term policy review.',
       },
     ],
   },
@@ -225,7 +225,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Affordable Insurance Options for Sole Traders',
-        body: 'Insurance does not have to break the bank for sole traders. A basic public liability policy can start from as little as NZ$30–$40/month. A lean but meaningful package — PL + tools + income protection — can be put together for NZ$80–$150/month for many trade types.\n\nA specialist broker will identify the most cost-effective combination for your specific trade and situation. Use our free quote service to connect with a licensed broker today.',
+        body: 'Insurance does not have to break the bank for sole traders. A basic public liability policy can start from as little as NZ$30–$40/month. A lean but meaningful package — PL + tools + income protection — can be put together for NZ$80–$150/month for many trade types.\n\nA specialist broker will identify the most cost-effective combination for your specific trade and situation. Use our service to connect with a licensed broker today.',
       },
     ],
   },
@@ -247,7 +247,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Building Your Small Business Insurance Package',
-        body: 'A comprehensive small tradie business insurance package typically includes:\n\n1. Public liability (NZ$2M–$10M depending on work type)\n2. Statutory liability\n3. Tools and equipment cover\n4. Fleet or commercial vehicle insurance\n5. Contents and property (if you have a workshop or yard)\n6. Professional indemnity (if applicable to your trade)\n\nWork with a specialist broker to build a package that addresses your specific business risk profile. Our free service connects you with licensed brokers who specialise in tradie business insurance.',
+        body: 'A comprehensive small tradie business insurance package typically includes:\n\n1. Public liability (NZ$2M–$10M depending on work type)\n2. Statutory liability\n3. Tools and equipment cover\n4. Fleet or commercial vehicle insurance\n5. Contents and property (if you have a workshop or yard)\n6. Professional indemnity (if applicable to your trade)\n\nWork with a specialist broker to build a package that addresses your specific business risk profile. Our service connects you with licensed brokers who specialise in tradie business insurance.',
       },
     ],
   },
@@ -269,7 +269,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Hamilton',
-        body: 'Our broker network includes specialists with experience in the Waikato construction market. Whether you are working on Hamilton\'s growth areas, taking on commercial contracts in the CBD, or travelling across the Waikato for residential jobs, we can match you with a licensed broker who understands the local market.\n\nUse our free quote service to get comparative quotes from licensed brokers. Standard tradie cover can typically be arranged within 24–48 hours.',
+        body: 'Our broker network includes specialists with experience in the Waikato construction market. Whether you are working on Hamilton\'s growth areas, taking on commercial contracts in the CBD, or travelling across the Waikato for residential jobs, we can match you with a licensed broker who understands the local market.\n\nUse our service to get comparative quotes from licensed brokers. Standard tradie cover can typically be arranged within 24–48 hours.',
       },
     ],
   },
@@ -291,7 +291,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Tauranga',
-        body: 'Our free quote service connects Tauranga tradies with licensed brokers who understand the Bay of Plenty construction market. Whether you are doing residential work in Papamoa, commercial projects in Mount Maunganui, or infrastructure work around the port, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
+        body: 'Our service connects Tauranga tradies with licensed brokers who understand the Bay of Plenty construction market. Whether you are doing residential work in Papamoa, commercial projects in Mount Maunganui, or infrastructure work around the port, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
       },
     ],
   },
@@ -313,7 +313,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Dunedin',
-        body: 'Our broker network includes specialists with experience in the Otago and Southland construction markets. We can match Dunedin tradies with licensed brokers who understand local project requirements, heritage building work, and the specific demands of major public construction contracts.\n\nUse our free quote service to get started. Standard cover can typically be arranged within 24–48 hours.',
+        body: 'Our broker network includes specialists with experience in the Otago and Southland construction markets. We can match Dunedin tradies with licensed brokers who understand local project requirements, heritage building work, and the specific demands of major public construction contracts.\n\nUse our service to get started. Standard cover can typically be arranged within 24–48 hours.',
       },
     ],
   },
@@ -335,7 +335,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Palmerston North',
-        body: 'Our free quote service connects Manawatū tradies with licensed brokers who understand both the urban and rural dimensions of the region\'s construction sector. Whether you are doing residential work in Palmerston North, institutional projects at Massey, or rural building across the wider region, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours.',
+        body: 'Our service connects Manawatū tradies with licensed brokers who understand both the urban and rural dimensions of the region\'s construction sector. Whether you are doing residential work in Palmerston North, institutional projects at Massey, or rural building across the wider region, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours.',
       },
     ],
   },
@@ -357,7 +357,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Hawke\'s Bay',
-        body: 'Our broker network includes specialists with experience in the Hawke\'s Bay market, including the specific requirements of post-cyclone rebuild work. We can match Napier and Hastings tradies with licensed brokers who understand the region.\n\nUse our free quote service to get comparative quotes. Standard cover can typically be arranged within 24–48 hours.',
+        body: 'Our broker network includes specialists with experience in the Hawke\'s Bay market, including the specific requirements of post-cyclone rebuild work. We can match Napier and Hastings tradies with licensed brokers who understand the region.\n\nUse our service to get comparative quotes. Standard cover can typically be arranged within 24–48 hours.',
       },
     ],
   },
@@ -379,7 +379,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Nelson',
-        body: 'Our free quote service connects Nelson and Top of the South tradies with licensed brokers who understand the region\'s diverse construction market. Whether you are doing residential work in Richmond, commercial projects in central Nelson, or aquaculture infrastructure on the Sounds, we can match you with a broker suited to your needs.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
+        body: 'Our service connects Nelson and Top of the South tradies with licensed brokers who understand the region\'s diverse construction market. Whether you are doing residential work in Richmond, commercial projects in central Nelson, or aquaculture infrastructure on the Sounds, we can match you with a broker suited to your needs.\n\nStandard tradie cover can typically be arranged within 24–48 hours. Use our quote form to get started.',
       },
     ],
   },
@@ -423,7 +423,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in New Plymouth',
-        body: 'Our free quote service connects Taranaki tradies with licensed brokers who understand both the industrial and residential dimensions of the region\'s construction sector. Whether you are doing oil and gas site work, residential builds in Strandon or Bell Block, or rural contracting across the ring plain, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours.',
+        body: 'Our service connects Taranaki tradies with licensed brokers who understand both the industrial and residential dimensions of the region\'s construction sector. Whether you are doing oil and gas site work, residential builds in Strandon or Bell Block, or rural contracting across the ring plain, we can match you with the right broker.\n\nStandard tradie cover can typically be arranged within 24–48 hours.',
       },
     ],
   },
@@ -489,7 +489,7 @@ export const landingPages: LandingPage[] = [
       },
       {
         heading: 'Getting Covered in Gisborne',
-        body: 'Our broker network includes specialists with experience in the East Coast construction market, including the specific requirements of post-Cyclone Gabrielle rebuild work. We can match Gisborne tradies with licensed brokers who understand the region\'s unique risk profile.\n\nUse our free quote service to get comparative quotes. Standard cover can typically be arranged within 24–48 hours.',
+        body: 'Our broker network includes specialists with experience in the East Coast construction market, including the specific requirements of post-Cyclone Gabrielle rebuild work. We can match Gisborne tradies with licensed brokers who understand the region\'s unique risk profile.\n\nUse our service to get comparative quotes. Standard cover can typically be arranged within 24–48 hours.',
       },
     ],
   },

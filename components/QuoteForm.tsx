@@ -92,14 +92,14 @@ export default function QuoteForm({ compact = false }: QuoteFormProps) {
       {!compact && (
         <div className="mb-6">
           <span className="inline-block bg-orange-500/20 border border-orange-400/40 text-orange-400 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded-full mb-3">
-            Free Quote
+            Quote Request
           </span>
           <h2 className="text-2xl font-extrabold text-white mb-2">Get Your Tradie Insurance Quote</h2>
           <p className="text-gray-400 text-sm">Connect with a licensed broker in minutes — no obligation.</p>
         </div>
       )}
       {compact && (
-        <h3 className="text-lg font-bold text-white mb-4">Get a Free Quote</h3>
+        <h3 className="text-lg font-bold text-white mb-4">Get a Quote</h3>
       )}
 
       <form onSubmit={handleSubmit} className="space-y-4">
