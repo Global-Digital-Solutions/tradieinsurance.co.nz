@@ -7,7 +7,7 @@ export interface Faq {
 export const faqs: Faq[] = [
   {
     q: 'How much does tradie insurance cost?',
-    a: 'The cost of tradie insurance varies by trade, cover type, turnover, and number of employees. As a published example, AMI lists its Tradies Bundle, which combines tools cover to $10,000 with $2M public liability, from $19 a week including GST. Other figures on this site are indicative ranges rather than quotes. A comprehensive package including public liability, tools, commercial vehicle, and income protection might cost NZ$150–$350/month. Use our free quote service to get an accurate figure for your specific situation.',
+    a: 'The cost of tradie insurance varies by trade, cover type, turnover, and number of employees. As a published example, AMI lists its Tradies Bundle, which combines tools cover to $10,000 with $2M public liability, from $19 a week including GST. Other figures on this site are indicative ranges rather than quotes. A comprehensive package including public liability, tools, commercial vehicle, and income protection might cost NZ$150–$350/month. Use our service to get an accurate figure for your specific situation.',
     category: 'Cost',
   },
   {
@@ -77,7 +77,7 @@ export const faqs: Faq[] = [
   },
   {
     q: 'What is the best way to compare tradie insurance?',
-    a: 'The most effective way to compare tradie insurance is through a specialist broker who can access multiple insurers on your behalf. A broker understands the nuances of trade-specific cover, can identify gaps in standard policies, and can negotiate terms. Online comparison platforms like BizCover offer a fast alternative for simpler risk profiles. Our free quote service connects you with licensed brokers who specialise in trade insurance.',
+    a: 'The most effective way to compare tradie insurance is through a specialist broker who can access multiple insurers on your behalf. A broker understands the nuances of trade-specific cover, can identify gaps in standard policies, and can negotiate terms. Online comparison platforms like BizCover offer a fast alternative for simpler risk profiles. Our service connects you with licensed brokers who specialise in trade insurance.',
     category: 'Comparison',
   },
 ]
