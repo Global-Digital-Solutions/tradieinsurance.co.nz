@@ -656,128 +656,73 @@ Use our service to connect with a specialist broker who can ensure your insuranc
   },
   {
     slug: 'compare-tradie-insurance-providers-nz',
-    title: 'Tradie Insurance Compared: AMI, State, BizCover, Builtin',
-    excerpt: 'A practical comparison of the main tradie insurance providers — what they offer, their strengths, and how to choose the right one for your trade.',
+    title: 'Comparing Tradie Insurance: How a Broker Helps',
+    excerpt: 'Price tells you what a policy costs, not what it pays for. What actually differs between wordings, and what a broker adds when matching cover to a trade.',
     category: 'Comparison',
-    readTime: '7 min read',
-    date: '2026-03-20',
+    readTime: '8 min read',
+    date: '2026-09-22',
     author: 'TradieInsurance Editorial',
     image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-    content: `## Who Provides Tradie Insurance?
+    content: `## The same two words can mean different things
 
-The tradie insurance market includes a mix of large general insurers, specialist trade insurers, and online comparison platforms. Each has different strengths, pricing approaches, and coverage terms. Understanding the landscape helps you make a better-informed decision.
+Two policies can both say "public liability", carry the same limit and cost about the same, and still respond very differently to the same claim. The difference sits in clauses most people never read until something has gone wrong.
 
-## The Main Players
+We put three published wordings side by side on [our comparison page](/compare/): NZI's Broadform Liability, AMI's Broadform Liability and Vero's Combined Broadform. All three exclude the cost of redoing your own faulty work. Only one of the three offers a defective workmanship extension, and it comes with its own limit. Two of them make underground services cover conditional on checking plans before you dig, with different excesses. Hot work away from your premises is covered in each, but only if the listed precautions were followed on the day.
 
-### AMI Insurance
+None of that shows up in a price comparison. It shows up at claim time.
 
-AMI is one of New Zealand's most well-known general insurers and is backed by IAG (Insurance Australia Group). AMI offers business insurance products suitable for tradies, including public liability, commercial vehicle, and business contents cover.
+## Paying for cover you will not use
 
-**Strengths:**
-- Strong brand recognition and claims handling reputation
-- Wide network of branches and service centres
-- Bundled pricing for multiple policy types
-- Comprehensive commercial vehicle options
+There are two ways to get this wrong, and they cost money in opposite directions.
 
-**Considerations:**
-- Not a specialist tradie insurer — cover may be less tailored than specialist products
-- Premium pricing may reflect brand premium rather than just risk
+The first is buying more than the work calls for. A labour-only subcontractor who never supplies materials, never leaves tools on site overnight and works under a head contractor's policy does not have the same exposure as a building company running its own contracts. Cover that was sized for the second one, bought by the first, is money spent on risk that is not there.
 
-**Best for:** Tradies who value a large, established brand and want to bundle vehicle and business cover
+The second is cheaper and worse. A policy that excludes the specific thing you do all day is not a saving. A welder without the fire risk extension, a drainlayer without underground services, a builder whose subcontractors' defects are outside the wording: in each case the premium was lower because the cover was narrower, and the gap only appears when a claim is made.
 
-### State Insurance
+## What a broker does that a quote form does not
 
-State Insurance (also an IAG brand) is one of NZ's oldest insurers and offers a full range of business insurance products. Like AMI, State is a general insurer rather than a tradie specialist.
+A quote form prices the product it sells. A broker starts from the work you actually do.
 
-**Strengths:**
-- Long-established brand with strong NZ presence
-- Competitive pricing for low-risk trades
-- Good digital experience for policy management
+**Access to more than one insurer.** Several New Zealand insurers and underwriting agencies distribute only through brokers, so their wordings are not on the table at all if you buy direct. A broker can put the same set of facts to several of them and compare what comes back, clause by clause rather than price by price.
 
-**Considerations:**
-- Trade-specific cover may have limitations compared to specialist providers
-- Less flexibility for unusual or complex risk profiles
+**Reading your contracts, not just your trade.** Head contractors and commercial clients set minimum limits in the subcontract and ask for a certificate of currency before you start. A broker can read that clause, set the limit against it, and provide the certificate.
 
-**Best for:** Straightforward tradie businesses with standard risk profiles and modest cover requirements
+**Sizing the cover to the risk.** Turnover, whether you use subcontractors, what you leave on site, whether you supply materials, how much of your work is residential: these are the things that decide what cover fits. A broker who works with trades asks about them before quoting.
 
-### Rural and Provincial Insurers
+**Handling disclosure properly.** Non-disclosure is one of the most common reasons a claim is declined. A broker records what changed, tells the insurer, and keeps the file straight.
 
-Several mutual and regional insurers serve provincial New Zealand tradies. These providers often have stronger presence and specialist knowledge outside the main centres.
+**Acting for you at claim time.** When something does go wrong, the broker lodges the claim and argues the position with the insurer.
 
-**Strengths:**
-- Specialist knowledge of rural NZ risks
-- Strong claims service in provincial and agricultural areas
-- In some cases, mutual structures that keep profits within the membership
+## Matching the policy to the trade
 
-**Considerations:**
-- May be less competitive or accessible for urban-based tradies
-- Product range varies — check whether specialist trade risks are well covered
+The clauses that matter are not the same for every trade:
 
-**Best for:** Tradies working primarily in rural or provincial NZ who want a provider with strong local presence. A specialist broker can identify the most suitable option for your region.
+- **Builders and carpenters:** how the wording treats defective workmanship, and whether it responds to work done by subcontractors. See [builders insurance](/trades/builders/).
+- **Plumbers, gasfitters and welders:** the hot work conditions, and what has to be done before and after brazing or grinding on site.
+- **Drainlayers, fencers, landscapers and concreters:** the underground services clause, and what counts as taking reasonable steps to find services first.
+- **Roofers, scaffolders and arborists:** height work, and what the policy says about damage to the building or the property below.
+- **Tilers, plasterers and painters:** the building defects exclusion, which is where leak and weathertightness claims tend to land.
+- **Electricians:** resulting damage from faulty work, which can be the whole building rather than the circuit.
 
-### Builtin New Zealand
+Each trade page on this site sets out the rules that apply to that trade, with sources.
 
-Builtin is a specialist construction and trade insurance broker and underwriting agency. It focuses exclusively on the construction sector, giving it deep expertise in builder and tradie insurance.
+## What to ask before you place cover
 
-**Strengths:**
-- Specialist trade and construction focus
-- Policies designed specifically for NZ building and trade risks
-- Strong understanding of contract requirements and licensing obligations
-- Can often provide cover for complex or specialist risk profiles
+1. Which insurers did you approach for this, and why this one?
+2. Does the policy cover defective workmanship, and what is the sub-limit?
+3. How does it treat work done by my subcontractors?
+4. What conditions apply to hot work, underground services, and tools left in the vehicle overnight?
+5. What are the excesses, including any that are higher for particular claims?
+6. Does the limit meet every contract I work under, and can you issue a certificate of currency?
+7. How are you paid on this, and do you charge a fee as well as commission?
 
-**Considerations:**
-- May not be accessible directly — typically through broker channels
-- Less relevant for very simple or low-turnover trade operations
+That last one is fair to ask. Brokers are usually paid commission by the insurer, and some also charge a broker fee. It should be clear before you agree to anything. A broker giving advice in New Zealand must be a licensed Financial Advice Provider or work under one, and is regulated by the Financial Markets Authority.
 
-**Best for:** Builders, contractors, and tradies with complex risk profiles or specialist insurance needs
+## Where this site fits
 
-### BizCover
+TradieInsurance.co.nz does not sell insurance and is not a broker. We publish what the rules require and what the wordings say, with the sources, and we connect tradies with specialist brokers who arrange the cover. There is no obligation to take up anything you are offered.
 
-BizCover is an online insurance comparison and purchasing platform. It is not an insurer itself but aggregates quotes from multiple insurers, allowing businesses to compare and buy online.
-
-**Strengths:**
-- Fast online quote and purchase process
-- Comparison of multiple insurers in one place
-- Competitive pricing for standard risk profiles
-- Good for simple cover requirements
-
-**Considerations:**
-- Less personalised advice than a traditional broker
-- May not handle complex or non-standard risks well
-- Limited ability to negotiate terms or tailor cover
-
-**Best for:** Low-complexity tradie businesses who want a fast, digital purchasing experience
-
-### Gallagher (Arthur J. Gallagher)
-
-Gallagher is one of the world's largest insurance brokerages with a significant NZ presence. It provides broker services for business insurance, including tradie and construction cover.
-
-**Strengths:**
-- Access to a wide range of insurers and specialty markets
-- Professional advisory service
-- Can handle complex and large-turnover operations
-- Strong claims advocacy
-
-**Considerations:**
-- Primarily suited to larger trade businesses
-- May not be cost-effective for sole traders or very small operations
-
-**Best for:** Larger trade businesses and those with complex insurance requirements
-
-## How to Choose the Right Provider
-
-Rather than picking a provider first, consider these steps:
-
-1. **Define your requirements:** What cover do you need? What limits? What is your turnover and workforce size?
-2. **Check contractual requirements:** What do your building contracts or principal contractors require?
-3. **Use a broker:** A specialist broker can access multiple providers and tailor cover to your trade — often at no direct cost to you
-4. **Compare the total package:** Premium is important, but so are the policy terms, exclusions, and the insurer's reputation for claims handling
-
-## The Bottom Line
-
-The best tradie insurance provider is the one that offers the right cover for your specific trade, at a competitive price, with strong claims service. A specialist broker is your best ally in finding that combination — they know the market, understand your trade's risks, and can negotiate terms on your behalf.
-
-Use our service to connect with a licensed tradie insurance broker and get comparative quotes from multiple providers.`,
+If you want to do the comparison yourself first, [the checklist on our comparison page](/compare/) is the same one a broker works through.`,
   },
   {
     slug: 'gasfitter-insurance-nz-guide',
