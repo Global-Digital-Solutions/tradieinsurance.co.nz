@@ -2213,6 +2213,84 @@ If you regularly bring other trades onto your jobs, this is the part of your cov
 
 Sources: Building Performance (MBIE), <a href="https://www.building.govt.nz/projects-and-consents/why-contracts-are-valuable/implied-warranties-and-defects" target="_blank" rel="noopener" class="text-orange-700 underline">Implied warranties and defects</a> and <a href="https://www.building.govt.nz/getting-started/your-rights-and-obligations/homeowner-rights-and-obligations/know-your-rights-consumers/once-building-work-finishes" target="_blank" rel="noopener" class="text-orange-700 underline">Once building work finishes</a>. AA Insurance help centre, Do I need defective workmanship cover if I have public liability cover? QBE New Zealand, General, Statutory and Employers Liability product briefing, October 2022. Policy terms vary by insurer; the wording of your own policy governs.`,
   },
+  {
+    slug: 'three-metre-rule-working-at-height-guidelines-2026',
+    title: 'The Three-Metre Rule Is Gone: Height Guidance Reset',
+    excerpt: 'WorkSafe published new Good Practice Guidelines for working at height in August 2026, calling the old three-metre rule "dangerous and incorrect" and recommending barriers or restraint for any fall over one metre.',
+    category: 'Safety',
+    readTime: '8 min read',
+    date: '2026-10-05',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1632759145351-1d592919f522?auto=format&fit=crop&w=800&q=80',
+    content: `## The Number Everyone Quotes Has No Legal Standing
+
+If your site induction, safety plan or task analysis template says fall protection kicks in at three metres, it is out of date, and WorkSafe has now said so in writing.
+
+In August 2026 the regulator published Working at height in New Zealand: Good Practice Guidelines (WSNZ_5049), replacing the 2012 Best Practice Guidelines that most height training in the country was built on. The regulations have not changed. The Health and Safety at Work (General Risk and Workplace Management) Regulations 2016 still set out the duties, and the Health and Safety at Work Act 2015 still carries the primary duty of care. What has changed is WorkSafe's published position on how you meet those duties.
+
+The headline is that there is no minimum height. Any fall risk from any height has to be managed, and WorkSafe now recommends that any potential fall of more than one metre is controlled with physical barriers or a fall restraint system. The guidelines give the three-metre rule its own section and describe it as dangerous and incorrect. The figure came from a regulation under the old Health and Safety in Employment Regulations 1995 that was revoked when the current Act came in, yet it still turns up in inductions and templates written years ago.
+
+One thing worth saying plainly: some commentary earlier this year, including on this site, described the three-metre threshold as staying put under the proposed law reform. The guidelines are the more recent word on what WorkSafe expects, so treat the one-metre recommendation as the working standard on your own sites.
+
+## What Else Moved in the Guidelines
+
+The six-level hierarchy of controls now runs from eliminating the work at height, through substitution, isolation and engineering controls, down to administrative controls and personal protective equipment. Harnesses sit at the bottom. Edge protection and scaffolding are strongly preferred, and PPE alone is never sufficient where a higher-level control can be used.
+
+Roofing is where the detail gets specific enough to check by eye on a job:
+
+- Above a 25 degree pitch, edge protection should be system-rated with infill panels, plus a roof ladder.
+- Above 35 degrees, edge protection must be specifically designed for that roof.
+- The gap between the work deck and the gutter line should be no more than 200mm.
+- Edge protection should run continuously to the apex, including gable ends. Stopping short and relying on a harness is called out.
+- Single-pole edge protection gets a boxed warning because it lacks the structural integrity of an engineered system.
+
+Training expectations have lifted too. The guidelines recommend refresher training every two years and say untrained workers need supervision by a competent person. WorkSafe also expects harness competence to be verified through a combination of NZQA-registered training, practical assessment by a competent supervisor and a verification of competency. Operator logbooks, recording the task, equipment, pre-use inspection and which control system was used, are presented as a practical way to prove it.
+
+Notification is unchanged: work with a fall risk of five metres or more still needs 24 hours' notice to WorkSafe, though it now goes through an online form. Where this guidance is secondhand, read the source document itself before you rewrite your paperwork. The summary above draws on WorkSafe's published guidelines as reported by a workplace training provider.
+
+## Why "Should" Still Matters
+
+The guidelines use "must" for legal requirements and "should" for recommended practice, and the two-year refresher and the one-metre recommendation are both "shoulds". That does not make them optional in any practical sense. Under section 22 of the Health and Safety at Work Act, what is reasonably practicable depends partly on what you know or ought to know about a risk and how to control it. A published WorkSafe recommendation is exactly that kind of knowledge. If you depart from it, you need to be able to show that your alternative achieves the same outcome.
+
+This lands in the same quarter that WorkSafe inspectors are running proactive assessment visits on residential building sites, focused on falls from height. A site working to a three-metre rule is going to look out of step with the document the inspector has just read.
+
+## What This Means for Your Insurance
+
+The guidelines do not rewrite your policy, but they change the yardstick that your cover will be tested against after something goes wrong.
+
+Statutory liability insurance responds to defence costs and, usually, reparation when a business is prosecuted under the Health and Safety at Work Act. It cannot pay the fine itself, because section 29 of the Act makes insuring a fine unlawful. In a fall case, the defence will turn on what you knew, what controls you chose and whether you can evidence them. A site induction that still cites a revoked three-metre trigger, with no logbook or competency record behind it, is a weak starting point.
+
+Public liability and contract works policies matter as well. Many wordings carry conditions about complying with statutory requirements or following safety practice, and an insurer reviewing a serious fall claim will look at how the site was run. That does not mean a claim fails because you were at 1.5 metres without a barrier, but it is a conversation you would rather not be having with an assessor.
+
+Three things are worth checking against your own schedule:
+
+- Whether statutory liability is in place and what the limit is for defence costs and reparation combined.
+- Whether any policy condition requires you to follow recognised safety guidance or to comply with WorkSafe notices.
+- Whether your business description matches the height work you now do, particularly if you have added roofing or scaffolding-adjacent tasks.
+
+Workers' injuries are largely handled through ACC, but self-employed tradies who fall are still facing weeks off the tools. Income protection fills a gap that ACC cover alone often does not, and the one-metre standard is a reminder that low falls hurt people too.
+
+## Getting Your Paperwork Up to Date
+
+Start with the documents. Search your inductions, safety plans and task analysis templates for references to three metres, to the 2012 guidelines and to AS/NZS 4488, which the new document replaces for rope access with AS/NZS ISO 22846. Anyone issuing height permits should have been trained against current material.
+
+Then walk the roofing jobs. Check pitch against your edge protection, check the gutter gap, and check that protection runs to the apex rather than stopping where it is convenient. Where a harness is the only control on a job, ask whether a higher-level control was reasonably practicable and write down the answer.
+
+Finally, put dates on your training. A two-year refresher is easier to show if you hold a simple register of who was trained, when, and by whom.
+
+## Key Takeaways
+
+- WorkSafe published new working at height Good Practice Guidelines (WSNZ_5049) in August 2026, replacing the 2012 document.
+- The three-metre rule is described as dangerous and incorrect, with no legal standing. WorkSafe now recommends managing any potential fall over one metre.
+- Roof edge protection requirements are more specific, including system-rated protection above 25 degrees and continuous protection to the apex.
+- Refresher training every two years is recommended. It is a "should", but departing from it means being able to show an equivalent alternative.
+- Fines under the Health and Safety at Work Act cannot be insured, but statutory liability can respond to defence costs and reparation. Check your limit.
+- Update inductions, safety plans and training records now, ahead of WorkSafe's October to December site visits.
+
+If your site paperwork or your trade has changed since your policy was written, it is worth having the schedule read against the work you actually do. A specialist broker can check your statutory liability limit, policy conditions and business description in one pass. [Get a Quote](/contact/) and have it reviewed before the next inspector visit.
+
+Sources: WorkSafe, Working at height in New Zealand: Good Practice Guidelines (WSNZ_5049), August 2026, as summarised by <a href="https://www.drivingtests.co.nz/resources/whats-changed-in-worksafes-2026-working-at-height-guidelines/" target="_blank" rel="noopener" class="text-orange-700 underline">DT Driver Training</a>.`,
+  },
 ]
 
 /**
