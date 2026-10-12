@@ -1683,61 +1683,57 @@ Getting these steps right at incorporation is far simpler than untangling the ga
   {
     slug: 'height-safety-law-changes-tradies-2026',
     title: 'Height Safety Law Changes: What They Mean for Your Cover',
-    excerpt: 'The Health and Safety at Work Amendment Bill is expected to pass before late September 2026, bringing risk-based height rules. Here is what changes — and what it means for your insurance.',
+    excerpt: 'The Health and Safety at Work Amendment Act takes effect on 1 April 2027. Here is what it changes for height work, what it does not, and what it means for your insurance.',
     category: 'Industry News',
-    readTime: '7 min read',
-    date: '2026-08-11',
+    readTime: '6 min read',
+    date: '2026-10-12',
     author: 'TradieInsurance Editorial',
     image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
-    content: `## The Biggest Height Safety Shake-Up in a Decade
+    content: `## The Law Has Passed and the Date Is Set
 
-The Health and Safety at Work Amendment Bill — introduced to Parliament in February 2026 — is expected to pass and come into force before Parliament rises in late September 2026. For anyone who works off a ladder, a scaffold, or a roof, it is the most significant rewrite of height safety rules since the Health and Safety at Work Act arrived a decade ago, and it will change how you plan jobs, what paperwork you complete, and how WorkSafe assesses whether you have done enough.
+When this article was first published in August, the Health and Safety at Work Amendment Bill was described as likely to come into force before Parliament rose in late September. The timing turned out differently. <a href="https://www.mbie.govt.nz/business-and-employment/employment-and-skills/health-and-safety/health-and-safety-reform" target="_blank" rel="noopener" class="text-orange-700 underline">MBIE's reform page</a> records that the Bill passed its third reading on 1 July 2026, received Royal Assent on 9 July 2026, and that the Amendment Act comes into force on 1 April 2027.
 
-The reform follows Workplace Relations and Safety Minister Brooke van Velden's 2024 consultation roadshow, where tradies consistently reported that the rules were confusing, prequalification requirements were repetitive and costly, and businesses were often unclear on what they actually needed to do to comply. One industry submitter reported completing 76 separate prequalification forms in a single year. The Government's response is a shift from treating every conceivable risk equally to concentrating effort on critical risks — the ones genuinely likely to cause serious harm or death.
+Until then the current Act and regulations apply in full. For anyone who works off a ladder, a scaffold or a roof, the reform changes how duties are framed rather than lowering the bar for height work, and some of what was expected in August has been overtaken by WorkSafe's own guidance.
 
-Falls from height sit firmly in that category. Between 2022 and 2023 the construction sector recorded 645 reported injuries and 12 fatalities from falls, and falls remain the leading cause of serious injury and death on building sites. This reform is not about relaxing height safety — it is about making the rules proportionate and clear.
+## What the Reform Does for Height Work
 
-## What Is Actually Changing
+The new law centres on critical risk. <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/what-is-critical-risk/" target="_blank" rel="noopener" class="text-orange-700 underline">WorkSafe's guidance</a> describes a critical risk as one likely to lead to death, a notifiable injury, illness or incident, or a specified occupational disease, or one managed by regulations under the Act. Its plain-language summary of the regulated hazards includes any work where a person could fall more than 3 metres, and constructing, erecting, altering or dismantling scaffolding. Lower falls are not excluded: a fall likely to cause a notifiable injury is a critical risk at any height.
 
-The change most relevant to everyday trade work is a risk-based hierarchy of controls for working at height. Under the new framework, the safety measure you use must match the actual danger of the job rather than defaulting to the most expensive option every time. The example the Minister has used repeatedly: a simple gutter repair or minor electrical maintenance at height does not necessarily require scaffolding — a ladder or harness may be sufficient, and legal, for genuinely low-risk tasks.
+Small businesses, which WorkSafe describes as those with fewer than 20 workers, will have their main duties limited to critical risks from 1 April 2027. WorkSafe's <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/managing-critical-risks-for-small-pcbus/" target="_blank" rel="noopener" class="text-orange-700 underline">guidance for small PCBUs</a> lists falls from height among the critical risks in its worked example. For height trades, that means the core obligations stay where they are, and the effort the law no longer requires is on minor hazards.
 
-Scaffolding certification is also being modernised. The Health and Safety in Employment Regulations 1995 define three categories of scaffolding competence, but SARNZ — the industry body — has long operated with four: elementary, intermediate, advanced suspended, and restricted. The Government has confirmed the certificate of competence categories will be updated to match current industry practice, with a review of certificate fees to follow. Scaffolders should see less wasted training time and clearer certification pathways.
+Approved codes of practice gain weight too. WorkSafe's <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/understanding-the-changes-to-health-and-safety-law/" target="_blank" rel="noopener" class="text-orange-700 underline">overview of the changes</a> says that from 1 April 2027 a business following a code for a risk is considered to have met its obligations for that risk, and that parties other than the regulator will be able to develop codes for approval.
 
-Approved Codes of Practice are being given real teeth. Under current rules, following an ACoP is voluntary evidence that you tried to comply. The Amendment Bill gives ACoPs formal safe harbour status: follow the code for a specific risk and you are deemed to have met the relevant duty. Once the new working-at-height ACoP is published, following it carefully will give you genuine legal certainty for the first time.
+The wider reform is covered in more depth in <a href="/blog/health-safety-law-changes-april-2027-small-tradies/" class="text-orange-700 underline">Health and Safety Law Changes: What Small Tradies Need to Do</a>.
 
-Small operators get more targeted duties too. Businesses with fewer than 20 workers for at least nine months of the year will only need to comply with core duties as they relate to critical risks. Since height work almost always qualifies as a critical risk, your obligations there do not shrink — but your compliance effort should become far more focused on what actually matters.
+## The Three-Metre Figure Is Not a Safe Threshold
 
-Three things are explicitly not changing: the three-metre fall protection threshold stays, scaffolding where a person can fall five metres or more remains notifiable work requiring a certified scaffolder, and the duty to eliminate or minimise risk so far as is reasonably practicable is untouched. WorkSafe updated its working-at-height guidance as recently as 7 August 2026, and it is enforcing the existing rules in full until the Bill receives Royal Assent.
+The August version of this article said the three-metre fall protection threshold was staying. That is no longer a sound way to read it. WorkSafe's <a href="https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/" target="_blank" rel="noopener" class="text-orange-700 underline">working at height guidance</a> says there is no minimum height threshold for working at height and calls the three-metre rule dangerous and incorrect. It recommends that any potential fall greater than one metre is managed with physical barriers or fall restraint, that you use the highest-level control that is reasonably practicable, and that refresher training happens every two years. Our article on <a href="/blog/three-metre-rule-working-at-height-guidelines-2026/" class="text-orange-700 underline">the new height guidance</a> walks through it.
+
+Notification has not moved. WorkSafe's page on <a href="https://www.worksafe.govt.nz/notifications/report-scheduled-or-completed-work/hazardous-work/" target="_blank" rel="noopener" class="text-orange-700 underline">particularly hazardous work</a> says construction work with a risk of falling 5 metres or more, and erecting or dismantling scaffolding with that risk, needs at least 24 hours' notice through its online form. Exclusions include work on a residential building up to and including two full storeys, work carried out from a ladder only, and minor or routine maintenance and repair.
 
 ## What This Means for Your Insurance
 
-The reform has real consequences for how your cover responds, and the biggest one is evidential. When the law moves from prescriptive rules to risk-based judgement, the question after an incident becomes: can you show your control decision was reasonable? If you chose a ladder and harness over scaffolding for a job under the new framework, your documented risk assessment becomes the difference between a defensible position and a difficult one — for WorkSafe, and for your insurer.
+The shift to critical risk is evidential as much as legal. After a fall, the question will be whether you identified the risk and chose a reasonable control, and the record you kept at the time is what answers it.
 
-Statutory liability insurance is the policy to review first. It covers defence costs for prosecutions under the Health and Safety at Work Act and can cover reparation orders, though fines themselves are not insurable by law. With WorkSafe's enforcement focus shifting toward critical risks — and falls at the top of that list — height trades should expect scrutiny to intensify, not ease. Check your statutory liability limit reflects the realistic cost of defending a prosecution, which routinely runs well into six figures.
+Statutory liability insurance is the policy to look at first. <a href="https://www.legislation.govt.nz/act/public/2015/70/en/latest/" target="_blank" rel="noopener" class="text-orange-700 underline">Section 29 of the Health and Safety at Work Act</a> makes any insurance against a fine under the Act of no effect, so fines are always yours to pay. Defence costs are a different matter. As at October 2026, <a href="https://www.qbe.com/media/qbe/apac/new-zealand/document-listing/2025/02/27/03/56/statutory-liability-policy-stl1122.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">QBE's published statutory liability wording</a> pays defence costs and brings reparation following a conviction under the Act within its cover, while excluding the fine itself. Check that your own limit is realistic for defending a serious fall prosecution.
 
-Public liability remains essential, but pay attention to policy conditions. Some policies carry conditions around compliance with health and safety legislation or specific height work exclusions. As the rules change, wording that referenced the old framework may need updating — a conversation your broker should be having with insurers over the coming year.
+Public liability matters as well. Read the conditions in your own wording about compliance with legislation and safety practice, and make sure the business description includes the height work you actually do.
 
-Income protection deserves a hard look given the numbers above. ACC covers workplace accidents, but weekly compensation caps at 80% of earnings, and a serious fall can end a physical career entirely. For self-employed tradies, income protection and permanent disablement cover fill the gap between what ACC pays and what your family actually needs.
+Income protection is worth a look given what a fall can do. <a href="https://www.acc.co.nz/im-injured/financial-support/weekly-compensation/weekly-compensation-for-self-employed" target="_blank" rel="noopener" class="text-orange-700 underline">ACC weekly compensation for the self-employed</a> is generally up to 80% of pre-injury earnings, usually from day 8 after the injury, and is based on earnings after expenses. The difference between that and your real outgoings is the gap income protection is designed to fill.
 
-There is also a practical upside coming. The prequalification overhaul — free, nationally consistent WorkSafe templates usable across multiple clients — should reduce the paperwork burden of proving cover. Keep your certificates of currency accurate and current so they slot straight into the new templates when they arrive.
+## What Height Trades Should Do Before April 2027
 
-## What Height Trades Should Do Before September
-
-Keep operating under the current rules until Royal Assent — nothing has legally changed yet, and getting caught cutting corners during a reform period is a poor look with both WorkSafe and your insurer. Sign up for WorkSafe updates so you see the new working-at-height ACoP the day it lands, because following it will become your strongest legal position.
-
-If you are a scaffolder, watch the certificate of competence review through SARNZ and time any new training against the updated categories rather than the outgoing ones. SARNZ has backed the intent of the reform while cautioning that scaffolding regulations directly saved lives when first introduced — a reminder that the goal is proportionate safety, not less safety.
-
-And regardless of trade, start writing down your height work decisions now. A simple, consistent record of why you chose a particular control for a particular job costs you minutes and builds exactly the evidence trail the new risk-based framework — and any future claim — will demand.
+Work to the current law and WorkSafe's current height guidance now. Search your inductions and safety plans for any three-metre trigger and update them. Start writing down why you chose a particular control for a particular job, because that simple record is the evidence a risk-based law relies on. Sign up for WorkSafe updates so you see new approved codes of practice as they are published. If you are asked to prequalify for a head contractor, see our article on <a href="/blog/worksafe-prequalification-template-tradies-2026/" class="text-orange-700 underline">WorkSafe's prequalification template</a>.
 
 ## Key Takeaways
 
-- The Health and Safety at Work Amendment Bill is expected to come into force before late September 2026, introducing a risk-based hierarchy of controls for height work.
-- The three-metre fall protection threshold and five-metre notifiable scaffolding threshold are not changing.
-- ACoPs gain safe harbour status — following the new working-at-height code will be deemed compliance.
-- Statutory liability, public liability, and income protection are the policies most affected; fines are never insurable, but defence costs and reparations can be covered.
-- Document every height work control decision — the new framework rewards evidence of reasonable judgement.
+- The Health and Safety at Work Amendment Act received Royal Assent on 9 July 2026 and comes into force on 1 April 2027.
+- Falls of more than 3 metres and scaffolding work are on WorkSafe's summary of regulated critical risks, and lower falls can be critical too.
+- WorkSafe's height guidance says there is no minimum height and recommends barriers or restraint for falls over one metre.
+- Construction work with a fall risk of 5 metres or more still needs 24 hours' notice, subject to WorkSafe's listed exclusions.
+- Fines cannot be insured. Statutory liability can pay defence costs and, in the wording checked, reparation.
 
-Height safety law is changing faster than most policy wordings. A specialist broker can check your statutory liability limits, public liability conditions, and income protection before the new framework lands — [Get a Quote](/contact/) and have your cover reviewed while the current rules still apply.`,
+Height safety expectations have moved faster than many policy wordings. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have your statutory liability, public liability and income protection reviewed before the new law takes effect.`,
   },
   {
     slug: 'two-speed-building-market-tradie-insurance-2026',
@@ -2290,6 +2286,93 @@ Finally, put dates on your training. A two-year refresher is easier to show if y
 If your site paperwork or your trade has changed since your policy was written, it is worth having the schedule read against the work you actually do. A specialist broker can check your statutory liability limit, policy conditions and business description in one pass. [Get a Quote](/contact/) and have it reviewed before the next inspector visit.
 
 Sources: WorkSafe, Working at height in New Zealand: Good Practice Guidelines (WSNZ_5049), August 2026, as summarised by <a href="https://www.drivingtests.co.nz/resources/whats-changed-in-worksafes-2026-working-at-height-guidelines/" target="_blank" rel="noopener" class="text-orange-700 underline">DT Driver Training</a>.`,
+  },
+  {
+    slug: 'health-safety-law-changes-april-2027-small-tradies',
+    title: 'Health and Safety Law Changes: What Small Tradies Need to Do',
+    excerpt: 'The Health and Safety at Work Amendment Act comes into force on 1 April 2027. Businesses with fewer than 20 workers will focus their duties on critical risks. Here is what changes and what it means for your cover.',
+    category: 'Industry News',
+    readTime: '8 min read',
+    date: '2026-10-12',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    content: `## The Rules Change on 1 April 2027
+
+The biggest rewrite of workplace health and safety law since 2015 has passed, and small trade businesses have less than six months to get ready for it.
+
+According to <a href="https://www.mbie.govt.nz/business-and-employment/employment-and-skills/health-and-safety/health-and-safety-reform" target="_blank" rel="noopener" class="text-orange-700 underline">MBIE's health and safety reform page</a>, the Health and Safety at Work Amendment Bill passed its third reading on 1 July 2026 and received Royal Assent on 9 July 2026. The Amendment Act comes into force on 1 April 2027. MBIE gives the aims as reducing unnecessary compliance costs, giving businesses more certainty about compliance, and continuing to bring down harm at work.
+
+Until April, the current Act and regulations apply in full. On 17 September 2026 WorkSafe <a href="https://www.worksafe.govt.nz/about-us/news-and-media/new-guidance-released-for-upcoming-hswa-changes" target="_blank" rel="noopener" class="text-orange-700 underline">released the first in a series of guidance products</a> for the changes, built around two ideas: critical risk, and the size of the business.
+
+## Two Ideas Decide How the New Law Applies to You
+
+The first is critical risk. <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/what-is-critical-risk/" target="_blank" rel="noopener" class="text-orange-700 underline">WorkSafe's guidance on critical risk</a> describes it as a risk that is likely to lead to death, a notifiable injury, a notifiable illness, a notifiable incident or a specified occupational disease, or a risk that is managed by regulations made under the Act. The same page carries a plain-language summary of Schedule 1A, the list of regulated hazards, and a good part of it reads like a day on a building site:
+
+- Any work where a person could fall more than 3 metres.
+- Constructing, erecting, maintaining, altering, repairing or dismantling scaffolding.
+- Construction, demolition, lifting operations or overhead work where objects could fall onto people.
+- Excavation work where collapse, engulfment or ground failure may occur.
+- Working with asbestos, including removal and exposure to airborne asbestos.
+- Use of powder actuated tools in construction.
+
+That table is not the whole definition. A risk that is likely to cause a notifiable injury is critical whatever height it happens at, and WorkSafe's own <a href="https://www.worksafe.govt.nz/topic-and-industry/working-at-height/working-at-height-in-nz/" target="_blank" rel="noopener" class="text-orange-700 underline">working at height guidance</a> says there is no minimum height threshold and recommends physical barriers or fall restraint for any potential fall over one metre. We covered that guidance in <a href="/blog/three-metre-rule-working-at-height-guidelines-2026/" class="text-orange-700 underline">The Three-Metre Rule Is Gone</a>.
+
+The second idea is size. WorkSafe's <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/updated-purpose-hswa/" target="_blank" rel="noopener" class="text-orange-700 underline">page on the updated purpose of the Act</a> describes small PCBUs as those with fewer than 20 workers, and its <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/understanding-the-changes-to-health-and-safety-law/" target="_blank" rel="noopener" class="text-orange-700 underline">overview of the changes</a> says large PCBUs, with 20 or more workers, must manage both critical and other risks. If your crew grows and shrinks through the year, read WorkSafe's "Am I a small or large PCBU?" guide, listed in the September release, before deciding which side of the line you sit on.
+
+## What Changes for a Crew of Under 20
+
+<a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/managing-critical-risks-for-small-pcbus/" target="_blank" rel="noopener" class="text-orange-700 underline">WorkSafe's guidance for small PCBUs</a>, which applies from 1 April 2027, says their main duties are limited to managing critical risks, although they can choose to manage other risks too. The duties that narrow in this way are:
+
+- The primary duty of care.
+- The duties of a business that manages or controls a workplace, or fixtures, fittings or plant.
+- Training, supervision and information duties.
+- Personal protective equipment, where managing a critical risk includes providing it.
+- Officers' due diligence on identifying and managing critical risks.
+- Upstream duties on designers, manufacturers, importers, suppliers and installers.
+
+One set of duties does not narrow. The same guidance says worker welfare duties apply in every workplace because they are about basic working conditions rather than risk levels: toilets, drinking water, hand washing, first aid and emergency planning still have to be provided so far as is reasonably practicable.
+
+For the critical risks themselves, WorkSafe sets out the steps it expects: identify them, assess them using what you know and ought reasonably to know, manage them so far as is reasonably practicable, then monitor and review the controls. Its worked example for a small farm lists falls from height, electricity, hazardous substances and noise among the critical risks, while minor strains from lifting do not have to be managed.
+
+For most trade businesses the effect is a shorter list rather than an empty one. A roofer, scaffolder or framing crew spends much of the day around hazards on that table, and those duties carry on.
+
+## Codes of Practice, Overlapping Laws and Officers
+
+According to WorkSafe's overview, from 1 April 2027 a business that follows an approved code of practice for a risk is considered to have met its obligations under the Act for that risk, and other parties will be able to develop codes for approval. Where another Act sets requirements for the same risk, such as the Building Act 2004 or the Land Transport Act 1998, complying with that Act will count as complying with the health and safety law for that risk.
+
+Officers' duties have been clarified to focus on governance. An officer must understand the risks and health and safety matters in the work, make sure the business has the resources and processes to manage them, and verify those are being used. If you trade through a company and you are its director, that officer is you. Our guide to <a href="/blog/tradie-business-structure-insurance-nz/" class="text-orange-700 underline">sole trader and company structures</a> covers why that matters.
+
+## What the Changes Mean for Your Insurance Cover
+
+A narrower set of duties does not make a prosecution cheaper when one happens, and the critical risks are exactly where serious harm, and large reparation, tends to arise.
+
+Start with what insurance cannot do. <a href="https://www.legislation.govt.nz/act/public/2015/70/en/latest/" target="_blank" rel="noopener" class="text-orange-700 underline">Section 29 of the Health and Safety at Work Act</a> makes any policy that indemnifies a person for a fine or infringement fee under the Act of no effect, and makes offering or accepting that kind of cover an offence. <a href="https://www.worksafe.govt.nz/managing-health-and-safety/getting-started/understanding-the-law/offences-and-penalties-under-the-health-and-safety-at-work-act-2015/" target="_blank" rel="noopener" class="text-orange-700 underline">WorkSafe's offences and penalties fact sheet</a> puts the maximum fine for failing to comply with a duty at $100,000 for an officer or an individual PCBU and $500,000 for a company, rising to $300,000 and $1.5 million for exposing someone to a risk of death or serious injury. Those fines come out of your own pocket.
+
+What statutory liability insurance can do is pay for the defence and, depending on the wording, reparation. As at October 2026, <a href="https://www.qbe.com/media/qbe/apac/new-zealand/document-listing/2025/02/27/03/56/statutory-liability-policy-stl1122.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">QBE's published Statutory Liability Policy wording (STL1122)</a> excludes fines imposed under the Act but extends its definition of fine to include a sentence of reparation following a conviction under it, and pays defence costs. <a href="https://www.aainsurance.co.nz/small-business-insurance/policy-documents/small-business-statutory-liability" target="_blank" rel="noopener" class="text-orange-700 underline">AA Insurance's small business statutory liability module</a> likewise excludes fines under the Act while stating that its definition does include reparation ordered after a conviction under it. Both wordings exclude, in different terms, deliberate disregard of or wilful failure to comply with the law, which is a reason to keep your critical risk records honest and current.
+
+Three things to check against your own schedule before April:
+
+- Whether statutory liability is in place at all, and whether the limit realistically covers defence costs and reparation together.
+- Who the policy treats as insured. If you are a company director, confirm the cover extends to you personally as an officer as well as to the company.
+- Whether the business description still matches the work, particularly if you have taken on height work, demolition or excavation that sits on the critical risk list.
+
+Injury to yourself is a separate gap. <a href="https://www.acc.co.nz/im-injured/financial-support/weekly-compensation/weekly-compensation-for-self-employed" target="_blank" rel="noopener" class="text-orange-700 underline">ACC weekly compensation for the self-employed</a> is generally up to 80% of pre-injury earnings, usually from day 8 after the injury, and is calculated on earnings after expenses as filed with Inland Revenue. <a href="/types/income-protection/" class="text-orange-700 underline">Income protection</a> is worth reviewing alongside your <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> cover.
+
+## Getting Ready Before April
+
+Write down your critical risks. Start with WorkSafe's Schedule 1A table, then walk through the jobs you actually do and add anything likely to cause a notifiable injury. Count your workers and decide, using WorkSafe's guidance, whether you are a small or large business.
+
+Keep the records that show how you control critical risks, leave the welfare basics alone, and watch for new approved codes of practice. If a head contractor asks for prequalification, our article on <a href="/blog/worksafe-prequalification-template-tradies-2026/" class="text-orange-700 underline">WorkSafe's prequalification template</a> may help.
+
+## Key Takeaways
+
+- The Health and Safety at Work Amendment Act received Royal Assent on 9 July 2026 and comes into force on 1 April 2027.
+- Small businesses, described by WorkSafe as those with fewer than 20 workers, will have their main duties limited to critical risks. Worker welfare duties still apply to everyone.
+- Falls of more than 3 metres, scaffolding, excavation, asbestos and overhead work all appear on WorkSafe's summary of regulated critical risks.
+- Following an approved code of practice for a risk will count as meeting your duty for that risk.
+- Fines under the Act cannot be insured. Statutory liability wordings can pay defence costs and, in the wordings checked, reparation.
+
+If your business has changed since your policy was written, it is worth having your statutory liability, public liability and income protection read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have your cover reviewed before the new law takes effect.`,
   },
 ]
 

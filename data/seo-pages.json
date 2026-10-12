@@ -445,7 +445,7 @@
   "priority": "0.3"
  },
  "/terms/": {
-  "lastmod": "2026-05-21",
+  "lastmod": "2026-10-12",
   "changefreq": "yearly",
   "priority": "0.3"
  },
@@ -453,5 +453,15 @@
   "lastmod": "2026-05-21",
   "changefreq": "yearly",
   "priority": "0.3"
+ },
+ "/blog/health-safety-law-changes-april-2027-small-tradies/": {
+  "lastmod": "2026-10-12",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/three-metre-rule-working-at-height-guidelines-2026/": {
+  "lastmod": "2026-10-12",
+  "changefreq": "monthly",
+  "priority": "0.6"
  }
 }

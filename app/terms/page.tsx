@@ -19,7 +19,7 @@ export default function TermsPage() {
             <span className="text-white">Terms of Use</span>
           </nav>
           <h1 className="text-4xl font-extrabold text-white mb-2">Terms of Use</h1>
-          <p className="text-gray-400 text-sm">Last updated: 10 May 2026</p>
+          <p className="text-gray-400 text-sm">Last updated: 12 October 2026</p>
         </div>
       </div>
       <div className="bg-white py-14">
@@ -28,11 +28,12 @@ export default function TermsPage() {
           <p>By accessing and using TradieInsurance.co.nz (the &quot;Website&quot;), you agree to be bound by these Terms of Use. If you do not agree, please do not use the Website.</p>
 
           <h2>2. Nature of Service</h2>
-          <p>TradieInsurance.co.nz is an information and referral service only. We do not provide financial advice, act as an insurance broker, or sell insurance products directly. We connect users with licensed New Zealand insurance brokers and advisers who are regulated under the Financial Markets Conduct Act 2013 (FMCA).</p>
+          <p>TradieInsurance.co.nz is an information and referral service only. We do not provide financial advice, act as an insurance broker, or sell insurance products directly. We connect users with insurance brokers and advisers who are Registered Financial Service Providers.</p>
           <p>The information on this website is general in nature and does not constitute financial advice. You should seek advice from a licensed financial adviser before making any insurance decisions.</p>
 
           <h2>3. Accuracy of Information</h2>
-          <p>We endeavour to keep the information on this Website accurate and up to date. However, we make no representation or warranty as to the accuracy, completeness, or currency of any information on the Website. Insurance products, premiums, and requirements can change — always confirm current details with the broker or insurer.</p>
+          <p>We endeavour to keep the information on this Website accurate and up to date. However, we make no representation or warranty as to the accuracy, completeness, or currency of any information on the Website. Insurance products, premiums, and requirements can change, so always confirm current details with the broker or insurer.</p>
+          <p>Information about insurers and other providers, including references to their published policy wordings, was accurate at the time of publishing. It may change after publication and should be confirmed with the provider before you rely on it. If you are a reader or a provider and you see information that is out of date, please let us know at <a href={`mailto:${siteConfig.email}`} className="text-orange-500">{siteConfig.email}</a> and we will review it.</p>
 
           <h2>4. Referral Process</h2>
           <p>When you submit a quote request, you consent to us sharing your contact details and insurance requirements with a licensed insurance broker in our referral network. That broker may contact you by phone, email, or other means to discuss your requirements. We receive a referral fee if you proceed with a policy arranged through the broker.</p>

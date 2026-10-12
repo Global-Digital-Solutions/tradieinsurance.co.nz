@@ -103,6 +103,8 @@ function renderContent(content: string) {
       // skip
     } else {
       const text = line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        // Internal markdown links, e.g. [Get a Quote](/contact/), which older posts use.
+        .replace(/\[([^\]]+)\]\((\/[^)\s]*)\)/g, '<a href="$2" class="text-orange-700 underline">$1</a>')
       elements.push(<p key={i} className="text-gray-600 leading-relaxed mb-4" dangerouslySetInnerHTML={{ __html: text }} />)
     }
     i++
