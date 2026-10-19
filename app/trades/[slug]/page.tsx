@@ -623,7 +623,10 @@ export default async function TradeTypePage({ params }: Props) {
             { href: '/blog/self-certification-plumbers-drainlayers-2026/', label: 'Self-Certification for Drainlayers' },
             { href: '/blog/contract-works-insurance-nz-tradies/', label: 'Contract Works Explained' },
           ],
-          gasfitters: [{ href: '/blog/gasfitter-insurance-nz-guide/', label: 'Gasfitter Insurance Guide' }],
+          gasfitters: [
+            { href: '/blog/gas-standards-deadline-12-november-2026/', label: 'The 12 November Gas Standards Deadline' },
+            { href: '/blog/gasfitter-insurance-nz-guide/', label: 'Gasfitter Insurance Guide' },
+          ],
           electricians: [{ href: '/blog/electrician-insurance-nz/', label: 'Electrician Insurance Guide' }],
           scaffolders: [
             { href: '/blog/scaffolding-insurance-nz-guide/', label: 'Scaffolding Insurance Guide' },

@@ -1,12 +1,12 @@
 # TradieInsurance.co.nz
 
-> Specialist tradie insurance comparison and broker referral service for New Zealand. We connect tradies with licensed insurance advisers to find the right cover for their trade.
+> Tradie insurance information and referral service. We publish general information about cover for tradespeople and refer enquiries to insurance brokers who are Registered Financial Service Providers.
 
 ## About This Site
 
-TradieInsurance.co.nz is an information and referral service for tradies seeking insurance cover. We provide general information about tradie insurance options and connect users with licensed insurance brokers and advisers regulated under the Financial Markets Conduct Act 2013 (FMCA).
+TradieInsurance.co.nz is an information and referral service for tradies seeking insurance cover. We provide general information about tradie insurance options and refer enquiries to insurance brokers who are Registered Financial Service Providers.
 
-**Important:** TradieInsurance.co.nz is NOT a licensed financial adviser and does NOT provide financial advice. All insurance quotes and recommendations are provided by the licensed brokers and advisers we refer you to. Those brokers hold Financial Advice Provider (FAP) licences.
+Important: TradieInsurance.co.nz is NOT a licensed financial adviser and does NOT provide financial advice. All insurance quotes and recommendations are provided by the brokers we refer you to.
 
 ## Contact
 
@@ -127,8 +127,10 @@ Premiums are set by each insurer on the business's details (turnover, staff, tra
 
 ## Blog Articles
 
-Newest first. Last updated: 2026-10-12 (31 articles)
+Newest first. Last updated: 2026-10-19 (32 articles)
 
+- https://www.tradieinsurance.co.nz/blog/gasfitter-insurance-nz-guide/ (2026-10-19): Gasfitter Insurance: What You Need to Know
+- https://www.tradieinsurance.co.nz/blog/gas-standards-deadline-12-november-2026/ (2026-10-19): The 12 November Gas Standards Deadline: What Changes
 - https://www.tradieinsurance.co.nz/blog/height-safety-law-changes-tradies-2026/ (2026-10-12): Height Safety Law Changes: What They Mean for Your Cover
 - https://www.tradieinsurance.co.nz/blog/health-safety-law-changes-april-2027-small-tradies/ (2026-10-12): Health and Safety Law Changes: What Small Tradies Need to Do
 - https://www.tradieinsurance.co.nz/blog/three-metre-rule-working-at-height-guidelines-2026/ (2026-10-05): The Three-Metre Rule Is Gone: Height Guidance Reset
@@ -146,7 +148,6 @@ Newest first. Last updated: 2026-10-12 (31 articles)
 - https://www.tradieinsurance.co.nz/blog/nz-infrastructure-boom-tradie-insurance-2026/ (2026-08-07): $60B Infrastructure Boom: Insurance for Big Sites
 - https://www.tradieinsurance.co.nz/blog/hvac-refrigeration-insurance-nz/ (2026-08-07): HVAC Technician Insurance: What You Need to Know
 - https://www.tradieinsurance.co.nz/blog/tradie-business-structure-insurance-nz/ (2026-08-07): Sole Trader vs Company: What Changes for Insurance
-- https://www.tradieinsurance.co.nz/blog/gasfitter-insurance-nz-guide/ (2026-08-04): Gasfitter Insurance NZ: What You Need to Know
 - https://www.tradieinsurance.co.nz/blog/contract-works-insurance-nz-tradies/ (2026-08-04): Contract Works Insurance for Tradies Explained
 - https://www.tradieinsurance.co.nz/blog/scaffolding-insurance-nz-guide/ (2026-08-04): Scaffolding Insurance NZ: Height Work Cover
 - https://www.tradieinsurance.co.nz/blog/tradie-insurance-subcontractors-nz/ (2026-08-04): Tradie Insurance for Subbies: What You Need
@@ -171,8 +172,7 @@ Every factual claim on the trade pages carries a source in that page's Sources l
 
 ## Regulatory and Compliance Information
 
-- All referred brokers are licensed under the Financial Markets Conduct Act 2013 (FMCA)
-- Brokers hold Financial Advice Provider (FAP) licences issued by the Financial Markets Authority (FMA)
+- Referral partners are Registered Financial Service Providers
 - ACC (Accident Compensation Corporation) covers workplace injuries — income protection covers illness and non-work injuries
 - Fines under the Health and Safety at Work Act 2015 cannot be insured (s29); statutory liability can cover defence costs
 - Resource Management Act fines imposed after 20 August 2025 cannot be insured; defence and remediation costs still can
@@ -189,4 +189,4 @@ Every factual claim on the trade pages carries a source in that page's Sources l
 
 ## Disclaimer
 
-TradieInsurance.co.nz is a referral and information service only. We are not a registered financial adviser. The insurance brokers and advisers we refer users to are regulated under the Financial Markets Conduct Act 2013. All financial advice and insurance quotes are provided by those licensed advisers, not by this website. See /disclaimer/ for full details.
+TradieInsurance.co.nz is a referral and information service only. We are not a registered financial adviser. The insurance brokers we refer users to are Registered Financial Service Providers. All advice and insurance quotes are provided by those brokers, not by this website. See /disclaimer/ for full details.

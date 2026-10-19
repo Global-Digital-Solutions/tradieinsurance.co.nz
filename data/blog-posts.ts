@@ -726,83 +726,75 @@ If you want to do the comparison yourself first, [the checklist on our compariso
   },
   {
     slug: 'gasfitter-insurance-nz-guide',
-    title: 'Gasfitter Insurance NZ: What You Need to Know',
-    excerpt: 'Gasfitting carries some of the highest liability risks in the trade sector — here is what NZ gasfitters need to know about their insurance obligations.',
+    title: 'Gasfitter Insurance: What You Need to Know',
+    excerpt: 'Gasfitting carries some of the highest liability risks in the trades. Here is how licensing, certification and the new gas standards bear on the insurance a gasfitter carries.',
     category: 'Guide',
     readTime: '6 min read',
-    date: '2026-08-04',
+    date: '2026-10-19',
     author: 'TradieInsurance Editorial',
-    image: 'https://images.unsplash.com/photo-1558618047-3c8c2b8ad6e2?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
     content: `## Why Gasfitting Carries Unique Risk
 
-Of all the licensed trades in New Zealand, gasfitting sits in a category of its own when it comes to the severity of potential harm. A faulty gas connection or incorrectly specified appliance can cause an explosion, a house fire, or carbon monoxide poisoning — consequences that are not just costly in financial terms, but potentially fatal.
+Of all the licensed trades, gasfitting sits in a category of its own when it comes to the severity of potential harm. A faulty gas connection or incorrectly specified appliance can cause an explosion, a house fire or carbon monoxide poisoning, and those consequences are not just costly but potentially fatal.
 
-This elevated risk profile means that gasfitter insurance deserves more careful thought than insurance for most other trades. Understanding your obligations, your exposures, and the cover available to you is part of operating responsibly in this trade.
+That risk profile means gasfitter insurance deserves more careful thought than insurance for most other trades. Understanding your obligations, your exposures and the cover available to you is part of operating responsibly in this trade.
 
-## Licensing Under the Plumbers, Gasfitters, and Drainlayers Act 2006
+## Licensing and Certification
 
-Gasfitting is separately licensed under the Plumbers, Gasfitters, and Drainlayers Act 2006. This is a distinct licence from plumbing — a registered plumber is not authorised to carry out gasfitting work without holding the gasfitting endorsement. The Act sets out who can perform gasfitting work and creates a framework of personal professional responsibility for licensed gasfitters.
+Gasfitting is restricted work. Section 9 of the <a href="https://www.legislation.govt.nz/act/public/2006/74/en/latest/" target="_blank" rel="noopener" class="text-orange-700 underline">Plumbers, Gasfitters, and Drainlayers Act 2006</a> says a person must not do any gasfitting, or assist in doing it, unless they are authorised, and the Act's stated purpose is to protect public health and safety by ensuring the competency of the people who do this work.
 
-This personal professional responsibility has direct insurance implications. When you certify a gas installation, your name and licence number are on that certification. If something goes wrong with that installation, you are the first point of professional accountability.
+Certification is where that responsibility becomes personal. WorkSafe's guidance on the <a href="https://worksafe.govt.nz/topic-and-industry/gas/installations-and-networks/certification/certificate-of-compliance-coc/" target="_blank" rel="noopener" class="text-orange-700 underline">Certificate of Compliance</a> says a CoC is required for all general and high-risk gasfitting, is issued by the authorised person who did or supervised the work, and that no general or high-risk gasfitting is considered complete until a CoC is issued. High-risk work must also be entered on the Electricity and Gas High-risk Database within 20 working days of issuing the CoC. WorkSafe's <a href="https://www.worksafe.govt.nz/managing-health-and-safety/consumers/gas-2/getting-gas-work-done/" target="_blank" rel="noopener" class="text-orange-700 underline">guide to getting gas work done</a> adds that a Gas Safety Certificate must be issued no later than 20 days after connection, and that certifiers must keep records of the certificates they issue for at least seven years.
 
-### The Gas (Safety and Measurement) Regulations 2010
+When you certify an installation, your name is on the paperwork. If something later goes wrong, the certificate is one of the first documents anyone will ask to see.
 
-These regulations sit alongside the Act and impose specific testing and certification requirements for every gas installation. They are not bureaucratic box-ticking — they exist because the consequences of an unchecked gas installation failure are severe. Your insurer will want to know that your work complies with these regulations; failure to comply can affect both your licence and your insurance cover.
+### The Gas Standards Are Changing
+
+The Gas (Safety and Measurement) Amendment Regulations 2025 updated the standards that gas installations must meet. According to <a href="https://www.worksafe.govt.nz/about-us/news-and-media/important-update-changes-to-gas-safety-regulations-for-gas-installations/" target="_blank" rel="noopener" class="text-orange-700 underline">WorkSafe's update for gas installations</a>, gasfitters may follow either AS/NZS 5601.1:2013 with Amendments 1 to 4 or AS/NZS 5601.1:2022 with Amendments 1 and 2, must not mix the two on one installation, and construction beginning after 12 November 2026 must comply with one of the newly cited standards. We cover the transition rules in <a href="/blog/gas-standards-deadline-12-november-2026/" class="text-orange-700 underline">The 12 November Gas Standards Deadline</a>.
 
 ## The Three Main Risks Gasfitters Face
 
 ### Gas Leaks and Fire
 
-The most common gasfitting claim involves a gas leak following an appliance installation or pipe connection that was not fully secured. These leaks can develop hours, days, or even weeks after the work is complete, by which time the gasfitter may be working on a completely different job. Gas accumulation in an enclosed space followed by ignition — from a spark, a pilot light, or an electrical appliance — can cause damage that runs from thousands to hundreds of thousands of dollars.
+A gas leak after an appliance installation or pipe connection is the scenario most gasfitters worry about. A leak may not show itself until well after the job is finished, by which time you may be working somewhere else entirely, and ignition in an enclosed space can damage far more than the appliance you worked on.
 
-Public liability insurance with a completed works extension covers these claims. The completed works extension is essential: it ensures your policy responds to claims that arise after the job is finished and you have left the site.
+Liability cover is designed for injury to other people and damage to their property caused by your business, subject to its terms and exclusions. Check that your wording responds to claims arising from work you have completed and handed over, not only to incidents while you are on site.
 
 ### Carbon Monoxide Incidents
 
-Carbon monoxide is an odourless, colourless gas produced by incomplete combustion. Incorrect flue installation, inadequate ventilation, or a faulty gas appliance can cause CO to enter a living space without any warning signs visible to the occupants. CO incidents resulting in personal injury or death generate claims of a different order of magnitude than property damage alone.
+Carbon monoxide is odourless and colourless, and is produced by incomplete combustion. Incorrect flue installation, inadequate ventilation or a faulty appliance can let it into a living space without warning. Injury claims after a carbon monoxide incident can be serious, so the limit you hold should be realistic for the worst case rather than the typical job.
 
-Personal injury claims from CO incidents can include medical costs, rehabilitation, loss of earnings for the affected individual, and in serious cases, significant compensation. Your public liability policy responds to these claims, but ensure the limit you hold is adequate for the scale of potential harm. For gasfitters, a minimum of NZ$2M public liability is recommended, with many commercial contracts requiring NZ$5M or more.
+### Getting the Work Itself Wrong
 
-### Professional Indemnity for Certification Errors
+Liability wordings generally separate the cost of fixing your own work from the damage that work causes. As at October 2026, <a href="https://www.vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> excludes liability for the cost of performing, completing, correcting or improving work done by the persons insured, while keeping cover for resultant damage to other property that was not being worked on. The same wording has a duty of care condition requiring the persons insured to take reasonable precautions and to comply with all obligations and regulations in applicable legislation.
 
-Every gas installation you certify carries an ongoing professional liability. If an error in your certification is later identified — a wrong specification, an incorrect pressure rating, or a missed compliance step — the claim that follows will be a professional indemnity claim, not a public liability claim.
-
-Professional indemnity insurance is claims-made rather than occurrence-based. This means the policy that responds is the one in force when the claim is made, not when the original work was done. This is why continuous PI cover is important, even in periods when you are doing less work. Allowing your PI policy to lapse creates a gap that could leave you personally exposed for past certifications.
+Where a claim turns on advice, design or specification rather than physical work, it may fall to professional indemnity cover instead of liability cover, depending on the wordings involved. Professional indemnity is usually written on a claims-made basis, so the policy that responds is the one in force when the claim is made, which is why letting it lapse during a quiet period can leave a gap.
 
 ## What to Tell Your Broker
 
-Getting the right gasfitter insurance means giving your broker a clear picture of your work. Key information to prepare:
+Getting the right gasfitter insurance means giving your broker a clear picture of your work.
 
 ### Work Type and Volume
 
-The split between residential and commercial gas work affects your risk profile significantly. Domestic gas hob installations carry different exposure than gasfitting for commercial kitchens, industrial gas systems, or LPG infrastructure. Commercial work typically requires higher liability limits and may carry specific contractual insurance requirements.
+The split between residential and commercial gas work matters. Installing a domestic hob is a different exposure from gasfitting in a commercial kitchen, an industrial plant or LPG infrastructure, and commercial clients often set minimum liability limits in their contracts.
 
 ### Appliances and Systems You Work On
 
-Some gas appliances and systems carry higher risk than others. Instantaneous gas water heaters, commercial cooking appliances, and high-pressure LPG systems all have specific risk profiles. Your broker needs to know the full range of gas work you do to ensure your policy covers it.
+Tell your broker about the full range of appliances and systems you install or service, including any imported appliances and any high-risk gasfitting, so the business description on your policy matches what you actually do.
 
 ### Certification Practice
 
-Do you provide written certifications for your installations? How many certifications do you issue annually? Do you retain records of your certifications and the work they cover? These questions go to your professional indemnity exposure and the record-keeping practices that underpin both good professional practice and good insurance outcomes.
-
-## Typical Premium Ranges
-
-Gasfitter insurance sits at the higher end of the trade spectrum given the risk profile. Indicative figures for a sole trader gasfitter as of 2026:
-
-Public liability alone (NZ$2M limit) typically starts from around NZ$45–$70 per month. Adding professional indemnity brings the monthly cost to approximately NZ$80–$130 depending on the limit chosen. A full package including tools, commercial vehicle, and income protection typically runs NZ$150–$300 per month.
-
-These figures are indicative — your actual premium depends on your turnover, the split of work types, your claims history, and the specific terms of the policies your broker recommends.
+Be ready to explain how you issue and store certificates, how many you issue in a typical year, and whether you certify work done by people you supervise. A certifier who signs off other people's work carries responsibility for it.
 
 ## Keeping Your Cover Current
 
-Gasfitting licences require renewal, and your insurance should be treated the same way. Review your cover at each annual renewal to ensure:
+Review your cover at each renewal and check that:
 
-- Your public liability limit still reflects your largest potential claim scenario
-- Your professional indemnity limit is appropriate for the certifications you issue
-- Your declared turnover is accurate — under-declaration can affect claim outcomes
-- Any new types of gas work you have taken on are disclosed to your insurer
+- Your liability limit still reflects your largest realistic claim scenario.
+- Your professional indemnity limit, if you hold it, suits the design and specification work you do.
+- Your declared turnover is accurate.
+- Any new type of gas work, including work under the new standards, has been disclosed to your insurer.
 
-The cost of getting this review right is minor compared to the consequences of finding out your cover is inadequate when you need it most.`,
+If your gas work has changed since your policy was written, it is worth having your cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed.`,
   },
   {
     slug: 'contract-works-insurance-nz-tradies',
@@ -2373,6 +2365,84 @@ Keep the records that show how you control critical risks, leave the welfare bas
 - Fines under the Act cannot be insured. Statutory liability wordings can pay defence costs and, in the wordings checked, reparation.
 
 If your business has changed since your policy was written, it is worth having your statutory liability, public liability and income protection read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have your cover reviewed before the new law takes effect.`,
+  },
+  {
+    slug: 'gas-standards-deadline-12-november-2026',
+    title: 'The 12 November Gas Standards Deadline: What Changes',
+    excerpt: 'The transition period for the Gas (Safety and Measurement) Amendment Regulations 2025 ends on 12 November 2026. Here is what changes for gasfitters, which jobs can stay on the old standard, and what to check in your liability cover.',
+    category: 'Industry News',
+    readTime: '7 min read',
+    date: '2026-10-19',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
+    content: `## The Transition Period Ends in Three Weeks
+
+If you certify gasfitting, the year of grace for the new gas standards runs out at the close of 12 November 2026, and any installation you start after that date has to be built to the newly cited standards.
+
+The <a href="https://www.legislation.govt.nz/secondary-legislation/pco-drafted/2010/76/en/latest/LMS1525346" target="_blank" rel="noopener" class="text-orange-700 underline">Gas (Safety and Measurement) Amendment Regulations 2025</a> came into force on 13 November 2025. Their transitional schedule says that until the close of 12 November 2026 a person is treated as complying with the updated provisions if they comply with the version that applied before. In October 2025 WorkSafe <a href="https://www.worksafe.govt.nz/laws-and-regulations/regulations/gas-regulations/" target="_blank" rel="noopener" class="text-orange-700 underline">told gasfitters</a> that they could choose to use the amended regulations from 13 November 2025, did not have to comply with them until 12 November 2026, and should carry on with their gasfitting work as normal in the meantime. That window is now nearly shut.
+
+## What the Amendments Change
+
+WorkSafe's <a href="https://www.worksafe.govt.nz/about-us/news-and-media/important-update-changes-to-gas-safety-regulations-for-gas-installations/" target="_blank" rel="noopener" class="text-orange-700 underline">December 2025 update for gas installations</a> explains that the amendments update around 100 standards citations in Schedules 1 and 2A of the 2010 regulations. The parts most gasfitters will notice are these:
+
+- For gas installations you may follow either AS/NZS 5601.1:2013 with Amendments 1 to 4, or AS/NZS 5601.1:2022 with Amendments 1 and 2.
+- AS/NZS 5601.2:2020 with Amendments 1 and 2 is cited for the installations it covers.
+- Safety checks after repairing, modifying or adjusting appliances and fittings may follow NZS 5266:2014, and verification of hired or leased installations, or installations disconnected for six months or more, may follow NZS 5255:2014 including Amendment 1. WorkSafe says the old versions can be used until 12 November 2026 and the new cited standards must be used after that.
+
+WorkSafe also lists modifications that apply in this country. Under the 2013 version, jointing compound may now be used on copper flare, olive and galvanised steel mac union faces and on compression joints, though it still cannot make up for an ill-fitting joint, and only non-setting compounds are allowed. Under both versions of AS/NZS 5601.1, the regulator requirement in clause 6.6.5 now refers to endorsed appliances as well as certified ones. Under AS/NZS 5601.2, a pressure figure moves from 2.75 to 3.5 so that European and North American appliances can run at the pressures they need, and Section 10 is removed because a gas compliance plate is not required here. Certification carries on through the Certificate of Compliance, the Gas Safety Certificate and, for high-risk work, the Electricity and Gas High-risk Database.
+
+## Which Jobs Can Stay on the Old Standard
+
+The transition rules turn on when an installation was started, and WorkSafe's update sets them out in some detail.
+
+- Work started before 13 November 2025 can be finished to the old standard, with no completion deadline.
+- Work started after 13 November 2025 using the old version must be completed by 12 November 2026. If it is unfinished by then, WorkSafe says to complete a Certificate of Compliance for the work done up to that date, and the remaining work must follow the new standard.
+- Construction that begins after 12 November 2026 must comply with one of the newly cited standards.
+- WorkSafe says construction in this context also includes the design phase, so work can be done to the old standard if the quote or tendering process is already underway.
+- Genuine repairs to an existing installation can still use the 2013 unamended standard. If a repair moves into alterations or additions, that work must meet one of the new standards.
+- Existing installations and appliances do not have to be upgraded and can stay in use and be repaired, with no time limit, so long as they are not unsafe.
+
+Two traps stand out. The certifying gasfitter must pick one version of AS/NZS 5601.1 for the whole installation, or the part being worked on, and cannot mix clauses from both. And multilayer gas pipe can still be installed outside under the 2013 version but cannot be installed outside under the 2022 version, so a job specified around the 2022 standard needs a different outdoor pipe choice.
+
+If you also hold an electrical registration, WorkSafe's <a href="https://www.worksafe.govt.nz/about-us/news-and-media/important-update-changes-to-electricity-and-gas-safety-regulations/" target="_blank" rel="noopener" class="text-orange-700 underline">October 2025 notice</a> gave the Electricity (Safety) Amendment Regulations 2025 the same 12 November 2026 compliance date, so check the electrical guidance as well.
+
+## Your Certificates Carry the Standard You Chose
+
+The certificates are where the transition shows up on paper. WorkSafe's guidance on the <a href="https://worksafe.govt.nz/topic-and-industry/gas/installations-and-networks/certification/certificate-of-compliance-coc/" target="_blank" rel="noopener" class="text-orange-700 underline">Certificate of Compliance</a> says a CoC is required for all general and high-risk gasfitting, is issued by the authorised person who did or supervised the work, and that no general or high-risk gasfitting is considered complete until a CoC is issued. For high-risk work, details must be entered on the Electricity and Gas High-risk Database within 20 working days of issuing the CoC.
+
+WorkSafe's <a href="https://www.worksafe.govt.nz/managing-health-and-safety/consumers/gas-2/getting-gas-work-done/" target="_blank" rel="noopener" class="text-orange-700 underline">guide to getting gas work done</a> adds that a Gas Safety Certificate must be issued as soon as practicable after connection and no later than 20 days after it, and that certifiers must keep records of the CoCs and GSCs they issue for at least seven years.
+
+For a job that straddles 12 November, the CoC for the work done up to that date is the record of what was built to the old standard. It is worth noting the standard and version on each certificate and keeping the quote or tender date on file for any job you finish under the old rules.
+
+## What the Deadline Means for Your Insurance Cover
+
+A regulation change does not alter your policy, but it does change the rules your work will be measured against if a claim or a complaint comes in later.
+
+As at October 2026, <a href="https://www.vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> includes a duty of care condition in its broadform liability section requiring the persons insured to take reasonable precautions to prevent injury and damage and to comply with all obligations and regulations set out in any applicable legislation. The same section excludes liability for the cost of performing, completing, correcting or improving work done by the persons insured, while keeping cover for resultant damage to other property that was not being worked on. In practice, that means the cost of redoing an installation that was built to the wrong standard is generally yours, while damage that a faulty installation causes to someone else's property is what liability cover is designed for, subject to its terms.
+
+The statutory liability section of that wording pays fines under an Act and defence costs for covered claims, but excludes occurrences arising from an intentional, knowing or wilful breach of any Act, and does not treat enforcement, remedial or compliance orders as a fine. Carrying on with the old standard on a new job after 12 November, knowing the date has passed, is the kind of conduct those exclusions are written for. Other insurers' wordings differ, so read your own.
+
+Three things worth checking against your schedule before the deadline:
+
+- Whether your liability cover includes a statutory liability section, and what its limit and exclusions are.
+- Whether your business description still matches your gas work, particularly if you have moved into high-risk work or imported European or North American appliances.
+- Whether the policy has a condition requiring you to tell the insurer about changes in the business that increase the risk, as the Vero wording above does.
+
+Our guide to <a href="/trades/gasfitters/" class="text-orange-700 underline">gasfitter insurance</a> covers how certification and Board licensing bear on cover more generally, and the <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> page explains what that cover can and cannot pay for.
+
+## A Short Checklist Before 12 November
+
+List every open job and note which standard it is being built to and when it started. Finish anything started after 13 November 2025 on the old standard by the deadline, or issue a CoC for the work completed and switch the rest to the new standard. Update your quoting templates and make sure anyone you supervise knows which version applies to each job.
+
+## Key Takeaways
+
+- The transition period for the Gas (Safety and Measurement) Amendment Regulations 2025 ends at the close of 12 November 2026.
+- Gasfitters may use AS/NZS 5601.1:2013 with Amendments 1 to 4 or AS/NZS 5601.1:2022 with Amendments 1 and 2, but must not mix the two on one installation.
+- Construction starting after 12 November 2026 must meet a newly cited standard. Existing installations do not need upgrading.
+- Unfinished old-standard jobs started after 13 November 2025 need a CoC for the work done to the deadline, with the rest done to the new standard.
+- Liability cover is not designed to pay for redoing your own work, and statutory liability wordings can exclude knowing breaches. Check your schedule now.
+
+If your gas work has changed since your policy was written, it is worth having your liability and statutory liability cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the deadline passes.`,
   },
 ]
 
