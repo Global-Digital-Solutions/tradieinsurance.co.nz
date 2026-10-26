@@ -916,7 +916,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'concreters',
     name: 'Concreters',
     icon: '🏗️',
-    heroImage: 'https://images.unsplash.com/photo-1509395062183-a6c1a3e62284?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1714562601537-59d75f2e7d3d?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Concreters insurance in NZ: public liability, underground services, vibration and faulty pours, plus LBP Foundations, silica and stormwater rules.',
     heroLead:
@@ -1162,7 +1162,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'gasfitters',
     name: 'Gasfitters',
     icon: '🔥',
-    heroImage: 'https://images.unsplash.com/photo-1558618047-3c8c2b8ad6e2?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1728509741559-44172bcd86b3?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Gasfitters insurance in NZ: public liability, statutory liability and how gas certificates, risk categories and PGDB discipline bear on cover.',
     heroLead:
