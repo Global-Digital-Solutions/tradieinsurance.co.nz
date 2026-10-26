@@ -166,7 +166,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'plumbers',
     name: 'Plumbers',
     icon: '🔧',
-    heroImage: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1676210134188-4c05dd172f89?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Plumbers insurance in NZ: public liability, faulty workmanship limits, hot work conditions and the insurance condition on PGDB self-certification.',
     heroLead:
@@ -665,7 +665,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'bricklayers',
     name: 'Bricklayers',
     icon: '🧱',
-    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1701850009190-2859ba2aeea6?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Bricklayers insurance in NZ: public liability, the Brick and Blocklaying LBP licence, restricted building work, silica dust rules and where cover stops.',
     heroLead:
@@ -790,7 +790,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'roofers',
     name: 'Roofers',
     icon: '🏠',
-    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1763665814538-8ba04597286c?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Roofers insurance in NZ: public liability, the Roofing LBP licence, restricted building work, fall and asbestos rules, torch-on work and where cover stops.',
     heroLead:
@@ -1038,7 +1038,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'handymen',
     name: 'Handymen',
     icon: '🛠️',
-    heroImage: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1513467535987-fd81bc7d62f8?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Handyman insurance in NZ: public liability, tools and vehicle cover, and the consent, electrical and plumbing limits on the work a handyman can legally do.',
     heroLead:
@@ -1281,7 +1281,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'tilers',
     name: 'Tilers',
     icon: '🪨',
-    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1523413363574-c30aa1c2a516?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Tilers insurance in NZ: public liability for leaks and damage, Building Code E3 wet-area rules, silica dust from cutting stone, and asbestos in old floors.',
     heroLead:
@@ -1407,7 +1407,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'glaziers',
     name: 'Glaziers',
     icon: '🪟',
-    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1751486403820-7cf45ebec080?auto=format&fit=crop&w=1920&q=80',
     // Every factual claim on this page is sourced (see `sources`). Rewritten
     // September 2026 to the builders model: no prices, no invented claim amounts.
     metaDescription:
@@ -1648,7 +1648,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'drain-layers',
     name: 'Drain Layers',
     icon: '🚿',
-    heroImage: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1759579478942-a6992a87fb8f?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Drainlayers insurance in NZ: public liability, underground services conditions, notifiable trenches and the insurance condition on self-certification.',
     heroLead:
@@ -1768,7 +1768,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'scaffolders',
     name: 'Scaffolders',
     icon: '🏗️',
-    heroImage: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1765706845871-951abd038627?auto=format&fit=crop&w=1920&q=80',
     // Every factual claim on this page is sourced (see `sources`). Rewritten
     // September 2026 to the builders model: no prices, no invented claim amounts.
     metaDescription:
@@ -1891,7 +1891,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'fencers',
     name: 'Fencers',
     icon: '🪵',
-    heroImage: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1586574208875-cd77c2bfb851?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Fencing contractor insurance in NZ: public liability, underground services and boundary risks, pool barrier rules and the 2.5 m building consent exemption.',
     heroLead:
@@ -2014,7 +2014,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'plasterers',
     name: 'Plasterers',
     icon: '🏗️',
-    heroImage: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1768839725085-829e6ac7ac26?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Plasterers insurance in NZ: public liability, the External Plastering LBP licence, restricted building work, asbestos in old ceilings and leak exclusions.',
     heroLead:
@@ -2140,7 +2140,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'hvac-technicians',
     name: 'HVAC Technicians',
     icon: '❄️',
-    heroImage: 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1698479603408-1a66a6d9e80f?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'HVAC and heat pump insurance in NZ: public liability, professional indemnity, hot work conditions, refrigerant rules and electrical licensing.',
     heroLead:
@@ -2257,7 +2257,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'arborists',
     name: 'Arborists',
     icon: '🌳',
-    heroImage: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1754321902809-5c21cbc67228?auto=format&fit=crop&w=1920&q=80',
     // Every factual claim on this page is sourced (see `sources`). Rewritten
     // September 2026 to the builders model: no prices, no invented claim amounts.
     metaDescription:
@@ -2503,7 +2503,7 @@ export const tradeTypes: TradeType[] = [
     slug: 'irrigation-specialists',
     name: 'Irrigation Specialists',
     icon: '💧',
-    heroImage: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1920&q=80',
+    heroImage: 'https://images.unsplash.com/photo-1692369584496-3216a88f94c1?auto=format&fit=crop&w=1920&q=80',
     metaDescription:
       'Irrigation installer insurance in NZ: public liability, underground services and property-worked-on limits, and the backflow rules for irrigation.',
     heroLead:

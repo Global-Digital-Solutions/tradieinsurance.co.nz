@@ -178,9 +178,10 @@ export default async function TradeTypePage({ params }: Props) {
       {/* ── HERO ── */}
       <div
         className="relative border-b border-gray-700"
-        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+        style={{ backgroundImage: `url(${trade.heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
-        <div className="absolute inset-0 bg-gray-900/80" />
+        {/* Darker on the left where the text sits, lighter on the right so the trade photo shows. */}
+        <div className="absolute inset-0 bg-gradient-to-r from-gray-900/90 via-gray-900/75 to-gray-900/45" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <nav className="text-sm text-gray-300 mb-6">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
