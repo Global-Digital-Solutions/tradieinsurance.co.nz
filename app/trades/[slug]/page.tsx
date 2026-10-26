@@ -627,7 +627,10 @@ export default async function TradeTypePage({ params }: Props) {
             { href: '/blog/gas-standards-deadline-12-november-2026/', label: 'The 12 November Gas Standards Deadline' },
             { href: '/blog/gasfitter-insurance-nz-guide/', label: 'Gasfitter Insurance Guide' },
           ],
-          electricians: [{ href: '/blog/electrician-insurance-nz/', label: 'Electrician Insurance Guide' }],
+          electricians: [
+            { href: '/blog/wiring-rules-deadline-12-november-2026-electricians/', label: 'The 12 November Wiring Rules Deadline' },
+            { href: '/blog/electrician-insurance-nz/', label: 'Electrician Insurance Guide' },
+          ],
           scaffolders: [
             { href: '/blog/scaffolding-insurance-nz-guide/', label: 'Scaffolding Insurance Guide' },
             { href: '/blog/height-safety-law-changes-tradies-2026/', label: 'Height Safety Law Changes' },

@@ -394,84 +394,83 @@ Talk to a specialist tradie insurance broker about your vehicle needs. A broker 
   },
   {
     slug: 'electrician-insurance-nz',
-    title: 'Electrician Insurance NZ: High-Risk Cover Explained',
-    excerpt: 'Electricians face some of the most serious liability exposures of any trade. Here is what NZ electricians need to know about their insurance options.',
+    title: 'Electrician Insurance: High-Risk Cover Explained',
+    excerpt: 'Electricians face some of the most serious liability exposures of any trade. Here is how licensing, certification and the new wiring standards bear on the insurance an electrician carries.',
     category: 'Trade Guide',
     readTime: '6 min read',
-    date: '2026-04-10',
+    date: '2026-10-26',
     author: 'TradieInsurance Editorial',
-    image: 'https://images.unsplash.com/photo-1555963966-b7ae5404b6e8?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80',
     content: `## Why Electricians Need Specialist Insurance
 
-Electrical work carries unique risks that standard tradie insurance may not adequately address. Faulty wiring can cause fires years after installation. Electrocution can injure or kill. A single claim against an electrician can be catastrophic.
+Electrical work carries risks that a general tradie policy may not fully address. Faulty wiring can cause a fire years after installation, and an electric shock can injure or kill, so a single claim against an electrician can be serious.
 
-In New Zealand, electricians must be registered under the Electricity Act 1992, and their work is subject to strict regulatory oversight. This regulatory environment creates both compliance obligations and insurance needs that differ from most other trades.
+Electrical work is also closely regulated. The Electrical Workers Registration Board says on its <a href="https://www.ewrb.govt.nz/licences/practising-licence/" target="_blank" rel="noopener" class="text-orange-700 underline">practising licence page</a> that all electrical workers must hold a practising licence to carry out prescribed electrical work, and that the licence must be renewed every two years. That regulatory setting shapes both your obligations and the cover you need.
 
-## The Core Risks Facing NZ Electricians
+## Certification Puts Your Name on the Work
+
+WorkSafe's guide to <a href="https://www.worksafe.govt.nz/managing-health-and-safety/consumers/safe-living-with-electricity/getting-electrical-work-done/" target="_blank" rel="noopener" class="text-orange-700 underline">getting electrical work done</a> says electricians must issue a Certificate of Compliance to customers for any fixed wiring work, and that some work, particularly on the main switchboard, must be inspected by a licensed electrical inspector. When you certify an installation, the certificate is one of the first documents anyone will ask to see if something later goes wrong.
+
+### The Wiring Rules Are Changing
+
+The Electricity (Safety) Amendment Regulations 2025 updated the standards that electrical installations must meet. According to <a href="https://www.worksafe.govt.nz/about-us/news-and-media/important-update-changes-to-electricity-safety-regulations-for-electrical-installations/" target="_blank" rel="noopener" class="text-orange-700 underline">WorkSafe's update for electrical installations</a>, AS/NZS 3000:2018 with Amendments 1, 2 and 3 replaces the 2007 edition, and you must start using the new cited standards from 12 November 2026. We cover the transition rules in <a href="/blog/wiring-rules-deadline-12-november-2026-electricians/" class="text-orange-700 underline">The 12 November Wiring Rules Deadline for Electricians</a>.
+
+## The Core Risks Electricians Face
 
 ### Electrical Fire Liability
 
-Faulty wiring, improper connections, or incorrect circuit protection can cause fires — sometimes years after the work is completed. If a fire is traced to your electrical work, the resulting claim for property damage, loss of contents, temporary accommodation, and business interruption can run to hundreds of thousands of dollars.
+Faulty wiring, poor connections or the wrong circuit protection can cause a fire long after the job is finished. If a fire is traced to your work, the claim can include damage to the building, contents and other people's property.
 
-Public liability insurance covers these claims, but make sure your policy includes a "completed works" extension — this covers damage that occurs after you have finished and left the site.
+Liability cover is designed for injury to other people and damage to their property caused by your business, subject to its terms and exclusions. Check that your wording responds to claims arising from work you have completed and handed over, not only to incidents while you are on site.
 
-### Electrocution and Personal Injury Claims
+### Electric Shock and Personal Injury
 
-Working with live circuits is inherently dangerous. If someone is electrocuted because of your work — whether a client, another tradesperson, or a member of the public — the resulting personal injury claim will likely be substantial.
+Working with live circuits is inherently dangerous. If a client, another tradesperson or a member of the public is hurt because of your work, the consequences can be serious, so the limit you hold should be realistic for the worst case rather than the typical job.
 
-### Professional Liability for Design and Certification
+### Getting the Work Itself Wrong
 
-Many electricians provide design input (specifying circuit layouts, load calculations, protection coordination) and certify their completed work. If an error in your design or certification leads to a loss, professional indemnity (PI) insurance covers legal defence costs and damages.
+Liability wordings generally separate the cost of fixing your own work from the damage that work causes. As at October 2026, <a href="https://www.vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> excludes liability for the cost of performing, completing, correcting or improving work done by the persons insured, while keeping cover for resultant damage to other separate property. The same wording has a duty of care condition requiring the persons insured to take reasonable precautions and to comply with all obligations and regulations in applicable legislation.
 
-PI is particularly important for electricians working on:
-- New builds requiring certification
+### Design and Certification Errors
+
+Many electricians provide design input, such as circuit layouts, load calculations and protection coordination, as well as certifying their own work. Where a claim turns on advice, design or specification rather than physical work, it may fall to professional indemnity cover instead of liability cover, depending on the wordings involved. This is worth thinking about if you work on:
+
+- New builds and larger alterations
 - Industrial and commercial electrical systems
 - Solar and battery storage installations
 - Smart home and automation systems
 
-## Essential Insurance Policies for NZ Electricians
+Professional indemnity is usually written on a claims-made basis, so the policy that responds is the one in force when the claim is made, not when the work was done. Letting it lapse during a quiet period can leave a gap.
 
-### Public Liability (with Completed Works)
+## Insurance Policies Electricians Commonly Consider
 
-The foundation of any electrician's insurance package. Look for:
+### Liability Cover
 
-- A limit appropriate to your work type (NZ$2M–$10M)
-- Completed works coverage (covering claims arising from past work)
-- Products liability (if you supply or install products)
+The foundation of most electricians' insurance. Look at the limit against the largest job you realistically take on, whether completed work is covered, and whether products you supply or install are included. Commercial clients and head contractors often set minimum limits in their contracts.
 
 ### Professional Indemnity
 
-Essential if you certify work, design electrical systems, or provide technical specifications. PI is claims-made, meaning the policy that responds is the one in place when the claim is made — not when the work was done. Maintain continuous cover and consider run-off cover when you retire.
-
-### Tools and Equipment
-
-Electrical testers, installation tools, cable drums, and specialist equipment represent a significant investment. Tools insurance covers theft, accidental damage, and loss.
-
-### Commercial Vehicle
-
-Your van or ute is a business asset. Commercial vehicle cover ensures you are properly insured for business use and that tools stored in the vehicle are covered.
-
-### Income Protection
-
-Electrical work is physically demanding and the risk of hand, arm, or back injury is real. Income protection covers you if illness or injury prevents you from working — filling the gap that ACC does not cover for illness or non-work injuries.
+Relevant if you certify work, design electrical systems or provide technical specifications, for the reasons above.
 
 ### Statutory Liability
 
-WorkSafe NZ takes health and safety in electrical work seriously. Statutory liability covers legal defence costs if you are prosecuted for an unintentional breach of health and safety legislation.
+WorkSafe enforces health and safety law across electrical work. The statutory liability section of the Vero wording above pays fines under an Act and defence costs arising out of a claim, but excludes occurrences arising out of an intentional, knowing or wilful breach of an Act. Our <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> page explains what this kind of cover can and cannot pay for.
 
-## How Much Does Electrician Insurance Cost?
+### Tools and Equipment
 
-Electricians are rated as a higher-risk trade due to fire and electrocution hazards. Rough benchmarks:
+Testers, installation tools, cable drums and specialist instruments are a significant investment. Tools cover is designed for theft, accidental damage and loss, subject to the policy's terms. If the new RCD testing requirements mean buying new instruments, add them to your sum insured.
 
-- **Public liability only (sole trader):** NZ$50–$90/month
-- **PL + tools + vehicle:** NZ$120–$250/month
-- **Full package including PI and income protection:** NZ$200–$400/month
+### Commercial Vehicle
+
+Your van or ute is a business asset. Check that your vehicle policy covers business use and whether tools stored in the vehicle are covered.
+
+### Income Protection
+
+ACC's <a href="https://www.acc.co.nz/im-injured/what-we-cover" target="_blank" rel="noopener" class="text-orange-700 underline">no-fault scheme</a> covers everyone in the country injured in an accident, whatever they were doing at the time, but it says it will not cover things like illness. For the self-employed, ACC says <a href="https://www.acc.co.nz/im-injured/financial-support/weekly-compensation/weekly-compensation-for-self-employed" target="_blank" rel="noopener" class="text-orange-700 underline">weekly compensation</a> is generally up to 80% of what you earned before the injury. Income protection insurance is designed to help where ACC does not, such as time off work through illness.
 
 ## Getting the Right Electrician Insurance
 
-Electrician insurance is complex enough that using a specialist broker is strongly recommended. A broker familiar with the trade can ensure your cover addresses the specific risks of electrical work, complies with your licensing requirements, and meets any contractual obligations.
-
-Use our service to connect with a licensed electrician insurance specialist today.`,
+Review your cover at each renewal and check that your limits, your declared turnover and the description of your business still match the work you do, including any move into solar, battery storage or high-risk work. If your work has changed since your policy was written, it is worth having your cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed.`,
   },
   {
     slug: 'income-protection-self-employed-nz',
@@ -2443,6 +2442,96 @@ List every open job and note which standard it is being built to and when it sta
 - Liability cover is not designed to pay for redoing your own work, and statutory liability wordings can exclude knowing breaches. Check your schedule now.
 
 If your gas work has changed since your policy was written, it is worth having your liability and statutory liability cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the deadline passes.`,
+  },
+  {
+    slug: 'wiring-rules-deadline-12-november-2026-electricians',
+    title: 'The 12 November Wiring Rules Deadline for Electricians',
+    excerpt: 'From 12 November 2026, new electrical installation work must follow the 2018 Wiring Rules and the other newly cited standards. Here is what changes for electricians, which jobs can finish under the old rules, and what to check in your liability cover.',
+    category: 'Industry News',
+    readTime: '7 min read',
+    date: '2026-10-26',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?auto=format&fit=crop&w=800&q=80',
+    content: `## The Old Wiring Rules Run Out in Just Over Two Weeks
+
+Electricians have until the close of 12 November 2026 to finish moving their installation work onto the 2018 edition of the Wiring Rules, after which the 2007 edition can no longer be used for new work.
+
+The <a href="https://www.legislation.govt.nz/regulation/public/2025/0225/latest/whole.html" target="_blank" rel="noopener" class="text-orange-700 underline">Electricity (Safety) Amendment Regulations 2025</a> came into force on 13 November 2025. Their transitional provision says that until the close of 12 November 2026, a person is treated as complying if they comply with the official standard that applied immediately before 13 November 2025. WorkSafe's <a href="https://www.worksafe.govt.nz/about-us/news-and-media/important-update-changes-to-electricity-safety-regulations-for-electrical-installations/" target="_blank" rel="noopener" class="text-orange-700 underline">December 2025 update for electrical installations</a> puts it plainly: you must start using the new cited standards from 12 November 2026.
+
+Gasfitters face the same date under separate regulations, which we covered last week in <a href="/blog/gas-standards-deadline-12-november-2026/" class="text-orange-700 underline">The 12 November Gas Standards Deadline</a>. This article deals with the electrical side.
+
+## What the Amendments Change
+
+WorkSafe says the amendment updates the standards cited in Schedules 2 and 4 of the Electricity (Safety) Regulations 2010, around 440 of them in total. The change most electricians will feel is the main one: AS/NZS 3000 moves from the 2007 edition with Amendments 1 and 2 to AS/NZS 3000:2018 with Amendments 1, 2 and 3, subject to a list of local modifications.
+
+Several other standards also move to newer versions, and some of them matter to particular kinds of work:
+
+- Solar and battery installers should note that AS/NZS 5033:2021 is cited for photovoltaic installations and AS/NZS 4777.1:2024 for grid-connected low voltage generation.
+- Periodic assessment of installations on demolition and construction sites follows AS/NZS 3012:2019 including Amendment 1, with modifications.
+- Reconnecting an installation that has been disconnected for more than six months follows AS/NZS 3019:2022.
+- Safe working practices are cited as AS/NZS 4836:2023.
+- Hazardous area installation work follows AS/NZS 60079.14:2022.
+
+### Residual Current Devices Get the Most Attention
+
+Many of the local modifications WorkSafe lists concern residual current devices. RCDs must be selected to suit the loads they protect, taking account of pulsating and constant DC fault currents and waveform distortion, and the protection must meet Type A, Type F or Type B requirements under the cited IEC standards.
+
+The testing change is the one most likely to catch people out on site. Under the modified clause 8.3.10, WorkSafe says the integral test device on an RCD is no longer an accepted method of testing its function. A list of required tests takes its place, covering trip time, intended function and protection against electric shock, and, where applicable, the presence of DC leakage and constant DC. If your test routine, your instruments or your certificate templates still rely on pressing the test button, now is the time to change them.
+
+## Which Jobs Can Finish Under the Old Rules
+
+The transition turns on when construction started, and WorkSafe sets out the rules in some detail:
+
+- Work started before 13 November 2025 can carry on under the old standard until it is complete, with no time limit.
+- Work started under the old standard after 13 November 2025 must be finished by 12 November 2026. If it is not, WorkSafe says to complete a Certificate of Compliance for the work done up to that date, and the remaining work must meet the new standard.
+- Where construction begins after 12 November 2026, the new standard is mandatory.
+- Construction includes the design phase, so work may continue under the old standard where a quote or tender process was already underway.
+- Repairs may use the old standard, but if a repair turns into an alteration or addition, that part must meet the newly cited standard.
+- Existing installations can stay in use and be repaired with no time limit, as long as they are not unsafe. When you relocate, add to or alter one, only the parts you change must meet the new standard.
+
+The practical point is evidence. If you are relying on the design or tender exception, keep the quote or tender date on file with the job, because that is what shows which standard applied.
+
+## Your Certificates Record the Standard You Worked To
+
+WorkSafe's consumer guide to <a href="https://www.worksafe.govt.nz/managing-health-and-safety/consumers/safe-living-with-electricity/getting-electrical-work-done/" target="_blank" rel="noopener" class="text-orange-700 underline">getting electrical work done</a> says electricians must issue a Certificate of Compliance to customers for any fixed wiring work, and that some work, particularly on the main switchboard, must be inspected by a licensed electrical inspector. WorkSafe's guidance on <a href="https://www.worksafe.govt.nz/topic-and-industry/electricity/installations-and-networks/low-voltage-electrical-installations/construction-and-certification/" target="_blank" rel="noopener" class="text-orange-700 underline">construction and certification</a> explains that the person making the connection completes the Electrical Safety Certificate, that where work needs inspection the Record of Inspection must confirm it is safe before connection, and that a copy of the ESC should be filed.
+
+For high-risk work, WorkSafe's page on the <a href="https://www.worksafe.govt.nz/topic-and-industry/energy-safety/electricity-and-gas-high-risk-database/what-is-the-eghr/" target="_blank" rel="noopener" class="text-orange-700 underline">Electricity and Gas High-risk Database</a> says electrical inspectors must enter key details within 20 days of issuing the Record of Inspection, and that the public can search the database by address for free.
+
+For a job that straddles the deadline, the CoC for the work completed up to 12 November is the record of what was built to the old standard. Note the standard and edition on each certificate, so that anyone reading it later can tell which rules applied.
+
+## What the Deadline Means for Your Insurance Cover
+
+A change of standard does not rewrite your policy, but it changes the yardstick your work will be measured against if a claim or complaint arrives later, sometimes years after the job.
+
+As at October 2026, <a href="https://www.vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> includes a duty of care condition in its broadform liability section: the persons insured must take reasonable precautions to prevent personal injury and damage to property, and comply with all obligations and regulations set out in any applicable legislation. Its defective work exclusion removes cover for the cost of performing, completing, correcting or improving work done by the persons insured, but does not apply to legal liability for resultant damage to other separate property.
+
+Read together, that means the cost of rewiring a circuit that was built to the wrong standard is generally your own, while a fire that the faulty circuit causes in someone else's house is the kind of loss liability cover is designed for, subject to the policy's terms.
+
+The statutory liability section of the same wording pays fines under an Act and defence costs arising out of a claim, but excludes occurrences arising out of an intentional, knowing or wilful breach of an Act. Starting new work under the 2007 edition after 12 November, knowing the date has passed, is the kind of conduct that exclusion is written for. Other insurers' wordings differ, so read your own.
+
+The Vero wording also requires you to notify the insurer of changes in circumstances that may increase the risk, and to give written notice of changes in the business that increase it. If you have moved into solar, battery storage, hazardous areas or high-risk work since your policy was arranged, it is worth checking that your business description still matches what you do.
+
+Before the deadline, check three things on your own schedule:
+
+- Whether your liability cover includes a statutory liability section, and its limit and exclusions.
+- Whether your cover responds to claims from completed work, not only incidents while you are on site.
+- Whether any design or certification work you do is covered by professional indemnity, since claims about advice or specification may fall outside liability cover.
+
+Our <a href="/blog/electrician-insurance-nz/" class="text-orange-700 underline">guide to electrician insurance</a> covers the wider risks of the trade, and the <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> page explains what that cover can and cannot pay for.
+
+## A Short Checklist Before 12 November
+
+List every open job, the standard it is being built to and the date construction or design started. Finish anything started under the old standard since 13 November 2025, or issue a CoC for the work done to the deadline and switch the rest. Update your RCD test procedures and certificate templates, and make sure anyone you supervise knows which edition applies to which job.
+
+## Key Takeaways
+
+- The transition period under the Electricity (Safety) Amendment Regulations 2025 ends at the close of 12 November 2026.
+- AS/NZS 3000:2018 with Amendments 1, 2 and 3 replaces the 2007 edition for new work, with local modifications.
+- Pressing the integral test button is no longer an accepted RCD function test under the modified clause 8.3.10.
+- Unfinished old-standard jobs started after 13 November 2025 need a CoC for the work done to the deadline, with the rest done to the new standard.
+- Liability cover is not designed to pay for redoing your own work, and statutory liability wordings can exclude knowing breaches.
+
+If your electrical work has changed since your policy was written, it is worth having your liability and statutory liability cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the deadline passes.`,
   },
 ]
 
