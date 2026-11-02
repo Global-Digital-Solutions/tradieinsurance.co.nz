@@ -546,112 +546,91 @@ Use our service to connect with a specialist broker who can assess your income p
   {
     slug: 'worksafe-nz-tradies-compliance',
     title: 'WorkSafe: What Tradies Need to Know About Safety',
-    excerpt: 'The Health and Safety at Work Act 2015 places real obligations on tradies. Here is what you need to know to stay compliant and how insurance protects you.',
+    excerpt: 'The Health and Safety at Work Act 2015 places real obligations on tradies. Here is what you need to know to stay compliant and how insurance fits in.',
     category: 'Compliance',
     readTime: '7 min read',
-    date: '2026-03-28',
+    date: '2026-11-02',
     author: 'TradieInsurance Editorial',
     image: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80',
     content: `## The Health and Safety at Work Act 2015
 
-The Health and Safety at Work Act 2015 (HSWA) is the primary legislation governing workplace health and safety. It replaced the Health and Safety in Employment Act 1992 and significantly increased the obligations on businesses and individuals to manage health and safety risks proactively.
+The <a href="https://legislation.govt.nz/act/public/2015/70/en/2025-04-05B.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Health and Safety at Work Act 2015</a> (HSWA) is the main law governing workplace health and safety. It replaced the Health and Safety in Employment Act 1992 and places duties on businesses, their officers and their workers to manage health and safety risks.
 
-For tradies — particularly those who employ staff or work on shared construction sites — understanding HSWA is not optional. The penalties for non-compliance are substantial, and WorkSafe NZ (the regulator) actively prosecutes businesses that fall short.
+For tradies, particularly those who employ staff or work on shared construction sites, understanding HSWA is not optional. The penalties are substantial, and WorkSafe, the regulator, prosecutes businesses that fall short.
+
+Amendments to the Act take effect on 1 April 2027. We cover those in <a href="/blog/health-safety-law-changes-april-2027-small-tradies/" class="text-orange-700 underline">Health and Safety Law Changes: What Small Tradies Need to Do</a>. This guide describes the Act as it currently stands.
 
 ## Who Has Obligations Under HSWA?
 
-HSWA applies to anyone who has influence over a work situation. For tradies, the key roles are:
-
 ### Person Conducting a Business or Undertaking (PCBU)
 
-If you run a trade business — even as a sole trader — you are a PCBU. PCBUs have primary duties of care to:
-
-- Workers employed by the business
-- Workers engaged as contractors or subcontractors
-- Any person who may be put at risk by the work (visitors, neighbours, members of the public)
+If you run a trade business, even as a sole trader, you are a PCBU. Section 36 of the Act says a PCBU must ensure, so far as is reasonably practicable, the health and safety of workers working for it and workers whose activities it influences or directs. That includes contractors and subcontractors as well as employees, and the same section extends the duty to other people who may be put at risk by the work.
 
 ### Officers
 
-Company directors and senior managers are "officers" under HSWA and have personal duties to exercise due diligence to ensure the business complies with its health and safety obligations. This cannot be delegated.
+Company directors and others in governance roles are officers under HSWA and have a personal duty to exercise due diligence to make sure the business complies. Section 31 says a duty under the Act may not be transferred to another person.
 
 ### Workers
 
-Individual workers have a duty to take reasonable care for their own health and safety and to comply with lawful instructions and policies. Importantly, workers can also be prosecuted for breaches.
+Workers must take reasonable care for their own health and safety and comply with reasonable instructions. A worker who fails to meet those duties can be prosecuted, with a fine of up to $50,000 for an individual who is not a PCBU or officer.
 
-## The Key Duties for NZ Tradies
+## The Key Duties for Tradies
 
 ### Primary Duty of Care
 
-A PCBU must ensure, so far as is reasonably practicable, the health and safety of workers and others affected by its work. "Reasonably practicable" considers the likelihood of the hazard occurring, the severity of potential harm, and the cost and availability of control measures.
-
-For tradies, this means:
+For a trade business, meeting the primary duty in practice usually means:
 
 - Identifying hazards at every job site
 - Assessing the risks those hazards create
-- Implementing controls to eliminate or minimise risk
-- Keeping records of your hazard identification and control process
+- Putting controls in place to eliminate or minimise the risk
+- Keeping records of how you identified and controlled them
 
-### Specific Duties for Construction Work
+### Shared Sites and Overlapping Duties
 
-Construction work is defined broadly under HSWA regulations and carries additional requirements:
+On a building site, several businesses often have duties for the same work. Section 33 says more than one person can have the same duty, and section 34 says each of them must, so far as is reasonably practicable, consult, co-operate with and co-ordinate activities with the others. Because duties cannot be transferred, the head contractor's site rules do not remove a subcontractor's own duties, and a subcontract cannot hand the head contractor's duties down the chain.
 
-- **Notifiable work:** Certain construction work must be notified to WorkSafe before starting
-- **Safe design:** Designers of structures must consider how their designs will be built, maintained, and demolished safely
-- **Principal contractor obligations:** On construction sites, the principal contractor has overriding health and safety responsibilities and must coordinate the activities of all other PCBUs on site
+WorkSafe has published an approved code of practice that sets out roles on residential sites, taking effect on 1 April 2027. Our article on <a href="/blog/residential-construction-acop-roles-2027/" class="text-orange-700 underline">the new residential site code</a> explains what it covers.
 
-### High-Risk Work
+### Notifying Particularly Hazardous Work
 
-Some trades involve activities classified as "high-risk work" requiring a licence:
+Some construction work must be notified to WorkSafe in advance. WorkSafe's page on <a href="https://worksafe.govt.nz/notifications/hazardous-work/" target="_blank" rel="noopener" class="text-orange-700 underline">notifying hazardous work</a> says at least 24 hours' notice is required, and lists work including:
 
-- Working at heights above 1.5 metres
-- Electrical work
-- Gasfitting
-- Operating cranes and elevating work platforms
-- Hazardous substance handling
+- Construction work where a person could fall 5 metres or more, with exclusions such as residential buildings up to two full storeys, work from a ladder only, and minor or routine maintenance and repair.
+- Erecting or dismantling scaffolding where a person could fall 5 metres or more.
+- Trenches, pits and other excavations more than 1.5 metres deep and deeper than they are wide at the top.
+- Lifting 500 kg or more a vertical distance of 5 metres or more with a lifting appliance, with exclusions including excavators, forklifts and self-propelled mobile cranes.
 
-## WorkSafe NZ Enforcement
+Check WorkSafe's page for the full list before starting any of this work.
 
-WorkSafe has significant powers to investigate and prosecute. Following a workplace incident or complaint, WorkSafe inspectors can:
+## WorkSafe Enforcement and Penalties
 
-- Enter and inspect workplaces without notice
-- Interview workers and obtain documents
-- Issue improvement notices requiring specific action by a deadline
-- Issue prohibition notices stopping work immediately
-- Prosecute for breaches of HSWA
+WorkSafe investigates incidents and brings prosecutions, and it publishes the outcomes in its <a href="https://worksafe.govt.nz/about-us/news-and-media/" target="_blank" rel="noopener" class="text-orange-700 underline">news and media releases</a>. On 12 October 2026, for example, it reported that a roofing business had been sentenced after a worker suffered serious injuries in a seven-metre fall.
 
-### Penalties Under HSWA
+The maximum penalties in sections 47 to 49 of the Act are:
 
-HSWA carries some of the most serious workplace penalties:
-
-| Category | Maximum Fine (Individual) | Maximum Fine (Organisation) |
-|----------|--------------------------|----------------------------|
-| Category 1 (reckless conduct) | $300,000 + 5 years prison | $3,000,000 |
-| Category 2 (failure causing death/serious harm) | $150,000 | $1,500,000 |
-| Category 3 (general failure) | $50,000 | $500,000 |
+| Offence | Individual (not a PCBU or officer) | Individual PCBU or officer | Any other person, such as a company |
+|----------|------------------|------------------|------------------|
+| Reckless conduct (s47) | 5 years' prison, $300,000, or both | 5 years' prison, $600,000, or both | $3 million |
+| Exposing a person to risk of death or serious injury or illness (s48) | $150,000 | $300,000 | $1.5 million |
+| Failing to comply with a duty (s49) | $50,000 | $100,000 | $500,000 |
 
 ## Statutory Liability Insurance and WorkSafe
 
-Statutory liability insurance covers you for the legal defence costs and fines (where insurable) arising from an unintentional breach of HSWA or other legislation. It does not cover:
+Fines under HSWA cannot be insured. Section 29 of the Act makes any insurance policy that indemnifies a person for a fine or infringement fee under the Act of no effect, and makes offering or accepting that kind of cover an offence.
 
-- Deliberate or reckless breaches
-- Criminal liability
-- ACC levies
-
-Even if the ultimate penalty is a fine that is not insurable (criminal fines cannot be insured), the legal defence costs alone can be substantial. Statutory liability insurance pays for your defence — which is critically important in a complex WorkSafe prosecution.
+What statutory liability insurance can do, depending on its wording, is pay the cost of defending a prosecution, and some wordings respond to other amounts such as reparation while others exclude reparation under HSWA. Intentional or wilful breaches are commonly excluded. Our <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> page explains what to look for in a wording. Check your own policy rather than assuming.
 
 ## Practical Steps for Tradie Compliance
 
-1. **Develop a health and safety plan:** Document your hazards, risks, and controls for the types of work you do
-2. **Conduct site-specific hazard identification:** Before each job, identify the specific hazards present and brief your workers
-3. **Maintain records:** Keep records of toolbox meetings, hazard inspections, and any incidents
-4. **Ensure subcontractor compliance:** As a principal contractor, you are responsible for health and safety on your site — including the behaviour of subcontractors
-5. **Respond promptly to incidents:** Report notifiable events to WorkSafe immediately and preserve the scene
+1. Document the hazards, risks and controls for the types of work you do.
+2. Before each job, identify the hazards specific to that site and brief your workers.
+3. Keep records of toolbox meetings, hazard checks and any incidents.
+4. On shared sites, agree with the other businesses who is doing what, and write it down.
+5. Check whether any work on the job needs 24 hours' notice to WorkSafe.
 
 ## Getting the Right Insurance
 
-Statutory liability insurance is a prudent addition to any tradie's insurance package, especially for those with employees or in high-risk trades. It should sit alongside public liability, not instead of it.
-
-Use our service to connect with a specialist broker who can ensure your insurance package addresses all your liability exposures.`,
+Statutory liability insurance is worth considering for any trade business, especially those with employees or in high-risk work. It sits alongside public liability, not instead of it. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> to have your liability cover reviewed against the work you do.`,
   },
   {
     slug: 'compare-tradie-insurance-providers-nz',
@@ -2532,6 +2511,83 @@ List every open job, the standard it is being built to and the date construction
 - Liability cover is not designed to pay for redoing your own work, and statutory liability wordings can exclude knowing breaches.
 
 If your electrical work has changed since your policy was written, it is worth having your liability and statutory liability cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the deadline passes.`,
+  },
+  {
+    slug: 'residential-construction-acop-roles-2027',
+    title: 'The New Residential Site Code: Who Is Responsible for What',
+    excerpt: 'WorkSafe has published an approved code of practice that sets out health and safety roles on residential building sites, taking effect on 1 April 2027. Here is what it covers, what it means for builders and subbies, and where your contracts and cover come in.',
+    category: 'Industry News',
+    readTime: '7 min read',
+    date: '2026-11-02',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80',
+    content: `## A Code Written for Shared Sites
+
+On most house builds, five or six businesses are on site in a week, and the question of who is meant to sort out the scaffold, the induction or the edge protection often has no clear answer until something goes wrong.
+
+On 16 October 2026 WorkSafe <a href="https://www.worksafe.govt.nz/about-us/news-and-media/new-acop-to-clarify-health-and-safety-responsibilities-on-residential-construction-sites" target="_blank" rel="noopener" class="text-orange-700 underline">announced that the Minister had signed a new approved code of practice</a> called Identifying health and safety roles and responsibilities on a residential construction site. It takes effect on 1 April 2027, the same day the amendments to the Health and Safety at Work Act 2015 come into force, and WorkSafe is encouraging businesses to start getting familiar with it now.
+
+The <a href="https://www.beehive.govt.nz/release/new-construction-acop-bring-health-and-safety-clarity" target="_blank" rel="noopener" class="text-orange-700 underline">Minister's release</a> says the code is meant to help lead contractors clarify who handles key safety tasks when builders and trades such as roofers and electricians work on the same site. Both WorkSafe and the Minister stress the same point: the code creates no new duties. It explains the duties that already exist and who carries them where roles overlap.
+
+## Which Sites and Which Businesses It Covers
+
+WorkSafe's <a href="https://www.worksafe.govt.nz/topic-and-industry/construction/new-acop-residential-construction/" target="_blank" rel="noopener" class="text-orange-700 underline">page on the code's development</a> describes residential construction as building or renovating places where people live. That includes standalone homes, townhouses, apartments and multi-unit developments, new builds and renovations alike. Civil and commercial construction are out of scope.
+
+Within that, the code is aimed at builders and specialist trades such as plumbers, electricians and roofers, and at shared work arrangements where more than one party has duties for the same work. It sets out what clients, principal contractors, contractors, subcontractors, workers, homeowners and officers need to do before, during and after construction, and WorkSafe's release says it includes real-life examples and flowcharts for landowners, homeowners and occupiers.
+
+## Overlapping Duties Are the Heart of It
+
+The legal idea behind the code is already in the Act. As the <a href="https://legislation.govt.nz/act/public/2015/70/en/2025-04-05B.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Health and Safety at Work Act 2015</a> currently reads, section 33 says more than one person can have the same duty, and section 34 says each business with that duty must, so far as is reasonably practicable, consult, co-operate with and co-ordinate activities with all the other businesses that have a duty in relation to the same matter. Breaching section 34 is itself an offence, with fines of up to $100,000 for a business that is not an individual.
+
+Section 31 matters just as much on a building site: a duty under the Act cannot be transferred to another person. A head contractor cannot hand its duties to a subcontractor by contract, and a subcontractor cannot assume that the builder's site rules have taken care of its own.
+
+That is the gap the code tries to close. WorkSafe says businesses with overlapping duties must consult, cooperate and coordinate so that risks do not fall through the cracks, and that this is the area where the sector asked for the most clarity.
+
+## What the Roles Look Like on a Typical Build
+
+The final code is on WorkSafe's website. The <a href="https://www.worksafe.govt.nz/dmsdocument/72615-consultation-draft-acop-identifying-health-and-safety-roles-and-responsibilities-on-a-residential-construction-site/latest/" target="_blank" rel="noopener" class="text-orange-700 underline">consultation draft</a> that WorkSafe published earlier in the year gives a clear sense of how it is structured, and the role descriptions below come from that draft, so check the final text before relying on any detail.
+
+In the draft, the principal contractor is described as the business the client hires to lead the residential construction project. Its listed tasks include selecting contractors, identifying hazards and controls, planning site safety, making sure workers get a site induction and know how to raise concerns, controlling site access, and managing overlaps between trades so that one trade's work does not create new risks for another.
+
+Contractors and subcontractors are expected to agree hazards, controls and the schedule with the businesses above them, follow site rules, tell others when their work may affect them, respect exclusion zones, and leave their area safe when they finish. The draft also notes that the business leading the site depends on the project. It is usually the principal contractor, but it can be a project manager or, in some situations, the homeowner.
+
+Homeowners have their own section. WorkSafe's long-standing <a href="https://www.worksafe.govt.nz/laws-and-regulations/operational-policy-framework/operational-policies/information-for-people-building-their-own-home/" target="_blank" rel="noopener" class="text-orange-700 underline">policy clarification for people building their own home</a> says a person having a house built is a PCBU while it is being built, and that in most cases they can meet that duty by engaging a competent builder or project manager. An owner living in the home who has work done on it is generally not a PCBU. If an owner is project managing their own build, agree early who is doing the coordinating.
+
+## Following the Code and Safe Harbour
+
+Businesses do not have to follow an approved code of practice. WorkSafe's release describes it as one recognised way to show compliance, and says a business can meet its duties another way if the alternative is at least as good as the code.
+
+The question of legal protection is more nuanced than some commentary suggests. The Minister's release says that after 1 April 2027 the code may gain safe harbour status, meaning that following it could count as meeting the relevant duty, but that the Minister would need to reapprove it after consultation for that to happen. Until then, treat the code as the standard WorkSafe will measure you against, not as a shield. We covered the wider April changes in <a href="/blog/health-safety-law-changes-april-2027-small-tradies/" class="text-orange-700 underline">Health and Safety Law Changes: What Small Tradies Need to Do</a>.
+
+## Where Your Contracts and Insurance Cover Come In
+
+The code is about health and safety, but it lands in the same documents your insurance depends on: the subcontract, the site rules and the pre-start agreement about who does what.
+
+The first risk is in the contract. When a head contractor's subcontract asks you to indemnify it for anything arising from your work, the promise may go further than the law would otherwise make you liable for. As at November 2026, <a href="https://vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> excludes liability assumed under an agreement unless that liability would have attached in the absence of the agreement, with a further exception for warranties of fitness or quality. In plain terms, liability you would have had anyway can still be covered, but liability you take on only because the contract says so may not be. Other insurers' wordings differ, so read the clause in yours and show your insurer any indemnity you are asked to sign.
+
+The second is prosecution. If an incident on a shared site is investigated, more than one business can be charged. <a href="https://legislation.govt.nz/act/public/2015/70/en/2025-04-05B.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Section 29 of the Act</a> makes any insurance that indemnifies a person for a fine or infringement fee under it of no effect, so the fine itself is always yours. Statutory liability cover is about the cost of defending the charge and, depending on the wording, other amounts. The same Vero wording shows why the detail matters: its broadform reparation extension expressly does not cover reparation arising from a prosecution under the Health and Safety at Work Act 2015. Our <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> page explains what this kind of cover can and cannot pay.
+
+The third is the record. If the code becomes the yardstick, the pre-start meeting, the induction sign-in and a short note of who agreed to provide the scaffold or edge protection are the evidence that you did what was reasonably practicable.
+
+Before 1 April, check three things against your own documents:
+
+- Whether any subcontract you have signed or are about to sign contains an indemnity wider than your liability at law, and how your public liability wording treats it.
+- Whether you hold statutory liability cover, who it treats as insured, and what it says about defence costs and reparation.
+- Whether your policy's business description still matches the work, particularly if you now act as the lead contractor on jobs where you used to be a subcontractor.
+
+## A Short Checklist for the Summer Builds
+
+Read the final code and find the role you hold on each job, because it can change from site to site. Hold a short pre-start meeting on shared jobs, write down who is doing what, and keep the induction records.
+
+## Key Takeaways
+
+- WorkSafe's approved code of practice on roles and responsibilities on residential construction sites takes effect on 1 April 2027.
+- It covers homes, townhouses, apartments and multi-unit builds, new and renovation, but not civil or commercial work.
+- It creates no new duties. Duties cannot be transferred, and businesses that share a duty must consult, co-operate and co-ordinate.
+- Following the code is voluntary, and safe harbour status would need the Minister to reapprove it after consultation.
+- Fines under the Act cannot be insured, and contractual indemnities can fall outside liability cover, so read your subcontracts and your wording together.
+
+If your role on site has changed, or your subcontracts have, it is worth having your public liability and statutory liability cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the new code takes effect.`,
   },
 ]
 

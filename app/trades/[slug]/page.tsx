@@ -611,6 +611,7 @@ export default async function TradeTypePage({ params }: Props) {
         // least one trade page.
         const tradeGuideMap: Record<string, { href: string; label: string }[]> = {
           builders: [
+            { href: '/blog/residential-construction-acop-roles-2027/', label: 'The New Residential Site Code' },
             { href: '/blog/other-trades-defective-workmanship-cover/', label: 'Defective Workmanship by Other Trades' },
             { href: '/blog/builder-insurance-checklist-nz/', label: 'Builder Insurance Checklist' },
             { href: '/blog/granny-flat-exemption-builder-liability-2026/', label: 'Granny Flat Builds and Cover' },
@@ -646,6 +647,7 @@ export default async function TradeTypePage({ params }: Props) {
           tilers: [{ href: '/blog/other-trades-defective-workmanship-cover/', label: 'Defective Workmanship by Other Trades' }],
           bricklayers: [{ href: '/blog/two-speed-building-market-tradie-insurance-2026/', label: 'The Two-Speed Building Market' }],
           'carpenters-woodworkers': [
+            { href: '/blog/residential-construction-acop-roles-2027/', label: 'The New Residential Site Code' },
             { href: '/blog/two-speed-building-market-tradie-insurance-2026/', label: 'The Two-Speed Building Market' },
             { href: '/blog/builder-insurance-checklist-nz/', label: 'Builder Insurance Checklist' },
           ],
