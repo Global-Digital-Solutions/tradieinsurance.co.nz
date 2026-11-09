@@ -158,81 +158,64 @@ Use our service to connect with a licensed builder insurance specialist today.`,
   {
     slug: 'public-liability-tradies-explained',
     title: 'Public Liability for Tradies: What You Need to Know',
-    excerpt: 'A plain-English explainer on public liability insurance for tradies — what it covers, what it costs, and why you need it.',
+    excerpt: 'A plain-English explainer on public liability insurance for tradies: what it covers, what it usually excludes, and how to check your limit and wording.',
     category: 'Explainer',
-    readTime: '5 min read',
-    date: '2026-04-22',
+    readTime: '6 min read',
+    date: '2026-11-09',
     author: 'TradieInsurance Editorial',
     image: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?auto=format&fit=crop&w=800&q=80',
     content: `## What Is Public Liability Insurance?
 
-Public liability insurance covers you if a third party — a client, a passer-by, or someone else — suffers injury or property damage because of your work. It pays for legal defence costs and any compensation you are ordered to pay.
+Public liability insurance covers your legal liability when someone else suffers injury or their property is damaged because of your work. Insurers often sell it as general liability or broadform liability, and it is usually the first policy a client or head contractor asks to see.
 
-For tradies, public liability (often called "PL") is the single most important insurance policy you can hold. Without it, a single accident or claim could cost you everything.
+Using one published wording as an example, <a href="https://vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> (checked November 2026) indemnifies the business for amounts it becomes legally liable to pay as direct compensation for personal injury or damage to property, happening during the period of insurance as a result of an occurrence in connection with the business. If a claim is accepted, that wording pays defence costs in addition to the limit of indemnity. Other insurers' wordings differ, so always read the one you hold.
 
-## What Does Public Liability Cover?
+## What It Typically Covers
 
-A standard public liability policy for tradies covers:
+Everyday examples of the risks public liability is designed for:
 
-- **Third-party bodily injury:** A client slips on your wet floor, or a passer-by is struck by falling materials from your site
-- **Third-party property damage:** You accidentally break a client's window, damage their flooring, or spill paint on their car
-- **Legal defence costs:** Even if a claim against you is unfounded, legal costs can run to tens of thousands of dollars
-- **Compensation payments:** If you are found liable, the policy pays the awarded compensation up to your policy limit
+- Damage to a client's property you were not working on, such as a dropped tool cracking a vanity or a ladder marking a car.
+- Injury to a member of the public, such as someone tripping over leads or being hit by falling material.
+- Fire or water damage spreading from your work to the rest of a building.
+- The cost of defending a claim, which can be significant even when the claim fails.
 
-## What Public Liability Does NOT Cover
+## What It Usually Does Not Cover
 
-It is equally important to understand the exclusions. Public liability typically does not cover:
+The exclusions are where most surprises sit. The Vero wording above is a useful illustration, because many of its exclusions are common in the market:
 
-- Damage to your own tools or property (that is tools and equipment cover)
-- Your own injury or illness (that is ACC plus income protection)
-- Errors in professional advice (that is professional indemnity)
-- Intentional or criminal acts
-- Damage that is gradual or wear-and-tear related
+- Your own work. It excludes the cost of performing, completing, correcting or improving work done by the people insured, while keeping cover for resulting damage to other property they were not working on. Liability cover pays for the damage your mistake causes, not for fixing the mistake.
+- Injuries covered by ACC. It excludes personal injury that falls within the scope of the Accident Compensation Act 2001, which reflects how personal injury is handled here.
+- Liability you take on by contract. It excludes liability assumed under an agreement unless that liability would have attached anyway, with a narrow exception for product warranties.
+- Fines and penalties. The broadform section excludes fines, penalties, reparation and exemplary damages.
+- Property in your care, custody or control, other than premises where you are working.
+- Underground services, unless reasonable steps were taken before work started to locate them and avoid damage, in which case the wording applies a $5,000 excess.
+- Asbestos, building defects and weathertightness failures, and intentional or reckless acts.
 
-## How Much Cover Do NZ Tradies Need?
+Some of these gaps can be filled with other cover. Contract works insurance deals with damage to the job itself, <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> deals with defending certain prosecutions, and <a href="/types/professional-indemnity/" class="text-orange-700 underline">professional indemnity</a> deals with advice and design.
 
-The right level of cover depends on the type of work you do and your clients' requirements:
+## Conditions That Can Decide a Claim
 
-| Work Type | Recommended Limit |
-|-----------|------------------|
-| Residential handyman | NZ$1M |
-| Residential building | NZ$2M–$5M |
-| Commercial building | NZ$5M–$10M |
-| Large infrastructure | NZ$10M–$20M |
+Exclusions are not the only thing to read. Some extensions come with conditions you must meet every time. The same Vero wording extends cover to hot work away from your premises only if precautions are complied with on each occasion, including clearing combustible material for at least six metres when welding or cutting, keeping a suitable extinguisher next to the work, and checking for signs of fire half an hour after each period of work. If you use a torch, grinder or welder on site, find the equivalent clause in your own policy and build it into your routine.
 
-When in doubt, more cover is better. The difference in premium between a NZ$2M and NZ$5M policy is often surprisingly small.
+## Choosing a Limit
 
-## How Much Does Public Liability Cost for NZ Tradies?
+The limit of indemnity is the most the insurer will pay. In the Vero wording it applies per occurrence or series of related occurrences, and in aggregate across the period of insurance for product claims and for pollution claims.
 
-Premiums vary by trade, turnover, and the limit you choose. Here are rough ballpark figures for a sole trader:
+There is no single right number. The practical drivers are:
 
-- **Low-risk trades (handymen, painters):** NZ$25–$40/month
-- **Medium-risk trades (builders, plumbers, electricians):** NZ$40–$80/month
-- **High-risk trades (roofers, concreters, demolition):** NZ$60–$120/month
+- The limits written into your contracts. Head contractors and commercial clients can set a minimum, so read the insurance clause before you sign.
+- The value of the property around your work. Working inside an occupied home, on a commercial fit-out or next to a busy road all change the size of a worst-case claim.
+- The type of work. Hot work, work at height and work on water or gas systems can each cause damage well beyond the area you are working on.
 
-These figures increase with higher limits and with the addition of employees.
+## Is Public Liability Compulsory?
 
-## Is Public Liability Legally Required for NZ Tradies?
+Whether you need it is usually decided by the people you work for rather than by a single rule that applies to every trade. Subcontracts and client agreements can require proof of cover and a minimum limit before you start, so check what each one asks for. Even where nobody asks, one serious claim can cost far more than the cover.
 
-Public liability is not universally mandated by law for all NZ trades. However:
+## Getting the Right Policy
 
-- **Principal contractors** almost universally require subcontractors to hold PL before starting work
-- **Building contracts** routinely specify minimum PL limits
-- **Commercial clients** and property managers typically require proof of cover
-- **Licensing bodies** may require PL for certain licensed trades
+A broker can look at your trade, your contracts and the work you actually do, and arrange cover that fits. When you talk to one, have ready a description of your work, your turnover, your staff numbers, any contract clauses about insurance, and details of any past claims.
 
-Even if no one requires it, working without PL is a significant financial risk that no sensible tradie should take.
-
-## How to Get the Right Public Liability Policy
-
-The fastest and most effective way to get the right PL cover at a competitive price is through a specialist broker. A broker can:
-
-- Assess your exact risk profile
-- Access multiple insurers on your behalf
-- Tailor the policy to your trade type and contracts
-- Ensure there are no coverage gaps that could leave you exposed
-
-Use our service to connect with a licensed tradie insurance broker and get public liability cover in place quickly.`,
+If you are not sure your current policy matches the work you are doing now, <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have your cover reviewed against the work you do now.`,
   },
   {
     slug: 'tool-insurance-nz-guide',
@@ -2588,6 +2571,92 @@ Read the final code and find the role you hold on each job, because it can chang
 - Fines under the Act cannot be insured, and contractual indemnities can fall outside liability cover, so read your subcontracts and your wording together.
 
 If your role on site has changed, or your subcontracts have, it is worth having your public liability and statutory liability cover read against the work you do now. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the new code takes effect.`,
+  },
+  {
+    slug: 'el-nino-summer-2026-tradies-site-risks',
+    title: 'A Very Strong El Niño Summer: What It Means on Site',
+    excerpt: 'The latest seasonal outlook points to a hotter, windier and drier summer in the north and east, and heavy rain risk in the far south. Here is what that means for heat, wind, hot work and your cover.',
+    category: 'Industry News',
+    readTime: '7 min read',
+    date: '2026-11-09',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80',
+    content: `## A Summer Shaped by El Niño
+
+If you work outdoors, the next three months are shaping up to be hotter, windier and drier than usual in some regions, and wetter in others.
+
+Earth Sciences New Zealand (formerly NIWA) published its <a href="https://niwa.co.nz/climate-and-weather/seasonal-climate-outlook/seasonal-climate-outlook-november-january-2027" target="_blank" rel="noopener" class="text-orange-700 underline">seasonal climate outlook for November 2026 to January 2027</a> on 29 October 2026. It says very strong El Niño conditions are firmly established in the tropical Pacific, that they intensified further in October, and that the event may become the strongest observed in the instrumental era. A westerly-quarter circulation pattern is expected to prevail for much of the season.
+
+Its earlier explainer, <a href="https://niwa.co.nz/news/el-nino-2026-what-you-need-know" target="_blank" rel="noopener" class="text-orange-700 underline">El Niño 2026: what you need to know</a>, describes the usual pattern: stronger and more frequent winds from the southwest through to the northwest, drier conditions in the north and east, and wetter conditions in the south and west. It also notes that no El Niño is average, so treat this as a tendency, not a forecast for any one job.
+
+## What the Outlook Says by Region
+
+The outlook for November to January breaks down like this:
+
+- Northland, Auckland, Waikato and Bay of Plenty: most likely warmer than average and drier than normal, with more frequent dry spells.
+- Gisborne, Hawke's Bay and Wairarapa: the highest confidence of below normal rainfall of any region, and unusually warm temperatures linked to strong, gusty westerly winds.
+- Central North Island, Taranaki, Whanganui, Manawatū and Wellington: temperatures most likely above average, rainfall most likely near normal, with high uncertainty.
+- Tasman, Nelson, Marlborough and Buller: temperatures near or above average with larger swings, wetter in the west and drier in the east.
+- West Coast, Southern Alps, inland Otago and Southland: rainfall most likely above normal, with the chance of heavy rain particularly elevated for Southland, south Westland and Fiordland.
+- Coastal Canterbury and east Otago: temperatures most likely above average, with föhn-enhanced warm spells during strong westerlies.
+
+The outlook also expects soil moisture and river flows to be below normal in the north and east of the North Island, and says spells of unusually high temperatures are likely to be most frequent and intense on the eastern sides of both islands. Tropical cyclone activity for the Southwest Pacific basin as a whole is expected to be normal to above normal, with the risk for the north of the country near normal.
+
+## Heat Is a Hazard You Have to Manage
+
+Hot weather is not just uncomfortable. WorkSafe's fact sheet <a href="https://www.worksafe.govt.nz/dmsdocument/23450-working-in-extreme-heat-a-guide-for-businesses/latest" target="_blank" rel="noopener" class="text-orange-700 underline">Working in extreme heat: a guide for businesses</a> says heat-related illness and injuries can be fatal if ignored, and that the business (the PCBU) must make sure, so far as is reasonably practicable, that workers' health and safety is not put at risk while carrying out work in extreme heat.
+
+The fact sheet says you might need a heat risk assessment if workers are uncomfortably hot or sweating, if there is high humidity, if workers are exposed to radiant heat such as direct sunlight, if they are working in confined spaces in hot or humid weather, or if the work is physically demanding. A January re-roof ticks most of those boxes.
+
+Its listed controls suit most trades:
+
+- Provide protection from the sun when working outdoors.
+- Schedule work for cooler times of the day.
+- Rotate workers on tasks and allow extra rest breaks, with cool rest areas away from the heat and sun.
+- Encourage workers to stay hydrated and make cool drinks available at all times.
+- Use mechanical aids to reduce physical effort.
+
+WorkSafe also says PPE should only be used as additional protection after other reasonably practicable controls are in place, and that you cannot make workers pay for PPE. On site, that might mean starting roof work early and saving ceiling cavity jobs for cooler days.
+
+## Wind: Scaffolds, Sheeting and Loose Materials
+
+Strong westerlies are the other side of this El Niño. WorkSafe's good practice guidelines on <a href="https://www.worksafe.govt.nz/dmsdocument/19966-scaffolding-in-new-zealand/latest" target="_blank" rel="noopener" class="text-orange-700 underline">scaffolding</a> explain why wrapped scaffolds deserve extra attention. Screening or containment sheeting increases the wind load on a scaffold and with it the risk of the scaffold being blown over. The guidelines say screened scaffolds must be designed by a chartered professional engineer unless there is enough information from the manufacturer's specifications and the calculated or known loads, and must be notified as special duty scaffolds. They also say sheeted scaffolds should be designed so the sheeting tears off at a wind load lower than the scaffold's capacity, so that the sheeting blows off rather than the scaffold blowing over, and that additional ties may be needed in high wind.
+
+If you hire scaffolding, ask whether the design allows for the sheeting and the site's exposure, and agree who checks it after a blow. Tie down roofing iron, membranes and offcuts at the end of each day, and plan sheet handling for calmer mornings. Our article on <a href="/blog/three-metre-rule-working-at-height-guidelines-2026/" class="text-orange-700 underline">the new working at height guidance</a> covers the planning side of height work.
+
+## Dry Ground, Fire Seasons and Hot Work
+
+Drier vegetation raises the stakes for any work that throws sparks or uses a flame. The El Niño explainer says wildfire risk is highest where conditions are both drier and windier than usual, and names Canterbury, Otago and Marlborough as regions of concern.
+
+Fire and Emergency New Zealand declares restricted and prohibited fire seasons and can prohibit the lighting of fires in the open air. The <a href="https://legislation.govt.nz/secondary-legislation/pco-drafted/2017/101/en/latest" target="_blank" rel="noopener" class="text-orange-700 underline">Fire and Emergency New Zealand (Fire Permits) Regulations 2017</a> show how these powers work: a permit to light a fire in a restricted fire season is suspended if a prohibition or a prohibited fire season is later declared in that area. If burning off is part of a section clearance or landscaping job, check the current fire season for the area before you light anything, and check again on the day.
+
+For welding, cutting and torch-on membranes, the risk is a spark or hot surface meeting dry grass or timber, which is where your insurance wording starts to matter.
+
+## Where Your Insurance Cover Comes In
+
+Damage you cause to someone else is a liability question. Damage to the work you are building is a separate one.
+
+Start with hot work. As at November 2026, <a href="https://vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> includes a "fire risk work away" extension. It covers legal liability for personal injury or property damage from applying heat with a naked flame or open heat source away from your premises, provided precautions are complied with on each occasion. Those precautions include clearing combustible material for a safe distance (not less than six metres for welding or cutting) or covering it with fireproof blankets, keeping a suitable fire extinguisher immediately next to the work, not leaving lit or heated equipment unattended, and checking for signs of combustion half an hour after each period of work. Other insurers word this differently, but a fire claim can turn on what you did on the day, so make the precautions in your own wording part of every hot job and record that you followed them.
+
+The second issue is your own work. The same Vero wording excludes the cost of performing, completing, correcting or improving work done by the people insured, while keeping cover for resulting damage to other property they were not working on. In plain terms, if a gust strips the roofing you were halfway through fixing, a liability policy is not designed to pay for redoing it. Damage to the works during the build is normally a matter for contract works cover, and our guide to <a href="/blog/contract-works-insurance-nz-tradies/" class="text-orange-700 underline">contract works insurance</a> explains who usually arranges it.
+
+Before the busy weeks start, check these against your own documents:
+
+- Whether your liability wording has hot work conditions, and whether your crew knows them.
+- Who insures the works on each job, and whether storm and wind damage is included.
+- Whether your tools and materials on site or in the ute are covered while left overnight.
+- Whether your policy's business description still matches the work you now do.
+
+If a storm does hit a site, our <a href="/blog/storm-flood-claims-tradies-nz-2026/" class="text-orange-700 underline">storm claims guide</a> covers what to record and when to notify your insurer.
+
+## Key Takeaways
+
+- Earth Sciences New Zealand's outlook to January 2027 says very strong El Niño conditions are established, with westerly winds expected to prevail.
+- The north and east of the North Island are most likely to be drier and warmer than normal, and heavy rain chances are elevated in the far south.
+- WorkSafe expects businesses to manage heat risk with controls such as shade, scheduling, rest breaks and water.
+- Hot work cover can depend on precautions taken each time, and liability policies do not pay to redo your own work.
+
+If your work or your sites have changed since your policy was written, it is worth having your liability, tools and contract works cover read against the summer ahead. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the holiday shutdown.`,
   },
 ]
 
