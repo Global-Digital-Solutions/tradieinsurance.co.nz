@@ -2658,6 +2658,103 @@ If a storm does hit a site, our <a href="/blog/storm-flood-claims-tradies-nz-202
 
 If your work or your sites have changed since your policy was written, it is worth having your liability, tools and contract works cover read against the summer ahead. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the holiday shutdown.`,
   },
+  {
+    slug: 'asbestos-awareness-week-2026-tradies',
+    title: 'Until You Know, Assume Asbestos: A Tradie Checklist',
+    excerpt: 'Asbestos Awareness Week runs from 16 to 22 November. Here is what the Asbestos Regulations ask of tradespeople working on older buildings, the seven steps WorkSafe sets out, and why liability policies usually exclude asbestos.',
+    category: 'Safety',
+    readTime: '7 min read',
+    date: '2026-11-16',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=800&q=80',
+    content: `## A Week to Check Before You Cut
+
+If you drill, sand, cut or strip anything in a building put up before 2000, this week is aimed squarely at you.
+
+WorkSafe opened <a href="https://www.worksafe.govt.nz/about-us/news-and-media/asbestos-awareness-week-until-you-know-assume-asbestos/" target="_blank" rel="noopener" class="text-orange-700 underline">Asbestos Awareness Week</a> on 16 November 2026 with a simple message: until you know, assume asbestos. The week runs to 22 November. WorkSafe describes asbestos as the leading work-related killer in this country, linked to an estimated 220 deaths a year, and says diseases from exposure can take decades to appear.
+
+The figures in the announcement show the regulator is paying attention. Members of the public have made almost 650 asbestos-related notifications to WorkSafe so far this year, about the same as at this point last year. Around 80% of those notifications were flagged for follow-up by an inspector, and more than 4% were classed as an immediate risk of harm. WorkSafe also says asbestos material that is in good condition and left alone is not considered a risk. The danger comes when it is disturbed, which is exactly what renovation, maintenance and demolition do.
+
+## Which Buildings and Which Trades
+
+WorkSafe's guidelines for <a href="https://www.worksafe.govt.nz/topic-and-industry/asbestos/asbestos-information-for-tradespeople/working-with-or-near-asbestos/" target="_blank" rel="noopener" class="text-orange-700 underline">tradespeople working with or near asbestos</a> start from a clear presumption: buildings built before 1 January 2000 are likely to contain asbestos-containing materials (ACM). Newer buildings can still contain it, but that is less likely.
+
+The guidelines say tradespeople who work with or near ACM have a duty to follow a prescribed risk management process. They cover maintenance and servicing work that may disturb ACM, such as minor repairs or sealing, and you do not need an asbestos removal licence for that work. You do need the right equipment, skills, knowledge, training and experience to do it safely. Refurbishment, demolition and removal work fall outside those guidelines and follow their own rules, set out below.
+
+That puts painters, plasterers, tilers, roofers, electricians and plumbers squarely in scope. Our trade pages for <a href="/trades/painters/" class="text-orange-700 underline">painters</a>, <a href="/trades/plasterers/" class="text-orange-700 underline">plasterers</a> and <a href="/trades/roofers/" class="text-orange-700 underline">roofers</a> cover where asbestos tends to turn up in each trade's work.
+
+## What the Regulations Require Before Refurbishment
+
+The <a href="https://legislation.govt.nz/secondary-legislation/pco-drafted/2016/15/en/latest/" target="_blank" rel="noopener" class="text-orange-700 underline">Health and Safety at Work (Asbestos) Regulations 2016</a> set out who has to find the asbestos and when.
+
+- Regulation 10 requires a business with management or control of a workplace to make sure, so far as is reasonably practicable, that asbestos giving rise to a risk is identified. Material that cannot be identified, but is reasonably believed to be asbestos, must be assumed to be asbestos.
+- Regulation 13 requires that business to have a written asbestos management plan for the workplace, which includes where asbestos has been identified.
+- Regulations 19 and 20 apply to demolition and refurbishment of a structure built before 1 January 2000. The business carrying out the work must not start until the structure has been inspected for asbestos by a competent person. If that person is uncertain, or part of the structure is inaccessible and likely to be disturbed, asbestos must be assumed to be present. Minor or routine maintenance is excluded from this part.
+- Regulation 26 applies to refurbishing a home. The business doing the refurbishment must make sure all asbestos likely to be disturbed is identified and, so far as is reasonably practicable, removed before the refurbishment begins. Breaching it is an offence with a maximum fine of $10,000 for an individual and $50,000 for anyone else.
+
+The last point matters for tradies who work in people's houses. On a home refurbishment the duty sits with the business doing the work, not only with the homeowner.
+
+## Removal: When a Licence Is Needed
+
+WorkSafe's <a href="https://worksafe.govt.nz/topic-and-industry/asbestos/licensing/overview/" target="_blank" rel="noopener" class="text-orange-700 underline">asbestos licensing overview</a> sets three bands:
+
+- Up to and including 10m² of non-friable asbestos or ACM, counted cumulatively over the whole removal project for the site, needs no licence.
+- Any amount of non-friable asbestos or ACM above that needs at least a Class B licence.
+- Any friable asbestos, in any amount, needs a Class A licence.
+
+The 10m² is measured across the whole project, not per day or per room. Taking out a few sheets each visit does not reset the count. WorkSafe's page also says all removal work must be done safely and asbestos waste must go to a licensed landfill.
+
+## The Seven Steps in WorkSafe's Guidelines
+
+For work covered by the tradespeople guidelines, WorkSafe sets out seven steps:
+
+1. Check for asbestos.
+2. Make a plan, get prepared.
+3. Isolate the work area, make it safe.
+4. Put on your PPE and RPE and check it seals properly.
+5. Do the work using safe techniques.
+6. Clean up the work area and decontaminate.
+7. Dispose of the waste.
+
+Step one starts with asking the property or building owner what information they have, and asking the business that controls the building to see its asbestos management plan. If no survey has been done and you suspect asbestos, the guidelines say you should ask for the area you will be working in to be surveyed before you begin.
+
+Some tools are off limits. The guidelines prohibit water blasters and pressure washers with an output above 350kPa on asbestos, except for fire-fighting or clearing blockages in water and wastewater pipes, and allow no exceptions at all for compressed air, brooms or domestic vacuum cleaners. Power tools can only be used if they are designed, or used in a way designed, to capture or suppress fibres.
+
+If you find suspected asbestos after work has started, WorkSafe says to stop immediately, keep people away from the area, and tell the property owner or the business that controls the property as soon as practicable. You must not start the work until you and your workers have the right information and training, and you must keep a record of the training given to each worker for at least five years after they stop working for you. Asbestos waste cannot go in a general landfill or your normal rubbish, and bagged waste must go to an approved facility.
+
+## Where Insurance Cover Stops on Asbestos
+
+This is the part many tradies only discover after a problem: a liability policy can exclude asbestos altogether.
+
+As at November 2026, <a href="https://vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Vero's Combined Broadform, Employers and Statutory Liability policy wording</a> excludes, in its broadform liability section, anything directly or indirectly caused by or arising out of the inhalation of, exposure to, fears of the consequences of, cleaning up or removal of, or damage to or loss of use of property arising out of, asbestos, asbestos fibres or any derivatives of asbestos. The statutory liability section of the same wording has its own asbestos exclusion, and separately excludes occurrences arising from any intentional, knowing or wilful breach of an Act.
+
+In practical terms, under a wording like that:
+
+- If you cut into an asbestos soffit and contaminate a client's home, claims for the clean-up and for the client's loss of use of the house fall within the broadform liability exclusion.
+- Defence costs for a prosecution arising out of asbestos work are likely to fall within the statutory liability section's asbestos exclusion.
+- Fines cannot be insured in any case. Section 29 of the <a href="https://legislation.govt.nz/act/public/2015/70/en/2025-04-05B.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Health and Safety at Work Act 2015</a> makes any policy that indemnifies a person for a fine or infringement fee under that Act of no effect.
+
+Other insurers word their policies differently, so read your own schedule and wording rather than assuming. Our page on <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> explains what that cover is designed to do, and our guide to <a href="/blog/public-liability-tradies-explained/" class="text-orange-700 underline">public liability for tradies</a> covers the main exclusions.
+
+The practical point is simple: with an exclusion like that in place, your best protection is not touching asbestos you have not identified. Checking first, keeping a record of what you checked, and stopping when you are unsure all reduce the chance of a loss that your policy was never designed to pay.
+
+## A Short Checklist for This Week
+
+- For any job on a pre-2000 building, ask the owner or controlling business for the asbestos management plan or survey before you quote.
+- On home refurbishments, remember the duty to identify asbestos likely to be disturbed sits with your business.
+- Track cumulative non-friable removal against the 10m² limit on each site.
+- Book asbestos awareness training for anyone who has not done it, and keep the records.
+- Read your liability wording for asbestos, pollution and intentional breach exclusions.
+
+## Key Takeaways
+
+- Asbestos Awareness Week runs from 16 to 22 November 2026, under WorkSafe's message "until you know, assume asbestos".
+- Buildings built before 1 January 2000 are likely to contain asbestos, and refurbishment of those buildings cannot start until a competent person has checked.
+- More than 10m² of non-friable asbestos needs a Class B licence, and any friable asbestos needs a Class A licence.
+- Liability wordings such as Vero's exclude asbestos claims, and fines under the Health and Safety at Work Act cannot be insured.
+
+If you are taking on more renovation or maintenance work in older buildings, it is worth having your liability and statutory liability cover read against the jobs you actually do. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the summer rush.`,
+  },
 ]
 
 /**

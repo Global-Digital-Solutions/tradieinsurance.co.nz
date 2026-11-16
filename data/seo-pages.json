@@ -115,7 +115,7 @@
   "priority": "0.8"
  },
  "/trades/gasfitters/": {
-  "lastmod": "2026-09-22",
+  "lastmod": "2026-11-16",
   "changefreq": "monthly",
   "priority": "0.8"
  },
@@ -481,6 +481,11 @@
  },
  "/blog/el-nino-summer-2026-tradies-site-risks/": {
   "lastmod": "2026-11-09",
+  "changefreq": "monthly",
+  "priority": "0.6"
+ },
+ "/blog/asbestos-awareness-week-2026-tradies/": {
+  "lastmod": "2026-11-16",
   "changefreq": "monthly",
   "priority": "0.6"
  }

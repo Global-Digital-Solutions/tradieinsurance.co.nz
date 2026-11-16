@@ -11,5 +11,6 @@ the page fetched and the sentence that supports it (researched 22 September 2026
 - builders: sources are in its data entry (MBIE, LBP).
 
 Rule: if a claim cannot be traced to a source here or in `sources`, delete it.
-Recheck gasfitters after 12 November 2026 (Gas (Safety and Measurement)
-Amendment Regulations 2025 take effect).
+Gasfitters rechecked 16 November 2026 after the Gas (Safety and Measurement)
+Amendment Regulations 2025 transition period ended: 12 November entries rewritten
+from WorkSafe's December 2025 gas installations update (now in `sources`).
