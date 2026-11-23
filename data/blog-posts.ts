@@ -304,76 +304,59 @@ Talk to a specialist tradie insurance broker about your tool and equipment needs
   {
     slug: 'tradie-vehicle-insurance-nz',
     title: 'Commercial Vehicle Insurance for Tradies: Utes & Vans',
-    excerpt: 'Your work vehicle is a business asset. Here is why your standard car insurance is not enough and what commercial vehicle cover you need.',
+    excerpt: 'Your work vehicle is a business asset. Here is what commercial vehicle cover can include, how trailers and towing are treated, and what to check at renewal.',
     category: 'Guide',
-    readTime: '5 min read',
-    date: '2026-04-15',
+    readTime: '6 min read',
+    date: '2026-11-23',
     author: 'TradieInsurance Editorial',
     image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
-    content: `## The Business Use Gap in Standard Vehicle Insurance
+    content: `## Your Ute Is a Business Asset
 
-Many tradies make the mistake of assuming their standard personal vehicle insurance covers their work ute or van. In most cases, it does not. Standard personal vehicle policies typically exclude "business use" — meaning if you have an accident driving to, from, or between job sites, your claim could be declined.
+Most tradies spend part of every working day in a ute or van, carrying tools and materials and often towing a trailer. That makes the vehicle a business asset, and the cover on it should reflect how it is actually used.
 
-Commercial vehicle insurance is designed specifically for vehicles used for business purposes, and it is an essential part of any tradie's insurance package.
+Insurers ask how a vehicle will be used when you arrange cover. A policy set up for private use may not match a vehicle that carries tools, tows plant and drives between sites every day, so tell your insurer or broker how the vehicle is used and read how your policy describes permitted use.
 
-## What Is Commercial Vehicle Insurance?
+## Levels of Commercial Vehicle Cover
 
-Commercial vehicle insurance covers vehicles used primarily for business purposes. For tradies, this typically means:
+Commercial vehicle policies are usually offered at three levels. Vero's <a href="https://www.vero.co.nz/business-insurance/commercial-vehicle-insurance.html" target="_blank" rel="noopener" class="text-orange-700 underline">commercial vehicle insurance page</a>, read in November 2026, describes its options this way:
 
-- **Utes (utilities):** The backbone of the tradie fleet — covered for business driving, towing, and carrying materials
-- **Vans:** Panel vans and high-roof vans used for tool and materials transport
-- **Trucks and heavy vehicles:** For trades requiring larger vehicles or towing capacity
+- Comprehensive cover, which covers the vehicle if it is stolen or damaged, as well as your liability to others.
+- Third party, fire and theft.
+- Third party only.
 
-The policy works similarly to personal vehicle insurance — comprehensive, third-party fire and theft, or third-party only options — but is tailored for business use patterns and vehicle types.
+The same page says Vero's commercial motor cover can be tailored to insure each business vehicle individually, and that it offers a separate fleet option for businesses with 15 or more vehicles. Other insurers set their own thresholds and options.
 
-## What Commercial Vehicle Cover Includes
+## What Comprehensive Cover Can Include
 
-A comprehensive commercial vehicle policy for tradies typically covers:
+Policies differ, so the policy wording is what counts. As an example, Vero's page, read in November 2026, says its comprehensive cover for individual business vehicles:
 
-- **Accidental damage:** Collision, rollover, and other accidental damage to your vehicle
-- **Third-party liability:** Damage you cause to other vehicles or property
-- **Fire and theft:** Loss or damage from fire or vehicle theft
-- **Windscreen:** Glass damage, which is frequent for vehicles driving on construction sites and gravel roads
-- **Towing costs:** Recovery and towing after a breakdown or accident
+- covers stolen or damaged vehicles for their market value;
+- covers emergency accommodation and travel if the vehicle is no longer roadworthy after an accident;
+- provides cover for load recovery, salvage costs, trailers and tarpaulins, hoists and road clearing; and
+- can cover employees' vehicles while they are being used for your business.
 
-## Tools-in-Vehicle Cover
+The page also says liability cover applies at all three levels, and that if you accidentally injure someone and a court orders you to pay reparation for their lost income or medical costs, you may be able to claim for some or all of that cost.
 
-One of the most valuable add-ons for tradie vehicles is tools-in-vehicle cover. This extends your vehicle policy to cover tools stored in the vehicle at the time of a break-in or theft.
+## Trailers and Towing
 
-Check carefully whether the vehicle policy or a separate tools policy covers tools in the vehicle — having both can lead to disputes over which policy responds to a claim.
+Many tradies tow, whether it is their own trailer, a borrowed one or hired plant. Check how your motor policy treats a trailer you own, hire or borrow. Vero's <a href="https://www.vero.co.nz/documents/business/commercial-motor-vehicle-fleet-policy-wording-september-2016.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Commercial Motor Vehicle Fleet policy wording</a>, for example, includes a clause for a trailer you own, hire or borrow for your own use that is stolen or damaged and not otherwise insured, settled at depreciated value or repair cost up to the amount on the schedule.
 
-## Fleet Insurance for Multiple Vehicles
+Your liability policy is unlikely to be the one that responds to a road crash. Liability wordings commonly exclude vehicles that are or should be registered, and some define a vehicle to include an attached trailer. Our article on <a href="/blog/hired-trailer-plant-safety-insurance-tradies-2026/" class="text-orange-700 underline">hiring trailers and plant</a> explains how that works in one published wording, and what a recent WorkSafe prosecution means for hired gear.
 
-If you operate more than two or three vehicles, a fleet policy can be more cost-effective than individual policies for each vehicle. Fleet policies typically offer:
+## Tools Kept in the Vehicle
 
-- Simplified administration (one policy, one renewal date)
-- Fleet discounts as the number of vehicles grows
-- Agreed value options for all vehicles
-- Driver management programmes
+Tools left in a ute or van overnight are a common theft target. Some vehicle policies offer limited cover for tools or contents, and some tools policies cover tools in a vehicle, often with conditions such as the vehicle being locked. Check which policy responds, the limit that applies and any conditions, and avoid relying on two policies that each assume the other will pay. Our guide to <a href="/blog/tool-insurance-nz-guide/" class="text-orange-700 underline">tool insurance</a> covers this in more detail.
 
-## Commercial Ute Insurance: Key Considerations
+## Things to Check at Renewal
 
-For the standard tradie ute, watch for:
-
-**Agreed value vs market value:** Agreed value means you receive a set, agreed amount if the vehicle is written off — regardless of depreciation. Market value means you receive what it was worth at the time of loss.
-
-**Fit-for-purpose cover:** Canopies, tool drawer systems, and modifications increase the value of your ute significantly. Make sure these are included in your sum insured.
-
-**Named or any driver:** Named driver policies are cheaper but restrict who can drive the vehicle. Consider any driver cover if you have employees or family members who may need to use the vehicle.
-
-## How Much Does Commercial Vehicle Insurance Cost?
-
-Commercial vehicle insurance costs depend on the vehicle value, its use, and your claims history. Rough benchmarks:
-
-- **Standard work ute (comprehensive):** NZ$80–$200/month
-- **Large van (comprehensive):** NZ$100–$250/month
-- **Heavy truck:** NZ$200–$500+/month
-
-Bundling vehicle cover with public liability and tools insurance through the same broker often produces package discounts.
+- Market value or agreed value. Market value pays what the vehicle was worth at the time of loss. Agreed value, where it is offered, pays an amount set in advance.
+- Fit-out. Canopies, racks, drawer systems and signwriting add value, so make sure the sum insured or the policy's extensions reflect them.
+- Drivers. Check who is permitted to drive under your policy, especially if employees or family members use the vehicle.
+- Excess. Check the excess for each vehicle and any additional excesses listed in your schedule.
 
 ## Getting the Right Cover
 
-Talk to a specialist tradie insurance broker about your vehicle needs. A broker can compare commercial vehicle policies across multiple insurers and structure your cover to ensure your vehicle, tools, and liability are all properly addressed.`,
+Vehicle, tools and liability cover overlap at the edges, and the gaps usually show up only at claim time. Our <a href="/types/commercial-vehicle/" class="text-orange-700 underline">commercial vehicle cover</a> page explains the basics. If you want your vehicle cover reviewed alongside your tools and liability cover, <a href="/contact/" class="text-orange-700 underline">Get a Quote</a>.`,
   },
   {
     slug: 'electrician-insurance-nz',
@@ -2754,6 +2737,83 @@ The practical point is simple: with an exclusion like that in place, your best p
 - Liability wordings such as Vero's exclude asbestos claims, and fines under the Health and Safety at Work Act cannot be insured.
 
 If you are taking on more renovation or maintenance work in older buildings, it is worth having your liability and statutory liability cover read against the jobs you actually do. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the summer rush.`,
+  },
+  {
+    slug: 'hired-trailer-plant-safety-insurance-tradies-2026',
+    title: 'Hiring a Trailer or Digger? Lessons From a Fatal Crash',
+    excerpt: 'A tool hire company was fined $140,000 and ordered to pay $333,833 in reparation after a modified trailer it hired out caused a fatal crash. Here is what the case means for tradies who hire gear in, lend it out, and rely on insurance when it goes wrong.',
+    category: 'Safety',
+    readTime: '7 min read',
+    date: '2026-11-23',
+    author: 'TradieInsurance Editorial',
+    image: 'https://images.unsplash.com/photo-1580901368919-7738efb0f87e?auto=format&fit=crop&w=800&q=80',
+    content: `## A Sentencing That Reaches Every Yard
+
+Summer is when many tradies hire a digger or a tandem trailer, or lend their own trailer to a subbie. A case sentenced this month shows that hired gear carries legal duties at both ends of the deal.
+
+On 11 November 2026 WorkSafe published a release headed <a href="https://www.worksafe.govt.nz/about-us/news-and-media/call-for-hire-companies-to-ensure-equipment-safety-after-fatal-crash/" target="_blank" rel="noopener" class="text-orange-700 underline">Call for hire companies to ensure equipment safety after fatal crash</a>. A Northland tool hire company had been sentenced in the Kaikohe District Court on 9 November after pleading guilty to a charge under the Health and Safety at Work Act 2015.
+
+WorkSafe sets out what happened. On 28 December 2024 the company hired a twin axle trailer and a mini loader to a member of the public. It had earlier extended the trailer's ramp locking bars so heavier plant could sit further back on the deck, and WorkSafe says that change altered the ramp pitch and affected the trailer's balance and load distribution. While the customer was driving to return the gear, the trailer began to fishtail, crossed the centre line and hit a car head-on. The driver of the car was killed. One passenger was seriously injured and needed three hand surgeries, and others suffered minor injuries.
+
+The company was fined $140,000 and ordered to pay $333,833 in reparation to the victims. The charge carried a maximum fine of $1.5 million. WorkSafe regional manager Brad Duggan said: "When a business changes a piece of equipment and then hires it out, it takes on responsibility for making sure it is safe for the people who use it and everyone else they encounter while it's being used."
+
+## Hiring Out Counts as Supply Under the Act
+
+The <a href="https://legislation.govt.nz/act/public/2015/70/en/2025-04-05B.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Health and Safety at Work Act 2015</a> treats hire as a form of supply. Section 21 says supply of a thing includes supply "by way of sale, exchange, lease, hire, or hire purchase".
+
+Section 42 then sets the duty of a business that supplies plant, substances or structures that will be, or could reasonably be expected to be, used at a workplace. The supplier must, so far as is reasonably practicable, make sure the plant is without risks to the health and safety of the people who use it, the people who carry out reasonably foreseeable activities such as inspection, cleaning, maintenance or repair, and the people at or near the workplace who could be affected.
+
+WorkSafe's guidance on <a href="https://www.worksafe.govt.nz/managing-health-and-safety/getting-started/understanding-the-law/upstream-duties/" target="_blank" rel="noopener" class="text-orange-700 underline">upstream duties</a> adds that suppliers must carry out, or arrange, the calculations, analysis, tests or examinations needed to make sure the plant is safe, and must give adequate information about it to the people they supply. The page notes one exception: the duties do not extend to the sale of second-hand plant sold as is. That exception covers a sale, not a hire.
+
+This matters beyond hire companies. If your business regularly hires or lends a trailer or scaffolding to another business, ask whether you are acting as a supplier, and whether you could show what checks you made before the gear left your yard.
+
+## Hiring In: Your Own Duties Still Apply
+
+The business that hires the gear in does not hand its duties to the hire company. Section 36 of the Act requires every business to ensure, so far as is reasonably practicable, the health and safety of its workers, and that the health and safety of other people is not put at risk from its work.
+
+Where more than one business has a duty in relation to the same matter, section 34 requires each of them, so far as is reasonably practicable, to consult, cooperate with and coordinate activities with the others. A hire company and the tradie using its plant on a site will often be in exactly that position.
+
+The release closes with four lessons that WorkSafe says equipment hirers and anyone who modifies equipment should take from the case:
+
+- Modifications change the risk. Assess any change to equipment for its effect on safety before it is used or hired out.
+- Do not hire out until it is confirmed safe. "If there is doubt, the equipment stays in the yard."
+- Do not leave it to the customer. Hirers know their equipment's limits and modifications and owe duties to others at risk.
+- Review your equipment now, checking for past modifications and making sure each has been properly assessed.
+
+## Where Insurance Cover Sits for Hired Gear
+
+Hired plant and borrowed trailers touch several policies. The examples below come from one insurer's published wordings, read in November 2026. Other insurers word their policies differently, so check your own schedule and wording.
+
+Vero's <a href="https://vero.co.nz/documents/business/vero-combined-broadform-liability-07-24.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Combined Broadform, Employers and Statutory Liability policy wording</a> includes the following:
+
+- Exclusion 16 removes liability caused by the ownership, possession or use of any vehicle that is or should have been registered, or is otherwise insured for the same liability. The wording defines a vehicle to include a trailer while it is attached to the machine drawing it. In practice, a crash while towing a hired trailer on the road is a matter for your motor policy, not your liability policy. The exclusion has limited exceptions for loading and unloading, and for use of a vehicle as a tool of trade, where no other policy responds.
+- Extension 12 covers legal liability for injury or property damage arising from a tool of trade or mechanically propelled plant while it is being operated as such, independent of any vehicle. That is the part that responds when hired plant is working on site.
+- Extension 15 covers damage to property in your care, custody or control, but not property owned, leased, rented or hired by the insured. Damage to the hired digger itself therefore sits outside that extension, so read the hire agreement to see who insures the gear and what excess you carry.
+- The broadform reparation extension does not cover reparation arising from a prosecution under the Health and Safety at Work Act. The statutory liability section's definition of a fine, by contrast, includes reparation ordered as a result of such a prosecution, to the extent it is not unlawful to insure.
+
+The fine itself is a different matter. Section 29 of the Act says any insurance policy that indemnifies a person for a fine or infringement fee under the Act is of no effect. A fine like the $140,000 in this case cannot be insured by anyone.
+
+On the motor side, Vero's <a href="https://www.vero.co.nz/business-insurance/commercial-vehicle-insurance.html" target="_blank" rel="noopener" class="text-orange-700 underline">commercial vehicle insurance page</a>, read in November 2026, says its comprehensive cover for individual business vehicles includes trailers, that liability cover applies at all three levels of cover, and that if you accidentally injure someone and a court orders reparation for their lost income or medical costs, you may be able to claim for some or all of it. Its <a href="https://www.vero.co.nz/documents/business/commercial-motor-vehicle-fleet-policy-wording-september-2016.pdf" target="_blank" rel="noopener" class="text-orange-700 underline">Commercial Motor Vehicle Fleet policy wording</a> includes a clause for a trailer you own, hire or borrow for your own use that is stolen or damaged and not otherwise insured, settled at depreciated value or repair cost, up to the amount on the schedule.
+
+Our guides to <a href="/blog/tradie-vehicle-insurance-nz/" class="text-orange-700 underline">commercial vehicle insurance</a>, <a href="/blog/tool-insurance-nz-guide/" class="text-orange-700 underline">tool and equipment insurance</a> and <a href="/types/statutory-liability/" class="text-orange-700 underline">statutory liability</a> explain each type of cover in more detail.
+
+## A Short Checklist Before You Hire or Lend
+
+- Ask the hire company whether the item has been modified, and for its load limits and any towing information. Suppliers have a duty to provide adequate information.
+- Check that your vehicle is rated to tow the loaded trailer and that the load sits where the trailer is designed to carry it.
+- Walk around the gear and photograph its condition before it leaves the yard.
+- Read the hire agreement for who insures damage to the gear, and the excess you would carry.
+- Confirm your motor policy covers towing a hired or borrowed trailer, and your liability policy covers plant working on site.
+- If you lend or hire out your own gear, keep a record of any modifications, check each one has been assessed, and pass on what the user needs to know.
+
+## Key Takeaways
+
+- A Northland tool hire company was fined $140,000 and ordered to pay $333,833 in reparation after a modified trailer it hired out caused a fatal crash.
+- Under the Health and Safety at Work Act, hire is a form of supply, and suppliers must ensure, so far as reasonably practicable, that plant is without risks.
+- The business hiring gear in keeps its own duties and must coordinate with the hire company.
+- Liability wordings such as Vero's leave towing accidents to the motor policy and exclude damage to hired property. Fines under the Act cannot be insured.
+
+If you hire plant or trailers regularly, or lend your own gear to other trades, it is worth having your liability, motor and tools cover read against how you actually work. <a href="/contact/" class="text-orange-700 underline">Get a Quote</a> and have it reviewed before the summer jobs start.`,
   },
 ]
 
